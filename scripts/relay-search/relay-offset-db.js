@@ -2,7 +2,7 @@
  * Author: Kris Sherbondy
  * Date: 2026-05-21
  * Purpose:
- *   Experimental lean RelayDB reader v2.
+ *   Experimental lean RelayDB reader v4.
  *
  *   This reader keeps the JSONL file as a Buffer and builds small open-time
  *   lookup structures:
@@ -12,8 +12,13 @@
  *     company anchor -> industry
  *     tiny person search rows
  *
- *   It avoids storing the full parsed graph in memory, but also avoids
- *   reparsing every person JSON line during every search.
+ *   This version separates:
+ *
+ *     search()      -> fast cached answer path
+ *     debugSearch() -> honest full diagnostic path
+ *
+ *   The goal is to keep the public API clean while avoiding debug/audit
+ *   overhead in normal search calls.
  *
  * Public API:
  *   RelayOffsetDB.open(filePath)
@@ -24,6 +29,7 @@
 const fs = require("fs");
 const { performance } = require("perf_hooks");
 
+const TinyLRU = require("./tiny-lru");
 const { parseSearchQuestion } = require("./search-parser");
 const { buildSearchPlan } = require("./search-planner");
 
@@ -37,6 +43,10 @@ class RelayOffsetDB {
     this.personSearchRows = input.personSearchRows;
     this.searchIndex = input.searchIndex;
     this.stats = input.stats;
+
+    this.queryPlanCache = new TinyLRU(64);
+    this.searchResultCache = new TinyLRU(128);
+    this.nodeCache = new TinyLRU(512);
   }
 
   static async open(filePath) {
@@ -56,7 +66,6 @@ class RelayOffsetDB {
 
     let lineCount = 0;
     let nodeCount = 0;
-
     let start = 0;
 
     while (start < buffer.length) {
@@ -149,55 +158,64 @@ class RelayOffsetDB {
   }
 
   search(question, options = {}) {
-    const started = performance.now();
-
     const limit = options.limit ?? 1;
+    const explain = Boolean(options.explain);
 
-    const parsed = parseSearchQuestion(question);
-    const plan = buildSearchPlan(parsed, this.searchIndex);
+    const cacheKey = makeSearchCacheKey(question, {
+      limit,
+      explain,
+    });
 
-    const execution = this.executePlan(plan, {
+    const cachedResult = this.searchResultCache.get(cacheKey);
+
+    if (cachedResult !== undefined) {
+      return cachedResult;
+    }
+
+    const planPacket = this.getOrBuildPlan(question);
+
+    const execution = this.executeFastPlan(planPacket.plan, {
       limit,
     });
 
     const hydratedResults = execution.matches.map((match) =>
       this.hydrateMatch(match, {
-        explain: Boolean(options.explain),
+        explain,
       }),
     );
 
-    const ended = performance.now();
+    let result;
 
     if (limit === 1) {
-      return (
+      result =
         hydratedResults[0] || {
           answer: null,
-          timingMs: ended - started,
-        }
-      );
+        };
+    } else {
+      result = {
+        query: question,
+        count: hydratedResults.length,
+        results: hydratedResults,
+      };
     }
 
-    return {
-      query: question,
-      count: hydratedResults.length,
-      results: hydratedResults,
-      timingMs: ended - started,
-    };
+    this.searchResultCache.set(cacheKey, result);
+
+    return result;
   }
 
   debugSearch(question, options = {}) {
     const timings = {};
 
-    const parseStart = performance.now();
-    const parsed = parseSearchQuestion(question);
-    timings.parseMs = performance.now() - parseStart;
-
     const planStart = performance.now();
-    const plan = buildSearchPlan(parsed, this.searchIndex);
-    timings.planMs = performance.now() - planStart;
+    const planPacket = this.getOrBuildPlan(question);
+    timings.planPacketMs = performance.now() - planStart;
+
+    const parsed = planPacket.parsed;
+    const plan = planPacket.plan;
 
     const executeStart = performance.now();
-    const execution = this.executePlan(plan, {
+    const execution = this.executeDebugPlan(plan, {
       limit: options.limit ?? 1,
     });
     timings.executeMs = performance.now() - executeStart;
@@ -211,7 +229,7 @@ class RelayOffsetDB {
     timings.hydrateMs = performance.now() - hydrateStart;
 
     timings.totalMs =
-      timings.parseMs + timings.planMs + timings.executeMs + timings.hydrateMs;
+      timings.planPacketMs + timings.executeMs + timings.hydrateMs;
 
     return {
       query: question,
@@ -223,28 +241,83 @@ class RelayOffsetDB {
         candidateCounts: execution.candidateCounts,
         timings,
         offsetStats: this.stats,
+        cacheStats: this.cacheStats(),
       },
     };
   }
 
-  executePlan(plan, options = {}) {
-    const limit = options.limit ?? 1;
+  getOrBuildPlan(question) {
+    const normalizedQuestion = String(question || "").trim().toLowerCase();
 
-    const matches = [];
+    const cachedPlan = this.queryPlanCache.get(normalizedQuestion);
 
-    const candidateCounts = {
-      topicMatches: this.personSearchRows.length,
-      statusMatches: 0,
-      ageMatches: 0,
-      industryMatches: 0,
-      finalMatches: 0,
+    if (cachedPlan !== undefined) {
+      return cachedPlan;
+    }
+
+    const parsed = parseSearchQuestion(question);
+    const plan = buildSearchPlan(parsed, this.searchIndex);
+
+    const packet = {
+      parsed,
+      plan,
     };
 
-    for (const row of this.personSearchRows) {
-      if (!matchesStatusRow(row, plan, candidateCounts)) continue;
-      if (!matchesAgeRow(row, plan, candidateCounts)) continue;
-      if (!this.matchesCompanyIndustryRow(row, plan, candidateCounts)) {
+    this.queryPlanCache.set(normalizedQuestion, packet);
+
+    return packet;
+  }
+
+  cacheStats() {
+    return {
+      queryPlanCache: this.queryPlanCache.stats(),
+      searchResultCache: this.searchResultCache.stats(),
+      nodeCache: this.nodeCache.stats(),
+    };
+  }
+
+  executeFastPlan(plan, options = {}) {
+    const limit = options.limit ?? 1;
+    const matches = [];
+
+    const rows = this.personSearchRows;
+    const wantedStatus = plan.filters.status || null;
+    const ageFilter = plan.filters.age || null;
+    const ageLt = ageFilter?.lt;
+    const ageGt = ageFilter?.gt;
+    const wantedIndustry = plan.relationships.company?.industry
+      ? plan.relationships.company.industry.toLowerCase()
+      : null;
+
+    for (let index = 0; index < rows.length; index += 1) {
+      const row = rows[index];
+
+      if (wantedStatus && row.status !== wantedStatus) {
         continue;
+      }
+
+      if (ageLt !== undefined) {
+        if (typeof row.age !== "number" || row.age >= ageLt) {
+          continue;
+        }
+      }
+
+      if (ageGt !== undefined) {
+        if (typeof row.age !== "number" || row.age <= ageGt) {
+          continue;
+        }
+      }
+
+      if (wantedIndustry) {
+        if (!row.companyAnchor) {
+          continue;
+        }
+
+        const industry = this.companyIndustryByAnchor.get(row.companyAnchor);
+
+        if (!industry || industry.toLowerCase() !== wantedIndustry) {
+          continue;
+        }
       }
 
       matches.push({
@@ -252,41 +325,100 @@ class RelayOffsetDB {
         anchor: row.anchor,
         range: row.range,
         fullName: row.fullName,
-        score: scorePersonRow(row, plan),
       });
+
+      if (matches.length >= limit) {
+        break;
+      }
     }
 
-    matches.sort((left, right) => right.score - left.score);
-
-    candidateCounts.finalMatches = matches.length;
-
     return {
-      matches: matches.slice(0, limit),
-      candidateCounts,
+      matches,
     };
   }
 
-  matchesCompanyIndustryRow(row, plan, candidateCounts) {
-    const wantedIndustry = plan.relationships.company?.industry;
+  executeDebugPlan(plan, options = {}) {
+    const limit = options.limit ?? 1;
+    const matches = [];
 
-    if (!wantedIndustry) {
-      candidateCounts.industryMatches += 1;
-      return true;
+    const rows = this.personSearchRows;
+    const wantedStatus = plan.filters.status || null;
+    const ageFilter = plan.filters.age || null;
+    const ageLt = ageFilter?.lt;
+    const ageGt = ageFilter?.gt;
+    const wantedIndustry = plan.relationships.company?.industry
+      ? plan.relationships.company.industry.toLowerCase()
+      : null;
+
+    const candidateCounts = {
+      topicMatches: rows.length,
+      statusMatches: 0,
+      ageMatches: 0,
+      industryMatches: 0,
+      finalMatches: 0,
+    };
+
+    for (let index = 0; index < rows.length; index += 1) {
+      const row = rows[index];
+
+      if (wantedStatus) {
+        if (row.status !== wantedStatus) {
+          continue;
+        }
+
+        candidateCounts.statusMatches += 1;
+      } else {
+        candidateCounts.statusMatches += 1;
+      }
+
+      if (ageLt !== undefined) {
+        if (typeof row.age !== "number" || row.age >= ageLt) {
+          continue;
+        }
+
+        candidateCounts.ageMatches += 1;
+      } else if (ageGt !== undefined) {
+        if (typeof row.age !== "number" || row.age <= ageGt) {
+          continue;
+        }
+
+        candidateCounts.ageMatches += 1;
+      } else {
+        candidateCounts.ageMatches += 1;
+      }
+
+      if (wantedIndustry) {
+        if (!row.companyAnchor) {
+          continue;
+        }
+
+        const industry = this.companyIndustryByAnchor.get(row.companyAnchor);
+
+        if (!industry || industry.toLowerCase() !== wantedIndustry) {
+          continue;
+        }
+
+        candidateCounts.industryMatches += 1;
+      } else {
+        candidateCounts.industryMatches += 1;
+      }
+
+      candidateCounts.finalMatches += 1;
+
+      if (matches.length < limit) {
+        matches.push({
+          topic: "person",
+          anchor: row.anchor,
+          range: row.range,
+          fullName: row.fullName,
+        });
+      }
     }
 
-    if (!row.companyAnchor) return false;
-
-    const industry = this.companyIndustryByAnchor.get(row.companyAnchor);
-
-    if (!industry) return false;
-
-    const matched = industry.toLowerCase() === wantedIndustry.toLowerCase();
-
-    if (matched) {
-      candidateCounts.industryMatches += 1;
-    }
-
-    return matched;
+    return {
+      matches,
+      candidateCounts,
+    };
   }
 
   hydrateMatch(match, options = {}) {
@@ -302,7 +434,7 @@ class RelayOffsetDB {
       };
     }
 
-    const personNode = parseNodeFromRange(this.buffer, match.range);
+    const personNode = this.getNodeByAnchorOrRange(match.anchor, match.range);
 
     if (!personNode) {
       return {
@@ -320,9 +452,10 @@ class RelayOffsetDB {
       ? this.anchorToRange.get(companyAnchor)
       : null;
 
-    const companyNode = companyRange
-      ? parseNodeFromRange(this.buffer, companyRange)
-      : null;
+    const companyNode =
+      companyAnchor && companyRange
+        ? this.getNodeByAnchorOrRange(companyAnchor, companyRange)
+        : null;
 
     return {
       answer: fullName,
@@ -362,6 +495,24 @@ class RelayOffsetDB {
       },
     };
   }
+
+  getNodeByAnchorOrRange(anchor, range) {
+    if (anchor) {
+      const cachedNode = this.nodeCache.get(anchor);
+
+      if (cachedNode !== undefined) {
+        return cachedNode;
+      }
+    }
+
+    const node = parseNodeFromRange(this.buffer, range);
+
+    if (anchor && node) {
+      this.nodeCache.set(anchor, node);
+    }
+
+    return node;
+  }
 }
 
 function parseNodeFromRange(buffer, range) {
@@ -372,64 +523,6 @@ function parseNodeFromRange(buffer, range) {
   } catch {
     return null;
   }
-}
-
-function matchesStatusRow(row, plan, candidateCounts) {
-  if (!plan.filters.status) {
-    candidateCounts.statusMatches += 1;
-    return true;
-  }
-
-  const matched = row.status === plan.filters.status;
-
-  if (matched) {
-    candidateCounts.statusMatches += 1;
-  }
-
-  return matched;
-}
-
-function matchesAgeRow(row, plan, candidateCounts) {
-  if (!plan.filters.age) {
-    candidateCounts.ageMatches += 1;
-    return true;
-  }
-
-  if (typeof row.age !== "number") return false;
-
-  if (plan.filters.age.lt !== undefined && row.age < plan.filters.age.lt) {
-    candidateCounts.ageMatches += 1;
-    return true;
-  }
-
-  if (plan.filters.age.gt !== undefined && row.age > plan.filters.age.gt) {
-    candidateCounts.ageMatches += 1;
-    return true;
-  }
-
-  return false;
-}
-
-function scorePersonRow(row, plan) {
-  let score = 0;
-
-  if (plan.filters.status && row.status === plan.filters.status) {
-    score += 10;
-  }
-
-  if (plan.filters.age?.lt !== undefined && row.age < plan.filters.age.lt) {
-    score += 10;
-  }
-
-  if (plan.filters.age?.gt !== undefined && row.age > plan.filters.age.gt) {
-    score += 10;
-  }
-
-  if (plan.relationships.company?.industry) {
-    score += 15;
-  }
-
-  return score;
 }
 
 function inferIndexesUsed(plan) {
@@ -498,6 +591,14 @@ function denormalizeAnchorPart(value, forceUppercase = false) {
     .filter(Boolean)
     .map((part) => part.charAt(0).toUpperCase() + part.slice(1))
     .join(" ");
+}
+
+function makeSearchCacheKey(question, options) {
+  return JSON.stringify({
+    question: String(question || "").trim().toLowerCase(),
+    limit: options.limit ?? 1,
+    explain: Boolean(options.explain),
+  });
 }
 
 module.exports = RelayOffsetDB;
