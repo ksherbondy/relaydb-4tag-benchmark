@@ -1,0 +1,502 @@
+{
+  "inputPath": "datasets/raw/companies.jsonl",
+  "fileName": "companies.jsonl",
+  "fileSizeBytes": 1631,
+  "startedAt": "2026-05-21T08:07:32.240Z",
+  "totalLines": 8,
+  "validJsonLines": 8,
+  "invalidJsonLines": 0,
+  "blankLines": 0,
+  "totalTopLevelFieldsSeen": 48,
+  "maxDepth": 2,
+  "recordSizeBytes": {
+    "min": 196,
+    "max": 209,
+    "total": 1623,
+    "average": 202.875
+  },
+  "topLevelFields": {
+    "id": {
+      "count": 8,
+      "types": {
+        "string": 8
+      },
+      "examples": [
+        "65e832c8-bc4e-454e-be7a-49236b829f86",
+        "3c92e335-8372-40d0-a967-7dce318ebec9",
+        "dc21495f-dd86-4b7c-8251-7be67a306e74",
+        "475dcc3c-d2eb-4750-a8ce-40e6e459409d",
+        "2bc745e6-618d-4865-a2f6-a060c736930a"
+      ],
+      "uniqueValues": [
+        "65e832c8-bc4e-454e-be7a-49236b829f86",
+        "3c92e335-8372-40d0-a967-7dce318ebec9",
+        "dc21495f-dd86-4b7c-8251-7be67a306e74",
+        "475dcc3c-d2eb-4750-a8ce-40e6e459409d",
+        "2bc745e6-618d-4865-a2f6-a060c736930a",
+        "d896cbe4-a0b8-4cf0-aefe-1e014a0a76cb",
+        "bf2615bd-f6a2-4b13-aa7d-3548c80fd49e",
+        "6951b0da-5434-4101-a387-5a053f2cbab1"
+      ],
+      "uniqueValueOverflow": false
+    },
+    "name": {
+      "count": 8,
+      "types": {
+        "string": 8
+      },
+      "examples": [
+        "Elite Services Inc",
+        "Tech Solutions Inc",
+        "Elite Group",
+        "Smart Labs Inc",
+        "Global Labs LLC"
+      ],
+      "uniqueValues": [
+        "Elite Services Inc",
+        "Tech Solutions Inc",
+        "Elite Group",
+        "Smart Labs Inc",
+        "Global Labs LLC",
+        "Smart Solutions",
+        "Smart Group Co",
+        "Smart Services"
+      ],
+      "uniqueValueOverflow": false
+    },
+    "industry": {
+      "count": 8,
+      "types": {
+        "string": 8
+      },
+      "examples": [
+        "Agriculture",
+        "Transportation",
+        "Consulting",
+        "Agriculture",
+        "Consulting"
+      ],
+      "uniqueValues": [
+        "Agriculture",
+        "Transportation",
+        "Consulting",
+        "Real Estate",
+        "Media"
+      ],
+      "uniqueValueOverflow": false
+    },
+    "headquarters": {
+      "count": 8,
+      "types": {
+        "object": 8
+      },
+      "examples": [
+        {
+          "city": "New York",
+          "state": "NY",
+          "country": "USA"
+        },
+        {
+          "city": "Syracuse",
+          "state": "NY",
+          "country": "USA"
+        },
+        {
+          "city": "Raleigh",
+          "state": "NC",
+          "country": "USA"
+        },
+        {
+          "city": "Warren",
+          "state": "MI",
+          "country": "USA"
+        },
+        {
+          "city": "Springfield",
+          "state": "IL",
+          "country": "USA"
+        }
+      ],
+      "uniqueValues": [],
+      "uniqueValueOverflow": false
+    },
+    "size": {
+      "count": 8,
+      "types": {
+        "number": 8
+      },
+      "examples": [
+        3408,
+        19776,
+        7273,
+        13898,
+        3219
+      ],
+      "uniqueValues": [
+        "3408",
+        "19776",
+        "7273",
+        "13898",
+        "3219",
+        "4140",
+        "6350",
+        "7678"
+      ],
+      "uniqueValueOverflow": false
+    },
+    "founded": {
+      "count": 8,
+      "types": {
+        "number": 8
+      },
+      "examples": [
+        2019,
+        1953,
+        2007,
+        1993,
+        1995
+      ],
+      "uniqueValues": [
+        "2019",
+        "1953",
+        "2007",
+        "1993",
+        "1995",
+        "1998",
+        "1958",
+        "1962"
+      ],
+      "uniqueValueOverflow": false
+    }
+  },
+  "allFields": {
+    "id": {
+      "count": 8,
+      "types": {
+        "string": 8
+      },
+      "examples": [
+        "65e832c8-bc4e-454e-be7a-49236b829f86",
+        "3c92e335-8372-40d0-a967-7dce318ebec9",
+        "dc21495f-dd86-4b7c-8251-7be67a306e74",
+        "475dcc3c-d2eb-4750-a8ce-40e6e459409d",
+        "2bc745e6-618d-4865-a2f6-a060c736930a"
+      ],
+      "uniqueValues": [
+        "65e832c8-bc4e-454e-be7a-49236b829f86",
+        "3c92e335-8372-40d0-a967-7dce318ebec9",
+        "dc21495f-dd86-4b7c-8251-7be67a306e74",
+        "475dcc3c-d2eb-4750-a8ce-40e6e459409d",
+        "2bc745e6-618d-4865-a2f6-a060c736930a",
+        "d896cbe4-a0b8-4cf0-aefe-1e014a0a76cb",
+        "bf2615bd-f6a2-4b13-aa7d-3548c80fd49e",
+        "6951b0da-5434-4101-a387-5a053f2cbab1"
+      ],
+      "uniqueValueOverflow": false
+    },
+    "name": {
+      "count": 8,
+      "types": {
+        "string": 8
+      },
+      "examples": [
+        "Elite Services Inc",
+        "Tech Solutions Inc",
+        "Elite Group",
+        "Smart Labs Inc",
+        "Global Labs LLC"
+      ],
+      "uniqueValues": [
+        "Elite Services Inc",
+        "Tech Solutions Inc",
+        "Elite Group",
+        "Smart Labs Inc",
+        "Global Labs LLC",
+        "Smart Solutions",
+        "Smart Group Co",
+        "Smart Services"
+      ],
+      "uniqueValueOverflow": false
+    },
+    "industry": {
+      "count": 8,
+      "types": {
+        "string": 8
+      },
+      "examples": [
+        "Agriculture",
+        "Transportation",
+        "Consulting",
+        "Agriculture",
+        "Consulting"
+      ],
+      "uniqueValues": [
+        "Agriculture",
+        "Transportation",
+        "Consulting",
+        "Real Estate",
+        "Media"
+      ],
+      "uniqueValueOverflow": false
+    },
+    "headquarters": {
+      "count": 8,
+      "types": {
+        "object": 8
+      },
+      "examples": [
+        {
+          "city": "New York",
+          "state": "NY",
+          "country": "USA"
+        },
+        {
+          "city": "Syracuse",
+          "state": "NY",
+          "country": "USA"
+        },
+        {
+          "city": "Raleigh",
+          "state": "NC",
+          "country": "USA"
+        },
+        {
+          "city": "Warren",
+          "state": "MI",
+          "country": "USA"
+        },
+        {
+          "city": "Springfield",
+          "state": "IL",
+          "country": "USA"
+        }
+      ],
+      "uniqueValues": [],
+      "uniqueValueOverflow": false
+    },
+    "headquarters.city": {
+      "count": 8,
+      "types": {
+        "string": 8
+      },
+      "examples": [
+        "New York",
+        "Syracuse",
+        "Raleigh",
+        "Warren",
+        "Springfield"
+      ],
+      "uniqueValues": [
+        "New York",
+        "Syracuse",
+        "Raleigh",
+        "Warren",
+        "Springfield",
+        "Harrisburg",
+        "Rochester",
+        "San Francisco"
+      ],
+      "uniqueValueOverflow": false
+    },
+    "headquarters.state": {
+      "count": 8,
+      "types": {
+        "string": 8
+      },
+      "examples": [
+        "NY",
+        "NY",
+        "NC",
+        "MI",
+        "IL"
+      ],
+      "uniqueValues": [
+        "NY",
+        "NC",
+        "MI",
+        "IL",
+        "PA",
+        "CA"
+      ],
+      "uniqueValueOverflow": false
+    },
+    "headquarters.country": {
+      "count": 8,
+      "types": {
+        "string": 8
+      },
+      "examples": [
+        "USA",
+        "USA",
+        "USA",
+        "USA",
+        "USA"
+      ],
+      "uniqueValues": [
+        "USA"
+      ],
+      "uniqueValueOverflow": false
+    },
+    "size": {
+      "count": 8,
+      "types": {
+        "number": 8
+      },
+      "examples": [
+        3408,
+        19776,
+        7273,
+        13898,
+        3219
+      ],
+      "uniqueValues": [
+        "3408",
+        "19776",
+        "7273",
+        "13898",
+        "3219",
+        "4140",
+        "6350",
+        "7678"
+      ],
+      "uniqueValueOverflow": false
+    },
+    "founded": {
+      "count": 8,
+      "types": {
+        "number": 8
+      },
+      "examples": [
+        2019,
+        1953,
+        2007,
+        1993,
+        1995
+      ],
+      "uniqueValues": [
+        "2019",
+        "1953",
+        "2007",
+        "1993",
+        "1995",
+        "1998",
+        "1958",
+        "1962"
+      ],
+      "uniqueValueOverflow": false
+    }
+  },
+  "possibleIdFields": {
+    "id": {
+      "count": 8,
+      "types": {
+        "string": 8
+      },
+      "examples": [
+        "65e832c8-bc4e-454e-be7a-49236b829f86",
+        "3c92e335-8372-40d0-a967-7dce318ebec9",
+        "dc21495f-dd86-4b7c-8251-7be67a306e74",
+        "475dcc3c-d2eb-4750-a8ce-40e6e459409d",
+        "2bc745e6-618d-4865-a2f6-a060c736930a"
+      ],
+      "uniqueValues": [
+        "65e832c8-bc4e-454e-be7a-49236b829f86",
+        "3c92e335-8372-40d0-a967-7dce318ebec9",
+        "dc21495f-dd86-4b7c-8251-7be67a306e74",
+        "475dcc3c-d2eb-4750-a8ce-40e6e459409d",
+        "2bc745e6-618d-4865-a2f6-a060c736930a",
+        "d896cbe4-a0b8-4cf0-aefe-1e014a0a76cb",
+        "bf2615bd-f6a2-4b13-aa7d-3548c80fd49e",
+        "6951b0da-5434-4101-a387-5a053f2cbab1"
+      ],
+      "uniqueValueOverflow": false
+    }
+  },
+  "possibleRelationshipFields": {},
+  "possibleMetadataFields": {
+    "headquarters.country": {
+      "count": 8,
+      "types": {
+        "string": 8
+      },
+      "examples": [
+        "USA",
+        "USA",
+        "USA",
+        "USA",
+        "USA"
+      ],
+      "uniqueValues": [
+        "USA"
+      ],
+      "uniqueValueOverflow": false
+    }
+  },
+  "sampleRecords": [
+    {
+      "id": "65e832c8-bc4e-454e-be7a-49236b829f86",
+      "name": "Elite Services Inc",
+      "industry": "Agriculture",
+      "headquarters": {
+        "city": "New York",
+        "state": "NY",
+        "country": "USA"
+      },
+      "size": 3408,
+      "founded": 2019
+    },
+    {
+      "id": "3c92e335-8372-40d0-a967-7dce318ebec9",
+      "name": "Tech Solutions Inc",
+      "industry": "Transportation",
+      "headquarters": {
+        "city": "Syracuse",
+        "state": "NY",
+        "country": "USA"
+      },
+      "size": 19776,
+      "founded": 1953
+    },
+    {
+      "id": "dc21495f-dd86-4b7c-8251-7be67a306e74",
+      "name": "Elite Group",
+      "industry": "Consulting",
+      "headquarters": {
+        "city": "Raleigh",
+        "state": "NC",
+        "country": "USA"
+      },
+      "size": 7273,
+      "founded": 2007
+    },
+    {
+      "id": "475dcc3c-d2eb-4750-a8ce-40e6e459409d",
+      "name": "Smart Labs Inc",
+      "industry": "Agriculture",
+      "headquarters": {
+        "city": "Warren",
+        "state": "MI",
+        "country": "USA"
+      },
+      "size": 13898,
+      "founded": 1993
+    },
+    {
+      "id": "2bc745e6-618d-4865-a2f6-a060c736930a",
+      "name": "Global Labs LLC",
+      "industry": "Consulting",
+      "headquarters": {
+        "city": "Springfield",
+        "state": "IL",
+        "country": "USA"
+      },
+      "size": 3219,
+      "founded": 1995
+    }
+  ],
+  "parseErrors": [],
+  "finishedAt": "2026-05-21T08:07:32.242Z",
+  "profileMs": 2.012,
+  "averageTopLevelFields": 6,
+  "validJsonRatio": 1
+}

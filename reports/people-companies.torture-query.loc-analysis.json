@@ -1,0 +1,309 @@
+{
+  "file": "/Users/sherbondy/Desktop/projects/relaydb-4tag-benchmark/scripts/torture-query-people-companies.js",
+  "physicalLines": 1286,
+  "logicalLoc": 1014,
+  "functionCount": 45,
+  "buckets": {
+    "rawRuntimeLogic": {
+      "description": "Raw JSONL graph building, raw query functions, raw benchmark lanes",
+      "functions": [
+        {
+          "nameLine": "function rawLocationKey(location) {",
+          "startLine": 161,
+          "endLine": 167,
+          "logicalLoc": 7
+        },
+        {
+          "nameLine": "function buildRawGraph(companies, people) {",
+          "startLine": 182,
+          "endLine": 269,
+          "logicalLoc": 69
+        },
+        {
+          "nameLine": "function buildRawGraphFromMerged(records) {",
+          "startLine": 271,
+          "endLine": 295,
+          "logicalLoc": 19
+        },
+        {
+          "nameLine": "function rawPeopleHomeStateDiffersFromCompanyState(graph) {",
+          "startLine": 402,
+          "endLine": 420,
+          "logicalLoc": 14
+        },
+        {
+          "nameLine": "function rawHouseholdsWithMultipleCompanies(graph) {",
+          "startLine": 444,
+          "endLine": 464,
+          "logicalLoc": 16
+        },
+        {
+          "nameLine": "function rawPeopleSharingInterestsWithCoworkers(graph) {",
+          "startLine": 486,
+          "endLine": 507,
+          "logicalLoc": 18
+        },
+        {
+          "nameLine": "function rawCompaniesWithEmployeesAcrossMultipleHomeStates(graph) {",
+          "startLine": 532,
+          "endLine": 552,
+          "logicalLoc": 16
+        },
+        {
+          "nameLine": "function rawActiveUnder40AtOldCompanies(graph) {",
+          "startLine": 576,
+          "endLine": 595,
+          "logicalLoc": 16
+        },
+        {
+          "nameLine": "function rawHighEarnersInIndustriesAcrossMultipleStates(graph) {",
+          "startLine": 617,
+          "endLine": 642,
+          "logicalLoc": 20
+        },
+        {
+          "nameLine": "function rawHouseholdDiversitySummary(graph) {",
+          "startLine": 673,
+          "endLine": 703,
+          "logicalLoc": 25
+        },
+        {
+          "nameLine": "function rawContextPackets(graph) {",
+          "startLine": 736,
+          "endLine": 768,
+          "logicalLoc": 28
+        },
+        {
+          "nameLine": "function runRawQuerySuite(graph) {",
+          "startLine": 798,
+          "endLine": 817,
+          "logicalLoc": 20
+        },
+        {
+          "nameLine": "function runRawTortureQueries(graph) {",
+          "startLine": 840,
+          "endLine": 855,
+          "logicalLoc": 12
+        },
+        {
+          "nameLine": "async function benchmarkRawSplitOnce() {",
+          "startLine": 878,
+          "endLine": 910,
+          "logicalLoc": 29
+        },
+        {
+          "nameLine": "async function benchmarkRawMergedOnce() {",
+          "startLine": 912,
+          "endLine": 942,
+          "logicalLoc": 27
+        }
+      ],
+      "logicalLoc": 336
+    },
+    "taggedRuntimeLogic": {
+      "description": "Tagged graph building, tagged query functions, tagged benchmark lanes",
+      "functions": [
+        {
+          "nameLine": "function buildTaggedGraph(nodes) {",
+          "startLine": 297,
+          "endLine": 400,
+          "logicalLoc": 80
+        },
+        {
+          "nameLine": "function taggedPeopleHomeStateDiffersFromCompanyState(graph) {",
+          "startLine": 422,
+          "endLine": 442,
+          "logicalLoc": 17
+        },
+        {
+          "nameLine": "function taggedHouseholdsWithMultipleCompanies(graph) {",
+          "startLine": 466,
+          "endLine": 484,
+          "logicalLoc": 15
+        },
+        {
+          "nameLine": "function taggedPeopleSharingInterestsWithCoworkers(graph) {",
+          "startLine": 509,
+          "endLine": 530,
+          "logicalLoc": 18
+        },
+        {
+          "nameLine": "function taggedCompaniesWithEmployeesAcrossMultipleHomeStates(graph) {",
+          "startLine": 554,
+          "endLine": 574,
+          "logicalLoc": 16
+        },
+        {
+          "nameLine": "function taggedActiveUnder40AtOldCompanies(graph) {",
+          "startLine": 597,
+          "endLine": 615,
+          "logicalLoc": 15
+        },
+        {
+          "nameLine": "function taggedHighEarnersInIndustriesAcrossMultipleStates(graph) {",
+          "startLine": 644,
+          "endLine": 671,
+          "logicalLoc": 20
+        },
+        {
+          "nameLine": "function taggedHouseholdDiversitySummary(graph) {",
+          "startLine": 705,
+          "endLine": 734,
+          "logicalLoc": 24
+        },
+        {
+          "nameLine": "function taggedContextPackets(graph) {",
+          "startLine": 770,
+          "endLine": 796,
+          "logicalLoc": 22
+        },
+        {
+          "nameLine": "function runTaggedQuerySuite(graph) {",
+          "startLine": 819,
+          "endLine": 838,
+          "logicalLoc": 20
+        },
+        {
+          "nameLine": "function runTaggedTortureQueries(graph) {",
+          "startLine": 857,
+          "endLine": 872,
+          "logicalLoc": 12
+        },
+        {
+          "nameLine": "async function benchmarkTaggedSplitOnce() {",
+          "startLine": 944,
+          "endLine": 977,
+          "logicalLoc": 30
+        },
+        {
+          "nameLine": "async function benchmarkTaggedMergedOnce() {",
+          "startLine": 979,
+          "endLine": 1009,
+          "logicalLoc": 27
+        }
+      ],
+      "logicalLoc": 316
+    },
+    "sharedHarness": {
+      "description": "Shared file reading, utilities, validation, summaries, timing setup",
+      "functions": [
+        {
+          "nameLine": "function ensureFileExists(filePath) {",
+          "startLine": 112,
+          "endLine": 117,
+          "logicalLoc": 6
+        },
+        {
+          "nameLine": "function ensureDirectory(filePath) {",
+          "startLine": 119,
+          "endLine": 125,
+          "logicalLoc": 6
+        },
+        {
+          "nameLine": "async function readJsonl(filePath) {",
+          "startLine": 127,
+          "endLine": 148,
+          "logicalLoc": 16
+        },
+        {
+          "nameLine": "function getRawFullName(personRecord) {",
+          "startLine": 150,
+          "endLine": 155,
+          "logicalLoc": 5
+        },
+        {
+          "nameLine": "function getTaggedFullName(personNode) {",
+          "startLine": 157,
+          "endLine": 159,
+          "logicalLoc": 3
+        },
+        {
+          "nameLine": "function arrayIntersectionCount(left, right) {",
+          "startLine": 169,
+          "endLine": 180,
+          "logicalLoc": 10
+        },
+        {
+          "nameLine": "function compareResults(left, right) {",
+          "startLine": 874,
+          "endLine": 876,
+          "logicalLoc": 3
+        },
+        {
+          "nameLine": "function buildRunResult(input) {",
+          "startLine": 1011,
+          "endLine": 1026,
+          "logicalLoc": 16
+        },
+        {
+          "nameLine": "function summarizeRuns(label, runs) {",
+          "startLine": 1028,
+          "endLine": 1045,
+          "logicalLoc": 17
+        },
+        {
+          "nameLine": "function summarizeMetric(values) {",
+          "startLine": 1047,
+          "endLine": 1057,
+          "logicalLoc": 10
+        },
+        {
+          "nameLine": "function round(value) {",
+          "startLine": 1059,
+          "endLine": 1061,
+          "logicalLoc": 3
+        },
+        {
+          "nameLine": "function formatBytes(bytes) {",
+          "startLine": 1063,
+          "endLine": 1074,
+          "logicalLoc": 10
+        },
+        {
+          "nameLine": "function formatNullable(value) {",
+          "startLine": 1076,
+          "endLine": 1079,
+          "logicalLoc": 4
+        },
+        {
+          "nameLine": "function formatBurden(value) {",
+          "startLine": 1081,
+          "endLine": 1085,
+          "logicalLoc": 5
+        },
+        {
+          "nameLine": "async function runBenchmark() {",
+          "startLine": 1219,
+          "endLine": 1279,
+          "logicalLoc": 52
+        }
+      ],
+      "logicalLoc": 166
+    },
+    "reporting": {
+      "description": "Markdown report generation and console output",
+      "functions": [
+        {
+          "nameLine": "function buildMarkdownReport(report) {",
+          "startLine": 1087,
+          "endLine": 1188,
+          "logicalLoc": 91
+        },
+        {
+          "nameLine": "function printReport(report) {",
+          "startLine": 1190,
+          "endLine": 1217,
+          "logicalLoc": 28
+        }
+      ],
+      "logicalLoc": 119
+    },
+    "unclassified": {
+      "description": "Functions not matched by the current classifier",
+      "functions": [],
+      "logicalLoc": 0
+    }
+  },
+  "unclassifiedFunctions": [],
+  "bucketedFunctionLoc": 937
+}

@@ -1,0 +1,55 @@
+{
+  "createdAt": "2026-05-21T08:17:50.277Z",
+  "sourceName": "people_companies",
+  "convertMs": 4.323,
+  "inputs": {
+    "companies": {
+      "path": "/Users/sherbondy/Desktop/projects/relaydb-4tag-benchmark/datasets/raw/companies.jsonl",
+      "bytes": 1631,
+      "records": 8
+    },
+    "people": {
+      "path": "/Users/sherbondy/Desktop/projects/relaydb-4tag-benchmark/datasets/raw/people.jsonl",
+      "bytes": 15495,
+      "records": 30
+    }
+  },
+  "outputs": {
+    "taggedCompanies": {
+      "path": "/Users/sherbondy/Desktop/projects/relaydb-4tag-benchmark/datasets/tagged/companies.4tag.jsonl",
+      "bytes": 6420,
+      "nodes": 29
+    },
+    "taggedPeople": {
+      "path": "/Users/sherbondy/Desktop/projects/relaydb-4tag-benchmark/datasets/tagged/people.4tag.jsonl",
+      "bytes": 27586,
+      "nodes": 72
+    },
+    "rawMerged": {
+      "path": "/Users/sherbondy/Desktop/projects/relaydb-4tag-benchmark/datasets/merged/people-companies.raw.merged.jsonl",
+      "bytes": 17945,
+      "records": 38
+    },
+    "taggedMerged": {
+      "path": "/Users/sherbondy/Desktop/projects/relaydb-4tag-benchmark/datasets/merged/people-companies.4tag.merged.jsonl",
+      "bytes": 33869,
+      "nodes": 100
+    }
+  },
+  "validation": {
+    "personCompanyLinks": {
+      "linkedCount": 30,
+      "missingCount": 0,
+      "missing": []
+    }
+  },
+  "topicCounts": {
+    "company": 8,
+    "person": 30,
+    "company_name_alias": 8,
+    "industry": 5,
+    "location": 19,
+    "household": 12,
+    "interest": 18
+  }
+}

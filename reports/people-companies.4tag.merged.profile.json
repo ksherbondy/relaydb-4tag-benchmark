@@ -1,0 +1,2296 @@
+{
+  "inputPath": "datasets/merged/people-companies.4tag.merged.jsonl",
+  "fileName": "people-companies.4tag.merged.jsonl",
+  "fileSizeBytes": 33869,
+  "startedAt": "2026-05-21T08:18:21.393Z",
+  "totalLines": 100,
+  "validJsonLines": 100,
+  "invalidJsonLines": 0,
+  "blankLines": 0,
+  "totalTopLevelFieldsSeen": 968,
+  "maxDepth": 3,
+  "recordSizeBytes": {
+    "min": 78,
+    "max": 798,
+    "total": 33769,
+    "average": 337.69
+  },
+  "topLevelFields": {
+    "#": {
+      "count": 100,
+      "types": {
+        "string": 100
+      },
+      "examples": [
+        "company:65e832c8-bc4e-454e-be7a-49236b829f86",
+        "company:3c92e335-8372-40d0-a967-7dce318ebec9",
+        "company:dc21495f-dd86-4b7c-8251-7be67a306e74",
+        "company:475dcc3c-d2eb-4750-a8ce-40e6e459409d",
+        "company:2bc745e6-618d-4865-a2f6-a060c736930a"
+      ],
+      "uniqueValues": [
+        "company:65e832c8-bc4e-454e-be7a-49236b829f86",
+        "company:3c92e335-8372-40d0-a967-7dce318ebec9",
+        "company:dc21495f-dd86-4b7c-8251-7be67a306e74",
+        "company:475dcc3c-d2eb-4750-a8ce-40e6e459409d",
+        "company:2bc745e6-618d-4865-a2f6-a060c736930a",
+        "company:d896cbe4-a0b8-4cf0-aefe-1e014a0a76cb",
+        "company:bf2615bd-f6a2-4b13-aa7d-3548c80fd49e",
+        "company:6951b0da-5434-4101-a387-5a053f2cbab1",
+        "person:9c24b5ab-a6d9-4d06-bf97-155c3aac80b2",
+        "person:0c53e810-70e7-416a-91ca-1f0ba64c491d",
+        "person:8555dfd0-2b06-455e-9077-b29a0d01e7aa",
+        "person:9d9f738b-b9de-4338-b241-86f41bf1739e",
+        "person:f5ff34dc-9566-4af0-a203-103ab0203d86",
+        "person:b2202a1b-b000-4a7a-9625-cb36ccd0910e",
+        "person:1f2422f7-5579-4728-9bad-10efe791c054",
+        "person:b7081da3-1311-4692-a17d-9379305e7c24",
+        "person:8b15d22e-ea43-4aa0-b95e-681bb0f87164",
+        "person:6b017efb-2631-41e9-ac5c-4198191daa38",
+        "person:e3997011-8319-44b8-9e04-4ec918919135",
+        "person:bf2390b5-ed89-4366-bf3c-f2da8893ce29",
+        "person:d63ee197-2f55-4d8e-b38a-f5a2a65cfd7e",
+        "person:71ecf619-f9f2-4b30-ad69-bedc953238dc",
+        "person:c4aec1e0-f47d-43d9-82b6-14ad9040f72c",
+        "person:cce7e64d-8b62-4fc0-9bcc-1c11530b7ab8",
+        "person:446f160f-9448-47d6-a532-7ecf2e38e508"
+      ],
+      "uniqueValueOverflow": true
+    },
+    "^": {
+      "count": 100,
+      "types": {
+        "string": 100
+      },
+      "examples": [
+        "company",
+        "company",
+        "company",
+        "company",
+        "company"
+      ],
+      "uniqueValues": [
+        "company",
+        "person",
+        "company_name_alias",
+        "industry",
+        "location",
+        "household",
+        "interest"
+      ],
+      "uniqueValueOverflow": false
+    },
+    "~source": {
+      "count": 100,
+      "types": {
+        "string": 100
+      },
+      "examples": [
+        "people_companies",
+        "people_companies",
+        "people_companies",
+        "people_companies",
+        "people_companies"
+      ],
+      "uniqueValues": [
+        "people_companies"
+      ],
+      "uniqueValueOverflow": false
+    },
+    "~raw_id": {
+      "count": 50,
+      "types": {
+        "string": 50
+      },
+      "examples": [
+        "65e832c8-bc4e-454e-be7a-49236b829f86",
+        "3c92e335-8372-40d0-a967-7dce318ebec9",
+        "dc21495f-dd86-4b7c-8251-7be67a306e74",
+        "475dcc3c-d2eb-4750-a8ce-40e6e459409d",
+        "2bc745e6-618d-4865-a2f6-a060c736930a"
+      ],
+      "uniqueValues": [
+        "65e832c8-bc4e-454e-be7a-49236b829f86",
+        "3c92e335-8372-40d0-a967-7dce318ebec9",
+        "dc21495f-dd86-4b7c-8251-7be67a306e74",
+        "475dcc3c-d2eb-4750-a8ce-40e6e459409d",
+        "2bc745e6-618d-4865-a2f6-a060c736930a",
+        "d896cbe4-a0b8-4cf0-aefe-1e014a0a76cb",
+        "bf2615bd-f6a2-4b13-aa7d-3548c80fd49e",
+        "6951b0da-5434-4101-a387-5a053f2cbab1",
+        "9c24b5ab-a6d9-4d06-bf97-155c3aac80b2",
+        "0c53e810-70e7-416a-91ca-1f0ba64c491d",
+        "8555dfd0-2b06-455e-9077-b29a0d01e7aa",
+        "9d9f738b-b9de-4338-b241-86f41bf1739e",
+        "f5ff34dc-9566-4af0-a203-103ab0203d86",
+        "b2202a1b-b000-4a7a-9625-cb36ccd0910e",
+        "1f2422f7-5579-4728-9bad-10efe791c054",
+        "b7081da3-1311-4692-a17d-9379305e7c24",
+        "8b15d22e-ea43-4aa0-b95e-681bb0f87164",
+        "6b017efb-2631-41e9-ac5c-4198191daa38",
+        "e3997011-8319-44b8-9e04-4ec918919135",
+        "bf2390b5-ed89-4366-bf3c-f2da8893ce29",
+        "d63ee197-2f55-4d8e-b38a-f5a2a65cfd7e",
+        "71ecf619-f9f2-4b30-ad69-bedc953238dc",
+        "c4aec1e0-f47d-43d9-82b6-14ad9040f72c",
+        "cce7e64d-8b62-4fc0-9bcc-1c11530b7ab8",
+        "446f160f-9448-47d6-a532-7ecf2e38e508"
+      ],
+      "uniqueValueOverflow": true
+    },
+    "~name": {
+      "count": 39,
+      "types": {
+        "string": 39
+      },
+      "examples": [
+        "Elite Services Inc",
+        "Tech Solutions Inc",
+        "Elite Group",
+        "Smart Labs Inc",
+        "Global Labs LLC"
+      ],
+      "uniqueValues": [
+        "Elite Services Inc",
+        "Tech Solutions Inc",
+        "Elite Group",
+        "Smart Labs Inc",
+        "Global Labs LLC",
+        "Smart Solutions",
+        "Smart Group Co",
+        "Smart Services",
+        "Agriculture",
+        "Transportation",
+        "Consulting",
+        "Real Estate",
+        "Media",
+        "sports",
+        "yoga",
+        "gardening",
+        "writing",
+        "traveling",
+        "art",
+        "running",
+        "gaming",
+        "cooking",
+        "swimming",
+        "hiking",
+        "photography"
+      ],
+      "uniqueValueOverflow": true
+    },
+    "name": {
+      "count": 38,
+      "types": {
+        "string": 8,
+        "object": 30
+      },
+      "examples": [
+        "Elite Services Inc",
+        "Tech Solutions Inc",
+        "Elite Group",
+        "Smart Labs Inc",
+        "Global Labs LLC"
+      ],
+      "uniqueValues": [
+        "Elite Services Inc",
+        "Tech Solutions Inc",
+        "Elite Group",
+        "Smart Labs Inc",
+        "Global Labs LLC",
+        "Smart Solutions",
+        "Smart Group Co",
+        "Smart Services"
+      ],
+      "uniqueValueOverflow": false
+    },
+    "@company": {
+      "count": 38,
+      "types": {
+        "string": 38
+      },
+      "examples": [
+        "company:475dcc3c-d2eb-4750-a8ce-40e6e459409d",
+        "company:bf2615bd-f6a2-4b13-aa7d-3548c80fd49e",
+        "company:6951b0da-5434-4101-a387-5a053f2cbab1",
+        "company:475dcc3c-d2eb-4750-a8ce-40e6e459409d",
+        "company:dc21495f-dd86-4b7c-8251-7be67a306e74"
+      ],
+      "uniqueValues": [
+        "company:475dcc3c-d2eb-4750-a8ce-40e6e459409d",
+        "company:bf2615bd-f6a2-4b13-aa7d-3548c80fd49e",
+        "company:6951b0da-5434-4101-a387-5a053f2cbab1",
+        "company:dc21495f-dd86-4b7c-8251-7be67a306e74",
+        "company:65e832c8-bc4e-454e-be7a-49236b829f86",
+        "company:3c92e335-8372-40d0-a967-7dce318ebec9",
+        "company:d896cbe4-a0b8-4cf0-aefe-1e014a0a76cb",
+        "company:2bc745e6-618d-4865-a2f6-a060c736930a"
+      ],
+      "uniqueValueOverflow": false
+    },
+    "@household": {
+      "count": 30,
+      "types": {
+        "string": 30
+      },
+      "examples": [
+        "household:30bfd16b-cb7b-4ca9-8aab-394354d4d434",
+        "household:30bfd16b-cb7b-4ca9-8aab-394354d4d434",
+        "household:30bfd16b-cb7b-4ca9-8aab-394354d4d434",
+        "household:30bfd16b-cb7b-4ca9-8aab-394354d4d434",
+        "household:21e1ba9b-a5dc-4986-ac8c-8b3fedb2759c"
+      ],
+      "uniqueValues": [
+        "household:30bfd16b-cb7b-4ca9-8aab-394354d4d434",
+        "household:21e1ba9b-a5dc-4986-ac8c-8b3fedb2759c",
+        "household:8c856ed3-ac33-4e7e-82d9-78b7e9cea328",
+        "household:f9b81145-de65-43ca-b9bd-73a98c99542c",
+        "household:56f9865c-0ae8-47b8-af0d-4ef520ea8ba6",
+        "household:2396c092-a9d1-480f-90ea-08559f16a22f",
+        "household:0cdd5d39-d47a-4cac-a50f-43c066a50906",
+        "household:b93f35d9-cc62-4e32-88ad-92319d1a3605",
+        "household:b2513d2f-a85c-4f7e-adad-20fba01601e1",
+        "household:91755cb6-83ec-43b2-9360-23f618b5442f",
+        "household:dd0f7d46-5a5d-4894-8a76-e96828f90703",
+        "household:ac73ed33-accf-4622-94e8-4b3ac64a646c"
+      ],
+      "uniqueValueOverflow": false
+    },
+    "@company_name": {
+      "count": 30,
+      "types": {
+        "string": 30
+      },
+      "examples": [
+        "company_name:smart_labs_inc",
+        "company_name:smart_group_co",
+        "company_name:smart_services",
+        "company_name:smart_labs_inc",
+        "company_name:elite_group"
+      ],
+      "uniqueValues": [
+        "company_name:smart_labs_inc",
+        "company_name:smart_group_co",
+        "company_name:smart_services",
+        "company_name:elite_group",
+        "company_name:elite_services_inc",
+        "company_name:tech_solutions_inc",
+        "company_name:smart_solutions",
+        "company_name:global_labs_llc"
+      ],
+      "uniqueValueOverflow": false
+    },
+    "@location": {
+      "count": 30,
+      "types": {
+        "string": 30
+      },
+      "examples": [
+        "location:usa:ga:columbus",
+        "location:usa:ga:columbus",
+        "location:usa:ga:columbus",
+        "location:usa:ga:columbus",
+        "location:usa:nc:charlotte"
+      ],
+      "uniqueValues": [
+        "location:usa:ga:columbus",
+        "location:usa:nc:charlotte",
+        "location:usa:fl:miami",
+        "location:usa:ga:augusta",
+        "location:usa:tx:houston",
+        "location:usa:fl:orlando",
+        "location:usa:fl:jacksonville",
+        "location:usa:ca:san_francisco",
+        "location:usa:il:rockford",
+        "location:usa:oh:cleveland",
+        "location:usa:pa:philadelphia",
+        "location:usa:ga:savannah"
+      ],
+      "uniqueValueOverflow": false
+    },
+    "@interests": {
+      "count": 30,
+      "types": {
+        "array": 30
+      },
+      "examples": [
+        [
+          "interest:sports",
+          "interest:yoga",
+          "interest:gardening",
+          "interest:writing"
+        ],
+        [
+          "interest:traveling",
+          "interest:yoga",
+          "interest:sports"
+        ],
+        [
+          "interest:art"
+        ],
+        [
+          "interest:running",
+          "interest:gaming",
+          "interest:cooking"
+        ],
+        [
+          "interest:traveling",
+          "interest:swimming"
+        ]
+      ],
+      "uniqueValues": [],
+      "uniqueValueOverflow": false
+    },
+    "~created_at": {
+      "count": 30,
+      "types": {
+        "string": 30
+      },
+      "examples": [
+        "2022-02-02T20:06:48.408546Z",
+        "2023-09-28T20:06:48.408661Z",
+        "2020-09-04T20:06:48.408704Z",
+        "2021-03-12T20:06:48.408743Z",
+        "2024-02-26T20:06:48.408789Z"
+      ],
+      "uniqueValues": [
+        "2022-02-02T20:06:48.408546Z",
+        "2023-09-28T20:06:48.408661Z",
+        "2020-09-04T20:06:48.408704Z",
+        "2021-03-12T20:06:48.408743Z",
+        "2024-02-26T20:06:48.408789Z",
+        "2021-07-04T20:06:48.408823Z",
+        "2024-03-03T20:06:48.408863Z",
+        "2021-11-18T20:06:48.408896Z",
+        "2022-06-22T20:06:48.408934Z",
+        "2021-05-29T20:06:48.408962Z",
+        "2024-03-09T20:06:48.409004Z",
+        "2023-10-28T20:06:48.409030Z",
+        "2020-10-30T20:06:48.409057Z",
+        "2024-04-28T20:06:48.409090Z",
+        "2023-02-09T20:06:48.409118Z",
+        "2024-03-06T20:06:48.409155Z",
+        "2023-12-11T20:06:48.409192Z",
+        "2022-04-10T20:06:48.409223Z",
+        "2023-04-01T20:06:48.409251Z",
+        "2022-08-22T20:06:48.409277Z",
+        "2021-06-23T20:06:48.409310Z",
+        "2021-01-04T20:06:48.409351Z",
+        "2023-08-16T20:06:48.409392Z",
+        "2025-05-24T20:06:48.409420Z",
+        "2025-05-09T20:06:48.409461Z"
+      ],
+      "uniqueValueOverflow": true
+    },
+    "~created_year": {
+      "count": 30,
+      "types": {
+        "number": 30
+      },
+      "examples": [
+        2022,
+        2023,
+        2020,
+        2021,
+        2024
+      ],
+      "uniqueValues": [
+        "2022",
+        "2023",
+        "2020",
+        "2021",
+        "2024",
+        "2025"
+      ],
+      "uniqueValueOverflow": false
+    },
+    "~status": {
+      "count": 30,
+      "types": {
+        "string": 30
+      },
+      "examples": [
+        "pending",
+        "active",
+        "active",
+        "pending",
+        "pending"
+      ],
+      "uniqueValues": [
+        "pending",
+        "active",
+        "inactive"
+      ],
+      "uniqueValueOverflow": false
+    },
+    "~household_id": {
+      "count": 30,
+      "types": {
+        "string": 30
+      },
+      "examples": [
+        "30bfd16b-cb7b-4ca9-8aab-394354d4d434",
+        "30bfd16b-cb7b-4ca9-8aab-394354d4d434",
+        "30bfd16b-cb7b-4ca9-8aab-394354d4d434",
+        "30bfd16b-cb7b-4ca9-8aab-394354d4d434",
+        "21e1ba9b-a5dc-4986-ac8c-8b3fedb2759c"
+      ],
+      "uniqueValues": [
+        "30bfd16b-cb7b-4ca9-8aab-394354d4d434",
+        "21e1ba9b-a5dc-4986-ac8c-8b3fedb2759c",
+        "8c856ed3-ac33-4e7e-82d9-78b7e9cea328",
+        "f9b81145-de65-43ca-b9bd-73a98c99542c",
+        "56f9865c-0ae8-47b8-af0d-4ef520ea8ba6",
+        "2396c092-a9d1-480f-90ea-08559f16a22f",
+        "0cdd5d39-d47a-4cac-a50f-43c066a50906",
+        "b93f35d9-cc62-4e32-88ad-92319d1a3605",
+        "b2513d2f-a85c-4f7e-adad-20fba01601e1",
+        "91755cb6-83ec-43b2-9360-23f618b5442f",
+        "dd0f7d46-5a5d-4894-8a76-e96828f90703",
+        "ac73ed33-accf-4622-94e8-4b3ac64a646c"
+      ],
+      "uniqueValueOverflow": false
+    },
+    "~age": {
+      "count": 30,
+      "types": {
+        "number": 30
+      },
+      "examples": [
+        58,
+        79,
+        51,
+        57,
+        21
+      ],
+      "uniqueValues": [
+        "58",
+        "79",
+        "51",
+        "57",
+        "21",
+        "60",
+        "7",
+        "59",
+        "39",
+        "45",
+        "55",
+        "48",
+        "25",
+        "35",
+        "31",
+        "18",
+        "10",
+        "34",
+        "50",
+        "49",
+        "20",
+        "24",
+        "38",
+        "81",
+        "23"
+      ],
+      "uniqueValueOverflow": false
+    },
+    "~gender": {
+      "count": 30,
+      "types": {
+        "string": 30
+      },
+      "examples": [
+        "male",
+        "female",
+        "male",
+        "nonbinary",
+        "female"
+      ],
+      "uniqueValues": [
+        "male",
+        "female",
+        "nonbinary"
+      ],
+      "uniqueValueOverflow": false
+    },
+    "~job_title": {
+      "count": 30,
+      "types": {
+        "string": 30
+      },
+      "examples": [
+        "Data Scientist",
+        "Administrator",
+        "Electrician",
+        "Teacher",
+        "Researcher"
+      ],
+      "uniqueValues": [
+        "Data Scientist",
+        "Administrator",
+        "Electrician",
+        "Teacher",
+        "Researcher",
+        "Accountant",
+        "Operations Manager",
+        "Plumber",
+        "Marketing Manager",
+        "Designer",
+        "Sales Manager",
+        "Product Manager",
+        "Consultant",
+        "Writer",
+        "Nurse"
+      ],
+      "uniqueValueOverflow": false
+    },
+    "~salary": {
+      "count": 30,
+      "types": {
+        "number": 30
+      },
+      "examples": [
+        155000,
+        166000,
+        114000,
+        61000,
+        77000
+      ],
+      "uniqueValues": [
+        "155000",
+        "166000",
+        "114000",
+        "61000",
+        "77000",
+        "122000",
+        "54000",
+        "60000",
+        "63000",
+        "171000",
+        "111000",
+        "46000",
+        "83000",
+        "162000",
+        "45000",
+        "127000",
+        "153000",
+        "76000",
+        "116000",
+        "108000",
+        "79000",
+        "170000",
+        "133000",
+        "118000"
+      ],
+      "uniqueValueOverflow": false
+    },
+    "contact": {
+      "count": 30,
+      "types": {
+        "object": 30
+      },
+      "examples": [
+        {
+          "email": "daniel.moore@yahoo.com",
+          "phone": "350-267-8573"
+        },
+        {
+          "email": "betty.moore@outlook.com",
+          "phone": "758-569-3340"
+        },
+        {
+          "email": "joseph.moore@yahoo.com",
+          "phone": "911-796-7916"
+        },
+        {
+          "email": "drew.moore56@hotmail.com",
+          "phone": "261-564-1053"
+        },
+        {
+          "email": "donna.wright63@gmail.com",
+          "phone": "935-170-9727"
+        }
+      ],
+      "uniqueValues": [],
+      "uniqueValueOverflow": false
+    },
+    "~city": {
+      "count": 19,
+      "types": {
+        "string": 19
+      },
+      "examples": [
+        "New York",
+        "Syracuse",
+        "Raleigh",
+        "Warren",
+        "Springfield"
+      ],
+      "uniqueValues": [
+        "New York",
+        "Syracuse",
+        "Raleigh",
+        "Warren",
+        "Springfield",
+        "Harrisburg",
+        "Rochester",
+        "San Francisco",
+        "Columbus",
+        "Charlotte",
+        "Miami",
+        "Augusta",
+        "Houston",
+        "Orlando",
+        "Jacksonville",
+        "Rockford",
+        "Cleveland",
+        "Philadelphia",
+        "Savannah"
+      ],
+      "uniqueValueOverflow": false
+    },
+    "~state": {
+      "count": 19,
+      "types": {
+        "string": 19
+      },
+      "examples": [
+        "NY",
+        "NY",
+        "NC",
+        "MI",
+        "IL"
+      ],
+      "uniqueValues": [
+        "NY",
+        "NC",
+        "MI",
+        "IL",
+        "PA",
+        "CA",
+        "GA",
+        "FL",
+        "TX",
+        "OH"
+      ],
+      "uniqueValueOverflow": false
+    },
+    "~country": {
+      "count": 19,
+      "types": {
+        "string": 19
+      },
+      "examples": [
+        "USA",
+        "USA",
+        "USA",
+        "USA",
+        "USA"
+      ],
+      "uniqueValues": [
+        "USA"
+      ],
+      "uniqueValueOverflow": false
+    },
+    "@industry": {
+      "count": 8,
+      "types": {
+        "string": 8
+      },
+      "examples": [
+        "industry:agriculture",
+        "industry:transportation",
+        "industry:consulting",
+        "industry:agriculture",
+        "industry:consulting"
+      ],
+      "uniqueValues": [
+        "industry:agriculture",
+        "industry:transportation",
+        "industry:consulting",
+        "industry:real_estate",
+        "industry:media"
+      ],
+      "uniqueValueOverflow": false
+    },
+    "@headquarters": {
+      "count": 8,
+      "types": {
+        "string": 8
+      },
+      "examples": [
+        "location:usa:ny:new_york",
+        "location:usa:ny:syracuse",
+        "location:usa:nc:raleigh",
+        "location:usa:mi:warren",
+        "location:usa:il:springfield"
+      ],
+      "uniqueValues": [
+        "location:usa:ny:new_york",
+        "location:usa:ny:syracuse",
+        "location:usa:nc:raleigh",
+        "location:usa:mi:warren",
+        "location:usa:il:springfield",
+        "location:usa:pa:harrisburg",
+        "location:usa:ny:rochester",
+        "location:usa:ca:san_francisco"
+      ],
+      "uniqueValueOverflow": false
+    },
+    "~name_anchor": {
+      "count": 8,
+      "types": {
+        "string": 8
+      },
+      "examples": [
+        "company_name:elite_services_inc",
+        "company_name:tech_solutions_inc",
+        "company_name:elite_group",
+        "company_name:smart_labs_inc",
+        "company_name:global_labs_llc"
+      ],
+      "uniqueValues": [
+        "company_name:elite_services_inc",
+        "company_name:tech_solutions_inc",
+        "company_name:elite_group",
+        "company_name:smart_labs_inc",
+        "company_name:global_labs_llc",
+        "company_name:smart_solutions",
+        "company_name:smart_group_co",
+        "company_name:smart_services"
+      ],
+      "uniqueValueOverflow": false
+    },
+    "~industry": {
+      "count": 8,
+      "types": {
+        "string": 8
+      },
+      "examples": [
+        "Agriculture",
+        "Transportation",
+        "Consulting",
+        "Agriculture",
+        "Consulting"
+      ],
+      "uniqueValues": [
+        "Agriculture",
+        "Transportation",
+        "Consulting",
+        "Real Estate",
+        "Media"
+      ],
+      "uniqueValueOverflow": false
+    },
+    "~size": {
+      "count": 8,
+      "types": {
+        "number": 8
+      },
+      "examples": [
+        3408,
+        19776,
+        7273,
+        13898,
+        3219
+      ],
+      "uniqueValues": [
+        "3408",
+        "19776",
+        "7273",
+        "13898",
+        "3219",
+        "4140",
+        "6350",
+        "7678"
+      ],
+      "uniqueValueOverflow": false
+    },
+    "~founded": {
+      "count": 8,
+      "types": {
+        "number": 8
+      },
+      "examples": [
+        2019,
+        1953,
+        2007,
+        1993,
+        1995
+      ],
+      "uniqueValues": [
+        "2019",
+        "1953",
+        "2007",
+        "1993",
+        "1995",
+        "1998",
+        "1958",
+        "1962"
+      ],
+      "uniqueValueOverflow": false
+    },
+    "headquarters": {
+      "count": 8,
+      "types": {
+        "object": 8
+      },
+      "examples": [
+        {
+          "city": "New York",
+          "state": "NY",
+          "country": "USA"
+        },
+        {
+          "city": "Syracuse",
+          "state": "NY",
+          "country": "USA"
+        },
+        {
+          "city": "Raleigh",
+          "state": "NC",
+          "country": "USA"
+        },
+        {
+          "city": "Warren",
+          "state": "MI",
+          "country": "USA"
+        },
+        {
+          "city": "Springfield",
+          "state": "IL",
+          "country": "USA"
+        }
+      ],
+      "uniqueValues": [],
+      "uniqueValueOverflow": false
+    }
+  },
+  "allFields": {
+    "#": {
+      "count": 100,
+      "types": {
+        "string": 100
+      },
+      "examples": [
+        "company:65e832c8-bc4e-454e-be7a-49236b829f86",
+        "company:3c92e335-8372-40d0-a967-7dce318ebec9",
+        "company:dc21495f-dd86-4b7c-8251-7be67a306e74",
+        "company:475dcc3c-d2eb-4750-a8ce-40e6e459409d",
+        "company:2bc745e6-618d-4865-a2f6-a060c736930a"
+      ],
+      "uniqueValues": [
+        "company:65e832c8-bc4e-454e-be7a-49236b829f86",
+        "company:3c92e335-8372-40d0-a967-7dce318ebec9",
+        "company:dc21495f-dd86-4b7c-8251-7be67a306e74",
+        "company:475dcc3c-d2eb-4750-a8ce-40e6e459409d",
+        "company:2bc745e6-618d-4865-a2f6-a060c736930a",
+        "company:d896cbe4-a0b8-4cf0-aefe-1e014a0a76cb",
+        "company:bf2615bd-f6a2-4b13-aa7d-3548c80fd49e",
+        "company:6951b0da-5434-4101-a387-5a053f2cbab1",
+        "person:9c24b5ab-a6d9-4d06-bf97-155c3aac80b2",
+        "person:0c53e810-70e7-416a-91ca-1f0ba64c491d",
+        "person:8555dfd0-2b06-455e-9077-b29a0d01e7aa",
+        "person:9d9f738b-b9de-4338-b241-86f41bf1739e",
+        "person:f5ff34dc-9566-4af0-a203-103ab0203d86",
+        "person:b2202a1b-b000-4a7a-9625-cb36ccd0910e",
+        "person:1f2422f7-5579-4728-9bad-10efe791c054",
+        "person:b7081da3-1311-4692-a17d-9379305e7c24",
+        "person:8b15d22e-ea43-4aa0-b95e-681bb0f87164",
+        "person:6b017efb-2631-41e9-ac5c-4198191daa38",
+        "person:e3997011-8319-44b8-9e04-4ec918919135",
+        "person:bf2390b5-ed89-4366-bf3c-f2da8893ce29",
+        "person:d63ee197-2f55-4d8e-b38a-f5a2a65cfd7e",
+        "person:71ecf619-f9f2-4b30-ad69-bedc953238dc",
+        "person:c4aec1e0-f47d-43d9-82b6-14ad9040f72c",
+        "person:cce7e64d-8b62-4fc0-9bcc-1c11530b7ab8",
+        "person:446f160f-9448-47d6-a532-7ecf2e38e508"
+      ],
+      "uniqueValueOverflow": true
+    },
+    "^": {
+      "count": 100,
+      "types": {
+        "string": 100
+      },
+      "examples": [
+        "company",
+        "company",
+        "company",
+        "company",
+        "company"
+      ],
+      "uniqueValues": [
+        "company",
+        "person",
+        "company_name_alias",
+        "industry",
+        "location",
+        "household",
+        "interest"
+      ],
+      "uniqueValueOverflow": false
+    },
+    "~source": {
+      "count": 100,
+      "types": {
+        "string": 100
+      },
+      "examples": [
+        "people_companies",
+        "people_companies",
+        "people_companies",
+        "people_companies",
+        "people_companies"
+      ],
+      "uniqueValues": [
+        "people_companies"
+      ],
+      "uniqueValueOverflow": false
+    },
+    "~raw_id": {
+      "count": 50,
+      "types": {
+        "string": 50
+      },
+      "examples": [
+        "65e832c8-bc4e-454e-be7a-49236b829f86",
+        "3c92e335-8372-40d0-a967-7dce318ebec9",
+        "dc21495f-dd86-4b7c-8251-7be67a306e74",
+        "475dcc3c-d2eb-4750-a8ce-40e6e459409d",
+        "2bc745e6-618d-4865-a2f6-a060c736930a"
+      ],
+      "uniqueValues": [
+        "65e832c8-bc4e-454e-be7a-49236b829f86",
+        "3c92e335-8372-40d0-a967-7dce318ebec9",
+        "dc21495f-dd86-4b7c-8251-7be67a306e74",
+        "475dcc3c-d2eb-4750-a8ce-40e6e459409d",
+        "2bc745e6-618d-4865-a2f6-a060c736930a",
+        "d896cbe4-a0b8-4cf0-aefe-1e014a0a76cb",
+        "bf2615bd-f6a2-4b13-aa7d-3548c80fd49e",
+        "6951b0da-5434-4101-a387-5a053f2cbab1",
+        "9c24b5ab-a6d9-4d06-bf97-155c3aac80b2",
+        "0c53e810-70e7-416a-91ca-1f0ba64c491d",
+        "8555dfd0-2b06-455e-9077-b29a0d01e7aa",
+        "9d9f738b-b9de-4338-b241-86f41bf1739e",
+        "f5ff34dc-9566-4af0-a203-103ab0203d86",
+        "b2202a1b-b000-4a7a-9625-cb36ccd0910e",
+        "1f2422f7-5579-4728-9bad-10efe791c054",
+        "b7081da3-1311-4692-a17d-9379305e7c24",
+        "8b15d22e-ea43-4aa0-b95e-681bb0f87164",
+        "6b017efb-2631-41e9-ac5c-4198191daa38",
+        "e3997011-8319-44b8-9e04-4ec918919135",
+        "bf2390b5-ed89-4366-bf3c-f2da8893ce29",
+        "d63ee197-2f55-4d8e-b38a-f5a2a65cfd7e",
+        "71ecf619-f9f2-4b30-ad69-bedc953238dc",
+        "c4aec1e0-f47d-43d9-82b6-14ad9040f72c",
+        "cce7e64d-8b62-4fc0-9bcc-1c11530b7ab8",
+        "446f160f-9448-47d6-a532-7ecf2e38e508"
+      ],
+      "uniqueValueOverflow": true
+    },
+    "~name": {
+      "count": 39,
+      "types": {
+        "string": 39
+      },
+      "examples": [
+        "Elite Services Inc",
+        "Tech Solutions Inc",
+        "Elite Group",
+        "Smart Labs Inc",
+        "Global Labs LLC"
+      ],
+      "uniqueValues": [
+        "Elite Services Inc",
+        "Tech Solutions Inc",
+        "Elite Group",
+        "Smart Labs Inc",
+        "Global Labs LLC",
+        "Smart Solutions",
+        "Smart Group Co",
+        "Smart Services",
+        "Agriculture",
+        "Transportation",
+        "Consulting",
+        "Real Estate",
+        "Media",
+        "sports",
+        "yoga",
+        "gardening",
+        "writing",
+        "traveling",
+        "art",
+        "running",
+        "gaming",
+        "cooking",
+        "swimming",
+        "hiking",
+        "photography"
+      ],
+      "uniqueValueOverflow": true
+    },
+    "name": {
+      "count": 38,
+      "types": {
+        "string": 8,
+        "object": 30
+      },
+      "examples": [
+        "Elite Services Inc",
+        "Tech Solutions Inc",
+        "Elite Group",
+        "Smart Labs Inc",
+        "Global Labs LLC"
+      ],
+      "uniqueValues": [
+        "Elite Services Inc",
+        "Tech Solutions Inc",
+        "Elite Group",
+        "Smart Labs Inc",
+        "Global Labs LLC",
+        "Smart Solutions",
+        "Smart Group Co",
+        "Smart Services"
+      ],
+      "uniqueValueOverflow": false
+    },
+    "@company": {
+      "count": 38,
+      "types": {
+        "string": 38
+      },
+      "examples": [
+        "company:475dcc3c-d2eb-4750-a8ce-40e6e459409d",
+        "company:bf2615bd-f6a2-4b13-aa7d-3548c80fd49e",
+        "company:6951b0da-5434-4101-a387-5a053f2cbab1",
+        "company:475dcc3c-d2eb-4750-a8ce-40e6e459409d",
+        "company:dc21495f-dd86-4b7c-8251-7be67a306e74"
+      ],
+      "uniqueValues": [
+        "company:475dcc3c-d2eb-4750-a8ce-40e6e459409d",
+        "company:bf2615bd-f6a2-4b13-aa7d-3548c80fd49e",
+        "company:6951b0da-5434-4101-a387-5a053f2cbab1",
+        "company:dc21495f-dd86-4b7c-8251-7be67a306e74",
+        "company:65e832c8-bc4e-454e-be7a-49236b829f86",
+        "company:3c92e335-8372-40d0-a967-7dce318ebec9",
+        "company:d896cbe4-a0b8-4cf0-aefe-1e014a0a76cb",
+        "company:2bc745e6-618d-4865-a2f6-a060c736930a"
+      ],
+      "uniqueValueOverflow": false
+    },
+    "@household": {
+      "count": 30,
+      "types": {
+        "string": 30
+      },
+      "examples": [
+        "household:30bfd16b-cb7b-4ca9-8aab-394354d4d434",
+        "household:30bfd16b-cb7b-4ca9-8aab-394354d4d434",
+        "household:30bfd16b-cb7b-4ca9-8aab-394354d4d434",
+        "household:30bfd16b-cb7b-4ca9-8aab-394354d4d434",
+        "household:21e1ba9b-a5dc-4986-ac8c-8b3fedb2759c"
+      ],
+      "uniqueValues": [
+        "household:30bfd16b-cb7b-4ca9-8aab-394354d4d434",
+        "household:21e1ba9b-a5dc-4986-ac8c-8b3fedb2759c",
+        "household:8c856ed3-ac33-4e7e-82d9-78b7e9cea328",
+        "household:f9b81145-de65-43ca-b9bd-73a98c99542c",
+        "household:56f9865c-0ae8-47b8-af0d-4ef520ea8ba6",
+        "household:2396c092-a9d1-480f-90ea-08559f16a22f",
+        "household:0cdd5d39-d47a-4cac-a50f-43c066a50906",
+        "household:b93f35d9-cc62-4e32-88ad-92319d1a3605",
+        "household:b2513d2f-a85c-4f7e-adad-20fba01601e1",
+        "household:91755cb6-83ec-43b2-9360-23f618b5442f",
+        "household:dd0f7d46-5a5d-4894-8a76-e96828f90703",
+        "household:ac73ed33-accf-4622-94e8-4b3ac64a646c"
+      ],
+      "uniqueValueOverflow": false
+    },
+    "@company_name": {
+      "count": 30,
+      "types": {
+        "string": 30
+      },
+      "examples": [
+        "company_name:smart_labs_inc",
+        "company_name:smart_group_co",
+        "company_name:smart_services",
+        "company_name:smart_labs_inc",
+        "company_name:elite_group"
+      ],
+      "uniqueValues": [
+        "company_name:smart_labs_inc",
+        "company_name:smart_group_co",
+        "company_name:smart_services",
+        "company_name:elite_group",
+        "company_name:elite_services_inc",
+        "company_name:tech_solutions_inc",
+        "company_name:smart_solutions",
+        "company_name:global_labs_llc"
+      ],
+      "uniqueValueOverflow": false
+    },
+    "@location": {
+      "count": 30,
+      "types": {
+        "string": 30
+      },
+      "examples": [
+        "location:usa:ga:columbus",
+        "location:usa:ga:columbus",
+        "location:usa:ga:columbus",
+        "location:usa:ga:columbus",
+        "location:usa:nc:charlotte"
+      ],
+      "uniqueValues": [
+        "location:usa:ga:columbus",
+        "location:usa:nc:charlotte",
+        "location:usa:fl:miami",
+        "location:usa:ga:augusta",
+        "location:usa:tx:houston",
+        "location:usa:fl:orlando",
+        "location:usa:fl:jacksonville",
+        "location:usa:ca:san_francisco",
+        "location:usa:il:rockford",
+        "location:usa:oh:cleveland",
+        "location:usa:pa:philadelphia",
+        "location:usa:ga:savannah"
+      ],
+      "uniqueValueOverflow": false
+    },
+    "@interests": {
+      "count": 30,
+      "types": {
+        "array": 30
+      },
+      "examples": [
+        [
+          "interest:sports",
+          "interest:yoga",
+          "interest:gardening",
+          "interest:writing"
+        ],
+        [
+          "interest:traveling",
+          "interest:yoga",
+          "interest:sports"
+        ],
+        [
+          "interest:art"
+        ],
+        [
+          "interest:running",
+          "interest:gaming",
+          "interest:cooking"
+        ],
+        [
+          "interest:traveling",
+          "interest:swimming"
+        ]
+      ],
+      "uniqueValues": [],
+      "uniqueValueOverflow": false
+    },
+    "~created_at": {
+      "count": 30,
+      "types": {
+        "string": 30
+      },
+      "examples": [
+        "2022-02-02T20:06:48.408546Z",
+        "2023-09-28T20:06:48.408661Z",
+        "2020-09-04T20:06:48.408704Z",
+        "2021-03-12T20:06:48.408743Z",
+        "2024-02-26T20:06:48.408789Z"
+      ],
+      "uniqueValues": [
+        "2022-02-02T20:06:48.408546Z",
+        "2023-09-28T20:06:48.408661Z",
+        "2020-09-04T20:06:48.408704Z",
+        "2021-03-12T20:06:48.408743Z",
+        "2024-02-26T20:06:48.408789Z",
+        "2021-07-04T20:06:48.408823Z",
+        "2024-03-03T20:06:48.408863Z",
+        "2021-11-18T20:06:48.408896Z",
+        "2022-06-22T20:06:48.408934Z",
+        "2021-05-29T20:06:48.408962Z",
+        "2024-03-09T20:06:48.409004Z",
+        "2023-10-28T20:06:48.409030Z",
+        "2020-10-30T20:06:48.409057Z",
+        "2024-04-28T20:06:48.409090Z",
+        "2023-02-09T20:06:48.409118Z",
+        "2024-03-06T20:06:48.409155Z",
+        "2023-12-11T20:06:48.409192Z",
+        "2022-04-10T20:06:48.409223Z",
+        "2023-04-01T20:06:48.409251Z",
+        "2022-08-22T20:06:48.409277Z",
+        "2021-06-23T20:06:48.409310Z",
+        "2021-01-04T20:06:48.409351Z",
+        "2023-08-16T20:06:48.409392Z",
+        "2025-05-24T20:06:48.409420Z",
+        "2025-05-09T20:06:48.409461Z"
+      ],
+      "uniqueValueOverflow": true
+    },
+    "~created_year": {
+      "count": 30,
+      "types": {
+        "number": 30
+      },
+      "examples": [
+        2022,
+        2023,
+        2020,
+        2021,
+        2024
+      ],
+      "uniqueValues": [
+        "2022",
+        "2023",
+        "2020",
+        "2021",
+        "2024",
+        "2025"
+      ],
+      "uniqueValueOverflow": false
+    },
+    "~status": {
+      "count": 30,
+      "types": {
+        "string": 30
+      },
+      "examples": [
+        "pending",
+        "active",
+        "active",
+        "pending",
+        "pending"
+      ],
+      "uniqueValues": [
+        "pending",
+        "active",
+        "inactive"
+      ],
+      "uniqueValueOverflow": false
+    },
+    "~household_id": {
+      "count": 30,
+      "types": {
+        "string": 30
+      },
+      "examples": [
+        "30bfd16b-cb7b-4ca9-8aab-394354d4d434",
+        "30bfd16b-cb7b-4ca9-8aab-394354d4d434",
+        "30bfd16b-cb7b-4ca9-8aab-394354d4d434",
+        "30bfd16b-cb7b-4ca9-8aab-394354d4d434",
+        "21e1ba9b-a5dc-4986-ac8c-8b3fedb2759c"
+      ],
+      "uniqueValues": [
+        "30bfd16b-cb7b-4ca9-8aab-394354d4d434",
+        "21e1ba9b-a5dc-4986-ac8c-8b3fedb2759c",
+        "8c856ed3-ac33-4e7e-82d9-78b7e9cea328",
+        "f9b81145-de65-43ca-b9bd-73a98c99542c",
+        "56f9865c-0ae8-47b8-af0d-4ef520ea8ba6",
+        "2396c092-a9d1-480f-90ea-08559f16a22f",
+        "0cdd5d39-d47a-4cac-a50f-43c066a50906",
+        "b93f35d9-cc62-4e32-88ad-92319d1a3605",
+        "b2513d2f-a85c-4f7e-adad-20fba01601e1",
+        "91755cb6-83ec-43b2-9360-23f618b5442f",
+        "dd0f7d46-5a5d-4894-8a76-e96828f90703",
+        "ac73ed33-accf-4622-94e8-4b3ac64a646c"
+      ],
+      "uniqueValueOverflow": false
+    },
+    "~age": {
+      "count": 30,
+      "types": {
+        "number": 30
+      },
+      "examples": [
+        58,
+        79,
+        51,
+        57,
+        21
+      ],
+      "uniqueValues": [
+        "58",
+        "79",
+        "51",
+        "57",
+        "21",
+        "60",
+        "7",
+        "59",
+        "39",
+        "45",
+        "55",
+        "48",
+        "25",
+        "35",
+        "31",
+        "18",
+        "10",
+        "34",
+        "50",
+        "49",
+        "20",
+        "24",
+        "38",
+        "81",
+        "23"
+      ],
+      "uniqueValueOverflow": false
+    },
+    "~gender": {
+      "count": 30,
+      "types": {
+        "string": 30
+      },
+      "examples": [
+        "male",
+        "female",
+        "male",
+        "nonbinary",
+        "female"
+      ],
+      "uniqueValues": [
+        "male",
+        "female",
+        "nonbinary"
+      ],
+      "uniqueValueOverflow": false
+    },
+    "~job_title": {
+      "count": 30,
+      "types": {
+        "string": 30
+      },
+      "examples": [
+        "Data Scientist",
+        "Administrator",
+        "Electrician",
+        "Teacher",
+        "Researcher"
+      ],
+      "uniqueValues": [
+        "Data Scientist",
+        "Administrator",
+        "Electrician",
+        "Teacher",
+        "Researcher",
+        "Accountant",
+        "Operations Manager",
+        "Plumber",
+        "Marketing Manager",
+        "Designer",
+        "Sales Manager",
+        "Product Manager",
+        "Consultant",
+        "Writer",
+        "Nurse"
+      ],
+      "uniqueValueOverflow": false
+    },
+    "~salary": {
+      "count": 30,
+      "types": {
+        "number": 30
+      },
+      "examples": [
+        155000,
+        166000,
+        114000,
+        61000,
+        77000
+      ],
+      "uniqueValues": [
+        "155000",
+        "166000",
+        "114000",
+        "61000",
+        "77000",
+        "122000",
+        "54000",
+        "60000",
+        "63000",
+        "171000",
+        "111000",
+        "46000",
+        "83000",
+        "162000",
+        "45000",
+        "127000",
+        "153000",
+        "76000",
+        "116000",
+        "108000",
+        "79000",
+        "170000",
+        "133000",
+        "118000"
+      ],
+      "uniqueValueOverflow": false
+    },
+    "name.first": {
+      "count": 30,
+      "types": {
+        "string": 30
+      },
+      "examples": [
+        "Daniel",
+        "Betty",
+        "Joseph",
+        "Drew",
+        "Donna"
+      ],
+      "uniqueValues": [
+        "Daniel",
+        "Betty",
+        "Joseph",
+        "Drew",
+        "Donna",
+        "Helen",
+        "Robert",
+        "Anthony",
+        "Jennifer",
+        "Matthew",
+        "Taylor",
+        "Charles",
+        "Michael",
+        "William",
+        "Nancy",
+        "Linda",
+        "Andrew",
+        "Phoenix",
+        "Sandra",
+        "Sarah",
+        "Richard",
+        "Elizabeth",
+        "Quinn",
+        "Donald"
+      ],
+      "uniqueValueOverflow": false
+    },
+    "name.last": {
+      "count": 30,
+      "types": {
+        "string": 30
+      },
+      "examples": [
+        "Moore",
+        "Moore",
+        "Moore",
+        "Moore",
+        "Wright"
+      ],
+      "uniqueValues": [
+        "Moore",
+        "Wright",
+        "Nguyen",
+        "King",
+        "Thompson",
+        "Anderson",
+        "Johnson",
+        "Green",
+        "Perez",
+        "Allen",
+        "Thomas"
+      ],
+      "uniqueValueOverflow": false
+    },
+    "name.full": {
+      "count": 30,
+      "types": {
+        "string": 30
+      },
+      "examples": [
+        "Daniel Moore",
+        "Betty Moore",
+        "Joseph Moore",
+        "Drew Moore",
+        "Donna Wright"
+      ],
+      "uniqueValues": [
+        "Daniel Moore",
+        "Betty Moore",
+        "Joseph Moore",
+        "Drew Moore",
+        "Donna Wright",
+        "Helen Wright",
+        "Robert Nguyen",
+        "Anthony Nguyen",
+        "Jennifer Moore",
+        "Matthew Moore",
+        "Taylor King",
+        "Charles King",
+        "Daniel King",
+        "Michael King",
+        "William King",
+        "Nancy Thompson",
+        "Joseph Anderson",
+        "Nancy Anderson",
+        "Linda Anderson",
+        "Andrew Anderson",
+        "Phoenix Johnson",
+        "Sandra Johnson",
+        "Sarah Green",
+        "Richard Green",
+        "Elizabeth Perez"
+      ],
+      "uniqueValueOverflow": true
+    },
+    "contact": {
+      "count": 30,
+      "types": {
+        "object": 30
+      },
+      "examples": [
+        {
+          "email": "daniel.moore@yahoo.com",
+          "phone": "350-267-8573"
+        },
+        {
+          "email": "betty.moore@outlook.com",
+          "phone": "758-569-3340"
+        },
+        {
+          "email": "joseph.moore@yahoo.com",
+          "phone": "911-796-7916"
+        },
+        {
+          "email": "drew.moore56@hotmail.com",
+          "phone": "261-564-1053"
+        },
+        {
+          "email": "donna.wright63@gmail.com",
+          "phone": "935-170-9727"
+        }
+      ],
+      "uniqueValues": [],
+      "uniqueValueOverflow": false
+    },
+    "contact.email": {
+      "count": 30,
+      "types": {
+        "string": 30
+      },
+      "examples": [
+        "daniel.moore@yahoo.com",
+        "betty.moore@outlook.com",
+        "joseph.moore@yahoo.com",
+        "drew.moore56@hotmail.com",
+        "donna.wright63@gmail.com"
+      ],
+      "uniqueValues": [
+        "daniel.moore@yahoo.com",
+        "betty.moore@outlook.com",
+        "joseph.moore@yahoo.com",
+        "drew.moore56@hotmail.com",
+        "donna.wright63@gmail.com",
+        "helen.wright@outlook.com",
+        "robert.nguyen17@outlook.com",
+        "anthony.nguyen@gmail.com",
+        "jennifer.moore@gmail.com",
+        "matthew.moore38@outlook.com",
+        "taylor.king@gmail.com",
+        "charles.king@hotmail.com",
+        "daniel.king@hotmail.com",
+        "michael.king82@hotmail.com",
+        "william.king89@gmail.com",
+        "nancy.thompson@yahoo.com",
+        "joseph.anderson@hotmail.com",
+        "nancy.anderson56@hotmail.com",
+        "linda.anderson@hotmail.com",
+        "andrew.anderson@yahoo.com",
+        "phoenix.johnson@outlook.com",
+        "sandra.johnson@icloud.com",
+        "sarah.green20@icloud.com",
+        "richard.green@outlook.com",
+        "elizabeth.perez60@outlook.com"
+      ],
+      "uniqueValueOverflow": true
+    },
+    "contact.phone": {
+      "count": 30,
+      "types": {
+        "string": 30
+      },
+      "examples": [
+        "350-267-8573",
+        "758-569-3340",
+        "911-796-7916",
+        "261-564-1053",
+        "935-170-9727"
+      ],
+      "uniqueValues": [
+        "350-267-8573",
+        "758-569-3340",
+        "911-796-7916",
+        "261-564-1053",
+        "935-170-9727",
+        "765-482-8177",
+        "840-684-8744",
+        "447-919-2790",
+        "969-342-3724",
+        "322-159-9883",
+        "683-352-1651",
+        "174-109-8508",
+        "926-769-9666",
+        "973-370-9280",
+        "252-658-1590",
+        "125-283-6442",
+        "621-509-9785",
+        "101-632-9821",
+        "296-530-7211",
+        "390-627-6491",
+        "349-251-1090",
+        "709-424-8251",
+        "336-492-3503",
+        "460-405-7389",
+        "286-151-5262"
+      ],
+      "uniqueValueOverflow": true
+    },
+    "~city": {
+      "count": 19,
+      "types": {
+        "string": 19
+      },
+      "examples": [
+        "New York",
+        "Syracuse",
+        "Raleigh",
+        "Warren",
+        "Springfield"
+      ],
+      "uniqueValues": [
+        "New York",
+        "Syracuse",
+        "Raleigh",
+        "Warren",
+        "Springfield",
+        "Harrisburg",
+        "Rochester",
+        "San Francisco",
+        "Columbus",
+        "Charlotte",
+        "Miami",
+        "Augusta",
+        "Houston",
+        "Orlando",
+        "Jacksonville",
+        "Rockford",
+        "Cleveland",
+        "Philadelphia",
+        "Savannah"
+      ],
+      "uniqueValueOverflow": false
+    },
+    "~state": {
+      "count": 19,
+      "types": {
+        "string": 19
+      },
+      "examples": [
+        "NY",
+        "NY",
+        "NC",
+        "MI",
+        "IL"
+      ],
+      "uniqueValues": [
+        "NY",
+        "NC",
+        "MI",
+        "IL",
+        "PA",
+        "CA",
+        "GA",
+        "FL",
+        "TX",
+        "OH"
+      ],
+      "uniqueValueOverflow": false
+    },
+    "~country": {
+      "count": 19,
+      "types": {
+        "string": 19
+      },
+      "examples": [
+        "USA",
+        "USA",
+        "USA",
+        "USA",
+        "USA"
+      ],
+      "uniqueValues": [
+        "USA"
+      ],
+      "uniqueValueOverflow": false
+    },
+    "@industry": {
+      "count": 8,
+      "types": {
+        "string": 8
+      },
+      "examples": [
+        "industry:agriculture",
+        "industry:transportation",
+        "industry:consulting",
+        "industry:agriculture",
+        "industry:consulting"
+      ],
+      "uniqueValues": [
+        "industry:agriculture",
+        "industry:transportation",
+        "industry:consulting",
+        "industry:real_estate",
+        "industry:media"
+      ],
+      "uniqueValueOverflow": false
+    },
+    "@headquarters": {
+      "count": 8,
+      "types": {
+        "string": 8
+      },
+      "examples": [
+        "location:usa:ny:new_york",
+        "location:usa:ny:syracuse",
+        "location:usa:nc:raleigh",
+        "location:usa:mi:warren",
+        "location:usa:il:springfield"
+      ],
+      "uniqueValues": [
+        "location:usa:ny:new_york",
+        "location:usa:ny:syracuse",
+        "location:usa:nc:raleigh",
+        "location:usa:mi:warren",
+        "location:usa:il:springfield",
+        "location:usa:pa:harrisburg",
+        "location:usa:ny:rochester",
+        "location:usa:ca:san_francisco"
+      ],
+      "uniqueValueOverflow": false
+    },
+    "~name_anchor": {
+      "count": 8,
+      "types": {
+        "string": 8
+      },
+      "examples": [
+        "company_name:elite_services_inc",
+        "company_name:tech_solutions_inc",
+        "company_name:elite_group",
+        "company_name:smart_labs_inc",
+        "company_name:global_labs_llc"
+      ],
+      "uniqueValues": [
+        "company_name:elite_services_inc",
+        "company_name:tech_solutions_inc",
+        "company_name:elite_group",
+        "company_name:smart_labs_inc",
+        "company_name:global_labs_llc",
+        "company_name:smart_solutions",
+        "company_name:smart_group_co",
+        "company_name:smart_services"
+      ],
+      "uniqueValueOverflow": false
+    },
+    "~industry": {
+      "count": 8,
+      "types": {
+        "string": 8
+      },
+      "examples": [
+        "Agriculture",
+        "Transportation",
+        "Consulting",
+        "Agriculture",
+        "Consulting"
+      ],
+      "uniqueValues": [
+        "Agriculture",
+        "Transportation",
+        "Consulting",
+        "Real Estate",
+        "Media"
+      ],
+      "uniqueValueOverflow": false
+    },
+    "~size": {
+      "count": 8,
+      "types": {
+        "number": 8
+      },
+      "examples": [
+        3408,
+        19776,
+        7273,
+        13898,
+        3219
+      ],
+      "uniqueValues": [
+        "3408",
+        "19776",
+        "7273",
+        "13898",
+        "3219",
+        "4140",
+        "6350",
+        "7678"
+      ],
+      "uniqueValueOverflow": false
+    },
+    "~founded": {
+      "count": 8,
+      "types": {
+        "number": 8
+      },
+      "examples": [
+        2019,
+        1953,
+        2007,
+        1993,
+        1995
+      ],
+      "uniqueValues": [
+        "2019",
+        "1953",
+        "2007",
+        "1993",
+        "1995",
+        "1998",
+        "1958",
+        "1962"
+      ],
+      "uniqueValueOverflow": false
+    },
+    "headquarters": {
+      "count": 8,
+      "types": {
+        "object": 8
+      },
+      "examples": [
+        {
+          "city": "New York",
+          "state": "NY",
+          "country": "USA"
+        },
+        {
+          "city": "Syracuse",
+          "state": "NY",
+          "country": "USA"
+        },
+        {
+          "city": "Raleigh",
+          "state": "NC",
+          "country": "USA"
+        },
+        {
+          "city": "Warren",
+          "state": "MI",
+          "country": "USA"
+        },
+        {
+          "city": "Springfield",
+          "state": "IL",
+          "country": "USA"
+        }
+      ],
+      "uniqueValues": [],
+      "uniqueValueOverflow": false
+    },
+    "headquarters.city": {
+      "count": 8,
+      "types": {
+        "string": 8
+      },
+      "examples": [
+        "New York",
+        "Syracuse",
+        "Raleigh",
+        "Warren",
+        "Springfield"
+      ],
+      "uniqueValues": [
+        "New York",
+        "Syracuse",
+        "Raleigh",
+        "Warren",
+        "Springfield",
+        "Harrisburg",
+        "Rochester",
+        "San Francisco"
+      ],
+      "uniqueValueOverflow": false
+    },
+    "headquarters.state": {
+      "count": 8,
+      "types": {
+        "string": 8
+      },
+      "examples": [
+        "NY",
+        "NY",
+        "NC",
+        "MI",
+        "IL"
+      ],
+      "uniqueValues": [
+        "NY",
+        "NC",
+        "MI",
+        "IL",
+        "PA",
+        "CA"
+      ],
+      "uniqueValueOverflow": false
+    },
+    "headquarters.country": {
+      "count": 8,
+      "types": {
+        "string": 8
+      },
+      "examples": [
+        "USA",
+        "USA",
+        "USA",
+        "USA",
+        "USA"
+      ],
+      "uniqueValues": [
+        "USA"
+      ],
+      "uniqueValueOverflow": false
+    }
+  },
+  "possibleIdFields": {
+    "~raw_id": {
+      "count": 50,
+      "types": {
+        "string": 50
+      },
+      "examples": [
+        "65e832c8-bc4e-454e-be7a-49236b829f86",
+        "3c92e335-8372-40d0-a967-7dce318ebec9",
+        "dc21495f-dd86-4b7c-8251-7be67a306e74",
+        "475dcc3c-d2eb-4750-a8ce-40e6e459409d",
+        "2bc745e6-618d-4865-a2f6-a060c736930a"
+      ],
+      "uniqueValues": [
+        "65e832c8-bc4e-454e-be7a-49236b829f86",
+        "3c92e335-8372-40d0-a967-7dce318ebec9",
+        "dc21495f-dd86-4b7c-8251-7be67a306e74",
+        "475dcc3c-d2eb-4750-a8ce-40e6e459409d",
+        "2bc745e6-618d-4865-a2f6-a060c736930a",
+        "d896cbe4-a0b8-4cf0-aefe-1e014a0a76cb",
+        "bf2615bd-f6a2-4b13-aa7d-3548c80fd49e",
+        "6951b0da-5434-4101-a387-5a053f2cbab1",
+        "9c24b5ab-a6d9-4d06-bf97-155c3aac80b2",
+        "0c53e810-70e7-416a-91ca-1f0ba64c491d",
+        "8555dfd0-2b06-455e-9077-b29a0d01e7aa",
+        "9d9f738b-b9de-4338-b241-86f41bf1739e",
+        "f5ff34dc-9566-4af0-a203-103ab0203d86",
+        "b2202a1b-b000-4a7a-9625-cb36ccd0910e",
+        "1f2422f7-5579-4728-9bad-10efe791c054",
+        "b7081da3-1311-4692-a17d-9379305e7c24",
+        "8b15d22e-ea43-4aa0-b95e-681bb0f87164",
+        "6b017efb-2631-41e9-ac5c-4198191daa38",
+        "e3997011-8319-44b8-9e04-4ec918919135",
+        "bf2390b5-ed89-4366-bf3c-f2da8893ce29",
+        "d63ee197-2f55-4d8e-b38a-f5a2a65cfd7e",
+        "71ecf619-f9f2-4b30-ad69-bedc953238dc",
+        "c4aec1e0-f47d-43d9-82b6-14ad9040f72c",
+        "cce7e64d-8b62-4fc0-9bcc-1c11530b7ab8",
+        "446f160f-9448-47d6-a532-7ecf2e38e508"
+      ],
+      "uniqueValueOverflow": true
+    },
+    "~household_id": {
+      "count": 30,
+      "types": {
+        "string": 30
+      },
+      "examples": [
+        "30bfd16b-cb7b-4ca9-8aab-394354d4d434",
+        "30bfd16b-cb7b-4ca9-8aab-394354d4d434",
+        "30bfd16b-cb7b-4ca9-8aab-394354d4d434",
+        "30bfd16b-cb7b-4ca9-8aab-394354d4d434",
+        "21e1ba9b-a5dc-4986-ac8c-8b3fedb2759c"
+      ],
+      "uniqueValues": [
+        "30bfd16b-cb7b-4ca9-8aab-394354d4d434",
+        "21e1ba9b-a5dc-4986-ac8c-8b3fedb2759c",
+        "8c856ed3-ac33-4e7e-82d9-78b7e9cea328",
+        "f9b81145-de65-43ca-b9bd-73a98c99542c",
+        "56f9865c-0ae8-47b8-af0d-4ef520ea8ba6",
+        "2396c092-a9d1-480f-90ea-08559f16a22f",
+        "0cdd5d39-d47a-4cac-a50f-43c066a50906",
+        "b93f35d9-cc62-4e32-88ad-92319d1a3605",
+        "b2513d2f-a85c-4f7e-adad-20fba01601e1",
+        "91755cb6-83ec-43b2-9360-23f618b5442f",
+        "dd0f7d46-5a5d-4894-8a76-e96828f90703",
+        "ac73ed33-accf-4622-94e8-4b3ac64a646c"
+      ],
+      "uniqueValueOverflow": false
+    }
+  },
+  "possibleRelationshipFields": {
+    "~source": {
+      "count": 100,
+      "types": {
+        "string": 100
+      },
+      "examples": [
+        "people_companies",
+        "people_companies",
+        "people_companies",
+        "people_companies",
+        "people_companies"
+      ],
+      "uniqueValues": [
+        "people_companies"
+      ],
+      "uniqueValueOverflow": false
+    }
+  },
+  "possibleMetadataFields": {
+    "~source": {
+      "count": 100,
+      "types": {
+        "string": 100
+      },
+      "examples": [
+        "people_companies",
+        "people_companies",
+        "people_companies",
+        "people_companies",
+        "people_companies"
+      ],
+      "uniqueValues": [
+        "people_companies"
+      ],
+      "uniqueValueOverflow": false
+    },
+    "~created_at": {
+      "count": 30,
+      "types": {
+        "string": 30
+      },
+      "examples": [
+        "2022-02-02T20:06:48.408546Z",
+        "2023-09-28T20:06:48.408661Z",
+        "2020-09-04T20:06:48.408704Z",
+        "2021-03-12T20:06:48.408743Z",
+        "2024-02-26T20:06:48.408789Z"
+      ],
+      "uniqueValues": [
+        "2022-02-02T20:06:48.408546Z",
+        "2023-09-28T20:06:48.408661Z",
+        "2020-09-04T20:06:48.408704Z",
+        "2021-03-12T20:06:48.408743Z",
+        "2024-02-26T20:06:48.408789Z",
+        "2021-07-04T20:06:48.408823Z",
+        "2024-03-03T20:06:48.408863Z",
+        "2021-11-18T20:06:48.408896Z",
+        "2022-06-22T20:06:48.408934Z",
+        "2021-05-29T20:06:48.408962Z",
+        "2024-03-09T20:06:48.409004Z",
+        "2023-10-28T20:06:48.409030Z",
+        "2020-10-30T20:06:48.409057Z",
+        "2024-04-28T20:06:48.409090Z",
+        "2023-02-09T20:06:48.409118Z",
+        "2024-03-06T20:06:48.409155Z",
+        "2023-12-11T20:06:48.409192Z",
+        "2022-04-10T20:06:48.409223Z",
+        "2023-04-01T20:06:48.409251Z",
+        "2022-08-22T20:06:48.409277Z",
+        "2021-06-23T20:06:48.409310Z",
+        "2021-01-04T20:06:48.409351Z",
+        "2023-08-16T20:06:48.409392Z",
+        "2025-05-24T20:06:48.409420Z",
+        "2025-05-09T20:06:48.409461Z"
+      ],
+      "uniqueValueOverflow": true
+    },
+    "~created_year": {
+      "count": 30,
+      "types": {
+        "number": 30
+      },
+      "examples": [
+        2022,
+        2023,
+        2020,
+        2021,
+        2024
+      ],
+      "uniqueValues": [
+        "2022",
+        "2023",
+        "2020",
+        "2021",
+        "2024",
+        "2025"
+      ],
+      "uniqueValueOverflow": false
+    },
+    "~status": {
+      "count": 30,
+      "types": {
+        "string": 30
+      },
+      "examples": [
+        "pending",
+        "active",
+        "active",
+        "pending",
+        "pending"
+      ],
+      "uniqueValues": [
+        "pending",
+        "active",
+        "inactive"
+      ],
+      "uniqueValueOverflow": false
+    },
+    "~country": {
+      "count": 19,
+      "types": {
+        "string": 19
+      },
+      "examples": [
+        "USA",
+        "USA",
+        "USA",
+        "USA",
+        "USA"
+      ],
+      "uniqueValues": [
+        "USA"
+      ],
+      "uniqueValueOverflow": false
+    },
+    "headquarters.country": {
+      "count": 8,
+      "types": {
+        "string": 8
+      },
+      "examples": [
+        "USA",
+        "USA",
+        "USA",
+        "USA",
+        "USA"
+      ],
+      "uniqueValues": [
+        "USA"
+      ],
+      "uniqueValueOverflow": false
+    }
+  },
+  "sampleRecords": [
+    {
+      "#": "company:65e832c8-bc4e-454e-be7a-49236b829f86",
+      "^": "company",
+      "@industry": "industry:agriculture",
+      "@headquarters": "location:usa:ny:new_york",
+      "~source": "people_companies",
+      "~raw_id": "65e832c8-bc4e-454e-be7a-49236b829f86",
+      "~name": "Elite Services Inc",
+      "~name_anchor": "company_name:elite_services_inc",
+      "~industry": "Agriculture",
+      "~size": 3408,
+      "~founded": 2019,
+      "name": "Elite Services Inc",
+      "headquarters": {
+        "city": "New York",
+        "state": "NY",
+        "country": "USA"
+      }
+    },
+    {
+      "#": "company:3c92e335-8372-40d0-a967-7dce318ebec9",
+      "^": "company",
+      "@industry": "industry:transportation",
+      "@headquarters": "location:usa:ny:syracuse",
+      "~source": "people_companies",
+      "~raw_id": "3c92e335-8372-40d0-a967-7dce318ebec9",
+      "~name": "Tech Solutions Inc",
+      "~name_anchor": "company_name:tech_solutions_inc",
+      "~industry": "Transportation",
+      "~size": 19776,
+      "~founded": 1953,
+      "name": "Tech Solutions Inc",
+      "headquarters": {
+        "city": "Syracuse",
+        "state": "NY",
+        "country": "USA"
+      }
+    },
+    {
+      "#": "company:dc21495f-dd86-4b7c-8251-7be67a306e74",
+      "^": "company",
+      "@industry": "industry:consulting",
+      "@headquarters": "location:usa:nc:raleigh",
+      "~source": "people_companies",
+      "~raw_id": "dc21495f-dd86-4b7c-8251-7be67a306e74",
+      "~name": "Elite Group",
+      "~name_anchor": "company_name:elite_group",
+      "~industry": "Consulting",
+      "~size": 7273,
+      "~founded": 2007,
+      "name": "Elite Group",
+      "headquarters": {
+        "city": "Raleigh",
+        "state": "NC",
+        "country": "USA"
+      }
+    },
+    {
+      "#": "company:475dcc3c-d2eb-4750-a8ce-40e6e459409d",
+      "^": "company",
+      "@industry": "industry:agriculture",
+      "@headquarters": "location:usa:mi:warren",
+      "~source": "people_companies",
+      "~raw_id": "475dcc3c-d2eb-4750-a8ce-40e6e459409d",
+      "~name": "Smart Labs Inc",
+      "~name_anchor": "company_name:smart_labs_inc",
+      "~industry": "Agriculture",
+      "~size": 13898,
+      "~founded": 1993,
+      "name": "Smart Labs Inc",
+      "headquarters": {
+        "city": "Warren",
+        "state": "MI",
+        "country": "USA"
+      }
+    },
+    {
+      "#": "company:2bc745e6-618d-4865-a2f6-a060c736930a",
+      "^": "company",
+      "@industry": "industry:consulting",
+      "@headquarters": "location:usa:il:springfield",
+      "~source": "people_companies",
+      "~raw_id": "2bc745e6-618d-4865-a2f6-a060c736930a",
+      "~name": "Global Labs LLC",
+      "~name_anchor": "company_name:global_labs_llc",
+      "~industry": "Consulting",
+      "~size": 3219,
+      "~founded": 1995,
+      "name": "Global Labs LLC",
+      "headquarters": {
+        "city": "Springfield",
+        "state": "IL",
+        "country": "USA"
+      }
+    }
+  ],
+  "parseErrors": [],
+  "finishedAt": "2026-05-21T08:18:21.397Z",
+  "profileMs": 3.528,
+  "averageTopLevelFields": 9.68,
+  "validJsonRatio": 1
+}

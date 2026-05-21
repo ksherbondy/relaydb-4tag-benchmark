@@ -1,0 +1,18 @@
+{
+  "inputPath": "/Users/sherbondy/Desktop/projects/relaydb-4tag-benchmark/datasets/raw/skate_reddit.jsonl",
+  "outputPath": "/Users/sherbondy/Desktop/projects/relaydb-4tag-benchmark/datasets/tagged/skate_reddit.4tag.jsonl",
+  "sourceName": "skate_reddit",
+  "startedAt": "2026-05-21T07:02:21.093Z",
+  "totalLines": 52962,
+  "convertedRecords": 52962,
+  "invalidJsonLines": 0,
+  "blankLines": 0,
+  "commentNodes": 52962,
+  "subredditNodes": 1,
+  "totalOutputNodes": 52963,
+  "inputBytes": 12971616,
+  "outputBytes": 18895969,
+  "errors": [],
+  "finishedAt": "2026-05-21T07:02:21.168Z",
+  "convertMs": 76.113
+}

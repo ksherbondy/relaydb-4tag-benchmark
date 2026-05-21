@@ -1,0 +1,109 @@
+{
+  "createdAt": "2026-05-21T07:20:40.784Z",
+  "iterations": 25,
+  "queriesPerRun": 1000000,
+  "files": {
+    "raw": {
+      "path": "/Users/sherbondy/Desktop/projects/relaydb-4tag-benchmark/datasets/raw/skate_reddit.jsonl",
+      "bytes": 12971616
+    },
+    "fourTag": {
+      "path": "/Users/sherbondy/Desktop/projects/relaydb-4tag-benchmark/datasets/tagged/skate_reddit.4tag.jsonl",
+      "bytes": 18895969
+    }
+  },
+  "raw": {
+    "label": "Raw JSONL",
+    "records": 52962,
+    "indexedRecords": 52962,
+    "dateBuckets": 2869,
+    "exactTotalCount": 18454870,
+    "rangeTotalCount": 129172508,
+    "loadParseMs": {
+      "minMs": 23.235833,
+      "maxMs": 31.972875,
+      "avgMs": 26.143063
+    },
+    "indexMs": {
+      "minMs": 22.823208,
+      "maxMs": 26.197917,
+      "avgMs": 24.041115
+    },
+    "setupMs": {
+      "minMs": 47.050209,
+      "maxMs": 56.539042,
+      "avgMs": 50.436405
+    },
+    "exactQueryThroughputMs": {
+      "minMs": 6.615666,
+      "maxMs": 8.505042,
+      "avgMs": 7.748265
+    },
+    "rangeQueryThroughputMs": {
+      "minMs": 106.926541,
+      "maxMs": 201.9625,
+      "avgMs": 151.403948
+    },
+    "queryOnlyMs": {
+      "minMs": 114.090249,
+      "maxMs": 209.675667,
+      "avgMs": 159.152213
+    },
+    "totalMs": {
+      "minMs": 161.140458,
+      "maxMs": 259.45675,
+      "avgMs": 209.588618
+    }
+  },
+  "fourTag": {
+    "label": "4-tag JSONL",
+    "records": 52963,
+    "indexedRecords": 52962,
+    "dateBuckets": 2869,
+    "exactTotalCount": 18454870,
+    "rangeTotalCount": 129172508,
+    "loadParseMs": {
+      "minMs": 45.600208,
+      "maxMs": 49.632125,
+      "avgMs": 47.233828
+    },
+    "indexMs": {
+      "minMs": 23.363125,
+      "maxMs": 29.20525,
+      "avgMs": 25.575942
+    },
+    "setupMs": {
+      "minMs": 70.392375,
+      "maxMs": 76.463916,
+      "avgMs": 73.047807
+    },
+    "exactQueryThroughputMs": {
+      "minMs": 5.620625,
+      "maxMs": 8.442625,
+      "avgMs": 7.238505
+    },
+    "rangeQueryThroughputMs": {
+      "minMs": 106.583834,
+      "maxMs": 197.830875,
+      "avgMs": 152.06578
+    },
+    "queryOnlyMs": {
+      "minMs": 113.63375,
+      "maxMs": 205.101292,
+      "avgMs": 159.304285
+    },
+    "totalMs": {
+      "minMs": 184.376418,
+      "maxMs": 276.848792,
+      "avgMs": 232.352092
+    }
+  },
+  "notes": [
+    "This benchmark tests hot query throughput after setup.",
+    "Setup includes load, parse, and date-index construction.",
+    "Query-only time excludes setup and measures repeated exact-date and date-range queries.",
+    "Exact-date queries use Map lookups.",
+    "Range queries use binary search over sorted timestamp arrays.",
+    "This benchmark does not test RelayDB binary artifacts."
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "createdAt": "2026-05-21T07:16:18.524Z",
+  "iterations": 25,
+  "exactDate": "2012-03-25",
+  "rangeStartDate": "2012-03-25",
+  "rangeEndDate": "2012-04-01",
+  "files": {
+    "raw": {
+      "path": "/Users/sherbondy/Desktop/projects/relaydb-4tag-benchmark/datasets/raw/skate_reddit.jsonl",
+      "bytes": 12971616
+    },
+    "fourTag": {
+      "path": "/Users/sherbondy/Desktop/projects/relaydb-4tag-benchmark/datasets/tagged/skate_reddit.4tag.jsonl",
+      "bytes": 18895969
+    }
+  },
+  "raw": {
+    "label": "Raw JSONL",
+    "records": 52962,
+    "indexedRecords": 52962,
+    "dateBuckets": 2869,
+    "exactCount": 16,
+    "rangeCount": 127,
+    "loadParseMs": {
+      "minMs": 23.26975,
+      "maxMs": 29.9955,
+      "avgMs": 26.419375
+    },
+    "indexMs": {
+      "minMs": 23.650625,
+      "maxMs": 28.4155,
+      "avgMs": 24.681048
+    },
+    "exactQueryMs": {
+      "minMs": 0.000333,
+      "maxMs": 0.001084,
+      "avgMs": 0.000725
+    },
+    "rangeQueryMs": {
+      "minMs": 0.000708,
+      "maxMs": 0.010083,
+      "avgMs": 0.001792
+    },
+    "totalMs": {
+      "minMs": 48.93125,
+      "maxMs": 55.031583,
+      "avgMs": 51.113553
+    }
+  },
+  "fourTag": {
+    "label": "4-tag JSONL",
+    "records": 52963,
+    "indexedRecords": 52962,
+    "dateBuckets": 2869,
+    "exactCount": 16,
+    "rangeCount": 127,
+    "loadParseMs": {
+      "minMs": 45.309291,
+      "maxMs": 51.034625,
+      "avgMs": 47.871358
+    },
+    "indexMs": {
+      "minMs": 23.098125,
+      "maxMs": 29.353708,
+      "avgMs": 24.455113
+    },
+    "exactQueryMs": {
+      "minMs": 0.000417,
+      "maxMs": 0.001584,
+      "avgMs": 0.00075
+    },
+    "rangeQueryMs": {
+      "minMs": 0.000708,
+      "maxMs": 0.00375,
+      "avgMs": 0.001523
+    },
+    "totalMs": {
+      "minMs": 68.98475,
+      "maxMs": 76.670291,
+      "avgMs": 72.33836
+    }
+  },
+  "notes": [
+    "This benchmark compares date-query behavior over raw JSONL and 4-tag JSONL.",
+    "Raw JSONL reads timestamps from meta.created_utc.",
+    "4-tag JSONL reads timestamps from ~created_utc and filters to ^ = reddit_comment.",
+    "Both paths build a date bucket index and a sorted timestamp index before querying.",
+    "Exact-date queries use a Map lookup.",
+    "Range queries use binary search over the sorted timestamp index."
+  ]
+}

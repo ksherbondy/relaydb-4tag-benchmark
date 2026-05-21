@@ -1,0 +1,1115 @@
+{
+  "inputPath": "datasets/tagged/companies.4tag.jsonl",
+  "fileName": "companies.4tag.jsonl",
+  "fileSizeBytes": 6420,
+  "startedAt": "2026-05-21T08:18:04.717Z",
+  "totalLines": 29,
+  "validJsonLines": 29,
+  "invalidJsonLines": 0,
+  "blankLines": 0,
+  "totalTopLevelFieldsSeen": 212,
+  "maxDepth": 2,
+  "recordSizeBytes": {
+    "min": 82,
+    "max": 454,
+    "total": 6391,
+    "average": 220.379
+  },
+  "topLevelFields": {
+    "#": {
+      "count": 29,
+      "types": {
+        "string": 29
+      },
+      "examples": [
+        "company:65e832c8-bc4e-454e-be7a-49236b829f86",
+        "company:3c92e335-8372-40d0-a967-7dce318ebec9",
+        "company:dc21495f-dd86-4b7c-8251-7be67a306e74",
+        "company:475dcc3c-d2eb-4750-a8ce-40e6e459409d",
+        "company:2bc745e6-618d-4865-a2f6-a060c736930a"
+      ],
+      "uniqueValues": [
+        "company:65e832c8-bc4e-454e-be7a-49236b829f86",
+        "company:3c92e335-8372-40d0-a967-7dce318ebec9",
+        "company:dc21495f-dd86-4b7c-8251-7be67a306e74",
+        "company:475dcc3c-d2eb-4750-a8ce-40e6e459409d",
+        "company:2bc745e6-618d-4865-a2f6-a060c736930a",
+        "company:d896cbe4-a0b8-4cf0-aefe-1e014a0a76cb",
+        "company:bf2615bd-f6a2-4b13-aa7d-3548c80fd49e",
+        "company:6951b0da-5434-4101-a387-5a053f2cbab1",
+        "company_name:elite_services_inc",
+        "industry:agriculture",
+        "location:usa:ny:new_york",
+        "company_name:tech_solutions_inc",
+        "industry:transportation",
+        "location:usa:ny:syracuse",
+        "company_name:elite_group",
+        "industry:consulting",
+        "location:usa:nc:raleigh",
+        "company_name:smart_labs_inc",
+        "location:usa:mi:warren",
+        "company_name:global_labs_llc",
+        "location:usa:il:springfield",
+        "company_name:smart_solutions",
+        "location:usa:pa:harrisburg",
+        "company_name:smart_group_co",
+        "industry:real_estate"
+      ],
+      "uniqueValueOverflow": true
+    },
+    "^": {
+      "count": 29,
+      "types": {
+        "string": 29
+      },
+      "examples": [
+        "company",
+        "company",
+        "company",
+        "company",
+        "company"
+      ],
+      "uniqueValues": [
+        "company",
+        "company_name_alias",
+        "industry",
+        "location"
+      ],
+      "uniqueValueOverflow": false
+    },
+    "~source": {
+      "count": 29,
+      "types": {
+        "string": 29
+      },
+      "examples": [
+        "people_companies",
+        "people_companies",
+        "people_companies",
+        "people_companies",
+        "people_companies"
+      ],
+      "uniqueValues": [
+        "people_companies"
+      ],
+      "uniqueValueOverflow": false
+    },
+    "~name": {
+      "count": 21,
+      "types": {
+        "string": 21
+      },
+      "examples": [
+        "Elite Services Inc",
+        "Tech Solutions Inc",
+        "Elite Group",
+        "Smart Labs Inc",
+        "Global Labs LLC"
+      ],
+      "uniqueValues": [
+        "Elite Services Inc",
+        "Tech Solutions Inc",
+        "Elite Group",
+        "Smart Labs Inc",
+        "Global Labs LLC",
+        "Smart Solutions",
+        "Smart Group Co",
+        "Smart Services",
+        "Agriculture",
+        "Transportation",
+        "Consulting",
+        "Real Estate",
+        "Media"
+      ],
+      "uniqueValueOverflow": false
+    },
+    "@industry": {
+      "count": 8,
+      "types": {
+        "string": 8
+      },
+      "examples": [
+        "industry:agriculture",
+        "industry:transportation",
+        "industry:consulting",
+        "industry:agriculture",
+        "industry:consulting"
+      ],
+      "uniqueValues": [
+        "industry:agriculture",
+        "industry:transportation",
+        "industry:consulting",
+        "industry:real_estate",
+        "industry:media"
+      ],
+      "uniqueValueOverflow": false
+    },
+    "@headquarters": {
+      "count": 8,
+      "types": {
+        "string": 8
+      },
+      "examples": [
+        "location:usa:ny:new_york",
+        "location:usa:ny:syracuse",
+        "location:usa:nc:raleigh",
+        "location:usa:mi:warren",
+        "location:usa:il:springfield"
+      ],
+      "uniqueValues": [
+        "location:usa:ny:new_york",
+        "location:usa:ny:syracuse",
+        "location:usa:nc:raleigh",
+        "location:usa:mi:warren",
+        "location:usa:il:springfield",
+        "location:usa:pa:harrisburg",
+        "location:usa:ny:rochester",
+        "location:usa:ca:san_francisco"
+      ],
+      "uniqueValueOverflow": false
+    },
+    "~raw_id": {
+      "count": 8,
+      "types": {
+        "string": 8
+      },
+      "examples": [
+        "65e832c8-bc4e-454e-be7a-49236b829f86",
+        "3c92e335-8372-40d0-a967-7dce318ebec9",
+        "dc21495f-dd86-4b7c-8251-7be67a306e74",
+        "475dcc3c-d2eb-4750-a8ce-40e6e459409d",
+        "2bc745e6-618d-4865-a2f6-a060c736930a"
+      ],
+      "uniqueValues": [
+        "65e832c8-bc4e-454e-be7a-49236b829f86",
+        "3c92e335-8372-40d0-a967-7dce318ebec9",
+        "dc21495f-dd86-4b7c-8251-7be67a306e74",
+        "475dcc3c-d2eb-4750-a8ce-40e6e459409d",
+        "2bc745e6-618d-4865-a2f6-a060c736930a",
+        "d896cbe4-a0b8-4cf0-aefe-1e014a0a76cb",
+        "bf2615bd-f6a2-4b13-aa7d-3548c80fd49e",
+        "6951b0da-5434-4101-a387-5a053f2cbab1"
+      ],
+      "uniqueValueOverflow": false
+    },
+    "~name_anchor": {
+      "count": 8,
+      "types": {
+        "string": 8
+      },
+      "examples": [
+        "company_name:elite_services_inc",
+        "company_name:tech_solutions_inc",
+        "company_name:elite_group",
+        "company_name:smart_labs_inc",
+        "company_name:global_labs_llc"
+      ],
+      "uniqueValues": [
+        "company_name:elite_services_inc",
+        "company_name:tech_solutions_inc",
+        "company_name:elite_group",
+        "company_name:smart_labs_inc",
+        "company_name:global_labs_llc",
+        "company_name:smart_solutions",
+        "company_name:smart_group_co",
+        "company_name:smart_services"
+      ],
+      "uniqueValueOverflow": false
+    },
+    "~industry": {
+      "count": 8,
+      "types": {
+        "string": 8
+      },
+      "examples": [
+        "Agriculture",
+        "Transportation",
+        "Consulting",
+        "Agriculture",
+        "Consulting"
+      ],
+      "uniqueValues": [
+        "Agriculture",
+        "Transportation",
+        "Consulting",
+        "Real Estate",
+        "Media"
+      ],
+      "uniqueValueOverflow": false
+    },
+    "~size": {
+      "count": 8,
+      "types": {
+        "number": 8
+      },
+      "examples": [
+        3408,
+        19776,
+        7273,
+        13898,
+        3219
+      ],
+      "uniqueValues": [
+        "3408",
+        "19776",
+        "7273",
+        "13898",
+        "3219",
+        "4140",
+        "6350",
+        "7678"
+      ],
+      "uniqueValueOverflow": false
+    },
+    "~founded": {
+      "count": 8,
+      "types": {
+        "number": 8
+      },
+      "examples": [
+        2019,
+        1953,
+        2007,
+        1993,
+        1995
+      ],
+      "uniqueValues": [
+        "2019",
+        "1953",
+        "2007",
+        "1993",
+        "1995",
+        "1998",
+        "1958",
+        "1962"
+      ],
+      "uniqueValueOverflow": false
+    },
+    "name": {
+      "count": 8,
+      "types": {
+        "string": 8
+      },
+      "examples": [
+        "Elite Services Inc",
+        "Tech Solutions Inc",
+        "Elite Group",
+        "Smart Labs Inc",
+        "Global Labs LLC"
+      ],
+      "uniqueValues": [
+        "Elite Services Inc",
+        "Tech Solutions Inc",
+        "Elite Group",
+        "Smart Labs Inc",
+        "Global Labs LLC",
+        "Smart Solutions",
+        "Smart Group Co",
+        "Smart Services"
+      ],
+      "uniqueValueOverflow": false
+    },
+    "headquarters": {
+      "count": 8,
+      "types": {
+        "object": 8
+      },
+      "examples": [
+        {
+          "city": "New York",
+          "state": "NY",
+          "country": "USA"
+        },
+        {
+          "city": "Syracuse",
+          "state": "NY",
+          "country": "USA"
+        },
+        {
+          "city": "Raleigh",
+          "state": "NC",
+          "country": "USA"
+        },
+        {
+          "city": "Warren",
+          "state": "MI",
+          "country": "USA"
+        },
+        {
+          "city": "Springfield",
+          "state": "IL",
+          "country": "USA"
+        }
+      ],
+      "uniqueValues": [],
+      "uniqueValueOverflow": false
+    },
+    "@company": {
+      "count": 8,
+      "types": {
+        "string": 8
+      },
+      "examples": [
+        "company:65e832c8-bc4e-454e-be7a-49236b829f86",
+        "company:3c92e335-8372-40d0-a967-7dce318ebec9",
+        "company:dc21495f-dd86-4b7c-8251-7be67a306e74",
+        "company:475dcc3c-d2eb-4750-a8ce-40e6e459409d",
+        "company:2bc745e6-618d-4865-a2f6-a060c736930a"
+      ],
+      "uniqueValues": [
+        "company:65e832c8-bc4e-454e-be7a-49236b829f86",
+        "company:3c92e335-8372-40d0-a967-7dce318ebec9",
+        "company:dc21495f-dd86-4b7c-8251-7be67a306e74",
+        "company:475dcc3c-d2eb-4750-a8ce-40e6e459409d",
+        "company:2bc745e6-618d-4865-a2f6-a060c736930a",
+        "company:d896cbe4-a0b8-4cf0-aefe-1e014a0a76cb",
+        "company:bf2615bd-f6a2-4b13-aa7d-3548c80fd49e",
+        "company:6951b0da-5434-4101-a387-5a053f2cbab1"
+      ],
+      "uniqueValueOverflow": false
+    },
+    "~city": {
+      "count": 8,
+      "types": {
+        "string": 8
+      },
+      "examples": [
+        "New York",
+        "Syracuse",
+        "Raleigh",
+        "Warren",
+        "Springfield"
+      ],
+      "uniqueValues": [
+        "New York",
+        "Syracuse",
+        "Raleigh",
+        "Warren",
+        "Springfield",
+        "Harrisburg",
+        "Rochester",
+        "San Francisco"
+      ],
+      "uniqueValueOverflow": false
+    },
+    "~state": {
+      "count": 8,
+      "types": {
+        "string": 8
+      },
+      "examples": [
+        "NY",
+        "NY",
+        "NC",
+        "MI",
+        "IL"
+      ],
+      "uniqueValues": [
+        "NY",
+        "NC",
+        "MI",
+        "IL",
+        "PA",
+        "CA"
+      ],
+      "uniqueValueOverflow": false
+    },
+    "~country": {
+      "count": 8,
+      "types": {
+        "string": 8
+      },
+      "examples": [
+        "USA",
+        "USA",
+        "USA",
+        "USA",
+        "USA"
+      ],
+      "uniqueValues": [
+        "USA"
+      ],
+      "uniqueValueOverflow": false
+    }
+  },
+  "allFields": {
+    "#": {
+      "count": 29,
+      "types": {
+        "string": 29
+      },
+      "examples": [
+        "company:65e832c8-bc4e-454e-be7a-49236b829f86",
+        "company:3c92e335-8372-40d0-a967-7dce318ebec9",
+        "company:dc21495f-dd86-4b7c-8251-7be67a306e74",
+        "company:475dcc3c-d2eb-4750-a8ce-40e6e459409d",
+        "company:2bc745e6-618d-4865-a2f6-a060c736930a"
+      ],
+      "uniqueValues": [
+        "company:65e832c8-bc4e-454e-be7a-49236b829f86",
+        "company:3c92e335-8372-40d0-a967-7dce318ebec9",
+        "company:dc21495f-dd86-4b7c-8251-7be67a306e74",
+        "company:475dcc3c-d2eb-4750-a8ce-40e6e459409d",
+        "company:2bc745e6-618d-4865-a2f6-a060c736930a",
+        "company:d896cbe4-a0b8-4cf0-aefe-1e014a0a76cb",
+        "company:bf2615bd-f6a2-4b13-aa7d-3548c80fd49e",
+        "company:6951b0da-5434-4101-a387-5a053f2cbab1",
+        "company_name:elite_services_inc",
+        "industry:agriculture",
+        "location:usa:ny:new_york",
+        "company_name:tech_solutions_inc",
+        "industry:transportation",
+        "location:usa:ny:syracuse",
+        "company_name:elite_group",
+        "industry:consulting",
+        "location:usa:nc:raleigh",
+        "company_name:smart_labs_inc",
+        "location:usa:mi:warren",
+        "company_name:global_labs_llc",
+        "location:usa:il:springfield",
+        "company_name:smart_solutions",
+        "location:usa:pa:harrisburg",
+        "company_name:smart_group_co",
+        "industry:real_estate"
+      ],
+      "uniqueValueOverflow": true
+    },
+    "^": {
+      "count": 29,
+      "types": {
+        "string": 29
+      },
+      "examples": [
+        "company",
+        "company",
+        "company",
+        "company",
+        "company"
+      ],
+      "uniqueValues": [
+        "company",
+        "company_name_alias",
+        "industry",
+        "location"
+      ],
+      "uniqueValueOverflow": false
+    },
+    "~source": {
+      "count": 29,
+      "types": {
+        "string": 29
+      },
+      "examples": [
+        "people_companies",
+        "people_companies",
+        "people_companies",
+        "people_companies",
+        "people_companies"
+      ],
+      "uniqueValues": [
+        "people_companies"
+      ],
+      "uniqueValueOverflow": false
+    },
+    "~name": {
+      "count": 21,
+      "types": {
+        "string": 21
+      },
+      "examples": [
+        "Elite Services Inc",
+        "Tech Solutions Inc",
+        "Elite Group",
+        "Smart Labs Inc",
+        "Global Labs LLC"
+      ],
+      "uniqueValues": [
+        "Elite Services Inc",
+        "Tech Solutions Inc",
+        "Elite Group",
+        "Smart Labs Inc",
+        "Global Labs LLC",
+        "Smart Solutions",
+        "Smart Group Co",
+        "Smart Services",
+        "Agriculture",
+        "Transportation",
+        "Consulting",
+        "Real Estate",
+        "Media"
+      ],
+      "uniqueValueOverflow": false
+    },
+    "@industry": {
+      "count": 8,
+      "types": {
+        "string": 8
+      },
+      "examples": [
+        "industry:agriculture",
+        "industry:transportation",
+        "industry:consulting",
+        "industry:agriculture",
+        "industry:consulting"
+      ],
+      "uniqueValues": [
+        "industry:agriculture",
+        "industry:transportation",
+        "industry:consulting",
+        "industry:real_estate",
+        "industry:media"
+      ],
+      "uniqueValueOverflow": false
+    },
+    "@headquarters": {
+      "count": 8,
+      "types": {
+        "string": 8
+      },
+      "examples": [
+        "location:usa:ny:new_york",
+        "location:usa:ny:syracuse",
+        "location:usa:nc:raleigh",
+        "location:usa:mi:warren",
+        "location:usa:il:springfield"
+      ],
+      "uniqueValues": [
+        "location:usa:ny:new_york",
+        "location:usa:ny:syracuse",
+        "location:usa:nc:raleigh",
+        "location:usa:mi:warren",
+        "location:usa:il:springfield",
+        "location:usa:pa:harrisburg",
+        "location:usa:ny:rochester",
+        "location:usa:ca:san_francisco"
+      ],
+      "uniqueValueOverflow": false
+    },
+    "~raw_id": {
+      "count": 8,
+      "types": {
+        "string": 8
+      },
+      "examples": [
+        "65e832c8-bc4e-454e-be7a-49236b829f86",
+        "3c92e335-8372-40d0-a967-7dce318ebec9",
+        "dc21495f-dd86-4b7c-8251-7be67a306e74",
+        "475dcc3c-d2eb-4750-a8ce-40e6e459409d",
+        "2bc745e6-618d-4865-a2f6-a060c736930a"
+      ],
+      "uniqueValues": [
+        "65e832c8-bc4e-454e-be7a-49236b829f86",
+        "3c92e335-8372-40d0-a967-7dce318ebec9",
+        "dc21495f-dd86-4b7c-8251-7be67a306e74",
+        "475dcc3c-d2eb-4750-a8ce-40e6e459409d",
+        "2bc745e6-618d-4865-a2f6-a060c736930a",
+        "d896cbe4-a0b8-4cf0-aefe-1e014a0a76cb",
+        "bf2615bd-f6a2-4b13-aa7d-3548c80fd49e",
+        "6951b0da-5434-4101-a387-5a053f2cbab1"
+      ],
+      "uniqueValueOverflow": false
+    },
+    "~name_anchor": {
+      "count": 8,
+      "types": {
+        "string": 8
+      },
+      "examples": [
+        "company_name:elite_services_inc",
+        "company_name:tech_solutions_inc",
+        "company_name:elite_group",
+        "company_name:smart_labs_inc",
+        "company_name:global_labs_llc"
+      ],
+      "uniqueValues": [
+        "company_name:elite_services_inc",
+        "company_name:tech_solutions_inc",
+        "company_name:elite_group",
+        "company_name:smart_labs_inc",
+        "company_name:global_labs_llc",
+        "company_name:smart_solutions",
+        "company_name:smart_group_co",
+        "company_name:smart_services"
+      ],
+      "uniqueValueOverflow": false
+    },
+    "~industry": {
+      "count": 8,
+      "types": {
+        "string": 8
+      },
+      "examples": [
+        "Agriculture",
+        "Transportation",
+        "Consulting",
+        "Agriculture",
+        "Consulting"
+      ],
+      "uniqueValues": [
+        "Agriculture",
+        "Transportation",
+        "Consulting",
+        "Real Estate",
+        "Media"
+      ],
+      "uniqueValueOverflow": false
+    },
+    "~size": {
+      "count": 8,
+      "types": {
+        "number": 8
+      },
+      "examples": [
+        3408,
+        19776,
+        7273,
+        13898,
+        3219
+      ],
+      "uniqueValues": [
+        "3408",
+        "19776",
+        "7273",
+        "13898",
+        "3219",
+        "4140",
+        "6350",
+        "7678"
+      ],
+      "uniqueValueOverflow": false
+    },
+    "~founded": {
+      "count": 8,
+      "types": {
+        "number": 8
+      },
+      "examples": [
+        2019,
+        1953,
+        2007,
+        1993,
+        1995
+      ],
+      "uniqueValues": [
+        "2019",
+        "1953",
+        "2007",
+        "1993",
+        "1995",
+        "1998",
+        "1958",
+        "1962"
+      ],
+      "uniqueValueOverflow": false
+    },
+    "name": {
+      "count": 8,
+      "types": {
+        "string": 8
+      },
+      "examples": [
+        "Elite Services Inc",
+        "Tech Solutions Inc",
+        "Elite Group",
+        "Smart Labs Inc",
+        "Global Labs LLC"
+      ],
+      "uniqueValues": [
+        "Elite Services Inc",
+        "Tech Solutions Inc",
+        "Elite Group",
+        "Smart Labs Inc",
+        "Global Labs LLC",
+        "Smart Solutions",
+        "Smart Group Co",
+        "Smart Services"
+      ],
+      "uniqueValueOverflow": false
+    },
+    "headquarters": {
+      "count": 8,
+      "types": {
+        "object": 8
+      },
+      "examples": [
+        {
+          "city": "New York",
+          "state": "NY",
+          "country": "USA"
+        },
+        {
+          "city": "Syracuse",
+          "state": "NY",
+          "country": "USA"
+        },
+        {
+          "city": "Raleigh",
+          "state": "NC",
+          "country": "USA"
+        },
+        {
+          "city": "Warren",
+          "state": "MI",
+          "country": "USA"
+        },
+        {
+          "city": "Springfield",
+          "state": "IL",
+          "country": "USA"
+        }
+      ],
+      "uniqueValues": [],
+      "uniqueValueOverflow": false
+    },
+    "headquarters.city": {
+      "count": 8,
+      "types": {
+        "string": 8
+      },
+      "examples": [
+        "New York",
+        "Syracuse",
+        "Raleigh",
+        "Warren",
+        "Springfield"
+      ],
+      "uniqueValues": [
+        "New York",
+        "Syracuse",
+        "Raleigh",
+        "Warren",
+        "Springfield",
+        "Harrisburg",
+        "Rochester",
+        "San Francisco"
+      ],
+      "uniqueValueOverflow": false
+    },
+    "headquarters.state": {
+      "count": 8,
+      "types": {
+        "string": 8
+      },
+      "examples": [
+        "NY",
+        "NY",
+        "NC",
+        "MI",
+        "IL"
+      ],
+      "uniqueValues": [
+        "NY",
+        "NC",
+        "MI",
+        "IL",
+        "PA",
+        "CA"
+      ],
+      "uniqueValueOverflow": false
+    },
+    "headquarters.country": {
+      "count": 8,
+      "types": {
+        "string": 8
+      },
+      "examples": [
+        "USA",
+        "USA",
+        "USA",
+        "USA",
+        "USA"
+      ],
+      "uniqueValues": [
+        "USA"
+      ],
+      "uniqueValueOverflow": false
+    },
+    "@company": {
+      "count": 8,
+      "types": {
+        "string": 8
+      },
+      "examples": [
+        "company:65e832c8-bc4e-454e-be7a-49236b829f86",
+        "company:3c92e335-8372-40d0-a967-7dce318ebec9",
+        "company:dc21495f-dd86-4b7c-8251-7be67a306e74",
+        "company:475dcc3c-d2eb-4750-a8ce-40e6e459409d",
+        "company:2bc745e6-618d-4865-a2f6-a060c736930a"
+      ],
+      "uniqueValues": [
+        "company:65e832c8-bc4e-454e-be7a-49236b829f86",
+        "company:3c92e335-8372-40d0-a967-7dce318ebec9",
+        "company:dc21495f-dd86-4b7c-8251-7be67a306e74",
+        "company:475dcc3c-d2eb-4750-a8ce-40e6e459409d",
+        "company:2bc745e6-618d-4865-a2f6-a060c736930a",
+        "company:d896cbe4-a0b8-4cf0-aefe-1e014a0a76cb",
+        "company:bf2615bd-f6a2-4b13-aa7d-3548c80fd49e",
+        "company:6951b0da-5434-4101-a387-5a053f2cbab1"
+      ],
+      "uniqueValueOverflow": false
+    },
+    "~city": {
+      "count": 8,
+      "types": {
+        "string": 8
+      },
+      "examples": [
+        "New York",
+        "Syracuse",
+        "Raleigh",
+        "Warren",
+        "Springfield"
+      ],
+      "uniqueValues": [
+        "New York",
+        "Syracuse",
+        "Raleigh",
+        "Warren",
+        "Springfield",
+        "Harrisburg",
+        "Rochester",
+        "San Francisco"
+      ],
+      "uniqueValueOverflow": false
+    },
+    "~state": {
+      "count": 8,
+      "types": {
+        "string": 8
+      },
+      "examples": [
+        "NY",
+        "NY",
+        "NC",
+        "MI",
+        "IL"
+      ],
+      "uniqueValues": [
+        "NY",
+        "NC",
+        "MI",
+        "IL",
+        "PA",
+        "CA"
+      ],
+      "uniqueValueOverflow": false
+    },
+    "~country": {
+      "count": 8,
+      "types": {
+        "string": 8
+      },
+      "examples": [
+        "USA",
+        "USA",
+        "USA",
+        "USA",
+        "USA"
+      ],
+      "uniqueValues": [
+        "USA"
+      ],
+      "uniqueValueOverflow": false
+    }
+  },
+  "possibleIdFields": {
+    "~raw_id": {
+      "count": 8,
+      "types": {
+        "string": 8
+      },
+      "examples": [
+        "65e832c8-bc4e-454e-be7a-49236b829f86",
+        "3c92e335-8372-40d0-a967-7dce318ebec9",
+        "dc21495f-dd86-4b7c-8251-7be67a306e74",
+        "475dcc3c-d2eb-4750-a8ce-40e6e459409d",
+        "2bc745e6-618d-4865-a2f6-a060c736930a"
+      ],
+      "uniqueValues": [
+        "65e832c8-bc4e-454e-be7a-49236b829f86",
+        "3c92e335-8372-40d0-a967-7dce318ebec9",
+        "dc21495f-dd86-4b7c-8251-7be67a306e74",
+        "475dcc3c-d2eb-4750-a8ce-40e6e459409d",
+        "2bc745e6-618d-4865-a2f6-a060c736930a",
+        "d896cbe4-a0b8-4cf0-aefe-1e014a0a76cb",
+        "bf2615bd-f6a2-4b13-aa7d-3548c80fd49e",
+        "6951b0da-5434-4101-a387-5a053f2cbab1"
+      ],
+      "uniqueValueOverflow": false
+    }
+  },
+  "possibleRelationshipFields": {
+    "~source": {
+      "count": 29,
+      "types": {
+        "string": 29
+      },
+      "examples": [
+        "people_companies",
+        "people_companies",
+        "people_companies",
+        "people_companies",
+        "people_companies"
+      ],
+      "uniqueValues": [
+        "people_companies"
+      ],
+      "uniqueValueOverflow": false
+    }
+  },
+  "possibleMetadataFields": {
+    "~source": {
+      "count": 29,
+      "types": {
+        "string": 29
+      },
+      "examples": [
+        "people_companies",
+        "people_companies",
+        "people_companies",
+        "people_companies",
+        "people_companies"
+      ],
+      "uniqueValues": [
+        "people_companies"
+      ],
+      "uniqueValueOverflow": false
+    },
+    "headquarters.country": {
+      "count": 8,
+      "types": {
+        "string": 8
+      },
+      "examples": [
+        "USA",
+        "USA",
+        "USA",
+        "USA",
+        "USA"
+      ],
+      "uniqueValues": [
+        "USA"
+      ],
+      "uniqueValueOverflow": false
+    },
+    "~country": {
+      "count": 8,
+      "types": {
+        "string": 8
+      },
+      "examples": [
+        "USA",
+        "USA",
+        "USA",
+        "USA",
+        "USA"
+      ],
+      "uniqueValues": [
+        "USA"
+      ],
+      "uniqueValueOverflow": false
+    }
+  },
+  "sampleRecords": [
+    {
+      "#": "company:65e832c8-bc4e-454e-be7a-49236b829f86",
+      "^": "company",
+      "@industry": "industry:agriculture",
+      "@headquarters": "location:usa:ny:new_york",
+      "~source": "people_companies",
+      "~raw_id": "65e832c8-bc4e-454e-be7a-49236b829f86",
+      "~name": "Elite Services Inc",
+      "~name_anchor": "company_name:elite_services_inc",
+      "~industry": "Agriculture",
+      "~size": 3408,
+      "~founded": 2019,
+      "name": "Elite Services Inc",
+      "headquarters": {
+        "city": "New York",
+        "state": "NY",
+        "country": "USA"
+      }
+    },
+    {
+      "#": "company:3c92e335-8372-40d0-a967-7dce318ebec9",
+      "^": "company",
+      "@industry": "industry:transportation",
+      "@headquarters": "location:usa:ny:syracuse",
+      "~source": "people_companies",
+      "~raw_id": "3c92e335-8372-40d0-a967-7dce318ebec9",
+      "~name": "Tech Solutions Inc",
+      "~name_anchor": "company_name:tech_solutions_inc",
+      "~industry": "Transportation",
+      "~size": 19776,
+      "~founded": 1953,
+      "name": "Tech Solutions Inc",
+      "headquarters": {
+        "city": "Syracuse",
+        "state": "NY",
+        "country": "USA"
+      }
+    },
+    {
+      "#": "company:dc21495f-dd86-4b7c-8251-7be67a306e74",
+      "^": "company",
+      "@industry": "industry:consulting",
+      "@headquarters": "location:usa:nc:raleigh",
+      "~source": "people_companies",
+      "~raw_id": "dc21495f-dd86-4b7c-8251-7be67a306e74",
+      "~name": "Elite Group",
+      "~name_anchor": "company_name:elite_group",
+      "~industry": "Consulting",
+      "~size": 7273,
+      "~founded": 2007,
+      "name": "Elite Group",
+      "headquarters": {
+        "city": "Raleigh",
+        "state": "NC",
+        "country": "USA"
+      }
+    },
+    {
+      "#": "company:475dcc3c-d2eb-4750-a8ce-40e6e459409d",
+      "^": "company",
+      "@industry": "industry:agriculture",
+      "@headquarters": "location:usa:mi:warren",
+      "~source": "people_companies",
+      "~raw_id": "475dcc3c-d2eb-4750-a8ce-40e6e459409d",
+      "~name": "Smart Labs Inc",
+      "~name_anchor": "company_name:smart_labs_inc",
+      "~industry": "Agriculture",
+      "~size": 13898,
+      "~founded": 1993,
+      "name": "Smart Labs Inc",
+      "headquarters": {
+        "city": "Warren",
+        "state": "MI",
+        "country": "USA"
+      }
+    },
+    {
+      "#": "company:2bc745e6-618d-4865-a2f6-a060c736930a",
+      "^": "company",
+      "@industry": "industry:consulting",
+      "@headquarters": "location:usa:il:springfield",
+      "~source": "people_companies",
+      "~raw_id": "2bc745e6-618d-4865-a2f6-a060c736930a",
+      "~name": "Global Labs LLC",
+      "~name_anchor": "company_name:global_labs_llc",
+      "~industry": "Consulting",
+      "~size": 3219,
+      "~founded": 1995,
+      "name": "Global Labs LLC",
+      "headquarters": {
+        "city": "Springfield",
+        "state": "IL",
+        "country": "USA"
+      }
+    }
+  ],
+  "parseErrors": [],
+  "finishedAt": "2026-05-21T08:18:04.720Z",
+  "profileMs": 2.475,
+  "averageTopLevelFields": 7.31,
+  "validJsonRatio": 1
+}

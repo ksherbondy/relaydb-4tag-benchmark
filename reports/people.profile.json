@@ -1,0 +1,1127 @@
+{
+  "inputPath": "datasets/raw/people.jsonl",
+  "fileName": "people.jsonl",
+  "fileSizeBytes": 15495,
+  "startedAt": "2026-05-21T08:07:44.750Z",
+  "totalLines": 30,
+  "validJsonLines": 30,
+  "invalidJsonLines": 0,
+  "blankLines": 0,
+  "totalTopLevelFieldsSeen": 150,
+  "maxDepth": 4,
+  "recordSizeBytes": {
+    "min": 490,
+    "max": 543,
+    "total": 15465,
+    "average": 515.5
+  },
+  "topLevelFields": {
+    "id": {
+      "count": 30,
+      "types": {
+        "string": 30
+      },
+      "examples": [
+        "9c24b5ab-a6d9-4d06-bf97-155c3aac80b2",
+        "0c53e810-70e7-416a-91ca-1f0ba64c491d",
+        "8555dfd0-2b06-455e-9077-b29a0d01e7aa",
+        "9d9f738b-b9de-4338-b241-86f41bf1739e",
+        "f5ff34dc-9566-4af0-a203-103ab0203d86"
+      ],
+      "uniqueValues": [
+        "9c24b5ab-a6d9-4d06-bf97-155c3aac80b2",
+        "0c53e810-70e7-416a-91ca-1f0ba64c491d",
+        "8555dfd0-2b06-455e-9077-b29a0d01e7aa",
+        "9d9f738b-b9de-4338-b241-86f41bf1739e",
+        "f5ff34dc-9566-4af0-a203-103ab0203d86",
+        "b2202a1b-b000-4a7a-9625-cb36ccd0910e",
+        "1f2422f7-5579-4728-9bad-10efe791c054",
+        "b7081da3-1311-4692-a17d-9379305e7c24",
+        "8b15d22e-ea43-4aa0-b95e-681bb0f87164",
+        "6b017efb-2631-41e9-ac5c-4198191daa38",
+        "e3997011-8319-44b8-9e04-4ec918919135",
+        "bf2390b5-ed89-4366-bf3c-f2da8893ce29",
+        "d63ee197-2f55-4d8e-b38a-f5a2a65cfd7e",
+        "71ecf619-f9f2-4b30-ad69-bedc953238dc",
+        "c4aec1e0-f47d-43d9-82b6-14ad9040f72c",
+        "cce7e64d-8b62-4fc0-9bcc-1c11530b7ab8",
+        "446f160f-9448-47d6-a532-7ecf2e38e508",
+        "e8a6be87-b653-48f9-97e0-c024045206a4",
+        "95bab6ab-3277-411a-ab89-5f20bc312360",
+        "7f9ca128-d55d-480c-b707-645d5283b4ef",
+        "7d1891c4-bef4-4b2c-9433-d5453eea58c8",
+        "418640e0-b4ea-4765-9538-b64c762c45f2",
+        "41a7fb08-a510-4aec-97ef-fee72d432f70",
+        "b803c074-ff9b-46e0-abc1-fb1139241f54",
+        "345b094e-5881-4199-926e-4624e6af43f8"
+      ],
+      "uniqueValueOverflow": true
+    },
+    "created_at": {
+      "count": 30,
+      "types": {
+        "string": 30
+      },
+      "examples": [
+        "2022-02-02T20:06:48.408546Z",
+        "2023-09-28T20:06:48.408661Z",
+        "2020-09-04T20:06:48.408704Z",
+        "2021-03-12T20:06:48.408743Z",
+        "2024-02-26T20:06:48.408789Z"
+      ],
+      "uniqueValues": [
+        "2022-02-02T20:06:48.408546Z",
+        "2023-09-28T20:06:48.408661Z",
+        "2020-09-04T20:06:48.408704Z",
+        "2021-03-12T20:06:48.408743Z",
+        "2024-02-26T20:06:48.408789Z",
+        "2021-07-04T20:06:48.408823Z",
+        "2024-03-03T20:06:48.408863Z",
+        "2021-11-18T20:06:48.408896Z",
+        "2022-06-22T20:06:48.408934Z",
+        "2021-05-29T20:06:48.408962Z",
+        "2024-03-09T20:06:48.409004Z",
+        "2023-10-28T20:06:48.409030Z",
+        "2020-10-30T20:06:48.409057Z",
+        "2024-04-28T20:06:48.409090Z",
+        "2023-02-09T20:06:48.409118Z",
+        "2024-03-06T20:06:48.409155Z",
+        "2023-12-11T20:06:48.409192Z",
+        "2022-04-10T20:06:48.409223Z",
+        "2023-04-01T20:06:48.409251Z",
+        "2022-08-22T20:06:48.409277Z",
+        "2021-06-23T20:06:48.409310Z",
+        "2021-01-04T20:06:48.409351Z",
+        "2023-08-16T20:06:48.409392Z",
+        "2025-05-24T20:06:48.409420Z",
+        "2025-05-09T20:06:48.409461Z"
+      ],
+      "uniqueValueOverflow": true
+    },
+    "status": {
+      "count": 30,
+      "types": {
+        "string": 30
+      },
+      "examples": [
+        "pending",
+        "active",
+        "active",
+        "pending",
+        "pending"
+      ],
+      "uniqueValues": [
+        "pending",
+        "active",
+        "inactive"
+      ],
+      "uniqueValueOverflow": false
+    },
+    "household_id": {
+      "count": 30,
+      "types": {
+        "string": 30
+      },
+      "examples": [
+        "30bfd16b-cb7b-4ca9-8aab-394354d4d434",
+        "30bfd16b-cb7b-4ca9-8aab-394354d4d434",
+        "30bfd16b-cb7b-4ca9-8aab-394354d4d434",
+        "30bfd16b-cb7b-4ca9-8aab-394354d4d434",
+        "21e1ba9b-a5dc-4986-ac8c-8b3fedb2759c"
+      ],
+      "uniqueValues": [
+        "30bfd16b-cb7b-4ca9-8aab-394354d4d434",
+        "21e1ba9b-a5dc-4986-ac8c-8b3fedb2759c",
+        "8c856ed3-ac33-4e7e-82d9-78b7e9cea328",
+        "f9b81145-de65-43ca-b9bd-73a98c99542c",
+        "56f9865c-0ae8-47b8-af0d-4ef520ea8ba6",
+        "2396c092-a9d1-480f-90ea-08559f16a22f",
+        "0cdd5d39-d47a-4cac-a50f-43c066a50906",
+        "b93f35d9-cc62-4e32-88ad-92319d1a3605",
+        "b2513d2f-a85c-4f7e-adad-20fba01601e1",
+        "91755cb6-83ec-43b2-9360-23f618b5442f",
+        "dd0f7d46-5a5d-4894-8a76-e96828f90703",
+        "ac73ed33-accf-4622-94e8-4b3ac64a646c"
+      ],
+      "uniqueValueOverflow": false
+    },
+    "person": {
+      "count": 30,
+      "types": {
+        "object": 30
+      },
+      "examples": [
+        "{\"name\":{\"first\":\"Daniel\",\"last\":\"Moore\"},\"age\":58,\"gender\":\"male\",\"email\":\"daniel.moore@yahoo.com\",\"phone\":\"350-267-8573\",\"location\":{\"city\":\"Columbus\",\"state\":\"GA\",\"country\":\"USA...",
+        "{\"name\":{\"first\":\"Betty\",\"last\":\"Moore\"},\"age\":79,\"gender\":\"female\",\"email\":\"betty.moore@outlook.com\",\"phone\":\"758-569-3340\",\"location\":{\"city\":\"Columbus\",\"state\":\"GA\",\"country\":\"U...",
+        "{\"name\":{\"first\":\"Joseph\",\"last\":\"Moore\"},\"age\":51,\"gender\":\"male\",\"email\":\"joseph.moore@yahoo.com\",\"phone\":\"911-796-7916\",\"location\":{\"city\":\"Columbus\",\"state\":\"GA\",\"country\":\"USA...",
+        "{\"name\":{\"first\":\"Drew\",\"last\":\"Moore\"},\"age\":57,\"gender\":\"nonbinary\",\"email\":\"drew.moore56@hotmail.com\",\"phone\":\"261-564-1053\",\"location\":{\"city\":\"Columbus\",\"state\":\"GA\",\"country\"...",
+        "{\"name\":{\"first\":\"Donna\",\"last\":\"Wright\"},\"age\":21,\"gender\":\"female\",\"email\":\"donna.wright63@gmail.com\",\"phone\":\"935-170-9727\",\"location\":{\"city\":\"Charlotte\",\"state\":\"NC\",\"country\"..."
+      ],
+      "uniqueValues": [],
+      "uniqueValueOverflow": false
+    }
+  },
+  "allFields": {
+    "id": {
+      "count": 30,
+      "types": {
+        "string": 30
+      },
+      "examples": [
+        "9c24b5ab-a6d9-4d06-bf97-155c3aac80b2",
+        "0c53e810-70e7-416a-91ca-1f0ba64c491d",
+        "8555dfd0-2b06-455e-9077-b29a0d01e7aa",
+        "9d9f738b-b9de-4338-b241-86f41bf1739e",
+        "f5ff34dc-9566-4af0-a203-103ab0203d86"
+      ],
+      "uniqueValues": [
+        "9c24b5ab-a6d9-4d06-bf97-155c3aac80b2",
+        "0c53e810-70e7-416a-91ca-1f0ba64c491d",
+        "8555dfd0-2b06-455e-9077-b29a0d01e7aa",
+        "9d9f738b-b9de-4338-b241-86f41bf1739e",
+        "f5ff34dc-9566-4af0-a203-103ab0203d86",
+        "b2202a1b-b000-4a7a-9625-cb36ccd0910e",
+        "1f2422f7-5579-4728-9bad-10efe791c054",
+        "b7081da3-1311-4692-a17d-9379305e7c24",
+        "8b15d22e-ea43-4aa0-b95e-681bb0f87164",
+        "6b017efb-2631-41e9-ac5c-4198191daa38",
+        "e3997011-8319-44b8-9e04-4ec918919135",
+        "bf2390b5-ed89-4366-bf3c-f2da8893ce29",
+        "d63ee197-2f55-4d8e-b38a-f5a2a65cfd7e",
+        "71ecf619-f9f2-4b30-ad69-bedc953238dc",
+        "c4aec1e0-f47d-43d9-82b6-14ad9040f72c",
+        "cce7e64d-8b62-4fc0-9bcc-1c11530b7ab8",
+        "446f160f-9448-47d6-a532-7ecf2e38e508",
+        "e8a6be87-b653-48f9-97e0-c024045206a4",
+        "95bab6ab-3277-411a-ab89-5f20bc312360",
+        "7f9ca128-d55d-480c-b707-645d5283b4ef",
+        "7d1891c4-bef4-4b2c-9433-d5453eea58c8",
+        "418640e0-b4ea-4765-9538-b64c762c45f2",
+        "41a7fb08-a510-4aec-97ef-fee72d432f70",
+        "b803c074-ff9b-46e0-abc1-fb1139241f54",
+        "345b094e-5881-4199-926e-4624e6af43f8"
+      ],
+      "uniqueValueOverflow": true
+    },
+    "created_at": {
+      "count": 30,
+      "types": {
+        "string": 30
+      },
+      "examples": [
+        "2022-02-02T20:06:48.408546Z",
+        "2023-09-28T20:06:48.408661Z",
+        "2020-09-04T20:06:48.408704Z",
+        "2021-03-12T20:06:48.408743Z",
+        "2024-02-26T20:06:48.408789Z"
+      ],
+      "uniqueValues": [
+        "2022-02-02T20:06:48.408546Z",
+        "2023-09-28T20:06:48.408661Z",
+        "2020-09-04T20:06:48.408704Z",
+        "2021-03-12T20:06:48.408743Z",
+        "2024-02-26T20:06:48.408789Z",
+        "2021-07-04T20:06:48.408823Z",
+        "2024-03-03T20:06:48.408863Z",
+        "2021-11-18T20:06:48.408896Z",
+        "2022-06-22T20:06:48.408934Z",
+        "2021-05-29T20:06:48.408962Z",
+        "2024-03-09T20:06:48.409004Z",
+        "2023-10-28T20:06:48.409030Z",
+        "2020-10-30T20:06:48.409057Z",
+        "2024-04-28T20:06:48.409090Z",
+        "2023-02-09T20:06:48.409118Z",
+        "2024-03-06T20:06:48.409155Z",
+        "2023-12-11T20:06:48.409192Z",
+        "2022-04-10T20:06:48.409223Z",
+        "2023-04-01T20:06:48.409251Z",
+        "2022-08-22T20:06:48.409277Z",
+        "2021-06-23T20:06:48.409310Z",
+        "2021-01-04T20:06:48.409351Z",
+        "2023-08-16T20:06:48.409392Z",
+        "2025-05-24T20:06:48.409420Z",
+        "2025-05-09T20:06:48.409461Z"
+      ],
+      "uniqueValueOverflow": true
+    },
+    "status": {
+      "count": 30,
+      "types": {
+        "string": 30
+      },
+      "examples": [
+        "pending",
+        "active",
+        "active",
+        "pending",
+        "pending"
+      ],
+      "uniqueValues": [
+        "pending",
+        "active",
+        "inactive"
+      ],
+      "uniqueValueOverflow": false
+    },
+    "household_id": {
+      "count": 30,
+      "types": {
+        "string": 30
+      },
+      "examples": [
+        "30bfd16b-cb7b-4ca9-8aab-394354d4d434",
+        "30bfd16b-cb7b-4ca9-8aab-394354d4d434",
+        "30bfd16b-cb7b-4ca9-8aab-394354d4d434",
+        "30bfd16b-cb7b-4ca9-8aab-394354d4d434",
+        "21e1ba9b-a5dc-4986-ac8c-8b3fedb2759c"
+      ],
+      "uniqueValues": [
+        "30bfd16b-cb7b-4ca9-8aab-394354d4d434",
+        "21e1ba9b-a5dc-4986-ac8c-8b3fedb2759c",
+        "8c856ed3-ac33-4e7e-82d9-78b7e9cea328",
+        "f9b81145-de65-43ca-b9bd-73a98c99542c",
+        "56f9865c-0ae8-47b8-af0d-4ef520ea8ba6",
+        "2396c092-a9d1-480f-90ea-08559f16a22f",
+        "0cdd5d39-d47a-4cac-a50f-43c066a50906",
+        "b93f35d9-cc62-4e32-88ad-92319d1a3605",
+        "b2513d2f-a85c-4f7e-adad-20fba01601e1",
+        "91755cb6-83ec-43b2-9360-23f618b5442f",
+        "dd0f7d46-5a5d-4894-8a76-e96828f90703",
+        "ac73ed33-accf-4622-94e8-4b3ac64a646c"
+      ],
+      "uniqueValueOverflow": false
+    },
+    "person": {
+      "count": 30,
+      "types": {
+        "object": 30
+      },
+      "examples": [
+        "{\"name\":{\"first\":\"Daniel\",\"last\":\"Moore\"},\"age\":58,\"gender\":\"male\",\"email\":\"daniel.moore@yahoo.com\",\"phone\":\"350-267-8573\",\"location\":{\"city\":\"Columbus\",\"state\":\"GA\",\"country\":\"USA...",
+        "{\"name\":{\"first\":\"Betty\",\"last\":\"Moore\"},\"age\":79,\"gender\":\"female\",\"email\":\"betty.moore@outlook.com\",\"phone\":\"758-569-3340\",\"location\":{\"city\":\"Columbus\",\"state\":\"GA\",\"country\":\"U...",
+        "{\"name\":{\"first\":\"Joseph\",\"last\":\"Moore\"},\"age\":51,\"gender\":\"male\",\"email\":\"joseph.moore@yahoo.com\",\"phone\":\"911-796-7916\",\"location\":{\"city\":\"Columbus\",\"state\":\"GA\",\"country\":\"USA...",
+        "{\"name\":{\"first\":\"Drew\",\"last\":\"Moore\"},\"age\":57,\"gender\":\"nonbinary\",\"email\":\"drew.moore56@hotmail.com\",\"phone\":\"261-564-1053\",\"location\":{\"city\":\"Columbus\",\"state\":\"GA\",\"country\"...",
+        "{\"name\":{\"first\":\"Donna\",\"last\":\"Wright\"},\"age\":21,\"gender\":\"female\",\"email\":\"donna.wright63@gmail.com\",\"phone\":\"935-170-9727\",\"location\":{\"city\":\"Charlotte\",\"state\":\"NC\",\"country\"..."
+      ],
+      "uniqueValues": [],
+      "uniqueValueOverflow": false
+    },
+    "person.name": {
+      "count": 30,
+      "types": {
+        "object": 30
+      },
+      "examples": [
+        {
+          "first": "Daniel",
+          "last": "Moore"
+        },
+        {
+          "first": "Betty",
+          "last": "Moore"
+        },
+        {
+          "first": "Joseph",
+          "last": "Moore"
+        },
+        {
+          "first": "Drew",
+          "last": "Moore"
+        },
+        {
+          "first": "Donna",
+          "last": "Wright"
+        }
+      ],
+      "uniqueValues": [],
+      "uniqueValueOverflow": false
+    },
+    "person.name.first": {
+      "count": 30,
+      "types": {
+        "string": 30
+      },
+      "examples": [
+        "Daniel",
+        "Betty",
+        "Joseph",
+        "Drew",
+        "Donna"
+      ],
+      "uniqueValues": [
+        "Daniel",
+        "Betty",
+        "Joseph",
+        "Drew",
+        "Donna",
+        "Helen",
+        "Robert",
+        "Anthony",
+        "Jennifer",
+        "Matthew",
+        "Taylor",
+        "Charles",
+        "Michael",
+        "William",
+        "Nancy",
+        "Linda",
+        "Andrew",
+        "Phoenix",
+        "Sandra",
+        "Sarah",
+        "Richard",
+        "Elizabeth",
+        "Quinn",
+        "Donald"
+      ],
+      "uniqueValueOverflow": false
+    },
+    "person.name.last": {
+      "count": 30,
+      "types": {
+        "string": 30
+      },
+      "examples": [
+        "Moore",
+        "Moore",
+        "Moore",
+        "Moore",
+        "Wright"
+      ],
+      "uniqueValues": [
+        "Moore",
+        "Wright",
+        "Nguyen",
+        "King",
+        "Thompson",
+        "Anderson",
+        "Johnson",
+        "Green",
+        "Perez",
+        "Allen",
+        "Thomas"
+      ],
+      "uniqueValueOverflow": false
+    },
+    "person.age": {
+      "count": 30,
+      "types": {
+        "number": 30
+      },
+      "examples": [
+        58,
+        79,
+        51,
+        57,
+        21
+      ],
+      "uniqueValues": [
+        "58",
+        "79",
+        "51",
+        "57",
+        "21",
+        "60",
+        "7",
+        "59",
+        "39",
+        "45",
+        "55",
+        "48",
+        "25",
+        "35",
+        "31",
+        "18",
+        "10",
+        "34",
+        "50",
+        "49",
+        "20",
+        "24",
+        "38",
+        "81",
+        "23"
+      ],
+      "uniqueValueOverflow": false
+    },
+    "person.gender": {
+      "count": 30,
+      "types": {
+        "string": 30
+      },
+      "examples": [
+        "male",
+        "female",
+        "male",
+        "nonbinary",
+        "female"
+      ],
+      "uniqueValues": [
+        "male",
+        "female",
+        "nonbinary"
+      ],
+      "uniqueValueOverflow": false
+    },
+    "person.email": {
+      "count": 30,
+      "types": {
+        "string": 30
+      },
+      "examples": [
+        "daniel.moore@yahoo.com",
+        "betty.moore@outlook.com",
+        "joseph.moore@yahoo.com",
+        "drew.moore56@hotmail.com",
+        "donna.wright63@gmail.com"
+      ],
+      "uniqueValues": [
+        "daniel.moore@yahoo.com",
+        "betty.moore@outlook.com",
+        "joseph.moore@yahoo.com",
+        "drew.moore56@hotmail.com",
+        "donna.wright63@gmail.com",
+        "helen.wright@outlook.com",
+        "robert.nguyen17@outlook.com",
+        "anthony.nguyen@gmail.com",
+        "jennifer.moore@gmail.com",
+        "matthew.moore38@outlook.com",
+        "taylor.king@gmail.com",
+        "charles.king@hotmail.com",
+        "daniel.king@hotmail.com",
+        "michael.king82@hotmail.com",
+        "william.king89@gmail.com",
+        "nancy.thompson@yahoo.com",
+        "joseph.anderson@hotmail.com",
+        "nancy.anderson56@hotmail.com",
+        "linda.anderson@hotmail.com",
+        "andrew.anderson@yahoo.com",
+        "phoenix.johnson@outlook.com",
+        "sandra.johnson@icloud.com",
+        "sarah.green20@icloud.com",
+        "richard.green@outlook.com",
+        "elizabeth.perez60@outlook.com"
+      ],
+      "uniqueValueOverflow": true
+    },
+    "person.phone": {
+      "count": 30,
+      "types": {
+        "string": 30
+      },
+      "examples": [
+        "350-267-8573",
+        "758-569-3340",
+        "911-796-7916",
+        "261-564-1053",
+        "935-170-9727"
+      ],
+      "uniqueValues": [
+        "350-267-8573",
+        "758-569-3340",
+        "911-796-7916",
+        "261-564-1053",
+        "935-170-9727",
+        "765-482-8177",
+        "840-684-8744",
+        "447-919-2790",
+        "969-342-3724",
+        "322-159-9883",
+        "683-352-1651",
+        "174-109-8508",
+        "926-769-9666",
+        "973-370-9280",
+        "252-658-1590",
+        "125-283-6442",
+        "621-509-9785",
+        "101-632-9821",
+        "296-530-7211",
+        "390-627-6491",
+        "349-251-1090",
+        "709-424-8251",
+        "336-492-3503",
+        "460-405-7389",
+        "286-151-5262"
+      ],
+      "uniqueValueOverflow": true
+    },
+    "person.location": {
+      "count": 30,
+      "types": {
+        "object": 30
+      },
+      "examples": [
+        {
+          "city": "Columbus",
+          "state": "GA",
+          "country": "USA"
+        },
+        {
+          "city": "Columbus",
+          "state": "GA",
+          "country": "USA"
+        },
+        {
+          "city": "Columbus",
+          "state": "GA",
+          "country": "USA"
+        },
+        {
+          "city": "Columbus",
+          "state": "GA",
+          "country": "USA"
+        },
+        {
+          "city": "Charlotte",
+          "state": "NC",
+          "country": "USA"
+        }
+      ],
+      "uniqueValues": [],
+      "uniqueValueOverflow": false
+    },
+    "person.location.city": {
+      "count": 30,
+      "types": {
+        "string": 30
+      },
+      "examples": [
+        "Columbus",
+        "Columbus",
+        "Columbus",
+        "Columbus",
+        "Charlotte"
+      ],
+      "uniqueValues": [
+        "Columbus",
+        "Charlotte",
+        "Miami",
+        "Augusta",
+        "Houston",
+        "Orlando",
+        "Jacksonville",
+        "San Francisco",
+        "Rockford",
+        "Cleveland",
+        "Philadelphia",
+        "Savannah"
+      ],
+      "uniqueValueOverflow": false
+    },
+    "person.location.state": {
+      "count": 30,
+      "types": {
+        "string": 30
+      },
+      "examples": [
+        "GA",
+        "GA",
+        "GA",
+        "GA",
+        "NC"
+      ],
+      "uniqueValues": [
+        "GA",
+        "NC",
+        "FL",
+        "TX",
+        "CA",
+        "IL",
+        "OH",
+        "PA"
+      ],
+      "uniqueValueOverflow": false
+    },
+    "person.location.country": {
+      "count": 30,
+      "types": {
+        "string": 30
+      },
+      "examples": [
+        "USA",
+        "USA",
+        "USA",
+        "USA",
+        "USA"
+      ],
+      "uniqueValues": [
+        "USA"
+      ],
+      "uniqueValueOverflow": false
+    },
+    "person.interests": {
+      "count": 30,
+      "types": {
+        "array": 30
+      },
+      "examples": [
+        [
+          "sports",
+          "yoga",
+          "gardening",
+          "writing"
+        ],
+        [
+          "traveling",
+          "yoga",
+          "sports"
+        ],
+        [
+          "art"
+        ],
+        [
+          "running",
+          "gaming",
+          "cooking"
+        ],
+        [
+          "traveling",
+          "swimming"
+        ]
+      ],
+      "uniqueValues": [],
+      "uniqueValueOverflow": false
+    },
+    "person.job": {
+      "count": 30,
+      "types": {
+        "object": 30
+      },
+      "examples": [
+        {
+          "title": "Data Scientist",
+          "company_name": "Smart Labs Inc",
+          "salary": 155000
+        },
+        {
+          "title": "Administrator",
+          "company_name": "Smart Group Co",
+          "salary": 166000
+        },
+        {
+          "title": "Electrician",
+          "company_name": "Smart Services",
+          "salary": 114000
+        },
+        {
+          "title": "Teacher",
+          "company_name": "Smart Labs Inc",
+          "salary": 61000
+        },
+        {
+          "title": "Researcher",
+          "company_name": "Elite Group",
+          "salary": 77000
+        }
+      ],
+      "uniqueValues": [],
+      "uniqueValueOverflow": false
+    },
+    "person.job.title": {
+      "count": 30,
+      "types": {
+        "string": 30
+      },
+      "examples": [
+        "Data Scientist",
+        "Administrator",
+        "Electrician",
+        "Teacher",
+        "Researcher"
+      ],
+      "uniqueValues": [
+        "Data Scientist",
+        "Administrator",
+        "Electrician",
+        "Teacher",
+        "Researcher",
+        "Accountant",
+        "Operations Manager",
+        "Plumber",
+        "Marketing Manager",
+        "Designer",
+        "Sales Manager",
+        "Product Manager",
+        "Consultant",
+        "Writer",
+        "Nurse"
+      ],
+      "uniqueValueOverflow": false
+    },
+    "person.job.company_name": {
+      "count": 30,
+      "types": {
+        "string": 30
+      },
+      "examples": [
+        "Smart Labs Inc",
+        "Smart Group Co",
+        "Smart Services",
+        "Smart Labs Inc",
+        "Elite Group"
+      ],
+      "uniqueValues": [
+        "Smart Labs Inc",
+        "Smart Group Co",
+        "Smart Services",
+        "Elite Group",
+        "Elite Services Inc",
+        "Tech Solutions Inc",
+        "Smart Solutions",
+        "Global Labs LLC"
+      ],
+      "uniqueValueOverflow": false
+    },
+    "person.job.salary": {
+      "count": 30,
+      "types": {
+        "number": 30
+      },
+      "examples": [
+        155000,
+        166000,
+        114000,
+        61000,
+        77000
+      ],
+      "uniqueValues": [
+        "155000",
+        "166000",
+        "114000",
+        "61000",
+        "77000",
+        "122000",
+        "54000",
+        "60000",
+        "63000",
+        "171000",
+        "111000",
+        "46000",
+        "83000",
+        "162000",
+        "45000",
+        "127000",
+        "153000",
+        "76000",
+        "116000",
+        "108000",
+        "79000",
+        "170000",
+        "133000",
+        "118000"
+      ],
+      "uniqueValueOverflow": false
+    }
+  },
+  "possibleIdFields": {
+    "id": {
+      "count": 30,
+      "types": {
+        "string": 30
+      },
+      "examples": [
+        "9c24b5ab-a6d9-4d06-bf97-155c3aac80b2",
+        "0c53e810-70e7-416a-91ca-1f0ba64c491d",
+        "8555dfd0-2b06-455e-9077-b29a0d01e7aa",
+        "9d9f738b-b9de-4338-b241-86f41bf1739e",
+        "f5ff34dc-9566-4af0-a203-103ab0203d86"
+      ],
+      "uniqueValues": [
+        "9c24b5ab-a6d9-4d06-bf97-155c3aac80b2",
+        "0c53e810-70e7-416a-91ca-1f0ba64c491d",
+        "8555dfd0-2b06-455e-9077-b29a0d01e7aa",
+        "9d9f738b-b9de-4338-b241-86f41bf1739e",
+        "f5ff34dc-9566-4af0-a203-103ab0203d86",
+        "b2202a1b-b000-4a7a-9625-cb36ccd0910e",
+        "1f2422f7-5579-4728-9bad-10efe791c054",
+        "b7081da3-1311-4692-a17d-9379305e7c24",
+        "8b15d22e-ea43-4aa0-b95e-681bb0f87164",
+        "6b017efb-2631-41e9-ac5c-4198191daa38",
+        "e3997011-8319-44b8-9e04-4ec918919135",
+        "bf2390b5-ed89-4366-bf3c-f2da8893ce29",
+        "d63ee197-2f55-4d8e-b38a-f5a2a65cfd7e",
+        "71ecf619-f9f2-4b30-ad69-bedc953238dc",
+        "c4aec1e0-f47d-43d9-82b6-14ad9040f72c",
+        "cce7e64d-8b62-4fc0-9bcc-1c11530b7ab8",
+        "446f160f-9448-47d6-a532-7ecf2e38e508",
+        "e8a6be87-b653-48f9-97e0-c024045206a4",
+        "95bab6ab-3277-411a-ab89-5f20bc312360",
+        "7f9ca128-d55d-480c-b707-645d5283b4ef",
+        "7d1891c4-bef4-4b2c-9433-d5453eea58c8",
+        "418640e0-b4ea-4765-9538-b64c762c45f2",
+        "41a7fb08-a510-4aec-97ef-fee72d432f70",
+        "b803c074-ff9b-46e0-abc1-fb1139241f54",
+        "345b094e-5881-4199-926e-4624e6af43f8"
+      ],
+      "uniqueValueOverflow": true
+    },
+    "household_id": {
+      "count": 30,
+      "types": {
+        "string": 30
+      },
+      "examples": [
+        "30bfd16b-cb7b-4ca9-8aab-394354d4d434",
+        "30bfd16b-cb7b-4ca9-8aab-394354d4d434",
+        "30bfd16b-cb7b-4ca9-8aab-394354d4d434",
+        "30bfd16b-cb7b-4ca9-8aab-394354d4d434",
+        "21e1ba9b-a5dc-4986-ac8c-8b3fedb2759c"
+      ],
+      "uniqueValues": [
+        "30bfd16b-cb7b-4ca9-8aab-394354d4d434",
+        "21e1ba9b-a5dc-4986-ac8c-8b3fedb2759c",
+        "8c856ed3-ac33-4e7e-82d9-78b7e9cea328",
+        "f9b81145-de65-43ca-b9bd-73a98c99542c",
+        "56f9865c-0ae8-47b8-af0d-4ef520ea8ba6",
+        "2396c092-a9d1-480f-90ea-08559f16a22f",
+        "0cdd5d39-d47a-4cac-a50f-43c066a50906",
+        "b93f35d9-cc62-4e32-88ad-92319d1a3605",
+        "b2513d2f-a85c-4f7e-adad-20fba01601e1",
+        "91755cb6-83ec-43b2-9360-23f618b5442f",
+        "dd0f7d46-5a5d-4894-8a76-e96828f90703",
+        "ac73ed33-accf-4622-94e8-4b3ac64a646c"
+      ],
+      "uniqueValueOverflow": false
+    }
+  },
+  "possibleRelationshipFields": {},
+  "possibleMetadataFields": {
+    "created_at": {
+      "count": 30,
+      "types": {
+        "string": 30
+      },
+      "examples": [
+        "2022-02-02T20:06:48.408546Z",
+        "2023-09-28T20:06:48.408661Z",
+        "2020-09-04T20:06:48.408704Z",
+        "2021-03-12T20:06:48.408743Z",
+        "2024-02-26T20:06:48.408789Z"
+      ],
+      "uniqueValues": [
+        "2022-02-02T20:06:48.408546Z",
+        "2023-09-28T20:06:48.408661Z",
+        "2020-09-04T20:06:48.408704Z",
+        "2021-03-12T20:06:48.408743Z",
+        "2024-02-26T20:06:48.408789Z",
+        "2021-07-04T20:06:48.408823Z",
+        "2024-03-03T20:06:48.408863Z",
+        "2021-11-18T20:06:48.408896Z",
+        "2022-06-22T20:06:48.408934Z",
+        "2021-05-29T20:06:48.408962Z",
+        "2024-03-09T20:06:48.409004Z",
+        "2023-10-28T20:06:48.409030Z",
+        "2020-10-30T20:06:48.409057Z",
+        "2024-04-28T20:06:48.409090Z",
+        "2023-02-09T20:06:48.409118Z",
+        "2024-03-06T20:06:48.409155Z",
+        "2023-12-11T20:06:48.409192Z",
+        "2022-04-10T20:06:48.409223Z",
+        "2023-04-01T20:06:48.409251Z",
+        "2022-08-22T20:06:48.409277Z",
+        "2021-06-23T20:06:48.409310Z",
+        "2021-01-04T20:06:48.409351Z",
+        "2023-08-16T20:06:48.409392Z",
+        "2025-05-24T20:06:48.409420Z",
+        "2025-05-09T20:06:48.409461Z"
+      ],
+      "uniqueValueOverflow": true
+    },
+    "status": {
+      "count": 30,
+      "types": {
+        "string": 30
+      },
+      "examples": [
+        "pending",
+        "active",
+        "active",
+        "pending",
+        "pending"
+      ],
+      "uniqueValues": [
+        "pending",
+        "active",
+        "inactive"
+      ],
+      "uniqueValueOverflow": false
+    },
+    "person.location.country": {
+      "count": 30,
+      "types": {
+        "string": 30
+      },
+      "examples": [
+        "USA",
+        "USA",
+        "USA",
+        "USA",
+        "USA"
+      ],
+      "uniqueValues": [
+        "USA"
+      ],
+      "uniqueValueOverflow": false
+    }
+  },
+  "sampleRecords": [
+    {
+      "id": "9c24b5ab-a6d9-4d06-bf97-155c3aac80b2",
+      "created_at": "2022-02-02T20:06:48.408546Z",
+      "status": "pending",
+      "household_id": "30bfd16b-cb7b-4ca9-8aab-394354d4d434",
+      "person": {
+        "name": {
+          "first": "Daniel",
+          "last": "Moore"
+        },
+        "age": 58,
+        "gender": "male",
+        "email": "daniel.moore@yahoo.com",
+        "phone": "350-267-8573",
+        "location": {
+          "city": "Columbus",
+          "state": "GA",
+          "country": "USA"
+        },
+        "interests": [
+          "sports",
+          "yoga",
+          "gardening",
+          "writing"
+        ],
+        "job": {
+          "title": "Data Scientist",
+          "company_name": "Smart Labs Inc",
+          "salary": 155000
+        }
+      }
+    },
+    {
+      "id": "0c53e810-70e7-416a-91ca-1f0ba64c491d",
+      "created_at": "2023-09-28T20:06:48.408661Z",
+      "status": "active",
+      "household_id": "30bfd16b-cb7b-4ca9-8aab-394354d4d434",
+      "person": {
+        "name": {
+          "first": "Betty",
+          "last": "Moore"
+        },
+        "age": 79,
+        "gender": "female",
+        "email": "betty.moore@outlook.com",
+        "phone": "758-569-3340",
+        "location": {
+          "city": "Columbus",
+          "state": "GA",
+          "country": "USA"
+        },
+        "interests": [
+          "traveling",
+          "yoga",
+          "sports"
+        ],
+        "job": {
+          "title": "Administrator",
+          "company_name": "Smart Group Co",
+          "salary": 166000
+        }
+      }
+    },
+    {
+      "id": "8555dfd0-2b06-455e-9077-b29a0d01e7aa",
+      "created_at": "2020-09-04T20:06:48.408704Z",
+      "status": "active",
+      "household_id": "30bfd16b-cb7b-4ca9-8aab-394354d4d434",
+      "person": {
+        "name": {
+          "first": "Joseph",
+          "last": "Moore"
+        },
+        "age": 51,
+        "gender": "male",
+        "email": "joseph.moore@yahoo.com",
+        "phone": "911-796-7916",
+        "location": {
+          "city": "Columbus",
+          "state": "GA",
+          "country": "USA"
+        },
+        "interests": [
+          "art"
+        ],
+        "job": {
+          "title": "Electrician",
+          "company_name": "Smart Services",
+          "salary": 114000
+        }
+      }
+    },
+    {
+      "id": "9d9f738b-b9de-4338-b241-86f41bf1739e",
+      "created_at": "2021-03-12T20:06:48.408743Z",
+      "status": "pending",
+      "household_id": "30bfd16b-cb7b-4ca9-8aab-394354d4d434",
+      "person": {
+        "name": {
+          "first": "Drew",
+          "last": "Moore"
+        },
+        "age": 57,
+        "gender": "nonbinary",
+        "email": "drew.moore56@hotmail.com",
+        "phone": "261-564-1053",
+        "location": {
+          "city": "Columbus",
+          "state": "GA",
+          "country": "USA"
+        },
+        "interests": [
+          "running",
+          "gaming",
+          "cooking"
+        ],
+        "job": {
+          "title": "Teacher",
+          "company_name": "Smart Labs Inc",
+          "salary": 61000
+        }
+      }
+    },
+    {
+      "id": "f5ff34dc-9566-4af0-a203-103ab0203d86",
+      "created_at": "2024-02-26T20:06:48.408789Z",
+      "status": "pending",
+      "household_id": "21e1ba9b-a5dc-4986-ac8c-8b3fedb2759c",
+      "person": {
+        "name": {
+          "first": "Donna",
+          "last": "Wright"
+        },
+        "age": 21,
+        "gender": "female",
+        "email": "donna.wright63@gmail.com",
+        "phone": "935-170-9727",
+        "location": {
+          "city": "Charlotte",
+          "state": "NC",
+          "country": "USA"
+        },
+        "interests": [
+          "traveling",
+          "swimming"
+        ],
+        "job": {
+          "title": "Researcher",
+          "company_name": "Elite Group",
+          "salary": 77000
+        }
+      }
+    }
+  ],
+  "parseErrors": [],
+  "finishedAt": "2026-05-21T08:07:44.754Z",
+  "profileMs": 3.074,
+  "averageTopLevelFields": 5,
+  "validJsonRatio": 1
+}

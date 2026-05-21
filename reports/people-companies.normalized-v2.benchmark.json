@@ -1,0 +1,94 @@
+{
+  "createdAt": "2026-05-21T09:24:57.774Z",
+  "iterations": 5,
+  "querySuitesPerRun": 1000,
+  "rawNormalized": {
+    "label": "Raw Normalized Runtime Graph",
+    "records": 38,
+    "nodes": null,
+    "bytesLoaded": 17945,
+    "missingLinks": 0,
+    "result": {
+      "peopleHomeStateDiffersFromCompanyState": 28,
+      "householdsWithMultipleCompanies": 8,
+      "peopleSharingInterestsWithCoworkers": 21,
+      "companiesWithEmployeesAcrossMultipleHomeStates": 8,
+      "activeUnder40AtOldCompanies": 4,
+      "highEarnersInIndustriesAcrossMultipleStates": 12,
+      "householdDiversitySummaries": 12,
+      "contextPackets": 30
+    },
+    "optimizationModel": "schema-specific raw normalizer for people + companies dataset",
+    "loadParseMs": {
+      "minMs": 0.24875,
+      "maxMs": 0.35575,
+      "avgMs": 0.290825
+    },
+    "splitMs": {
+      "minMs": 0.002125,
+      "maxMs": 0.006792,
+      "avgMs": 0.003242
+    },
+    "normalizeMs": {
+      "minMs": 0.034042,
+      "maxMs": 0.072208,
+      "avgMs": 0.047942
+    },
+    "queryMs": {
+      "minMs": 7.495125,
+      "maxMs": 8.024375,
+      "avgMs": 7.714958
+    },
+    "totalMs": {
+      "minMs": 7.799875,
+      "maxMs": 8.375832,
+      "avgMs": 8.056967
+    }
+  },
+  "taggedNormalized": {
+    "label": "Tagged Normalized Runtime Graph",
+    "records": null,
+    "nodes": 100,
+    "bytesLoaded": 33869,
+    "missingLinks": 0,
+    "result": {
+      "peopleHomeStateDiffersFromCompanyState": 28,
+      "householdsWithMultipleCompanies": 8,
+      "peopleSharingInterestsWithCoworkers": 21,
+      "companiesWithEmployeesAcrossMultipleHomeStates": 8,
+      "activeUnder40AtOldCompanies": 4,
+      "highEarnersInIndustriesAcrossMultipleStates": 12,
+      "householdDiversitySummaries": 12,
+      "contextPackets": 30
+    },
+    "optimizationModel": "generic 4-tag graph normalizer plus people-companies view",
+    "loadParseMs": {
+      "minMs": 0.250833,
+      "maxMs": 0.482458,
+      "avgMs": 0.334775
+    },
+    "splitMs": {
+      "minMs": 0,
+      "maxMs": 0,
+      "avgMs": 0
+    },
+    "normalizeMs": {
+      "minMs": 0.0875,
+      "maxMs": 0.18825,
+      "avgMs": 0.141217
+    },
+    "queryMs": {
+      "minMs": 7.476084,
+      "maxMs": 7.760292,
+      "avgMs": 7.650183
+    },
+    "totalMs": {
+      "minMs": 7.814417,
+      "maxMs": 8.350667,
+      "avgMs": 8.126175
+    }
+  },
+  "equivalence": {
+    "rawNormalizedVsTaggedNormalized": true
+  }
+}

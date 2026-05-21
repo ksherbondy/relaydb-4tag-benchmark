@@ -1,0 +1,78 @@
+{
+  "createdAt": "2026-05-21T07:06:37.714Z",
+  "iterations": 25,
+  "lookupIterations": 1000000,
+  "files": {
+    "raw": {
+      "path": "/Users/sherbondy/Desktop/projects/relaydb-4tag-benchmark/datasets/raw/skate_reddit.jsonl",
+      "bytes": 12971616
+    },
+    "fourTag": {
+      "path": "/Users/sherbondy/Desktop/projects/relaydb-4tag-benchmark/datasets/tagged/skate_reddit.4tag.jsonl",
+      "bytes": 18895969
+    }
+  },
+  "raw": {
+    "label": "Raw JSONL",
+    "records": 52962,
+    "nodes": 52963,
+    "edges": 52962,
+    "groups": 1,
+    "metadataFieldKinds": null,
+    "loadParseMs": {
+      "minMs": 24.844,
+      "maxMs": 27.875,
+      "avgMs": 25.794
+    },
+    "structureMs": {
+      "minMs": 23.107,
+      "maxMs": 38.499,
+      "avgMs": 27.549
+    },
+    "lookupMs": {
+      "minMs": 24.059,
+      "maxMs": 33.293,
+      "avgMs": 25.022
+    },
+    "totalMs": {
+      "minMs": 74.879,
+      "maxMs": 94.921,
+      "avgMs": 78.468
+    }
+  },
+  "fourTag": {
+    "label": "4-tag JSONL",
+    "records": 52963,
+    "nodes": 52963,
+    "edges": 52962,
+    "groups": 2,
+    "metadataFieldKinds": 5,
+    "loadParseMs": {
+      "minMs": 45.189,
+      "maxMs": 54.855,
+      "avgMs": 47.162
+    },
+    "structureMs": {
+      "minMs": 18.983,
+      "maxMs": 24.319,
+      "avgMs": 19.825
+    },
+    "lookupMs": {
+      "minMs": 22.791,
+      "maxMs": 39.658,
+      "avgMs": 24.264
+    },
+    "totalMs": {
+      "minMs": 87.536,
+      "maxMs": 114.463,
+      "avgMs": 91.332
+    }
+  },
+  "notes": [
+    "This benchmark compares raw JSONL post-parse structure work against 4-tag JSONL post-parse structure work.",
+    "It does not test RelayDB binary artifacts.",
+    "The raw JSONL path manually synthesizes IDs and subreddit edges.",
+    "The 4-tag path reads identity from #, topic from ^, relationships from @ fields, and metadata from ~ fields.",
+    "The 4-tag file is larger because it carries explicit identity, relationship, topic, and metadata fields."
+  ]
+}

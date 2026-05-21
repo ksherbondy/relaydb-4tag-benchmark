@@ -1,0 +1,194 @@
+{
+  "createdAt": "2026-05-21T08:45:26.756Z",
+  "iterations": 5,
+  "querySuitesPerRun": 1000,
+  "rawSplit": {
+    "label": "Raw Split JSONL",
+    "filesLoaded": 2,
+    "records": 38,
+    "nodes": null,
+    "bytesLoaded": 17126,
+    "missingLinks": 0,
+    "result": {
+      "peopleHomeStateDiffersFromCompanyState": 28,
+      "householdsWithMultipleCompanies": 8,
+      "peopleSharingInterestsWithCoworkers": 21,
+      "companiesWithEmployeesAcrossMultipleHomeStates": 8,
+      "activeUnder40AtOldCompanies": 4,
+      "highEarnersInIndustriesAcrossMultipleStates": 12,
+      "householdDiversitySummaries": 12,
+      "contextPackets": 30
+    },
+    "loadParseMs": {
+      "minMs": 0.221209,
+      "maxMs": 0.397667,
+      "avgMs": 0.320734
+    },
+    "graphBuildMs": {
+      "minMs": 0.016459,
+      "maxMs": 0.019083,
+      "avgMs": 0.018058
+    },
+    "queryMs": {
+      "minMs": 10.798333,
+      "maxMs": 12.2205,
+      "avgMs": 11.153108
+    },
+    "totalMs": {
+      "minMs": 11.056001,
+      "maxMs": 12.63725,
+      "avgMs": 11.4919
+    },
+    "runtimeBurden": {
+      "fileLoads": 2,
+      "sourceSplitRequired": false,
+      "appSpecificJoinLogic": true,
+      "runtimeRelationshipResolution": true,
+      "runtimeMissingReferenceValidation": true,
+      "relationshipModel": "company name joins and custom maps"
+    }
+  },
+  "rawMerged": {
+    "label": "Raw Merged JSONL",
+    "filesLoaded": 1,
+    "records": 38,
+    "nodes": null,
+    "bytesLoaded": 17945,
+    "missingLinks": 0,
+    "result": {
+      "peopleHomeStateDiffersFromCompanyState": 28,
+      "householdsWithMultipleCompanies": 8,
+      "peopleSharingInterestsWithCoworkers": 21,
+      "companiesWithEmployeesAcrossMultipleHomeStates": 8,
+      "activeUnder40AtOldCompanies": 4,
+      "highEarnersInIndustriesAcrossMultipleStates": 12,
+      "householdDiversitySummaries": 12,
+      "contextPackets": 30
+    },
+    "loadParseMs": {
+      "minMs": 0.135709,
+      "maxMs": 0.232667,
+      "avgMs": 0.17
+    },
+    "graphBuildMs": {
+      "minMs": 0.016,
+      "maxMs": 0.022958,
+      "avgMs": 0.020417
+    },
+    "queryMs": {
+      "minMs": 10.739208,
+      "maxMs": 11.637292,
+      "avgMs": 11.071067
+    },
+    "totalMs": {
+      "minMs": 10.914459,
+      "maxMs": 11.891626,
+      "avgMs": 11.261484
+    },
+    "runtimeBurden": {
+      "fileLoads": 1,
+      "sourceSplitRequired": true,
+      "appSpecificJoinLogic": true,
+      "runtimeRelationshipResolution": true,
+      "runtimeMissingReferenceValidation": true,
+      "relationshipModel": "record type branching, company name joins, and custom maps"
+    }
+  },
+  "taggedSplit": {
+    "label": "Tagged Split JSONL",
+    "filesLoaded": 2,
+    "records": null,
+    "nodes": 101,
+    "bytesLoaded": 34006,
+    "missingLinks": 0,
+    "result": {
+      "peopleHomeStateDiffersFromCompanyState": 28,
+      "householdsWithMultipleCompanies": 8,
+      "peopleSharingInterestsWithCoworkers": 21,
+      "companiesWithEmployeesAcrossMultipleHomeStates": 8,
+      "activeUnder40AtOldCompanies": 4,
+      "highEarnersInIndustriesAcrossMultipleStates": 12,
+      "householdDiversitySummaries": 12,
+      "contextPackets": 30
+    },
+    "loadParseMs": {
+      "minMs": 0.297583,
+      "maxMs": 0.564,
+      "avgMs": 0.398333
+    },
+    "graphBuildMs": {
+      "minMs": 0.021417,
+      "maxMs": 0.02925,
+      "avgMs": 0.025475
+    },
+    "queryMs": {
+      "minMs": 11.121792,
+      "maxMs": 11.655667,
+      "avgMs": 11.336542
+    },
+    "totalMs": {
+      "minMs": 11.440792,
+      "maxMs": 12.109334,
+      "avgMs": 11.76035
+    },
+    "runtimeBurden": {
+      "fileLoads": 2,
+      "sourceSplitRequired": false,
+      "appSpecificJoinLogic": false,
+      "runtimeRelationshipResolution": "mechanical anchor traversal",
+      "runtimeMissingReferenceValidation": true,
+      "relationshipModel": "# anchors, ^ topics, @ relationships, ~ metadata"
+    }
+  },
+  "taggedMerged": {
+    "label": "Tagged Merged JSONL",
+    "filesLoaded": 1,
+    "records": null,
+    "nodes": 100,
+    "bytesLoaded": 33869,
+    "missingLinks": 0,
+    "result": {
+      "peopleHomeStateDiffersFromCompanyState": 28,
+      "householdsWithMultipleCompanies": 8,
+      "peopleSharingInterestsWithCoworkers": 21,
+      "companiesWithEmployeesAcrossMultipleHomeStates": 8,
+      "activeUnder40AtOldCompanies": 4,
+      "highEarnersInIndustriesAcrossMultipleStates": 12,
+      "householdDiversitySummaries": 12,
+      "contextPackets": 30
+    },
+    "loadParseMs": {
+      "minMs": 0.191292,
+      "maxMs": 0.389416,
+      "avgMs": 0.264108
+    },
+    "graphBuildMs": {
+      "minMs": 0.022958,
+      "maxMs": 0.031541,
+      "avgMs": 0.027625
+    },
+    "queryMs": {
+      "minMs": 10.720542,
+      "maxMs": 22.826042,
+      "avgMs": 13.344342
+    },
+    "totalMs": {
+      "minMs": 10.934792,
+      "maxMs": 23.177625,
+      "avgMs": 13.636075
+    },
+    "runtimeBurden": {
+      "fileLoads": 1,
+      "sourceSplitRequired": false,
+      "appSpecificJoinLogic": false,
+      "runtimeRelationshipResolution": "mechanical anchor traversal",
+      "runtimeMissingReferenceValidation": true,
+      "relationshipModel": "# anchors, ^ topics, @ relationships, ~ metadata"
+    }
+  },
+  "equivalence": {
+    "rawSplitVsRawMerged": true,
+    "rawSplitVsTaggedSplit": true,
+    "rawSplitVsTaggedMerged": true
+  }
+}

@@ -1,0 +1,155 @@
+{
+  "createdAt": "2026-05-21T08:20:39.910Z",
+  "iterations": 100,
+  "queryLoops": 1000000,
+  "targetCompanyName": "Smart Labs Inc",
+  "targetCompanyAnchor": "company:475dcc3c-d2eb-4750-a8ce-40e6e459409d",
+  "rawSplit": {
+    "label": "Raw Split JSONL",
+    "filesLoaded": 2,
+    "records": 38,
+    "nodes": null,
+    "bytesLoaded": 17126,
+    "missingCompanyLinks": 0,
+    "queryTotal": 4000000,
+    "loadParseMs": {
+      "minMs": 0.162542,
+      "maxMs": 0.411667,
+      "avgMs": 0.224323
+    },
+    "graphBuildMs": {
+      "minMs": 0.00325,
+      "maxMs": 0.023875,
+      "avgMs": 0.006272
+    },
+    "queryMs": {
+      "minMs": 4.178791,
+      "maxMs": 4.820083,
+      "avgMs": 4.340416
+    },
+    "totalMs": {
+      "minMs": 4.359957,
+      "maxMs": 5.177584,
+      "avgMs": 4.571011
+    },
+    "runtimeBurden": {
+      "fileLoads": 2,
+      "sourceSplittingRequired": false,
+      "companyNameMapRequired": true,
+      "relationshipResolutionAtRuntime": true,
+      "missingReferenceValidationAtRuntime": true,
+      "appSpecificJoinLogic": true
+    }
+  },
+  "rawMerged": {
+    "label": "Raw Merged JSONL",
+    "filesLoaded": 1,
+    "records": 38,
+    "nodes": null,
+    "bytesLoaded": 17945,
+    "missingCompanyLinks": 0,
+    "queryTotal": 4000000,
+    "loadParseMs": {
+      "minMs": 0.105792,
+      "maxMs": 0.915833,
+      "avgMs": 0.144287
+    },
+    "graphBuildMs": {
+      "minMs": 0.003834,
+      "maxMs": 0.012417,
+      "avgMs": 0.006667
+    },
+    "queryMs": {
+      "minMs": 4.2015,
+      "maxMs": 4.8445,
+      "avgMs": 4.409003
+    },
+    "totalMs": {
+      "minMs": 4.352541,
+      "maxMs": 5.576625,
+      "avgMs": 4.559957
+    },
+    "runtimeBurden": {
+      "fileLoads": 1,
+      "sourceSplittingRequired": true,
+      "companyNameMapRequired": true,
+      "relationshipResolutionAtRuntime": true,
+      "missingReferenceValidationAtRuntime": true,
+      "appSpecificJoinLogic": true
+    }
+  },
+  "taggedSplit": {
+    "label": "Tagged Split JSONL",
+    "filesLoaded": 2,
+    "records": null,
+    "nodes": 101,
+    "bytesLoaded": 34006,
+    "missingCompanyLinks": 0,
+    "queryTotal": 4000000,
+    "loadParseMs": {
+      "minMs": 0.192791,
+      "maxMs": 0.965708,
+      "avgMs": 0.271793
+    },
+    "graphBuildMs": {
+      "minMs": 0.008208,
+      "maxMs": 0.019125,
+      "avgMs": 0.012438
+    },
+    "queryMs": {
+      "minMs": 10.865875,
+      "maxMs": 12.343834,
+      "avgMs": 11.196211
+    },
+    "totalMs": {
+      "minMs": 11.188667,
+      "maxMs": 13.322583,
+      "avgMs": 11.480441
+    },
+    "runtimeBurden": {
+      "fileLoads": 2,
+      "sourceSplittingRequired": false,
+      "companyNameMapRequired": false,
+      "relationshipResolutionAtRuntime": "mechanical_anchor_resolution",
+      "missingReferenceValidationAtRuntime": true,
+      "appSpecificJoinLogic": false
+    }
+  },
+  "taggedMerged": {
+    "label": "Tagged Merged JSONL",
+    "filesLoaded": 1,
+    "records": null,
+    "nodes": 100,
+    "bytesLoaded": 33869,
+    "missingCompanyLinks": 0,
+    "queryTotal": 4000000,
+    "loadParseMs": {
+      "minMs": 0.121583,
+      "maxMs": 0.621792,
+      "avgMs": 0.181082
+    },
+    "graphBuildMs": {
+      "minMs": 0.008625,
+      "maxMs": 0.018667,
+      "avgMs": 0.011483
+    },
+    "queryMs": {
+      "minMs": 10.823959,
+      "maxMs": 11.676625,
+      "avgMs": 11.165364
+    },
+    "totalMs": {
+      "minMs": 10.975959,
+      "maxMs": 12.116416,
+      "avgMs": 11.357929
+    },
+    "runtimeBurden": {
+      "fileLoads": 1,
+      "sourceSplittingRequired": false,
+      "companyNameMapRequired": false,
+      "relationshipResolutionAtRuntime": "mechanical_anchor_resolution",
+      "missingReferenceValidationAtRuntime": true,
+      "appSpecificJoinLogic": false
+    }
+  }
+}

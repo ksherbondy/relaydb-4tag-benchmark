@@ -1,0 +1,668 @@
+{
+  "inputPath": "datasets/tagged/skate_reddit.4tag.jsonl",
+  "fileName": "skate_reddit.4tag.jsonl",
+  "fileSizeBytes": 18895969,
+  "startedAt": "2026-05-21T07:02:40.319Z",
+  "totalLines": 52963,
+  "validJsonLines": 52963,
+  "invalidJsonLines": 0,
+  "blankLines": 0,
+  "totalTopLevelFieldsSeen": 370739,
+  "maxDepth": 1,
+  "recordSizeBytes": {
+    "min": 118,
+    "max": 8036,
+    "total": 18843006,
+    "average": 355.777
+  },
+  "topLevelFields": {
+    "#": {
+      "count": 52963,
+      "types": {
+        "string": 52963
+      },
+      "examples": [
+        "reddit_comment:skateboarding:00000001",
+        "reddit_comment:skateboarding:00000002",
+        "reddit_comment:skateboarding:00000003",
+        "reddit_comment:skateboarding:00000004",
+        "reddit_comment:skateboarding:00000005"
+      ],
+      "uniqueValues": [
+        "reddit_comment:skateboarding:00000001",
+        "reddit_comment:skateboarding:00000002",
+        "reddit_comment:skateboarding:00000003",
+        "reddit_comment:skateboarding:00000004",
+        "reddit_comment:skateboarding:00000005",
+        "reddit_comment:skateboarding:00000006",
+        "reddit_comment:skateboarding:00000007",
+        "reddit_comment:skateboarding:00000008",
+        "reddit_comment:skateboarding:00000009",
+        "reddit_comment:skateboarding:00000010",
+        "reddit_comment:skateboarding:00000011",
+        "reddit_comment:skateboarding:00000012",
+        "reddit_comment:skateboarding:00000013",
+        "reddit_comment:skateboarding:00000014",
+        "reddit_comment:skateboarding:00000015",
+        "reddit_comment:skateboarding:00000016",
+        "reddit_comment:skateboarding:00000017",
+        "reddit_comment:skateboarding:00000018",
+        "reddit_comment:skateboarding:00000019",
+        "reddit_comment:skateboarding:00000020",
+        "reddit_comment:skateboarding:00000021",
+        "reddit_comment:skateboarding:00000022",
+        "reddit_comment:skateboarding:00000023",
+        "reddit_comment:skateboarding:00000024",
+        "reddit_comment:skateboarding:00000025"
+      ],
+      "uniqueValueOverflow": true
+    },
+    "^": {
+      "count": 52963,
+      "types": {
+        "string": 52963
+      },
+      "examples": [
+        "reddit_comment",
+        "reddit_comment",
+        "reddit_comment",
+        "reddit_comment",
+        "reddit_comment"
+      ],
+      "uniqueValues": [
+        "reddit_comment",
+        "subreddit"
+      ],
+      "uniqueValueOverflow": false
+    },
+    "~source": {
+      "count": 52963,
+      "types": {
+        "string": 52963
+      },
+      "examples": [
+        "skate_reddit",
+        "skate_reddit",
+        "skate_reddit",
+        "skate_reddit",
+        "skate_reddit"
+      ],
+      "uniqueValues": [
+        "skate_reddit"
+      ],
+      "uniqueValueOverflow": false
+    },
+    "@subreddit": {
+      "count": 52962,
+      "types": {
+        "string": 52962
+      },
+      "examples": [
+        "subreddit:skateboarding",
+        "subreddit:skateboarding",
+        "subreddit:skateboarding",
+        "subreddit:skateboarding",
+        "subreddit:skateboarding"
+      ],
+      "uniqueValues": [
+        "subreddit:skateboarding"
+      ],
+      "uniqueValueOverflow": false
+    },
+    "~created_utc": {
+      "count": 52962,
+      "types": {
+        "number": 52962
+      },
+      "examples": [
+        1332652563,
+        1332879253,
+        1332087973,
+        1332024214,
+        1332532272
+      ],
+      "uniqueValues": [
+        "1332652563",
+        "1332879253",
+        "1332087973",
+        "1332024214",
+        "1332532272",
+        "1332855645",
+        "1332032046",
+        "1332133338",
+        "1332139040",
+        "1332650186",
+        "1332036738",
+        "1332086711",
+        "1332050170",
+        "1332471043",
+        "1332515330",
+        "1332037229",
+        "1332037397",
+        "1332249299",
+        "1332086336",
+        "1336605506",
+        "1332474844",
+        "1332652124",
+        "1332531316",
+        "1332474033",
+        "1332098168"
+      ],
+      "uniqueValueOverflow": true
+    },
+    "~record_index": {
+      "count": 52962,
+      "types": {
+        "number": 52962
+      },
+      "examples": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "uniqueValues": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "17",
+        "18",
+        "19",
+        "20",
+        "21",
+        "22",
+        "23",
+        "24",
+        "25"
+      ],
+      "uniqueValueOverflow": true
+    },
+    "text": {
+      "count": 52962,
+      "types": {
+        "string": 52962
+      },
+      "examples": [
+        "Short term would be mastering my ollie both moving and stationary, shovits, and learning to 360 ollie",
+        "Did you make fwd flip?",
+        "I would love sum 180-Ollies:)",
+        "Awesome mannie!",
+        "Great video. I like the ride swicht"
+      ],
+      "uniqueValues": [
+        "Short term would be mastering my ollie both moving and stationary, shovits, and learning to 360 ollie",
+        "Did you make fwd flip?",
+        "I would love sum 180-Ollies:)",
+        "Awesome mannie!",
+        "Great video. I like the ride swicht",
+        "Was that kick-turn",
+        "Thanks for the tictack !",
+        "I would love a 180-Ollie:)",
+        "I'll be a mod. I made really good boardslides",
+        "Well. I don't know if your still looking for them, but I can definitively give some tip tricks for Ollies",
+        "Who's Derekk?",
+        "Great video. Make a new video, how much better have you gotten?",
+        "Jesus how old are you? That camera reminds me of the 90s",
+        "I can mod. I browse reddit/shreddit like it's my job and watch assloads of skate videos",
+        "kk well heres my application: as of now I don't know much about skateboarding and I'm determined to learn. If anyone needs help before I learn much I can look up the trick and give that person the link to the helpful site. In time I'll learn how to skateboard and will be able to contribute alot more to this subreddit .thanks.",
+        "I'm not amazing at skateboarding, but I am determined to try and try until I pull of the last trick of my skating career. I have given some tips to other people, but some I cannot give, as I'm not the best at skating. (I can't kickflip, but getting close). Uhm, yeah... that's about all. I guess I could add, I have a 'nice-ness' that can show, and I'm a laid back guy. Thanks",
+        "I'd like to be considered a mod. I've been skating for about 5 years. I started around 10th grade and been doing it on and off (had to stop when I messed up my ankle). I'm sure I can give some tips on tricks/ advice on skate brands. Umm my favorite trick is switch flip. I use to do it off stairs until I ended up messing up my ankle doing it off a set. I'm gaining my confidence back skating stairs. I would do my best to help in any way.",
+        "there was one thing that really changed my technique and made it better: don't try to make the board jump, make yourself jump. Everyone always expects the board to do the lifting but it doesn't. You physically need to put as much force into it as you would if you wanted to jump the same height without a board. The extra lift comes with forward speed but until you can do it moving you really need to put the extra effort in. Think of it as you are jumping off your back foot and having it follow your front foot up after you use it to jump. maybe do that motion a few times without a board until you can get the height and motion of having you're feet move like that while jumping. See how high you can jump like that. If you need more detail on how this jump looks just watch slow mo videos of skates and watch their ollies closely and try to reproduce that jump. Once you are back on the board make sure you stay straight over the board and you aren't leaning back and kicking it forward. Keep your balance centered over the board. Dont shoot it out to get more hieght, bend you're knees and actually jump for the height. It's very important to get this down first after learning to ride and before everything. Edit: I found a great video for reference. Watch how their back feet follow their front feet and how the whole thing makes an arching motion like you would normally jump. This is how you level and control the board for a landing once it is in the air. The smoother, more natural and more fluid you can make this motion and your ollies in general, the better your tricks will be in the future. It's best to spend a lot of time on this and getting it right then having to change your whole riding technique later because That's very difficult, trust me.",
+        "A few things that helped me: 1. When sliding your front foot up, slide it as if you were going to slide it off the tip of the nose. This should get you some good leveling and height if you follow step 2. 2. PICK YOUR BACK FOOT UP! This is the part where you might be kind of afraid. Just pick it up off the ground after you pop. If you slide your foot like in step 1 your board should come up right behind if not with your foot.",
+        "well one thing i found helpful was that when you push down on the back you shouldn't try to time sliding your foot up as the front goes up. simply slide your foot up at the same time that you start pushing the back down. I could only do like .5 in. ollies before i learned this, now i can do 1 in. ollies easily.",
+        "If you want to start doing them moving, give a little push so you get some speed then just keep progressing going faster and faster each time",
+        "Just keep practicing, for me it came naturally. I can ollie 4 boards stacked vertically like nothing haha. You'll get there soon enough, perserverence is key.",
+        "To get it higher, try lifting your back foot off the tail so the board levels out, and stay above it, shoulders straight. Land, bend knees. But when you lift your back foot off, that should bring the back up, going with the front foot sliding motion. Hope this helped.",
+        "Jump to where you think the board will land. Jump from your board with all your weight in your front foot. The sliding part will come relatively naturally. This really helped me, before my friend explained that to me my tail kept scraping the ground.",
+        "wow, that was really detailed. thanks for that, the video really helped for an example. im going to put your advice into action tomorrow. thanks!"
+      ],
+      "uniqueValueOverflow": true
+    },
+    "~name": {
+      "count": 1,
+      "types": {
+        "string": 1
+      },
+      "examples": [
+        "skateboarding"
+      ],
+      "uniqueValues": [
+        "skateboarding"
+      ],
+      "uniqueValueOverflow": false
+    },
+    "~record_count": {
+      "count": 1,
+      "types": {
+        "number": 1
+      },
+      "examples": [
+        52962
+      ],
+      "uniqueValues": [
+        "52962"
+      ],
+      "uniqueValueOverflow": false
+    }
+  },
+  "allFields": {
+    "#": {
+      "count": 52963,
+      "types": {
+        "string": 52963
+      },
+      "examples": [
+        "reddit_comment:skateboarding:00000001",
+        "reddit_comment:skateboarding:00000002",
+        "reddit_comment:skateboarding:00000003",
+        "reddit_comment:skateboarding:00000004",
+        "reddit_comment:skateboarding:00000005"
+      ],
+      "uniqueValues": [
+        "reddit_comment:skateboarding:00000001",
+        "reddit_comment:skateboarding:00000002",
+        "reddit_comment:skateboarding:00000003",
+        "reddit_comment:skateboarding:00000004",
+        "reddit_comment:skateboarding:00000005",
+        "reddit_comment:skateboarding:00000006",
+        "reddit_comment:skateboarding:00000007",
+        "reddit_comment:skateboarding:00000008",
+        "reddit_comment:skateboarding:00000009",
+        "reddit_comment:skateboarding:00000010",
+        "reddit_comment:skateboarding:00000011",
+        "reddit_comment:skateboarding:00000012",
+        "reddit_comment:skateboarding:00000013",
+        "reddit_comment:skateboarding:00000014",
+        "reddit_comment:skateboarding:00000015",
+        "reddit_comment:skateboarding:00000016",
+        "reddit_comment:skateboarding:00000017",
+        "reddit_comment:skateboarding:00000018",
+        "reddit_comment:skateboarding:00000019",
+        "reddit_comment:skateboarding:00000020",
+        "reddit_comment:skateboarding:00000021",
+        "reddit_comment:skateboarding:00000022",
+        "reddit_comment:skateboarding:00000023",
+        "reddit_comment:skateboarding:00000024",
+        "reddit_comment:skateboarding:00000025"
+      ],
+      "uniqueValueOverflow": true
+    },
+    "^": {
+      "count": 52963,
+      "types": {
+        "string": 52963
+      },
+      "examples": [
+        "reddit_comment",
+        "reddit_comment",
+        "reddit_comment",
+        "reddit_comment",
+        "reddit_comment"
+      ],
+      "uniqueValues": [
+        "reddit_comment",
+        "subreddit"
+      ],
+      "uniqueValueOverflow": false
+    },
+    "~source": {
+      "count": 52963,
+      "types": {
+        "string": 52963
+      },
+      "examples": [
+        "skate_reddit",
+        "skate_reddit",
+        "skate_reddit",
+        "skate_reddit",
+        "skate_reddit"
+      ],
+      "uniqueValues": [
+        "skate_reddit"
+      ],
+      "uniqueValueOverflow": false
+    },
+    "@subreddit": {
+      "count": 52962,
+      "types": {
+        "string": 52962
+      },
+      "examples": [
+        "subreddit:skateboarding",
+        "subreddit:skateboarding",
+        "subreddit:skateboarding",
+        "subreddit:skateboarding",
+        "subreddit:skateboarding"
+      ],
+      "uniqueValues": [
+        "subreddit:skateboarding"
+      ],
+      "uniqueValueOverflow": false
+    },
+    "~created_utc": {
+      "count": 52962,
+      "types": {
+        "number": 52962
+      },
+      "examples": [
+        1332652563,
+        1332879253,
+        1332087973,
+        1332024214,
+        1332532272
+      ],
+      "uniqueValues": [
+        "1332652563",
+        "1332879253",
+        "1332087973",
+        "1332024214",
+        "1332532272",
+        "1332855645",
+        "1332032046",
+        "1332133338",
+        "1332139040",
+        "1332650186",
+        "1332036738",
+        "1332086711",
+        "1332050170",
+        "1332471043",
+        "1332515330",
+        "1332037229",
+        "1332037397",
+        "1332249299",
+        "1332086336",
+        "1336605506",
+        "1332474844",
+        "1332652124",
+        "1332531316",
+        "1332474033",
+        "1332098168"
+      ],
+      "uniqueValueOverflow": true
+    },
+    "~record_index": {
+      "count": 52962,
+      "types": {
+        "number": 52962
+      },
+      "examples": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "uniqueValues": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "17",
+        "18",
+        "19",
+        "20",
+        "21",
+        "22",
+        "23",
+        "24",
+        "25"
+      ],
+      "uniqueValueOverflow": true
+    },
+    "text": {
+      "count": 52962,
+      "types": {
+        "string": 52962
+      },
+      "examples": [
+        "Short term would be mastering my ollie both moving and stationary, shovits, and learning to 360 ollie",
+        "Did you make fwd flip?",
+        "I would love sum 180-Ollies:)",
+        "Awesome mannie!",
+        "Great video. I like the ride swicht"
+      ],
+      "uniqueValues": [
+        "Short term would be mastering my ollie both moving and stationary, shovits, and learning to 360 ollie",
+        "Did you make fwd flip?",
+        "I would love sum 180-Ollies:)",
+        "Awesome mannie!",
+        "Great video. I like the ride swicht",
+        "Was that kick-turn",
+        "Thanks for the tictack !",
+        "I would love a 180-Ollie:)",
+        "I'll be a mod. I made really good boardslides",
+        "Well. I don't know if your still looking for them, but I can definitively give some tip tricks for Ollies",
+        "Who's Derekk?",
+        "Great video. Make a new video, how much better have you gotten?",
+        "Jesus how old are you? That camera reminds me of the 90s",
+        "I can mod. I browse reddit/shreddit like it's my job and watch assloads of skate videos",
+        "kk well heres my application: as of now I don't know much about skateboarding and I'm determined to learn. If anyone needs help before I learn much I can look up the trick and give that person the link to the helpful site. In time I'll learn how to skateboard and will be able to contribute alot more to this subreddit .thanks.",
+        "I'm not amazing at skateboarding, but I am determined to try and try until I pull of the last trick of my skating career. I have given some tips to other people, but some I cannot give, as I'm not the best at skating. (I can't kickflip, but getting close). Uhm, yeah... that's about all. I guess I could add, I have a 'nice-ness' that can show, and I'm a laid back guy. Thanks",
+        "I'd like to be considered a mod. I've been skating for about 5 years. I started around 10th grade and been doing it on and off (had to stop when I messed up my ankle). I'm sure I can give some tips on tricks/ advice on skate brands. Umm my favorite trick is switch flip. I use to do it off stairs until I ended up messing up my ankle doing it off a set. I'm gaining my confidence back skating stairs. I would do my best to help in any way.",
+        "there was one thing that really changed my technique and made it better: don't try to make the board jump, make yourself jump. Everyone always expects the board to do the lifting but it doesn't. You physically need to put as much force into it as you would if you wanted to jump the same height without a board. The extra lift comes with forward speed but until you can do it moving you really need to put the extra effort in. Think of it as you are jumping off your back foot and having it follow your front foot up after you use it to jump. maybe do that motion a few times without a board until you can get the height and motion of having you're feet move like that while jumping. See how high you can jump like that. If you need more detail on how this jump looks just watch slow mo videos of skates and watch their ollies closely and try to reproduce that jump. Once you are back on the board make sure you stay straight over the board and you aren't leaning back and kicking it forward. Keep your balance centered over the board. Dont shoot it out to get more hieght, bend you're knees and actually jump for the height. It's very important to get this down first after learning to ride and before everything. Edit: I found a great video for reference. Watch how their back feet follow their front feet and how the whole thing makes an arching motion like you would normally jump. This is how you level and control the board for a landing once it is in the air. The smoother, more natural and more fluid you can make this motion and your ollies in general, the better your tricks will be in the future. It's best to spend a lot of time on this and getting it right then having to change your whole riding technique later because That's very difficult, trust me.",
+        "A few things that helped me: 1. When sliding your front foot up, slide it as if you were going to slide it off the tip of the nose. This should get you some good leveling and height if you follow step 2. 2. PICK YOUR BACK FOOT UP! This is the part where you might be kind of afraid. Just pick it up off the ground after you pop. If you slide your foot like in step 1 your board should come up right behind if not with your foot.",
+        "well one thing i found helpful was that when you push down on the back you shouldn't try to time sliding your foot up as the front goes up. simply slide your foot up at the same time that you start pushing the back down. I could only do like .5 in. ollies before i learned this, now i can do 1 in. ollies easily.",
+        "If you want to start doing them moving, give a little push so you get some speed then just keep progressing going faster and faster each time",
+        "Just keep practicing, for me it came naturally. I can ollie 4 boards stacked vertically like nothing haha. You'll get there soon enough, perserverence is key.",
+        "To get it higher, try lifting your back foot off the tail so the board levels out, and stay above it, shoulders straight. Land, bend knees. But when you lift your back foot off, that should bring the back up, going with the front foot sliding motion. Hope this helped.",
+        "Jump to where you think the board will land. Jump from your board with all your weight in your front foot. The sliding part will come relatively naturally. This really helped me, before my friend explained that to me my tail kept scraping the ground.",
+        "wow, that was really detailed. thanks for that, the video really helped for an example. im going to put your advice into action tomorrow. thanks!"
+      ],
+      "uniqueValueOverflow": true
+    },
+    "~name": {
+      "count": 1,
+      "types": {
+        "string": 1
+      },
+      "examples": [
+        "skateboarding"
+      ],
+      "uniqueValues": [
+        "skateboarding"
+      ],
+      "uniqueValueOverflow": false
+    },
+    "~record_count": {
+      "count": 1,
+      "types": {
+        "number": 1
+      },
+      "examples": [
+        52962
+      ],
+      "uniqueValues": [
+        "52962"
+      ],
+      "uniqueValueOverflow": false
+    }
+  },
+  "possibleIdFields": {},
+  "possibleRelationshipFields": {
+    "~source": {
+      "count": 52963,
+      "types": {
+        "string": 52963
+      },
+      "examples": [
+        "skate_reddit",
+        "skate_reddit",
+        "skate_reddit",
+        "skate_reddit",
+        "skate_reddit"
+      ],
+      "uniqueValues": [
+        "skate_reddit"
+      ],
+      "uniqueValueOverflow": false
+    }
+  },
+  "possibleMetadataFields": {
+    "~source": {
+      "count": 52963,
+      "types": {
+        "string": 52963
+      },
+      "examples": [
+        "skate_reddit",
+        "skate_reddit",
+        "skate_reddit",
+        "skate_reddit",
+        "skate_reddit"
+      ],
+      "uniqueValues": [
+        "skate_reddit"
+      ],
+      "uniqueValueOverflow": false
+    },
+    "@subreddit": {
+      "count": 52962,
+      "types": {
+        "string": 52962
+      },
+      "examples": [
+        "subreddit:skateboarding",
+        "subreddit:skateboarding",
+        "subreddit:skateboarding",
+        "subreddit:skateboarding",
+        "subreddit:skateboarding"
+      ],
+      "uniqueValues": [
+        "subreddit:skateboarding"
+      ],
+      "uniqueValueOverflow": false
+    },
+    "~created_utc": {
+      "count": 52962,
+      "types": {
+        "number": 52962
+      },
+      "examples": [
+        1332652563,
+        1332879253,
+        1332087973,
+        1332024214,
+        1332532272
+      ],
+      "uniqueValues": [
+        "1332652563",
+        "1332879253",
+        "1332087973",
+        "1332024214",
+        "1332532272",
+        "1332855645",
+        "1332032046",
+        "1332133338",
+        "1332139040",
+        "1332650186",
+        "1332036738",
+        "1332086711",
+        "1332050170",
+        "1332471043",
+        "1332515330",
+        "1332037229",
+        "1332037397",
+        "1332249299",
+        "1332086336",
+        "1336605506",
+        "1332474844",
+        "1332652124",
+        "1332531316",
+        "1332474033",
+        "1332098168"
+      ],
+      "uniqueValueOverflow": true
+    },
+    "~record_count": {
+      "count": 1,
+      "types": {
+        "number": 1
+      },
+      "examples": [
+        52962
+      ],
+      "uniqueValues": [
+        "52962"
+      ],
+      "uniqueValueOverflow": false
+    }
+  },
+  "sampleRecords": [
+    {
+      "#": "reddit_comment:skateboarding:00000001",
+      "^": "reddit_comment",
+      "@subreddit": "subreddit:skateboarding",
+      "~source": "skate_reddit",
+      "~created_utc": 1332652563,
+      "~record_index": 1,
+      "text": "Short term would be mastering my ollie both moving and stationary, shovits, and learning to 360 ollie"
+    },
+    {
+      "#": "reddit_comment:skateboarding:00000002",
+      "^": "reddit_comment",
+      "@subreddit": "subreddit:skateboarding",
+      "~source": "skate_reddit",
+      "~created_utc": 1332879253,
+      "~record_index": 2,
+      "text": "Did you make fwd flip?"
+    },
+    {
+      "#": "reddit_comment:skateboarding:00000003",
+      "^": "reddit_comment",
+      "@subreddit": "subreddit:skateboarding",
+      "~source": "skate_reddit",
+      "~created_utc": 1332087973,
+      "~record_index": 3,
+      "text": "I would love sum 180-Ollies:)"
+    },
+    {
+      "#": "reddit_comment:skateboarding:00000004",
+      "^": "reddit_comment",
+      "@subreddit": "subreddit:skateboarding",
+      "~source": "skate_reddit",
+      "~created_utc": 1332024214,
+      "~record_index": 4,
+      "text": "Awesome mannie!"
+    },
+    {
+      "#": "reddit_comment:skateboarding:00000005",
+      "^": "reddit_comment",
+      "@subreddit": "subreddit:skateboarding",
+      "~source": "skate_reddit",
+      "~created_utc": 1332532272,
+      "~record_index": 5,
+      "text": "Great video. I like the ride swicht"
+    }
+  ],
+  "parseErrors": [],
+  "finishedAt": "2026-05-21T07:02:40.468Z",
+  "profileMs": 148.662,
+  "averageTopLevelFields": 7,
+  "validJsonRatio": 1
+}
