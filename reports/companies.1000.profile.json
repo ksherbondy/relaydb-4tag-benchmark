@@ -1,0 +1,681 @@
+{
+  "inputPath": "datasets/generated/companies.1000.jsonl",
+  "fileName": "companies.1000.jsonl",
+  "fileSizeBytes": 195236,
+  "startedAt": "2026-05-21T15:37:16.607Z",
+  "totalLines": 1000,
+  "validJsonLines": 1000,
+  "invalidJsonLines": 0,
+  "blankLines": 0,
+  "totalTopLevelFieldsSeen": 6000,
+  "maxDepth": 2,
+  "recordSizeBytes": {
+    "min": 181,
+    "max": 210,
+    "total": 194236,
+    "average": 194.236
+  },
+  "topLevelFields": {
+    "id": {
+      "count": 1000,
+      "types": {
+        "string": 1000
+      },
+      "examples": [
+        "6a41f02d-4c5c-4f3d-9a69-662dbf5c17af",
+        "c5172540-0b7a-48da-b63d-e0c3d5dea008",
+        "0e531ed1-87cb-42e1-8eff-86c2be2b2976",
+        "8ac5f322-351e-4e1b-a37e-7c79ce4ce349",
+        "00453edc-8803-4388-b38e-91fcbffa2477"
+      ],
+      "uniqueValues": [
+        "6a41f02d-4c5c-4f3d-9a69-662dbf5c17af",
+        "c5172540-0b7a-48da-b63d-e0c3d5dea008",
+        "0e531ed1-87cb-42e1-8eff-86c2be2b2976",
+        "8ac5f322-351e-4e1b-a37e-7c79ce4ce349",
+        "00453edc-8803-4388-b38e-91fcbffa2477",
+        "979a0dd6-3474-4769-8069-cae2a718044f",
+        "af3ac4ef-7d38-499c-b8d5-f4a0fa2fcdee",
+        "f54e2264-d6a2-4999-a93e-1f21de0f1353",
+        "47dc7e93-22e1-463e-8bda-09106cce25a7",
+        "e77849b6-ec97-4d15-8d55-4b65c7a3bdec",
+        "20c4ccb2-68c1-4b40-9bb8-ff2f14b59d9b",
+        "eb9fab97-ed92-4d1d-bded-0909c6cb555c",
+        "77964cae-eb20-47b3-b965-13535dddef05",
+        "4cf2111f-7671-406e-801f-a7a29ac7778c",
+        "7a64a82a-fc44-4aa9-8304-ea0d2a6fc95f",
+        "75cf6e70-1ff6-471a-bf89-b901069db403",
+        "ffca46a3-1124-4aa1-9112-49873d49ec1d",
+        "0704e641-478d-4a43-a448-b0d5eb306a04",
+        "6944c1fa-8da1-46ce-b2fd-fc3b3f1ef9e5",
+        "9e6e0edc-f073-489a-a215-943673987739",
+        "19142a08-96d3-42fd-8702-f559fd6ff0b8",
+        "5f588267-3b6c-4071-9259-9b6b81faebe4",
+        "86c0a972-cc16-4acd-971e-1f7bad715e1c",
+        "c3462a74-9bd5-4ff5-8588-28ef9accc438",
+        "81ef4138-14da-471c-9d4c-49295c6295ea"
+      ],
+      "uniqueValueOverflow": true
+    },
+    "name": {
+      "count": 1000,
+      "types": {
+        "string": 1000
+      },
+      "examples": [
+        "Atlas Dynamics 1-1",
+        "Riverstone Services 2-1",
+        "Skyline Industries 3-1",
+        "Clearwater Services 4-1",
+        "Riverstone Manufacturing 5-1"
+      ],
+      "uniqueValues": [
+        "Atlas Dynamics 1-1",
+        "Riverstone Services 2-1",
+        "Skyline Industries 3-1",
+        "Clearwater Services 4-1",
+        "Riverstone Manufacturing 5-1",
+        "Atlas Technology 6-1",
+        "Cedar Grove Healthcare 7-1",
+        "Silver Oak Retail 8-1",
+        "Redwood Systems 9-1",
+        "Skyline Education 10-1",
+        "Ironwood Energy 11-1",
+        "Golden Plains Systems 12-1",
+        "Riverstone Agriculture 13-1",
+        "Sterling Technologies 14-1",
+        "Golden Plains Finance 15-1",
+        "Sterling Manufacturing 16-1",
+        "Evergreen Transportation 17-1",
+        "Nova Consulting 18-1",
+        "Northstar Consulting 19-1",
+        "Evergreen Partners 20-1",
+        "Green Valley Works 21-1",
+        "Nova Consulting 22-1",
+        "Blue Ridge Finance 23-1",
+        "Golden Plains Consulting 24-1",
+        "Northstar Services 25-1"
+      ],
+      "uniqueValueOverflow": true
+    },
+    "industry": {
+      "count": 1000,
+      "types": {
+        "string": 1000
+      },
+      "examples": [
+        "Finance",
+        "Manufacturing",
+        "Technology",
+        "Transportation",
+        "Education"
+      ],
+      "uniqueValues": [
+        "Finance",
+        "Manufacturing",
+        "Technology",
+        "Transportation",
+        "Education",
+        "Healthcare",
+        "Retail",
+        "Energy",
+        "Agriculture",
+        "Consulting"
+      ],
+      "uniqueValueOverflow": false
+    },
+    "headquarters": {
+      "count": 1000,
+      "types": {
+        "object": 1000
+      },
+      "examples": [
+        {
+          "city": "Augusta",
+          "state": "GA",
+          "country": "USA"
+        },
+        {
+          "city": "Springfield",
+          "state": "IL",
+          "country": "USA"
+        },
+        {
+          "city": "Portland",
+          "state": "OR",
+          "country": "USA"
+        },
+        {
+          "city": "Boulder",
+          "state": "CO",
+          "country": "USA"
+        },
+        {
+          "city": "Raleigh",
+          "state": "NC",
+          "country": "USA"
+        }
+      ],
+      "uniqueValues": [],
+      "uniqueValueOverflow": false
+    },
+    "size": {
+      "count": 1000,
+      "types": {
+        "number": 1000
+      },
+      "examples": [
+        46438,
+        10325,
+        16535,
+        47344,
+        33012
+      ],
+      "uniqueValues": [
+        "46438",
+        "10325",
+        "16535",
+        "47344",
+        "33012",
+        "10395",
+        "13859",
+        "6184",
+        "31402",
+        "19223",
+        "47583",
+        "45796",
+        "5983",
+        "30624",
+        "25881",
+        "5548",
+        "1133",
+        "47436",
+        "17614",
+        "11872",
+        "3228",
+        "12985",
+        "42389",
+        "26645",
+        "36328"
+      ],
+      "uniqueValueOverflow": true
+    },
+    "founded": {
+      "count": 1000,
+      "types": {
+        "number": 1000
+      },
+      "examples": [
+        2007,
+        2008,
+        2022,
+        2006,
+        1978
+      ],
+      "uniqueValues": [
+        "2007",
+        "2008",
+        "2022",
+        "2006",
+        "1978",
+        "1976",
+        "1997",
+        "1957",
+        "1980",
+        "2000",
+        "1964",
+        "1969",
+        "1987",
+        "1959",
+        "1962",
+        "2024",
+        "2019",
+        "2002",
+        "1998",
+        "2021",
+        "1961",
+        "1993",
+        "1990",
+        "2005",
+        "1950"
+      ],
+      "uniqueValueOverflow": true
+    }
+  },
+  "allFields": {
+    "id": {
+      "count": 1000,
+      "types": {
+        "string": 1000
+      },
+      "examples": [
+        "6a41f02d-4c5c-4f3d-9a69-662dbf5c17af",
+        "c5172540-0b7a-48da-b63d-e0c3d5dea008",
+        "0e531ed1-87cb-42e1-8eff-86c2be2b2976",
+        "8ac5f322-351e-4e1b-a37e-7c79ce4ce349",
+        "00453edc-8803-4388-b38e-91fcbffa2477"
+      ],
+      "uniqueValues": [
+        "6a41f02d-4c5c-4f3d-9a69-662dbf5c17af",
+        "c5172540-0b7a-48da-b63d-e0c3d5dea008",
+        "0e531ed1-87cb-42e1-8eff-86c2be2b2976",
+        "8ac5f322-351e-4e1b-a37e-7c79ce4ce349",
+        "00453edc-8803-4388-b38e-91fcbffa2477",
+        "979a0dd6-3474-4769-8069-cae2a718044f",
+        "af3ac4ef-7d38-499c-b8d5-f4a0fa2fcdee",
+        "f54e2264-d6a2-4999-a93e-1f21de0f1353",
+        "47dc7e93-22e1-463e-8bda-09106cce25a7",
+        "e77849b6-ec97-4d15-8d55-4b65c7a3bdec",
+        "20c4ccb2-68c1-4b40-9bb8-ff2f14b59d9b",
+        "eb9fab97-ed92-4d1d-bded-0909c6cb555c",
+        "77964cae-eb20-47b3-b965-13535dddef05",
+        "4cf2111f-7671-406e-801f-a7a29ac7778c",
+        "7a64a82a-fc44-4aa9-8304-ea0d2a6fc95f",
+        "75cf6e70-1ff6-471a-bf89-b901069db403",
+        "ffca46a3-1124-4aa1-9112-49873d49ec1d",
+        "0704e641-478d-4a43-a448-b0d5eb306a04",
+        "6944c1fa-8da1-46ce-b2fd-fc3b3f1ef9e5",
+        "9e6e0edc-f073-489a-a215-943673987739",
+        "19142a08-96d3-42fd-8702-f559fd6ff0b8",
+        "5f588267-3b6c-4071-9259-9b6b81faebe4",
+        "86c0a972-cc16-4acd-971e-1f7bad715e1c",
+        "c3462a74-9bd5-4ff5-8588-28ef9accc438",
+        "81ef4138-14da-471c-9d4c-49295c6295ea"
+      ],
+      "uniqueValueOverflow": true
+    },
+    "name": {
+      "count": 1000,
+      "types": {
+        "string": 1000
+      },
+      "examples": [
+        "Atlas Dynamics 1-1",
+        "Riverstone Services 2-1",
+        "Skyline Industries 3-1",
+        "Clearwater Services 4-1",
+        "Riverstone Manufacturing 5-1"
+      ],
+      "uniqueValues": [
+        "Atlas Dynamics 1-1",
+        "Riverstone Services 2-1",
+        "Skyline Industries 3-1",
+        "Clearwater Services 4-1",
+        "Riverstone Manufacturing 5-1",
+        "Atlas Technology 6-1",
+        "Cedar Grove Healthcare 7-1",
+        "Silver Oak Retail 8-1",
+        "Redwood Systems 9-1",
+        "Skyline Education 10-1",
+        "Ironwood Energy 11-1",
+        "Golden Plains Systems 12-1",
+        "Riverstone Agriculture 13-1",
+        "Sterling Technologies 14-1",
+        "Golden Plains Finance 15-1",
+        "Sterling Manufacturing 16-1",
+        "Evergreen Transportation 17-1",
+        "Nova Consulting 18-1",
+        "Northstar Consulting 19-1",
+        "Evergreen Partners 20-1",
+        "Green Valley Works 21-1",
+        "Nova Consulting 22-1",
+        "Blue Ridge Finance 23-1",
+        "Golden Plains Consulting 24-1",
+        "Northstar Services 25-1"
+      ],
+      "uniqueValueOverflow": true
+    },
+    "industry": {
+      "count": 1000,
+      "types": {
+        "string": 1000
+      },
+      "examples": [
+        "Finance",
+        "Manufacturing",
+        "Technology",
+        "Transportation",
+        "Education"
+      ],
+      "uniqueValues": [
+        "Finance",
+        "Manufacturing",
+        "Technology",
+        "Transportation",
+        "Education",
+        "Healthcare",
+        "Retail",
+        "Energy",
+        "Agriculture",
+        "Consulting"
+      ],
+      "uniqueValueOverflow": false
+    },
+    "headquarters": {
+      "count": 1000,
+      "types": {
+        "object": 1000
+      },
+      "examples": [
+        {
+          "city": "Augusta",
+          "state": "GA",
+          "country": "USA"
+        },
+        {
+          "city": "Springfield",
+          "state": "IL",
+          "country": "USA"
+        },
+        {
+          "city": "Portland",
+          "state": "OR",
+          "country": "USA"
+        },
+        {
+          "city": "Boulder",
+          "state": "CO",
+          "country": "USA"
+        },
+        {
+          "city": "Raleigh",
+          "state": "NC",
+          "country": "USA"
+        }
+      ],
+      "uniqueValues": [],
+      "uniqueValueOverflow": false
+    },
+    "headquarters.city": {
+      "count": 1000,
+      "types": {
+        "string": 1000
+      },
+      "examples": [
+        "Augusta",
+        "Springfield",
+        "Portland",
+        "Boulder",
+        "Raleigh"
+      ],
+      "uniqueValues": [
+        "Augusta",
+        "Springfield",
+        "Portland",
+        "Boulder",
+        "Raleigh",
+        "Austin",
+        "Charlotte",
+        "Seattle",
+        "Salem",
+        "Dallas",
+        "Atlanta",
+        "Des Moines",
+        "Syracuse",
+        "Phoenix",
+        "Chicago",
+        "Houston",
+        "Tacoma",
+        "Cedar Rapids",
+        "New York",
+        "Denver"
+      ],
+      "uniqueValueOverflow": false
+    },
+    "headquarters.state": {
+      "count": 1000,
+      "types": {
+        "string": 1000
+      },
+      "examples": [
+        "GA",
+        "IL",
+        "OR",
+        "CO",
+        "NC"
+      ],
+      "uniqueValues": [
+        "GA",
+        "IL",
+        "OR",
+        "CO",
+        "NC",
+        "TX",
+        "WA",
+        "IA",
+        "NY",
+        "AZ"
+      ],
+      "uniqueValueOverflow": false
+    },
+    "headquarters.country": {
+      "count": 1000,
+      "types": {
+        "string": 1000
+      },
+      "examples": [
+        "USA",
+        "USA",
+        "USA",
+        "USA",
+        "USA"
+      ],
+      "uniqueValues": [
+        "USA"
+      ],
+      "uniqueValueOverflow": false
+    },
+    "size": {
+      "count": 1000,
+      "types": {
+        "number": 1000
+      },
+      "examples": [
+        46438,
+        10325,
+        16535,
+        47344,
+        33012
+      ],
+      "uniqueValues": [
+        "46438",
+        "10325",
+        "16535",
+        "47344",
+        "33012",
+        "10395",
+        "13859",
+        "6184",
+        "31402",
+        "19223",
+        "47583",
+        "45796",
+        "5983",
+        "30624",
+        "25881",
+        "5548",
+        "1133",
+        "47436",
+        "17614",
+        "11872",
+        "3228",
+        "12985",
+        "42389",
+        "26645",
+        "36328"
+      ],
+      "uniqueValueOverflow": true
+    },
+    "founded": {
+      "count": 1000,
+      "types": {
+        "number": 1000
+      },
+      "examples": [
+        2007,
+        2008,
+        2022,
+        2006,
+        1978
+      ],
+      "uniqueValues": [
+        "2007",
+        "2008",
+        "2022",
+        "2006",
+        "1978",
+        "1976",
+        "1997",
+        "1957",
+        "1980",
+        "2000",
+        "1964",
+        "1969",
+        "1987",
+        "1959",
+        "1962",
+        "2024",
+        "2019",
+        "2002",
+        "1998",
+        "2021",
+        "1961",
+        "1993",
+        "1990",
+        "2005",
+        "1950"
+      ],
+      "uniqueValueOverflow": true
+    }
+  },
+  "possibleIdFields": {
+    "id": {
+      "count": 1000,
+      "types": {
+        "string": 1000
+      },
+      "examples": [
+        "6a41f02d-4c5c-4f3d-9a69-662dbf5c17af",
+        "c5172540-0b7a-48da-b63d-e0c3d5dea008",
+        "0e531ed1-87cb-42e1-8eff-86c2be2b2976",
+        "8ac5f322-351e-4e1b-a37e-7c79ce4ce349",
+        "00453edc-8803-4388-b38e-91fcbffa2477"
+      ],
+      "uniqueValues": [
+        "6a41f02d-4c5c-4f3d-9a69-662dbf5c17af",
+        "c5172540-0b7a-48da-b63d-e0c3d5dea008",
+        "0e531ed1-87cb-42e1-8eff-86c2be2b2976",
+        "8ac5f322-351e-4e1b-a37e-7c79ce4ce349",
+        "00453edc-8803-4388-b38e-91fcbffa2477",
+        "979a0dd6-3474-4769-8069-cae2a718044f",
+        "af3ac4ef-7d38-499c-b8d5-f4a0fa2fcdee",
+        "f54e2264-d6a2-4999-a93e-1f21de0f1353",
+        "47dc7e93-22e1-463e-8bda-09106cce25a7",
+        "e77849b6-ec97-4d15-8d55-4b65c7a3bdec",
+        "20c4ccb2-68c1-4b40-9bb8-ff2f14b59d9b",
+        "eb9fab97-ed92-4d1d-bded-0909c6cb555c",
+        "77964cae-eb20-47b3-b965-13535dddef05",
+        "4cf2111f-7671-406e-801f-a7a29ac7778c",
+        "7a64a82a-fc44-4aa9-8304-ea0d2a6fc95f",
+        "75cf6e70-1ff6-471a-bf89-b901069db403",
+        "ffca46a3-1124-4aa1-9112-49873d49ec1d",
+        "0704e641-478d-4a43-a448-b0d5eb306a04",
+        "6944c1fa-8da1-46ce-b2fd-fc3b3f1ef9e5",
+        "9e6e0edc-f073-489a-a215-943673987739",
+        "19142a08-96d3-42fd-8702-f559fd6ff0b8",
+        "5f588267-3b6c-4071-9259-9b6b81faebe4",
+        "86c0a972-cc16-4acd-971e-1f7bad715e1c",
+        "c3462a74-9bd5-4ff5-8588-28ef9accc438",
+        "81ef4138-14da-471c-9d4c-49295c6295ea"
+      ],
+      "uniqueValueOverflow": true
+    }
+  },
+  "possibleRelationshipFields": {},
+  "possibleMetadataFields": {
+    "headquarters.country": {
+      "count": 1000,
+      "types": {
+        "string": 1000
+      },
+      "examples": [
+        "USA",
+        "USA",
+        "USA",
+        "USA",
+        "USA"
+      ],
+      "uniqueValues": [
+        "USA"
+      ],
+      "uniqueValueOverflow": false
+    }
+  },
+  "sampleRecords": [
+    {
+      "id": "6a41f02d-4c5c-4f3d-9a69-662dbf5c17af",
+      "name": "Atlas Dynamics 1-1",
+      "industry": "Finance",
+      "headquarters": {
+        "city": "Augusta",
+        "state": "GA",
+        "country": "USA"
+      },
+      "size": 46438,
+      "founded": 2007
+    },
+    {
+      "id": "c5172540-0b7a-48da-b63d-e0c3d5dea008",
+      "name": "Riverstone Services 2-1",
+      "industry": "Manufacturing",
+      "headquarters": {
+        "city": "Springfield",
+        "state": "IL",
+        "country": "USA"
+      },
+      "size": 10325,
+      "founded": 2008
+    },
+    {
+      "id": "0e531ed1-87cb-42e1-8eff-86c2be2b2976",
+      "name": "Skyline Industries 3-1",
+      "industry": "Technology",
+      "headquarters": {
+        "city": "Portland",
+        "state": "OR",
+        "country": "USA"
+      },
+      "size": 16535,
+      "founded": 2022
+    },
+    {
+      "id": "8ac5f322-351e-4e1b-a37e-7c79ce4ce349",
+      "name": "Clearwater Services 4-1",
+      "industry": "Transportation",
+      "headquarters": {
+        "city": "Boulder",
+        "state": "CO",
+        "country": "USA"
+      },
+      "size": 47344,
+      "founded": 2006
+    },
+    {
+      "id": "00453edc-8803-4388-b38e-91fcbffa2477",
+      "name": "Riverstone Manufacturing 5-1",
+      "industry": "Education",
+      "headquarters": {
+        "city": "Raleigh",
+        "state": "NC",
+        "country": "USA"
+      },
+      "size": 33012,
+      "founded": 1978
+    }
+  ],
+  "parseErrors": [],
+  "finishedAt": "2026-05-21T15:37:16.615Z",
+  "profileMs": 7.52,
+  "averageTopLevelFields": 6,
+  "validJsonRatio": 1
+}

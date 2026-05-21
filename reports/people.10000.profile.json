@@ -1,0 +1,1211 @@
+{
+  "inputPath": "datasets/generated/people.10000.jsonl",
+  "fileName": "people.10000.jsonl",
+  "fileSizeBytes": 5063812,
+  "startedAt": "2026-05-21T15:37:27.224Z",
+  "totalLines": 10000,
+  "validJsonLines": 10000,
+  "invalidJsonLines": 0,
+  "blankLines": 0,
+  "totalTopLevelFieldsSeen": 50000,
+  "maxDepth": 4,
+  "recordSizeBytes": {
+    "min": 469,
+    "max": 548,
+    "total": 5053812,
+    "average": 505.381
+  },
+  "topLevelFields": {
+    "id": {
+      "count": 10000,
+      "types": {
+        "string": 10000
+      },
+      "examples": [
+        "d52442ae-e418-437d-8df6-c7b60acd958b",
+        "a13069b9-3279-4b0a-925f-def4c1a81fae",
+        "d1df06fa-761f-4132-8389-8e3a07823bc9",
+        "9da5e67a-c1a0-49e9-8169-039e6e0ef6a7",
+        "4bf385c2-d319-4783-928c-d9f948fe6467"
+      ],
+      "uniqueValues": [
+        "d52442ae-e418-437d-8df6-c7b60acd958b",
+        "a13069b9-3279-4b0a-925f-def4c1a81fae",
+        "d1df06fa-761f-4132-8389-8e3a07823bc9",
+        "9da5e67a-c1a0-49e9-8169-039e6e0ef6a7",
+        "4bf385c2-d319-4783-928c-d9f948fe6467",
+        "6baeda4b-6914-47fc-8a22-1c7cc1bb5099",
+        "12437742-5050-43a6-9121-9bb69c31173a",
+        "c698ee7b-48da-46b4-91bf-78a6ab014850",
+        "331de6b2-c241-493b-9e49-1f25a6a98437",
+        "9e627180-5ea6-496d-b9db-73762dc39bf5",
+        "ff6dbc67-afd8-44fc-a25d-2d513798f82d",
+        "25902a8d-d428-4a95-bc12-f042e4fea828",
+        "c6ffe323-f616-4ed7-a3a2-3b1d0377115f",
+        "6d663a21-db1d-4d43-b587-481155adec4b",
+        "16e5a7de-0920-4e85-b174-bb32037c87fe",
+        "cc7d14e7-27a7-42e0-9f44-6d20766130cd",
+        "392ce51e-3cb9-4cec-a1e7-dba53ca34a1f",
+        "5b29d40e-0f98-49ce-aaae-1872ec712747",
+        "3e16e505-12d7-4bcc-85eb-74c8e9ec2e51",
+        "db8e71e8-7041-4c38-ab32-755004c1c1e8",
+        "652fcf5f-7278-4fd2-a972-21d23028c3e6",
+        "eee3be5b-0afa-40bb-950b-862979e34121",
+        "2a56d4bb-9498-4317-8a1b-c0b6ad7a43fe",
+        "7cca9e1a-9e23-42c1-a5cd-819f6ffe574b",
+        "f6e62122-cd5f-4ae8-963f-52d16906bf21"
+      ],
+      "uniqueValueOverflow": true
+    },
+    "created_at": {
+      "count": 10000,
+      "types": {
+        "string": 10000
+      },
+      "examples": [
+        "2021-04-11T01:13:32.972Z",
+        "2023-05-17T17:45:58.975Z",
+        "2023-06-01T09:02:50.974Z",
+        "2025-08-14T11:23:55.465Z",
+        "2023-11-06T21:06:38.416Z"
+      ],
+      "uniqueValues": [
+        "2021-04-11T01:13:32.972Z",
+        "2023-05-17T17:45:58.975Z",
+        "2023-06-01T09:02:50.974Z",
+        "2025-08-14T11:23:55.465Z",
+        "2023-11-06T21:06:38.416Z",
+        "2020-10-30T10:12:14.326Z",
+        "2020-01-17T11:15:00.454Z",
+        "2024-08-04T13:19:32.280Z",
+        "2021-12-17T23:43:04.879Z",
+        "2025-10-10T18:50:25.915Z",
+        "2022-07-25T07:47:25.660Z",
+        "2022-08-20T23:34:00.266Z",
+        "2022-08-15T18:23:15.463Z",
+        "2023-09-08T11:59:45.068Z",
+        "2020-10-07T19:49:13.022Z",
+        "2024-05-18T10:46:47.778Z",
+        "2022-08-14T09:30:44.709Z",
+        "2024-12-31T19:26:53.398Z",
+        "2022-12-11T08:01:05.459Z",
+        "2024-02-25T06:33:50.073Z",
+        "2020-11-12T19:09:07.962Z",
+        "2024-11-05T13:16:35.500Z",
+        "2024-01-26T09:10:47.765Z",
+        "2022-01-13T14:04:43.381Z",
+        "2022-01-11T22:35:23.657Z"
+      ],
+      "uniqueValueOverflow": true
+    },
+    "status": {
+      "count": 10000,
+      "types": {
+        "string": 10000
+      },
+      "examples": [
+        "inactive",
+        "pending",
+        "pending",
+        "pending",
+        "active"
+      ],
+      "uniqueValues": [
+        "inactive",
+        "pending",
+        "active"
+      ],
+      "uniqueValueOverflow": false
+    },
+    "household_id": {
+      "count": 10000,
+      "types": {
+        "string": 10000
+      },
+      "examples": [
+        "117a3cee-411d-4511-8ca7-7076474f2278",
+        "eaecfb2b-8f6d-45eb-8ca2-722585c8d5d5",
+        "baad13a2-6fc0-4208-b9e9-98e06f07ee59",
+        "06286e24-5b66-4b38-a117-27264da3d7d2",
+        "d0f6a42b-562e-4d15-a11d-5fe027a4fbb0"
+      ],
+      "uniqueValues": [
+        "117a3cee-411d-4511-8ca7-7076474f2278",
+        "eaecfb2b-8f6d-45eb-8ca2-722585c8d5d5",
+        "baad13a2-6fc0-4208-b9e9-98e06f07ee59",
+        "06286e24-5b66-4b38-a117-27264da3d7d2",
+        "d0f6a42b-562e-4d15-a11d-5fe027a4fbb0",
+        "af3d75a2-1a42-4edd-b08e-8d5ec6fc9db2",
+        "11b6de9b-7d57-4074-ad0f-c7103b95be6e",
+        "3eddc421-aaae-4c8e-9936-cbecdaf4484e",
+        "312e612d-12fd-44c7-9394-6f45e62f69e3",
+        "a5517026-057e-4b8a-8360-9e3bd3f43160",
+        "f9a169a8-e26c-4e72-b357-d0eded26e55c",
+        "21d1ae63-ba8d-418f-9d40-c542ac47ce33",
+        "1c4c74ab-ff28-4805-a614-d9aca9e6558a",
+        "e3c6033e-ce2b-4b5a-96f5-22ca68fa8ffa",
+        "3054d1f7-3c5b-484f-b044-a5220c88b373",
+        "6594381b-32a7-4071-83c7-4ba4e9ba5ff7",
+        "b5b522ef-6a27-4d64-817e-2fcc71644f0c",
+        "e19039e6-4998-4775-be79-dddbbc9b097e",
+        "b903d71b-2fb8-4bb0-ba20-8bb1a880d8ea",
+        "cc86c923-33b4-45c8-89f6-7dac722f010f",
+        "576bc940-a764-4f29-a229-cbeda1f92825",
+        "122e14be-9188-41f4-aa27-e25bde0d67b7",
+        "9779d79b-01e8-4ed4-90c3-7a4a04529ea6",
+        "11733c60-248d-4405-b65f-ea5e172ec6c9",
+        "f8a72f49-280a-4cd5-b152-c53177f50357"
+      ],
+      "uniqueValueOverflow": true
+    },
+    "person": {
+      "count": 10000,
+      "types": {
+        "object": 10000
+      },
+      "examples": [
+        "{\"name\":{\"first\":\"Jennifer\",\"last\":\"Brown\"},\"age\":38,\"gender\":\"female\",\"email\":\"jennifer.brown.0.0@yahoo.com\",\"phone\":\"442-993-1267\",\"location\":{\"city\":\"Boulder\",\"state\":\"CO\",\"coun...",
+        "{\"name\":{\"first\":\"Charles\",\"last\":\"Thomas\"},\"age\":26,\"gender\":\"male\",\"email\":\"charles.thomas.1.0@outlook.com\",\"phone\":\"666-460-2010\",\"location\":{\"city\":\"Atlanta\",\"state\":\"GA\",\"coun...",
+        "{\"name\":{\"first\":\"Mary\",\"last\":\"Rodriguez\"},\"age\":80,\"gender\":\"female\",\"email\":\"mary.rodriguez.2.0@example.com\",\"phone\":\"583-645-4774\",\"location\":{\"city\":\"Boulder\",\"state\":\"CO\",\"co...",
+        "{\"name\":{\"first\":\"Kimberly\",\"last\":\"Lopez\"},\"age\":20,\"gender\":\"female\",\"email\":\"kimberly.lopez.3.0@gmail.com\",\"phone\":\"734-553-1462\",\"location\":{\"city\":\"Tacoma\",\"state\":\"WA\",\"count...",
+        "{\"name\":{\"first\":\"Michelle\",\"last\":\"Thomas\"},\"age\":46,\"gender\":\"female\",\"email\":\"michelle.thomas.4.0@outlook.com\",\"phone\":\"498-784-6782\",\"location\":{\"city\":\"Tacoma\",\"state\":\"WA\",\"c..."
+      ],
+      "uniqueValues": [],
+      "uniqueValueOverflow": false
+    }
+  },
+  "allFields": {
+    "id": {
+      "count": 10000,
+      "types": {
+        "string": 10000
+      },
+      "examples": [
+        "d52442ae-e418-437d-8df6-c7b60acd958b",
+        "a13069b9-3279-4b0a-925f-def4c1a81fae",
+        "d1df06fa-761f-4132-8389-8e3a07823bc9",
+        "9da5e67a-c1a0-49e9-8169-039e6e0ef6a7",
+        "4bf385c2-d319-4783-928c-d9f948fe6467"
+      ],
+      "uniqueValues": [
+        "d52442ae-e418-437d-8df6-c7b60acd958b",
+        "a13069b9-3279-4b0a-925f-def4c1a81fae",
+        "d1df06fa-761f-4132-8389-8e3a07823bc9",
+        "9da5e67a-c1a0-49e9-8169-039e6e0ef6a7",
+        "4bf385c2-d319-4783-928c-d9f948fe6467",
+        "6baeda4b-6914-47fc-8a22-1c7cc1bb5099",
+        "12437742-5050-43a6-9121-9bb69c31173a",
+        "c698ee7b-48da-46b4-91bf-78a6ab014850",
+        "331de6b2-c241-493b-9e49-1f25a6a98437",
+        "9e627180-5ea6-496d-b9db-73762dc39bf5",
+        "ff6dbc67-afd8-44fc-a25d-2d513798f82d",
+        "25902a8d-d428-4a95-bc12-f042e4fea828",
+        "c6ffe323-f616-4ed7-a3a2-3b1d0377115f",
+        "6d663a21-db1d-4d43-b587-481155adec4b",
+        "16e5a7de-0920-4e85-b174-bb32037c87fe",
+        "cc7d14e7-27a7-42e0-9f44-6d20766130cd",
+        "392ce51e-3cb9-4cec-a1e7-dba53ca34a1f",
+        "5b29d40e-0f98-49ce-aaae-1872ec712747",
+        "3e16e505-12d7-4bcc-85eb-74c8e9ec2e51",
+        "db8e71e8-7041-4c38-ab32-755004c1c1e8",
+        "652fcf5f-7278-4fd2-a972-21d23028c3e6",
+        "eee3be5b-0afa-40bb-950b-862979e34121",
+        "2a56d4bb-9498-4317-8a1b-c0b6ad7a43fe",
+        "7cca9e1a-9e23-42c1-a5cd-819f6ffe574b",
+        "f6e62122-cd5f-4ae8-963f-52d16906bf21"
+      ],
+      "uniqueValueOverflow": true
+    },
+    "created_at": {
+      "count": 10000,
+      "types": {
+        "string": 10000
+      },
+      "examples": [
+        "2021-04-11T01:13:32.972Z",
+        "2023-05-17T17:45:58.975Z",
+        "2023-06-01T09:02:50.974Z",
+        "2025-08-14T11:23:55.465Z",
+        "2023-11-06T21:06:38.416Z"
+      ],
+      "uniqueValues": [
+        "2021-04-11T01:13:32.972Z",
+        "2023-05-17T17:45:58.975Z",
+        "2023-06-01T09:02:50.974Z",
+        "2025-08-14T11:23:55.465Z",
+        "2023-11-06T21:06:38.416Z",
+        "2020-10-30T10:12:14.326Z",
+        "2020-01-17T11:15:00.454Z",
+        "2024-08-04T13:19:32.280Z",
+        "2021-12-17T23:43:04.879Z",
+        "2025-10-10T18:50:25.915Z",
+        "2022-07-25T07:47:25.660Z",
+        "2022-08-20T23:34:00.266Z",
+        "2022-08-15T18:23:15.463Z",
+        "2023-09-08T11:59:45.068Z",
+        "2020-10-07T19:49:13.022Z",
+        "2024-05-18T10:46:47.778Z",
+        "2022-08-14T09:30:44.709Z",
+        "2024-12-31T19:26:53.398Z",
+        "2022-12-11T08:01:05.459Z",
+        "2024-02-25T06:33:50.073Z",
+        "2020-11-12T19:09:07.962Z",
+        "2024-11-05T13:16:35.500Z",
+        "2024-01-26T09:10:47.765Z",
+        "2022-01-13T14:04:43.381Z",
+        "2022-01-11T22:35:23.657Z"
+      ],
+      "uniqueValueOverflow": true
+    },
+    "status": {
+      "count": 10000,
+      "types": {
+        "string": 10000
+      },
+      "examples": [
+        "inactive",
+        "pending",
+        "pending",
+        "pending",
+        "active"
+      ],
+      "uniqueValues": [
+        "inactive",
+        "pending",
+        "active"
+      ],
+      "uniqueValueOverflow": false
+    },
+    "household_id": {
+      "count": 10000,
+      "types": {
+        "string": 10000
+      },
+      "examples": [
+        "117a3cee-411d-4511-8ca7-7076474f2278",
+        "eaecfb2b-8f6d-45eb-8ca2-722585c8d5d5",
+        "baad13a2-6fc0-4208-b9e9-98e06f07ee59",
+        "06286e24-5b66-4b38-a117-27264da3d7d2",
+        "d0f6a42b-562e-4d15-a11d-5fe027a4fbb0"
+      ],
+      "uniqueValues": [
+        "117a3cee-411d-4511-8ca7-7076474f2278",
+        "eaecfb2b-8f6d-45eb-8ca2-722585c8d5d5",
+        "baad13a2-6fc0-4208-b9e9-98e06f07ee59",
+        "06286e24-5b66-4b38-a117-27264da3d7d2",
+        "d0f6a42b-562e-4d15-a11d-5fe027a4fbb0",
+        "af3d75a2-1a42-4edd-b08e-8d5ec6fc9db2",
+        "11b6de9b-7d57-4074-ad0f-c7103b95be6e",
+        "3eddc421-aaae-4c8e-9936-cbecdaf4484e",
+        "312e612d-12fd-44c7-9394-6f45e62f69e3",
+        "a5517026-057e-4b8a-8360-9e3bd3f43160",
+        "f9a169a8-e26c-4e72-b357-d0eded26e55c",
+        "21d1ae63-ba8d-418f-9d40-c542ac47ce33",
+        "1c4c74ab-ff28-4805-a614-d9aca9e6558a",
+        "e3c6033e-ce2b-4b5a-96f5-22ca68fa8ffa",
+        "3054d1f7-3c5b-484f-b044-a5220c88b373",
+        "6594381b-32a7-4071-83c7-4ba4e9ba5ff7",
+        "b5b522ef-6a27-4d64-817e-2fcc71644f0c",
+        "e19039e6-4998-4775-be79-dddbbc9b097e",
+        "b903d71b-2fb8-4bb0-ba20-8bb1a880d8ea",
+        "cc86c923-33b4-45c8-89f6-7dac722f010f",
+        "576bc940-a764-4f29-a229-cbeda1f92825",
+        "122e14be-9188-41f4-aa27-e25bde0d67b7",
+        "9779d79b-01e8-4ed4-90c3-7a4a04529ea6",
+        "11733c60-248d-4405-b65f-ea5e172ec6c9",
+        "f8a72f49-280a-4cd5-b152-c53177f50357"
+      ],
+      "uniqueValueOverflow": true
+    },
+    "person": {
+      "count": 10000,
+      "types": {
+        "object": 10000
+      },
+      "examples": [
+        "{\"name\":{\"first\":\"Jennifer\",\"last\":\"Brown\"},\"age\":38,\"gender\":\"female\",\"email\":\"jennifer.brown.0.0@yahoo.com\",\"phone\":\"442-993-1267\",\"location\":{\"city\":\"Boulder\",\"state\":\"CO\",\"coun...",
+        "{\"name\":{\"first\":\"Charles\",\"last\":\"Thomas\"},\"age\":26,\"gender\":\"male\",\"email\":\"charles.thomas.1.0@outlook.com\",\"phone\":\"666-460-2010\",\"location\":{\"city\":\"Atlanta\",\"state\":\"GA\",\"coun...",
+        "{\"name\":{\"first\":\"Mary\",\"last\":\"Rodriguez\"},\"age\":80,\"gender\":\"female\",\"email\":\"mary.rodriguez.2.0@example.com\",\"phone\":\"583-645-4774\",\"location\":{\"city\":\"Boulder\",\"state\":\"CO\",\"co...",
+        "{\"name\":{\"first\":\"Kimberly\",\"last\":\"Lopez\"},\"age\":20,\"gender\":\"female\",\"email\":\"kimberly.lopez.3.0@gmail.com\",\"phone\":\"734-553-1462\",\"location\":{\"city\":\"Tacoma\",\"state\":\"WA\",\"count...",
+        "{\"name\":{\"first\":\"Michelle\",\"last\":\"Thomas\"},\"age\":46,\"gender\":\"female\",\"email\":\"michelle.thomas.4.0@outlook.com\",\"phone\":\"498-784-6782\",\"location\":{\"city\":\"Tacoma\",\"state\":\"WA\",\"c..."
+      ],
+      "uniqueValues": [],
+      "uniqueValueOverflow": false
+    },
+    "person.name": {
+      "count": 10000,
+      "types": {
+        "object": 10000
+      },
+      "examples": [
+        {
+          "first": "Jennifer",
+          "last": "Brown"
+        },
+        {
+          "first": "Charles",
+          "last": "Thomas"
+        },
+        {
+          "first": "Mary",
+          "last": "Rodriguez"
+        },
+        {
+          "first": "Kimberly",
+          "last": "Lopez"
+        },
+        {
+          "first": "Michelle",
+          "last": "Thomas"
+        }
+      ],
+      "uniqueValues": [],
+      "uniqueValueOverflow": false
+    },
+    "person.name.first": {
+      "count": 10000,
+      "types": {
+        "string": 10000
+      },
+      "examples": [
+        "Jennifer",
+        "Charles",
+        "Mary",
+        "Kimberly",
+        "Michelle"
+      ],
+      "uniqueValues": [
+        "Jennifer",
+        "Charles",
+        "Mary",
+        "Kimberly",
+        "Michelle",
+        "Sandra",
+        "Barbara",
+        "Andrew",
+        "Margaret",
+        "James",
+        "Susan",
+        "Thomas",
+        "Sarah",
+        "Linda",
+        "John",
+        "Betty",
+        "William",
+        "Nancy",
+        "Ashley",
+        "Patricia",
+        "Elizabeth",
+        "David",
+        "Donna",
+        "Michael",
+        "Lisa"
+      ],
+      "uniqueValueOverflow": true
+    },
+    "person.name.last": {
+      "count": 10000,
+      "types": {
+        "string": 10000
+      },
+      "examples": [
+        "Brown",
+        "Thomas",
+        "Rodriguez",
+        "Lopez",
+        "Thomas"
+      ],
+      "uniqueValues": [
+        "Brown",
+        "Thomas",
+        "Rodriguez",
+        "Lopez",
+        "Jackson",
+        "Johnson",
+        "Smith",
+        "Garcia",
+        "Martinez",
+        "Jones",
+        "Wilson",
+        "Moore",
+        "Miller",
+        "Taylor",
+        "Hernandez",
+        "Davis",
+        "Williams",
+        "Gonzalez",
+        "Martin",
+        "Anderson"
+      ],
+      "uniqueValueOverflow": false
+    },
+    "person.age": {
+      "count": 10000,
+      "types": {
+        "number": 10000
+      },
+      "examples": [
+        38,
+        26,
+        80,
+        20,
+        46
+      ],
+      "uniqueValues": [
+        "38",
+        "26",
+        "80",
+        "20",
+        "46",
+        "64",
+        "79",
+        "23",
+        "73",
+        "75",
+        "72",
+        "59",
+        "71",
+        "82",
+        "24",
+        "53",
+        "37",
+        "42",
+        "35",
+        "52",
+        "25",
+        "69",
+        "28",
+        "70",
+        "41"
+      ],
+      "uniqueValueOverflow": true
+    },
+    "person.gender": {
+      "count": 10000,
+      "types": {
+        "string": 10000
+      },
+      "examples": [
+        "female",
+        "male",
+        "female",
+        "female",
+        "female"
+      ],
+      "uniqueValues": [
+        "female",
+        "male"
+      ],
+      "uniqueValueOverflow": false
+    },
+    "person.email": {
+      "count": 10000,
+      "types": {
+        "string": 10000
+      },
+      "examples": [
+        "jennifer.brown.0.0@yahoo.com",
+        "charles.thomas.1.0@outlook.com",
+        "mary.rodriguez.2.0@example.com",
+        "kimberly.lopez.3.0@gmail.com",
+        "michelle.thomas.4.0@outlook.com"
+      ],
+      "uniqueValues": [
+        "jennifer.brown.0.0@yahoo.com",
+        "charles.thomas.1.0@outlook.com",
+        "mary.rodriguez.2.0@example.com",
+        "kimberly.lopez.3.0@gmail.com",
+        "michelle.thomas.4.0@outlook.com",
+        "sandra.jackson.5.0@gmail.com",
+        "barbara.thomas.6.0@yahoo.com",
+        "andrew.lopez.7.0@example.com",
+        "margaret.thomas.8.0@example.com",
+        "james.jackson.9.0@example.com",
+        "susan.johnson.10.0@outlook.com",
+        "thomas.smith.11.0@yahoo.com",
+        "barbara.garcia.12.0@example.com",
+        "sarah.smith.13.0@example.com",
+        "linda.martinez.14.0@gmail.com",
+        "thomas.jones.15.0@gmail.com",
+        "john.wilson.16.0@example.com",
+        "betty.moore.17.0@yahoo.com",
+        "william.jackson.18.0@example.com",
+        "james.miller.19.0@gmail.com",
+        "sandra.taylor.20.0@example.com",
+        "nancy.jones.21.0@yahoo.com",
+        "james.johnson.22.0@yahoo.com",
+        "ashley.rodriguez.23.0@example.com",
+        "kimberly.smith.24.0@outlook.com"
+      ],
+      "uniqueValueOverflow": true
+    },
+    "person.phone": {
+      "count": 10000,
+      "types": {
+        "string": 10000
+      },
+      "examples": [
+        "442-993-1267",
+        "666-460-2010",
+        "583-645-4774",
+        "734-553-1462",
+        "498-784-6782"
+      ],
+      "uniqueValues": [
+        "442-993-1267",
+        "666-460-2010",
+        "583-645-4774",
+        "734-553-1462",
+        "498-784-6782",
+        "508-624-8934",
+        "297-941-1446",
+        "992-265-5299",
+        "335-661-2896",
+        "464-796-3182",
+        "521-809-3055",
+        "691-455-8185",
+        "841-428-8014",
+        "288-832-5013",
+        "243-216-3581",
+        "579-855-3841",
+        "467-299-3123",
+        "731-612-7548",
+        "345-846-8301",
+        "375-924-1688",
+        "304-408-3258",
+        "363-516-3223",
+        "501-379-2116",
+        "985-255-5519",
+        "762-680-6509"
+      ],
+      "uniqueValueOverflow": true
+    },
+    "person.location": {
+      "count": 10000,
+      "types": {
+        "object": 10000
+      },
+      "examples": [
+        {
+          "city": "Boulder",
+          "state": "CO",
+          "country": "USA"
+        },
+        {
+          "city": "Atlanta",
+          "state": "GA",
+          "country": "USA"
+        },
+        {
+          "city": "Boulder",
+          "state": "CO",
+          "country": "USA"
+        },
+        {
+          "city": "Tacoma",
+          "state": "WA",
+          "country": "USA"
+        },
+        {
+          "city": "Tacoma",
+          "state": "WA",
+          "country": "USA"
+        }
+      ],
+      "uniqueValues": [],
+      "uniqueValueOverflow": false
+    },
+    "person.location.city": {
+      "count": 10000,
+      "types": {
+        "string": 10000
+      },
+      "examples": [
+        "Boulder",
+        "Atlanta",
+        "Boulder",
+        "Tacoma",
+        "Tacoma"
+      ],
+      "uniqueValues": [
+        "Boulder",
+        "Atlanta",
+        "Tacoma",
+        "Portland",
+        "Cedar Rapids",
+        "Phoenix",
+        "Salem",
+        "Houston",
+        "Augusta",
+        "New York",
+        "Denver",
+        "Austin",
+        "Chicago",
+        "Seattle",
+        "Syracuse",
+        "Raleigh",
+        "Charlotte",
+        "Des Moines",
+        "Springfield",
+        "Dallas"
+      ],
+      "uniqueValueOverflow": false
+    },
+    "person.location.state": {
+      "count": 10000,
+      "types": {
+        "string": 10000
+      },
+      "examples": [
+        "CO",
+        "GA",
+        "CO",
+        "WA",
+        "WA"
+      ],
+      "uniqueValues": [
+        "CO",
+        "GA",
+        "WA",
+        "OR",
+        "IA",
+        "AZ",
+        "TX",
+        "NY",
+        "IL",
+        "NC"
+      ],
+      "uniqueValueOverflow": false
+    },
+    "person.location.country": {
+      "count": 10000,
+      "types": {
+        "string": 10000
+      },
+      "examples": [
+        "USA",
+        "USA",
+        "USA",
+        "USA",
+        "USA"
+      ],
+      "uniqueValues": [
+        "USA"
+      ],
+      "uniqueValueOverflow": false
+    },
+    "person.interests": {
+      "count": 10000,
+      "types": {
+        "array": 10000
+      },
+      "examples": [
+        [
+          "fitness",
+          "woodworking",
+          "sports",
+          "music"
+        ],
+        [
+          "photography",
+          "fitness",
+          "coding",
+          "writing"
+        ],
+        [
+          "gaming",
+          "writing"
+        ],
+        [
+          "hiking",
+          "photography",
+          "music"
+        ],
+        [
+          "cooking",
+          "painting",
+          "photography",
+          "gardening"
+        ]
+      ],
+      "uniqueValues": [],
+      "uniqueValueOverflow": false
+    },
+    "person.job": {
+      "count": 10000,
+      "types": {
+        "object": 10000
+      },
+      "examples": [
+        {
+          "title": "HR Coordinator",
+          "company_name": "Skyline Logistics 586-1",
+          "salary": 118597
+        },
+        {
+          "title": "Systems Engineer",
+          "company_name": "Riverstone Services 2-1",
+          "salary": 129342
+        },
+        {
+          "title": "Product Designer",
+          "company_name": "BrightPath Transportation 312-1",
+          "salary": 187218
+        },
+        {
+          "title": "Operations Manager",
+          "company_name": "Golden Plains Finance 304-1",
+          "salary": 141858
+        },
+        {
+          "title": "Data Scientist",
+          "company_name": "Silver Oak Partners 768-1",
+          "salary": 42706
+        }
+      ],
+      "uniqueValues": [],
+      "uniqueValueOverflow": false
+    },
+    "person.job.title": {
+      "count": 10000,
+      "types": {
+        "string": 10000
+      },
+      "examples": [
+        "HR Coordinator",
+        "Systems Engineer",
+        "Product Designer",
+        "Operations Manager",
+        "Data Scientist"
+      ],
+      "uniqueValues": [
+        "HR Coordinator",
+        "Systems Engineer",
+        "Product Designer",
+        "Operations Manager",
+        "Data Scientist",
+        "Software Developer",
+        "Administrator",
+        "Marketing Specialist",
+        "Technical Writer",
+        "Research Analyst",
+        "Project Manager",
+        "Financial Analyst",
+        "Logistics Planner",
+        "Account Manager",
+        "Security Analyst"
+      ],
+      "uniqueValueOverflow": false
+    },
+    "person.job.company_name": {
+      "count": 10000,
+      "types": {
+        "string": 10000
+      },
+      "examples": [
+        "Skyline Logistics 586-1",
+        "Riverstone Services 2-1",
+        "BrightPath Transportation 312-1",
+        "Golden Plains Finance 304-1",
+        "Silver Oak Partners 768-1"
+      ],
+      "uniqueValues": [
+        "Skyline Logistics 586-1",
+        "Riverstone Services 2-1",
+        "BrightPath Transportation 312-1",
+        "Golden Plains Finance 304-1",
+        "Silver Oak Partners 768-1",
+        "Northstar Retail 283-1",
+        "Evergreen Group 726-1",
+        "Riverstone Dynamics 148-1",
+        "Ironwood Finance 64-1",
+        "Redwood Transportation 882-1",
+        "Blue Ridge Technology 329-1",
+        "Skyline Education 394-1",
+        "Skyline Education 10-1",
+        "Sterling Solutions 555-1",
+        "Clearwater Healthcare 681-1",
+        "BrightPath Transportation 63-1",
+        "Blue Ridge Industries 290-1",
+        "Golden Plains Healthcare 269-1",
+        "Liberty Group 843-1",
+        "Summit Dynamics 228-1",
+        "Green Valley Agriculture 416-1",
+        "BrightPath Education 192-1",
+        "Clearwater Group 115-1",
+        "BrightPath Retail 139-1",
+        "Clearwater Finance 53-1"
+      ],
+      "uniqueValueOverflow": true
+    },
+    "person.job.salary": {
+      "count": 10000,
+      "types": {
+        "number": 10000
+      },
+      "examples": [
+        118597,
+        129342,
+        187218,
+        141858,
+        42706
+      ],
+      "uniqueValues": [
+        "118597",
+        "129342",
+        "187218",
+        "141858",
+        "42706",
+        "154348",
+        "101538",
+        "188807",
+        "166878",
+        "148957",
+        "161648",
+        "134732",
+        "101336",
+        "90176",
+        "141688",
+        "77334",
+        "118804",
+        "63674",
+        "55363",
+        "138977",
+        "124009",
+        "183517",
+        "129989",
+        "118358",
+        "169622"
+      ],
+      "uniqueValueOverflow": true
+    }
+  },
+  "possibleIdFields": {
+    "id": {
+      "count": 10000,
+      "types": {
+        "string": 10000
+      },
+      "examples": [
+        "d52442ae-e418-437d-8df6-c7b60acd958b",
+        "a13069b9-3279-4b0a-925f-def4c1a81fae",
+        "d1df06fa-761f-4132-8389-8e3a07823bc9",
+        "9da5e67a-c1a0-49e9-8169-039e6e0ef6a7",
+        "4bf385c2-d319-4783-928c-d9f948fe6467"
+      ],
+      "uniqueValues": [
+        "d52442ae-e418-437d-8df6-c7b60acd958b",
+        "a13069b9-3279-4b0a-925f-def4c1a81fae",
+        "d1df06fa-761f-4132-8389-8e3a07823bc9",
+        "9da5e67a-c1a0-49e9-8169-039e6e0ef6a7",
+        "4bf385c2-d319-4783-928c-d9f948fe6467",
+        "6baeda4b-6914-47fc-8a22-1c7cc1bb5099",
+        "12437742-5050-43a6-9121-9bb69c31173a",
+        "c698ee7b-48da-46b4-91bf-78a6ab014850",
+        "331de6b2-c241-493b-9e49-1f25a6a98437",
+        "9e627180-5ea6-496d-b9db-73762dc39bf5",
+        "ff6dbc67-afd8-44fc-a25d-2d513798f82d",
+        "25902a8d-d428-4a95-bc12-f042e4fea828",
+        "c6ffe323-f616-4ed7-a3a2-3b1d0377115f",
+        "6d663a21-db1d-4d43-b587-481155adec4b",
+        "16e5a7de-0920-4e85-b174-bb32037c87fe",
+        "cc7d14e7-27a7-42e0-9f44-6d20766130cd",
+        "392ce51e-3cb9-4cec-a1e7-dba53ca34a1f",
+        "5b29d40e-0f98-49ce-aaae-1872ec712747",
+        "3e16e505-12d7-4bcc-85eb-74c8e9ec2e51",
+        "db8e71e8-7041-4c38-ab32-755004c1c1e8",
+        "652fcf5f-7278-4fd2-a972-21d23028c3e6",
+        "eee3be5b-0afa-40bb-950b-862979e34121",
+        "2a56d4bb-9498-4317-8a1b-c0b6ad7a43fe",
+        "7cca9e1a-9e23-42c1-a5cd-819f6ffe574b",
+        "f6e62122-cd5f-4ae8-963f-52d16906bf21"
+      ],
+      "uniqueValueOverflow": true
+    },
+    "household_id": {
+      "count": 10000,
+      "types": {
+        "string": 10000
+      },
+      "examples": [
+        "117a3cee-411d-4511-8ca7-7076474f2278",
+        "eaecfb2b-8f6d-45eb-8ca2-722585c8d5d5",
+        "baad13a2-6fc0-4208-b9e9-98e06f07ee59",
+        "06286e24-5b66-4b38-a117-27264da3d7d2",
+        "d0f6a42b-562e-4d15-a11d-5fe027a4fbb0"
+      ],
+      "uniqueValues": [
+        "117a3cee-411d-4511-8ca7-7076474f2278",
+        "eaecfb2b-8f6d-45eb-8ca2-722585c8d5d5",
+        "baad13a2-6fc0-4208-b9e9-98e06f07ee59",
+        "06286e24-5b66-4b38-a117-27264da3d7d2",
+        "d0f6a42b-562e-4d15-a11d-5fe027a4fbb0",
+        "af3d75a2-1a42-4edd-b08e-8d5ec6fc9db2",
+        "11b6de9b-7d57-4074-ad0f-c7103b95be6e",
+        "3eddc421-aaae-4c8e-9936-cbecdaf4484e",
+        "312e612d-12fd-44c7-9394-6f45e62f69e3",
+        "a5517026-057e-4b8a-8360-9e3bd3f43160",
+        "f9a169a8-e26c-4e72-b357-d0eded26e55c",
+        "21d1ae63-ba8d-418f-9d40-c542ac47ce33",
+        "1c4c74ab-ff28-4805-a614-d9aca9e6558a",
+        "e3c6033e-ce2b-4b5a-96f5-22ca68fa8ffa",
+        "3054d1f7-3c5b-484f-b044-a5220c88b373",
+        "6594381b-32a7-4071-83c7-4ba4e9ba5ff7",
+        "b5b522ef-6a27-4d64-817e-2fcc71644f0c",
+        "e19039e6-4998-4775-be79-dddbbc9b097e",
+        "b903d71b-2fb8-4bb0-ba20-8bb1a880d8ea",
+        "cc86c923-33b4-45c8-89f6-7dac722f010f",
+        "576bc940-a764-4f29-a229-cbeda1f92825",
+        "122e14be-9188-41f4-aa27-e25bde0d67b7",
+        "9779d79b-01e8-4ed4-90c3-7a4a04529ea6",
+        "11733c60-248d-4405-b65f-ea5e172ec6c9",
+        "f8a72f49-280a-4cd5-b152-c53177f50357"
+      ],
+      "uniqueValueOverflow": true
+    }
+  },
+  "possibleRelationshipFields": {},
+  "possibleMetadataFields": {
+    "created_at": {
+      "count": 10000,
+      "types": {
+        "string": 10000
+      },
+      "examples": [
+        "2021-04-11T01:13:32.972Z",
+        "2023-05-17T17:45:58.975Z",
+        "2023-06-01T09:02:50.974Z",
+        "2025-08-14T11:23:55.465Z",
+        "2023-11-06T21:06:38.416Z"
+      ],
+      "uniqueValues": [
+        "2021-04-11T01:13:32.972Z",
+        "2023-05-17T17:45:58.975Z",
+        "2023-06-01T09:02:50.974Z",
+        "2025-08-14T11:23:55.465Z",
+        "2023-11-06T21:06:38.416Z",
+        "2020-10-30T10:12:14.326Z",
+        "2020-01-17T11:15:00.454Z",
+        "2024-08-04T13:19:32.280Z",
+        "2021-12-17T23:43:04.879Z",
+        "2025-10-10T18:50:25.915Z",
+        "2022-07-25T07:47:25.660Z",
+        "2022-08-20T23:34:00.266Z",
+        "2022-08-15T18:23:15.463Z",
+        "2023-09-08T11:59:45.068Z",
+        "2020-10-07T19:49:13.022Z",
+        "2024-05-18T10:46:47.778Z",
+        "2022-08-14T09:30:44.709Z",
+        "2024-12-31T19:26:53.398Z",
+        "2022-12-11T08:01:05.459Z",
+        "2024-02-25T06:33:50.073Z",
+        "2020-11-12T19:09:07.962Z",
+        "2024-11-05T13:16:35.500Z",
+        "2024-01-26T09:10:47.765Z",
+        "2022-01-13T14:04:43.381Z",
+        "2022-01-11T22:35:23.657Z"
+      ],
+      "uniqueValueOverflow": true
+    },
+    "status": {
+      "count": 10000,
+      "types": {
+        "string": 10000
+      },
+      "examples": [
+        "inactive",
+        "pending",
+        "pending",
+        "pending",
+        "active"
+      ],
+      "uniqueValues": [
+        "inactive",
+        "pending",
+        "active"
+      ],
+      "uniqueValueOverflow": false
+    },
+    "person.location.country": {
+      "count": 10000,
+      "types": {
+        "string": 10000
+      },
+      "examples": [
+        "USA",
+        "USA",
+        "USA",
+        "USA",
+        "USA"
+      ],
+      "uniqueValues": [
+        "USA"
+      ],
+      "uniqueValueOverflow": false
+    }
+  },
+  "sampleRecords": [
+    {
+      "id": "d52442ae-e418-437d-8df6-c7b60acd958b",
+      "created_at": "2021-04-11T01:13:32.972Z",
+      "status": "inactive",
+      "household_id": "117a3cee-411d-4511-8ca7-7076474f2278",
+      "person": {
+        "name": {
+          "first": "Jennifer",
+          "last": "Brown"
+        },
+        "age": 38,
+        "gender": "female",
+        "email": "jennifer.brown.0.0@yahoo.com",
+        "phone": "442-993-1267",
+        "location": {
+          "city": "Boulder",
+          "state": "CO",
+          "country": "USA"
+        },
+        "interests": [
+          "fitness",
+          "woodworking",
+          "sports",
+          "music"
+        ],
+        "job": {
+          "title": "HR Coordinator",
+          "company_name": "Skyline Logistics 586-1",
+          "salary": 118597
+        }
+      }
+    },
+    {
+      "id": "a13069b9-3279-4b0a-925f-def4c1a81fae",
+      "created_at": "2023-05-17T17:45:58.975Z",
+      "status": "pending",
+      "household_id": "eaecfb2b-8f6d-45eb-8ca2-722585c8d5d5",
+      "person": {
+        "name": {
+          "first": "Charles",
+          "last": "Thomas"
+        },
+        "age": 26,
+        "gender": "male",
+        "email": "charles.thomas.1.0@outlook.com",
+        "phone": "666-460-2010",
+        "location": {
+          "city": "Atlanta",
+          "state": "GA",
+          "country": "USA"
+        },
+        "interests": [
+          "photography",
+          "fitness",
+          "coding",
+          "writing"
+        ],
+        "job": {
+          "title": "Systems Engineer",
+          "company_name": "Riverstone Services 2-1",
+          "salary": 129342
+        }
+      }
+    },
+    {
+      "id": "d1df06fa-761f-4132-8389-8e3a07823bc9",
+      "created_at": "2023-06-01T09:02:50.974Z",
+      "status": "pending",
+      "household_id": "baad13a2-6fc0-4208-b9e9-98e06f07ee59",
+      "person": {
+        "name": {
+          "first": "Mary",
+          "last": "Rodriguez"
+        },
+        "age": 80,
+        "gender": "female",
+        "email": "mary.rodriguez.2.0@example.com",
+        "phone": "583-645-4774",
+        "location": {
+          "city": "Boulder",
+          "state": "CO",
+          "country": "USA"
+        },
+        "interests": [
+          "gaming",
+          "writing"
+        ],
+        "job": {
+          "title": "Product Designer",
+          "company_name": "BrightPath Transportation 312-1",
+          "salary": 187218
+        }
+      }
+    },
+    {
+      "id": "9da5e67a-c1a0-49e9-8169-039e6e0ef6a7",
+      "created_at": "2025-08-14T11:23:55.465Z",
+      "status": "pending",
+      "household_id": "06286e24-5b66-4b38-a117-27264da3d7d2",
+      "person": {
+        "name": {
+          "first": "Kimberly",
+          "last": "Lopez"
+        },
+        "age": 20,
+        "gender": "female",
+        "email": "kimberly.lopez.3.0@gmail.com",
+        "phone": "734-553-1462",
+        "location": {
+          "city": "Tacoma",
+          "state": "WA",
+          "country": "USA"
+        },
+        "interests": [
+          "hiking",
+          "photography",
+          "music"
+        ],
+        "job": {
+          "title": "Operations Manager",
+          "company_name": "Golden Plains Finance 304-1",
+          "salary": 141858
+        }
+      }
+    },
+    {
+      "id": "4bf385c2-d319-4783-928c-d9f948fe6467",
+      "created_at": "2023-11-06T21:06:38.416Z",
+      "status": "active",
+      "household_id": "d0f6a42b-562e-4d15-a11d-5fe027a4fbb0",
+      "person": {
+        "name": {
+          "first": "Michelle",
+          "last": "Thomas"
+        },
+        "age": 46,
+        "gender": "female",
+        "email": "michelle.thomas.4.0@outlook.com",
+        "phone": "498-784-6782",
+        "location": {
+          "city": "Tacoma",
+          "state": "WA",
+          "country": "USA"
+        },
+        "interests": [
+          "cooking",
+          "painting",
+          "photography",
+          "gardening"
+        ],
+        "job": {
+          "title": "Data Scientist",
+          "company_name": "Silver Oak Partners 768-1",
+          "salary": 42706
+        }
+      }
+    }
+  ],
+  "parseErrors": [],
+  "finishedAt": "2026-05-21T15:37:27.296Z",
+  "profileMs": 71.019,
+  "averageTopLevelFields": 5,
+  "validJsonRatio": 1
+}

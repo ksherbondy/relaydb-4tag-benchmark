@@ -1,0 +1,1000 @@
+{"id":"6a41f02d-4c5c-4f3d-9a69-662dbf5c17af","name":"Atlas Dynamics 1-1","industry":"Finance","headquarters":{"city":"Augusta","state":"GA","country":"USA"},"size":46438,"founded":2007}
+{"id":"c5172540-0b7a-48da-b63d-e0c3d5dea008","name":"Riverstone Services 2-1","industry":"Manufacturing","headquarters":{"city":"Springfield","state":"IL","country":"USA"},"size":10325,"founded":2008}
+{"id":"0e531ed1-87cb-42e1-8eff-86c2be2b2976","name":"Skyline Industries 3-1","industry":"Technology","headquarters":{"city":"Portland","state":"OR","country":"USA"},"size":16535,"founded":2022}
+{"id":"8ac5f322-351e-4e1b-a37e-7c79ce4ce349","name":"Clearwater Services 4-1","industry":"Transportation","headquarters":{"city":"Boulder","state":"CO","country":"USA"},"size":47344,"founded":2006}
+{"id":"00453edc-8803-4388-b38e-91fcbffa2477","name":"Riverstone Manufacturing 5-1","industry":"Education","headquarters":{"city":"Raleigh","state":"NC","country":"USA"},"size":33012,"founded":1978}
+{"id":"979a0dd6-3474-4769-8069-cae2a718044f","name":"Atlas Technology 6-1","industry":"Technology","headquarters":{"city":"Austin","state":"TX","country":"USA"},"size":10395,"founded":1976}
+{"id":"af3ac4ef-7d38-499c-b8d5-f4a0fa2fcdee","name":"Cedar Grove Healthcare 7-1","industry":"Healthcare","headquarters":{"city":"Charlotte","state":"NC","country":"USA"},"size":13859,"founded":1997}
+{"id":"f54e2264-d6a2-4999-a93e-1f21de0f1353","name":"Silver Oak Retail 8-1","industry":"Retail","headquarters":{"city":"Augusta","state":"GA","country":"USA"},"size":6184,"founded":1957}
+{"id":"47dc7e93-22e1-463e-8bda-09106cce25a7","name":"Redwood Systems 9-1","industry":"Education","headquarters":{"city":"Boulder","state":"CO","country":"USA"},"size":31402,"founded":1980}
+{"id":"e77849b6-ec97-4d15-8d55-4b65c7a3bdec","name":"Skyline Education 10-1","industry":"Finance","headquarters":{"city":"Seattle","state":"WA","country":"USA"},"size":19223,"founded":2000}
+{"id":"20c4ccb2-68c1-4b40-9bb8-ff2f14b59d9b","name":"Ironwood Energy 11-1","industry":"Energy","headquarters":{"city":"Austin","state":"TX","country":"USA"},"size":47583,"founded":1964}
+{"id":"eb9fab97-ed92-4d1d-bded-0909c6cb555c","name":"Golden Plains Systems 12-1","industry":"Agriculture","headquarters":{"city":"Portland","state":"OR","country":"USA"},"size":45796,"founded":1969}
+{"id":"77964cae-eb20-47b3-b965-13535dddef05","name":"Riverstone Agriculture 13-1","industry":"Agriculture","headquarters":{"city":"Augusta","state":"GA","country":"USA"},"size":5983,"founded":1987}
+{"id":"4cf2111f-7671-406e-801f-a7a29ac7778c","name":"Sterling Technologies 14-1","industry":"Manufacturing","headquarters":{"city":"Salem","state":"OR","country":"USA"},"size":30624,"founded":1959}
+{"id":"7a64a82a-fc44-4aa9-8304-ea0d2a6fc95f","name":"Golden Plains Finance 15-1","industry":"Agriculture","headquarters":{"city":"Dallas","state":"TX","country":"USA"},"size":25881,"founded":1959}
+{"id":"75cf6e70-1ff6-471a-bf89-b901069db403","name":"Sterling Manufacturing 16-1","industry":"Manufacturing","headquarters":{"city":"Atlanta","state":"GA","country":"USA"},"size":5548,"founded":1962}
+{"id":"ffca46a3-1124-4aa1-9112-49873d49ec1d","name":"Evergreen Transportation 17-1","industry":"Transportation","headquarters":{"city":"Des Moines","state":"IA","country":"USA"},"size":1133,"founded":2024}
+{"id":"0704e641-478d-4a43-a448-b0d5eb306a04","name":"Nova Consulting 18-1","industry":"Consulting","headquarters":{"city":"Des Moines","state":"IA","country":"USA"},"size":47436,"founded":2019}
+{"id":"6944c1fa-8da1-46ce-b2fd-fc3b3f1ef9e5","name":"Northstar Consulting 19-1","industry":"Manufacturing","headquarters":{"city":"Salem","state":"OR","country":"USA"},"size":17614,"founded":2002}
+{"id":"9e6e0edc-f073-489a-a215-943673987739","name":"Evergreen Partners 20-1","industry":"Technology","headquarters":{"city":"Austin","state":"TX","country":"USA"},"size":11872,"founded":2002}
+{"id":"19142a08-96d3-42fd-8702-f559fd6ff0b8","name":"Green Valley Works 21-1","industry":"Education","headquarters":{"city":"Syracuse","state":"NY","country":"USA"},"size":3228,"founded":1998}
+{"id":"5f588267-3b6c-4071-9259-9b6b81faebe4","name":"Nova Consulting 22-1","industry":"Retail","headquarters":{"city":"Springfield","state":"IL","country":"USA"},"size":12985,"founded":2021}
+{"id":"86c0a972-cc16-4acd-971e-1f7bad715e1c","name":"Blue Ridge Finance 23-1","industry":"Finance","headquarters":{"city":"Springfield","state":"IL","country":"USA"},"size":42389,"founded":1961}
+{"id":"c3462a74-9bd5-4ff5-8588-28ef9accc438","name":"Golden Plains Consulting 24-1","industry":"Consulting","headquarters":{"city":"Phoenix","state":"AZ","country":"USA"},"size":26645,"founded":1993}
+{"id":"81ef4138-14da-471c-9d4c-49295c6295ea","name":"Northstar Services 25-1","industry":"Education","headquarters":{"city":"Raleigh","state":"NC","country":"USA"},"size":36328,"founded":2002}
+{"id":"1e90b552-3746-4003-a358-c8944f75419b","name":"BrightPath Retail 26-1","industry":"Energy","headquarters":{"city":"Dallas","state":"TX","country":"USA"},"size":48893,"founded":1990}
+{"id":"2dbe7dba-576a-427e-9798-d095a55dbf1b","name":"Golden Plains Finance 27-1","industry":"Manufacturing","headquarters":{"city":"Springfield","state":"IL","country":"USA"},"size":17452,"founded":2005}
+{"id":"26c2414f-9a52-4d73-8167-57d9852163e3","name":"Golden Plains Healthcare 28-1","industry":"Technology","headquarters":{"city":"Chicago","state":"IL","country":"USA"},"size":42899,"founded":1950}
+{"id":"0d83a7e6-f98f-4f86-9f6e-53450599ca83","name":"Ironwood Labs 29-1","industry":"Education","headquarters":{"city":"Springfield","state":"IL","country":"USA"},"size":515,"founded":2018}
+{"id":"58f42edd-42aa-4a94-9e77-4e08cc4aff2b","name":"Sterling Consulting 30-1","industry":"Consulting","headquarters":{"city":"Houston","state":"TX","country":"USA"},"size":14365,"founded":1999}
+{"id":"d029ede0-cd1a-48bd-8048-4489ed6fe212","name":"Liberty Energy 31-1","industry":"Energy","headquarters":{"city":"Springfield","state":"IL","country":"USA"},"size":5397,"founded":1975}
+{"id":"e260ca27-52bb-4bfb-9ec6-1d4e5d6b53a5","name":"Summit Healthcare 32-1","industry":"Healthcare","headquarters":{"city":"Des Moines","state":"IA","country":"USA"},"size":20107,"founded":1998}
+{"id":"3eec2ff5-db2a-4aa8-9651-11f448316177","name":"Riverstone Labs 33-1","industry":"Retail","headquarters":{"city":"Tacoma","state":"WA","country":"USA"},"size":5482,"founded":1964}
+{"id":"6960df6f-fe00-463b-bc5f-a39b3cb1d02a","name":"Riverstone Systems 34-1","industry":"Retail","headquarters":{"city":"Chicago","state":"IL","country":"USA"},"size":19656,"founded":2003}
+{"id":"e5b31027-e529-4865-8ed5-dd9927c0e37f","name":"Riverstone Logistics 35-1","industry":"Transportation","headquarters":{"city":"Dallas","state":"TX","country":"USA"},"size":43709,"founded":1986}
+{"id":"1e3c7132-7dc8-475a-8a2a-f7253b9f6902","name":"Sterling Finance 36-1","industry":"Finance","headquarters":{"city":"Salem","state":"OR","country":"USA"},"size":46247,"founded":2005}
+{"id":"4ac697fa-3a0e-43b2-8900-fe9eebbee2c4","name":"Liberty Technology 37-1","industry":"Technology","headquarters":{"city":"Austin","state":"TX","country":"USA"},"size":49731,"founded":2009}
+{"id":"5f3b0e86-6974-4cf1-8442-564e85a05504","name":"Pioneer Retail 38-1","industry":"Retail","headquarters":{"city":"Phoenix","state":"AZ","country":"USA"},"size":30499,"founded":1967}
+{"id":"28b2d88f-f053-4f0a-bf59-2aa59bcee4cd","name":"Evergreen Solutions 39-1","industry":"Retail","headquarters":{"city":"Cedar Rapids","state":"IA","country":"USA"},"size":28675,"founded":1961}
+{"id":"2770010e-d9af-4d9d-a9df-7c3115276e29","name":"Sterling Holdings 40-1","industry":"Transportation","headquarters":{"city":"Austin","state":"TX","country":"USA"},"size":34314,"founded":2005}
+{"id":"74154fff-13ca-4f75-b1f8-e881d33b60b1","name":"Harbor Partners 41-1","industry":"Education","headquarters":{"city":"Austin","state":"TX","country":"USA"},"size":48138,"founded":2017}
+{"id":"6d246811-146c-4105-a385-44ffaaf9e1cf","name":"Redwood Consulting 42-1","industry":"Manufacturing","headquarters":{"city":"Des Moines","state":"IA","country":"USA"},"size":17049,"founded":1978}
+{"id":"5f2c8baf-0fcf-4f7f-a7a6-2783405730df","name":"Ironwood Partners 43-1","industry":"Healthcare","headquarters":{"city":"Tacoma","state":"WA","country":"USA"},"size":40015,"founded":2013}
+{"id":"f0fae1c7-a6bb-4e05-896d-2f3048f5639b","name":"Summit Education 44-1","industry":"Education","headquarters":{"city":"Charlotte","state":"NC","country":"USA"},"size":24210,"founded":1952}
+{"id":"8becd49f-f1b5-40c2-a9ba-d5c30cb4b1b1","name":"Green Valley Education 45-1","industry":"Transportation","headquarters":{"city":"Springfield","state":"IL","country":"USA"},"size":27485,"founded":1990}
+{"id":"f9a40be0-6212-4f22-981a-8eba634d86fc","name":"BrightPath Retail 46-1","industry":"Transportation","headquarters":{"city":"Portland","state":"OR","country":"USA"},"size":21707,"founded":2019}
+{"id":"1adc0e82-38e8-4f7c-b4bf-7e619097c4a3","name":"Blue Ridge Finance 47-1","industry":"Finance","headquarters":{"city":"Syracuse","state":"NY","country":"USA"},"size":13488,"founded":2013}
+{"id":"056439fe-4574-46d7-b415-50a26f8f4241","name":"Summit Services 48-1","industry":"Energy","headquarters":{"city":"Atlanta","state":"GA","country":"USA"},"size":27564,"founded":2002}
+{"id":"6f0b1843-63be-4490-9187-08fb25c534a2","name":"BrightPath Partners 49-1","industry":"Manufacturing","headquarters":{"city":"Charlotte","state":"NC","country":"USA"},"size":35900,"founded":1999}
+{"id":"62febed6-2910-47f1-accc-0c8d947d8863","name":"Cedar Grove Energy 50-1","industry":"Energy","headquarters":{"city":"Charlotte","state":"NC","country":"USA"},"size":936,"founded":2019}
+{"id":"0d0de9fb-c0e8-488f-8b63-ae99ea2b5301","name":"BrightPath Manufacturing 51-1","industry":"Finance","headquarters":{"city":"Salem","state":"OR","country":"USA"},"size":20406,"founded":1958}
+{"id":"4bc7e283-d695-4811-bc1a-10ec5ecde035","name":"Ironwood Industries 52-1","industry":"Technology","headquarters":{"city":"Atlanta","state":"GA","country":"USA"},"size":4698,"founded":1989}
+{"id":"58780eb5-abda-411f-b839-39d422da8972","name":"Clearwater Finance 53-1","industry":"Finance","headquarters":{"city":"Portland","state":"OR","country":"USA"},"size":46798,"founded":1964}
+{"id":"65232d3a-39a7-4709-91fa-47af6129e652","name":"Pioneer Transportation 54-1","industry":"Transportation","headquarters":{"city":"Boulder","state":"CO","country":"USA"},"size":20683,"founded":2003}
+{"id":"be768f88-8d2b-4fbc-8e6f-fcc4c3b026e5","name":"Cedar Grove Transportation 55-1","industry":"Transportation","headquarters":{"city":"Salem","state":"OR","country":"USA"},"size":17310,"founded":1962}
+{"id":"27c44542-aff0-49b5-a09a-0e55cf09f927","name":"Silver Oak Manufacturing 56-1","industry":"Energy","headquarters":{"city":"Des Moines","state":"IA","country":"USA"},"size":23315,"founded":2009}
+{"id":"77868d35-ecd1-4541-9468-bc326d80f45a","name":"Redwood Technology 57-1","industry":"Technology","headquarters":{"city":"Houston","state":"TX","country":"USA"},"size":22070,"founded":1991}
+{"id":"eee912d2-7e88-420f-8094-4c9b796f9b59","name":"Silver Oak Partners 58-1","industry":"Consulting","headquarters":{"city":"Seattle","state":"WA","country":"USA"},"size":17512,"founded":1950}
+{"id":"fdc4cb7a-7b1b-407f-ab9a-7a7fab6cc67e","name":"Pioneer Technologies 59-1","industry":"Technology","headquarters":{"city":"Houston","state":"TX","country":"USA"},"size":21700,"founded":1958}
+{"id":"6a104c49-7ef3-4996-9462-7574adc2734c","name":"Cedar Grove Solutions 60-1","industry":"Healthcare","headquarters":{"city":"Portland","state":"OR","country":"USA"},"size":42610,"founded":2000}
+{"id":"76cc625f-e013-4bdd-b865-58c314cf6837","name":"Atlas Energy 61-1","industry":"Transportation","headquarters":{"city":"Portland","state":"OR","country":"USA"},"size":40255,"founded":1965}
+{"id":"9d7fd5f2-116b-4693-a4c5-30202c4dc8ed","name":"Summit Consulting 62-1","industry":"Healthcare","headquarters":{"city":"Chicago","state":"IL","country":"USA"},"size":40904,"founded":1956}
+{"id":"fd64e48b-9737-493e-a009-f976c1eb182e","name":"BrightPath Transportation 63-1","industry":"Transportation","headquarters":{"city":"Salem","state":"OR","country":"USA"},"size":12266,"founded":2016}
+{"id":"7e163de7-cd70-4e47-aa58-11b6f6d2f106","name":"Ironwood Finance 64-1","industry":"Agriculture","headquarters":{"city":"Phoenix","state":"AZ","country":"USA"},"size":49368,"founded":1982}
+{"id":"5434b6d4-81ce-4581-a858-d246428a23ed","name":"Riverstone Manufacturing 65-1","industry":"Manufacturing","headquarters":{"city":"Atlanta","state":"GA","country":"USA"},"size":12605,"founded":1964}
+{"id":"6d1969a3-e371-43f2-86a0-c4198bb95510","name":"Northstar Finance 66-1","industry":"Finance","headquarters":{"city":"Tacoma","state":"WA","country":"USA"},"size":41137,"founded":2020}
+{"id":"c7442bf8-0089-4f49-aefa-cd102e025c97","name":"Summit Transportation 67-1","industry":"Transportation","headquarters":{"city":"Syracuse","state":"NY","country":"USA"},"size":3116,"founded":1950}
+{"id":"07119a99-44eb-4940-a0fb-f4b9fbc8ee25","name":"Northstar Healthcare 68-1","industry":"Healthcare","headquarters":{"city":"Atlanta","state":"GA","country":"USA"},"size":13152,"founded":1975}
+{"id":"1b824736-f8a8-4ffa-ac26-582cbff5fdbf","name":"Ironwood Finance 69-1","industry":"Finance","headquarters":{"city":"Seattle","state":"WA","country":"USA"},"size":25895,"founded":2014}
+{"id":"50f3b1c4-5ddd-4062-b1e7-d457e6409b92","name":"Green Valley Energy 70-1","industry":"Agriculture","headquarters":{"city":"Charlotte","state":"NC","country":"USA"},"size":12227,"founded":2004}
+{"id":"01857c04-c350-4e20-ace4-c525f4d0b7c1","name":"Pioneer Manufacturing 71-1","industry":"Healthcare","headquarters":{"city":"New York","state":"NY","country":"USA"},"size":5556,"founded":1969}
+{"id":"fed6aed6-d402-486d-abc5-195bb56a4319","name":"Liberty Finance 72-1","industry":"Finance","headquarters":{"city":"Des Moines","state":"IA","country":"USA"},"size":7645,"founded":1954}
+{"id":"fbdc2dd4-143d-4ee8-953b-72145f215492","name":"Ironwood Services 73-1","industry":"Manufacturing","headquarters":{"city":"Phoenix","state":"AZ","country":"USA"},"size":33722,"founded":1977}
+{"id":"0ba9c130-eebd-44f3-9d0e-5ff44765c830","name":"Cedar Grove Industries 74-1","industry":"Energy","headquarters":{"city":"Raleigh","state":"NC","country":"USA"},"size":48235,"founded":1977}
+{"id":"b419dbd3-5c5a-4690-a05e-429c1d7758b6","name":"Harbor Consulting 75-1","industry":"Energy","headquarters":{"city":"New York","state":"NY","country":"USA"},"size":43584,"founded":1974}
+{"id":"076492b5-9632-4e5e-98fd-a4f1c31bc0be","name":"Ironwood Healthcare 76-1","industry":"Healthcare","headquarters":{"city":"Augusta","state":"GA","country":"USA"},"size":23842,"founded":1996}
+{"id":"b8f8d5ea-07c2-47c9-8b8e-7fb5469c062a","name":"Cedar Grove Agriculture 77-1","industry":"Agriculture","headquarters":{"city":"Cedar Rapids","state":"IA","country":"USA"},"size":387,"founded":1958}
+{"id":"84a6cf28-c032-4225-8b0c-48c4a2d7cd5d","name":"Redwood Retail 78-1","industry":"Education","headquarters":{"city":"Dallas","state":"TX","country":"USA"},"size":33266,"founded":1972}
+{"id":"2e9ff0d9-9218-4d1c-a729-49b2834105cc","name":"Skyline Solutions 79-1","industry":"Agriculture","headquarters":{"city":"New York","state":"NY","country":"USA"},"size":36242,"founded":2007}
+{"id":"7767dc91-5e3c-45d5-9428-c0153798a56b","name":"Sterling Works 80-1","industry":"Education","headquarters":{"city":"Augusta","state":"GA","country":"USA"},"size":9552,"founded":1963}
+{"id":"c3462aa5-2a0c-4366-8ef6-42ddcd8abf53","name":"Evergreen Technologies 81-1","industry":"Energy","headquarters":{"city":"New York","state":"NY","country":"USA"},"size":20398,"founded":1959}
+{"id":"f85d671d-b532-486e-a49c-224f2af7fba6","name":"Harbor Education 82-1","industry":"Education","headquarters":{"city":"Charlotte","state":"NC","country":"USA"},"size":40817,"founded":1990}
+{"id":"dbc5559d-6f02-4d62-be75-126c7d89eee1","name":"BrightPath Transportation 83-1","industry":"Transportation","headquarters":{"city":"Tacoma","state":"WA","country":"USA"},"size":39556,"founded":1970}
+{"id":"25c1496c-0827-4bea-9d3b-6812c3dbab98","name":"Redwood Works 84-1","industry":"Energy","headquarters":{"city":"Cedar Rapids","state":"IA","country":"USA"},"size":37025,"founded":1953}
+{"id":"6e9df47b-1e26-449e-a8a2-ff865cec2f02","name":"Atlas Energy 85-1","industry":"Manufacturing","headquarters":{"city":"New York","state":"NY","country":"USA"},"size":34042,"founded":1987}
+{"id":"5d6fd2c9-2d1f-427e-867c-aab7e2f65eb9","name":"Redwood Systems 86-1","industry":"Consulting","headquarters":{"city":"Seattle","state":"WA","country":"USA"},"size":24114,"founded":1960}
+{"id":"b4681dab-9c52-4bd8-8eb0-529cd0bdc679","name":"Riverstone Agriculture 87-1","industry":"Manufacturing","headquarters":{"city":"Phoenix","state":"AZ","country":"USA"},"size":24590,"founded":1978}
+{"id":"53581b52-1535-48f0-9a29-3bfaea61e8de","name":"Redwood Retail 88-1","industry":"Retail","headquarters":{"city":"Syracuse","state":"NY","country":"USA"},"size":2365,"founded":1976}
+{"id":"eb04fb34-0dce-4289-92f8-44f5254d706e","name":"Summit Consulting 89-1","industry":"Agriculture","headquarters":{"city":"Syracuse","state":"NY","country":"USA"},"size":43639,"founded":1959}
+{"id":"6fc08a43-d4ec-4174-acf7-8becb691d7bd","name":"Cedar Grove Technologies 90-1","industry":"Healthcare","headquarters":{"city":"Cedar Rapids","state":"IA","country":"USA"},"size":8478,"founded":1954}
+{"id":"d23411e0-96de-4fc2-aa8c-f44f2bc81182","name":"Harbor Technologies 91-1","industry":"Technology","headquarters":{"city":"Denver","state":"CO","country":"USA"},"size":41827,"founded":2003}
+{"id":"7bd9659d-851b-4048-8376-348dcbb83447","name":"Evergreen Education 92-1","industry":"Education","headquarters":{"city":"Atlanta","state":"GA","country":"USA"},"size":23370,"founded":1960}
+{"id":"a49a1a02-636c-46ac-9b1e-ab56bf49b4ab","name":"Clearwater Manufacturing 93-1","industry":"Manufacturing","headquarters":{"city":"Atlanta","state":"GA","country":"USA"},"size":15396,"founded":2002}
+{"id":"5853635d-acd0-4bc0-826a-1acaaa1a901d","name":"Silver Oak Logistics 94-1","industry":"Manufacturing","headquarters":{"city":"Houston","state":"TX","country":"USA"},"size":2543,"founded":1970}
+{"id":"c698e29c-b1f0-4b5c-a956-cdfcde3e3f99","name":"Golden Plains Agriculture 95-1","industry":"Agriculture","headquarters":{"city":"Salem","state":"OR","country":"USA"},"size":43189,"founded":2022}
+{"id":"3544a27d-4386-45c0-aaa9-68d529ca25fb","name":"Evergreen Education 96-1","industry":"Education","headquarters":{"city":"Cedar Rapids","state":"IA","country":"USA"},"size":6696,"founded":1964}
+{"id":"8a89cf3b-b1f9-4630-8ee5-1bc94f98ea65","name":"Golden Plains Energy 97-1","industry":"Technology","headquarters":{"city":"Portland","state":"OR","country":"USA"},"size":39984,"founded":2004}
+{"id":"c90f03c4-64e3-49eb-842c-8d57932ff63c","name":"Green Valley Works 98-1","industry":"Finance","headquarters":{"city":"Denver","state":"CO","country":"USA"},"size":48370,"founded":2001}
+{"id":"c0dd945f-d24f-48dd-bcd0-21d6023152cb","name":"Northstar Manufacturing 99-1","industry":"Healthcare","headquarters":{"city":"Augusta","state":"GA","country":"USA"},"size":45691,"founded":2011}
+{"id":"a9c3f54a-0d02-4321-800e-44f15da0e5cd","name":"Cedar Grove Finance 100-1","industry":"Finance","headquarters":{"city":"Cedar Rapids","state":"IA","country":"USA"},"size":43279,"founded":1955}
+{"id":"a38b71e7-5598-4071-8868-40089689a55c","name":"BrightPath Services 101-1","industry":"Finance","headquarters":{"city":"Raleigh","state":"NC","country":"USA"},"size":41662,"founded":2014}
+{"id":"f649fb0f-17e9-40be-8188-47d747d1b8dc","name":"Atlas Technology 102-1","industry":"Technology","headquarters":{"city":"Austin","state":"TX","country":"USA"},"size":1101,"founded":1991}
+{"id":"2450fcfe-bcce-4c2e-9953-47d6f5994dd1","name":"Sterling Education 103-1","industry":"Finance","headquarters":{"city":"Atlanta","state":"GA","country":"USA"},"size":38752,"founded":1968}
+{"id":"b86e3520-5d17-437e-89f5-d26610e742a7","name":"Blue Ridge Partners 104-1","industry":"Healthcare","headquarters":{"city":"Houston","state":"TX","country":"USA"},"size":14589,"founded":1997}
+{"id":"03b5d38b-e7b9-4fc9-9ff0-e05fab95ecee","name":"Sterling Education 105-1","industry":"Education","headquarters":{"city":"Augusta","state":"GA","country":"USA"},"size":22157,"founded":1993}
+{"id":"4306d307-d1fb-4fbb-87c8-ede536329fa5","name":"Pioneer Holdings 106-1","industry":"Retail","headquarters":{"city":"Houston","state":"TX","country":"USA"},"size":47335,"founded":1958}
+{"id":"ba8a40ff-4ba1-45be-a47c-7d25ec609b5c","name":"Atlas Technology 107-1","industry":"Technology","headquarters":{"city":"Austin","state":"TX","country":"USA"},"size":48745,"founded":1994}
+{"id":"a6109a9c-c7a5-4d3b-92c0-e0bfb6b83b5e","name":"Sterling Energy 108-1","industry":"Energy","headquarters":{"city":"Houston","state":"TX","country":"USA"},"size":7374,"founded":1970}
+{"id":"59b13a8f-11ef-4131-8dde-83250b3ffde7","name":"Cedar Grove Agriculture 109-1","industry":"Healthcare","headquarters":{"city":"Houston","state":"TX","country":"USA"},"size":29921,"founded":2006}
+{"id":"341ba234-983b-4af8-8839-bb1e72a10ec0","name":"Northstar Holdings 110-1","industry":"Transportation","headquarters":{"city":"Des Moines","state":"IA","country":"USA"},"size":41162,"founded":1989}
+{"id":"43f4a313-aafe-46a0-9161-bf01401d91fe","name":"Golden Plains Retail 111-1","industry":"Retail","headquarters":{"city":"Austin","state":"TX","country":"USA"},"size":29883,"founded":1995}
+{"id":"9015c362-bd6e-4612-89ac-64723f7497c6","name":"Sterling Consulting 112-1","industry":"Consulting","headquarters":{"city":"Syracuse","state":"NY","country":"USA"},"size":42982,"founded":1992}
+{"id":"c2f05ab9-8237-4346-ac10-b566daef5732","name":"Summit Works 113-1","industry":"Energy","headquarters":{"city":"Augusta","state":"GA","country":"USA"},"size":18943,"founded":2005}
+{"id":"1b0056fd-2701-4aed-b11b-c12515959e36","name":"Green Valley Consulting 114-1","industry":"Consulting","headquarters":{"city":"Syracuse","state":"NY","country":"USA"},"size":26409,"founded":2022}
+{"id":"6f74ac28-83b6-4224-8fd2-354b46717a80","name":"Clearwater Group 115-1","industry":"Consulting","headquarters":{"city":"Charlotte","state":"NC","country":"USA"},"size":5720,"founded":1954}
+{"id":"af0f7ffc-70a3-4895-a796-fb9e916e3345","name":"Northstar Agriculture 116-1","industry":"Transportation","headquarters":{"city":"Springfield","state":"IL","country":"USA"},"size":41208,"founded":2009}
+{"id":"9ee2e2d5-a096-4900-9441-f662e0b894cf","name":"Summit Technologies 117-1","industry":"Consulting","headquarters":{"city":"Boulder","state":"CO","country":"USA"},"size":5416,"founded":2010}
+{"id":"e383313c-398b-4d6c-a140-8282205292eb","name":"Atlas Agriculture 118-1","industry":"Agriculture","headquarters":{"city":"Raleigh","state":"NC","country":"USA"},"size":15581,"founded":1999}
+{"id":"c86e63dc-5303-466c-a073-07862b99e96f","name":"Ironwood Agriculture 119-1","industry":"Education","headquarters":{"city":"Phoenix","state":"AZ","country":"USA"},"size":40295,"founded":2013}
+{"id":"f6141684-df9d-4213-bfa6-0dfa382e6715","name":"Sterling Technologies 120-1","industry":"Education","headquarters":{"city":"Portland","state":"OR","country":"USA"},"size":39930,"founded":1992}
+{"id":"72de1d90-e958-4fba-8bf9-f24892565bc5","name":"Skyline Services 121-1","industry":"Retail","headquarters":{"city":"Salem","state":"OR","country":"USA"},"size":5943,"founded":1970}
+{"id":"fef66559-a07d-4ea9-8180-bb00b6c0aaac","name":"Blue Ridge Labs 122-1","industry":"Technology","headquarters":{"city":"Dallas","state":"TX","country":"USA"},"size":535,"founded":1979}
+{"id":"ae38d821-9afa-44a8-8bc6-485ce01ccfbe","name":"Blue Ridge Consulting 123-1","industry":"Consulting","headquarters":{"city":"Springfield","state":"IL","country":"USA"},"size":45125,"founded":1980}
+{"id":"fae00466-f575-4ce0-af14-4debe131102e","name":"Northstar Systems 124-1","industry":"Finance","headquarters":{"city":"Dallas","state":"TX","country":"USA"},"size":14239,"founded":1969}
+{"id":"a79492c7-8f1f-4ed0-8130-772a4842750b","name":"Blue Ridge Manufacturing 125-1","industry":"Manufacturing","headquarters":{"city":"Portland","state":"OR","country":"USA"},"size":21411,"founded":1968}
+{"id":"e1e02d11-f8cd-447d-be88-7e05670c5609","name":"Northstar Services 126-1","industry":"Consulting","headquarters":{"city":"Dallas","state":"TX","country":"USA"},"size":28554,"founded":2024}
+{"id":"f5ba8452-d6ad-43d7-92b4-22f866f3fd6c","name":"Green Valley Labs 127-1","industry":"Energy","headquarters":{"city":"Des Moines","state":"IA","country":"USA"},"size":45992,"founded":1951}
+{"id":"368b65f5-8388-442a-98a2-781df04cf893","name":"Atlas Manufacturing 128-1","industry":"Manufacturing","headquarters":{"city":"New York","state":"NY","country":"USA"},"size":46629,"founded":1972}
+{"id":"9123005b-7767-4f15-9785-b1e6c07aa5f2","name":"Clearwater Holdings 129-1","industry":"Finance","headquarters":{"city":"Springfield","state":"IL","country":"USA"},"size":30381,"founded":1964}
+{"id":"f60922d7-4e56-4726-afe1-b21c551bc406","name":"Nova Education 130-1","industry":"Education","headquarters":{"city":"Charlotte","state":"NC","country":"USA"},"size":39831,"founded":1950}
+{"id":"200a6495-eb0d-4a30-9c7f-e8aee13a1c1f","name":"Cedar Grove Finance 131-1","industry":"Finance","headquarters":{"city":"Boulder","state":"CO","country":"USA"},"size":42554,"founded":2000}
+{"id":"a5aabcef-7362-4194-afd1-e6a5a6c7506d","name":"Blue Ridge Retail 132-1","industry":"Retail","headquarters":{"city":"Tacoma","state":"WA","country":"USA"},"size":45065,"founded":2008}
+{"id":"838dca42-a435-495a-baef-756a1ef5e854","name":"Green Valley Finance 133-1","industry":"Finance","headquarters":{"city":"Atlanta","state":"GA","country":"USA"},"size":10255,"founded":1951}
+{"id":"6055b133-78df-4592-b762-83dc70c4988f","name":"Skyline Education 134-1","industry":"Transportation","headquarters":{"city":"Salem","state":"OR","country":"USA"},"size":20911,"founded":1999}
+{"id":"bed70d60-f87a-4132-b39c-2cc07ca971ff","name":"Blue Ridge Works 135-1","industry":"Manufacturing","headquarters":{"city":"Augusta","state":"GA","country":"USA"},"size":18669,"founded":1981}
+{"id":"f772dd0d-a8b9-4776-b2c1-f460262a70f8","name":"Nova Education 136-1","industry":"Education","headquarters":{"city":"Houston","state":"TX","country":"USA"},"size":9449,"founded":2015}
+{"id":"6013113b-daec-4ba7-91f0-d09731a31b4d","name":"Cedar Grove Energy 137-1","industry":"Energy","headquarters":{"city":"Dallas","state":"TX","country":"USA"},"size":24596,"founded":1980}
+{"id":"95b5af92-a632-4da6-8fba-32da65fee3f1","name":"Green Valley Partners 138-1","industry":"Transportation","headquarters":{"city":"Augusta","state":"GA","country":"USA"},"size":31288,"founded":1975}
+{"id":"8924e627-e248-4315-b0ee-de5ad46aae47","name":"BrightPath Retail 139-1","industry":"Retail","headquarters":{"city":"Raleigh","state":"NC","country":"USA"},"size":24729,"founded":1983}
+{"id":"e3696af3-f343-4e40-a089-6891fb1d76f9","name":"Cedar Grove Manufacturing 140-1","industry":"Transportation","headquarters":{"city":"Raleigh","state":"NC","country":"USA"},"size":24029,"founded":1975}
+{"id":"d76a4db5-e0b5-48f0-86a2-2da7cf6da31d","name":"Northstar Labs 141-1","industry":"Finance","headquarters":{"city":"Houston","state":"TX","country":"USA"},"size":18542,"founded":1975}
+{"id":"f7cbafb1-75d2-4ad4-b44b-9c469b13999d","name":"Liberty Labs 142-1","industry":"Transportation","headquarters":{"city":"Dallas","state":"TX","country":"USA"},"size":35027,"founded":1954}
+{"id":"700c1507-f5ed-4083-a75e-d663393c78ae","name":"Blue Ridge Holdings 143-1","industry":"Transportation","headquarters":{"city":"Seattle","state":"WA","country":"USA"},"size":27927,"founded":1972}
+{"id":"716af810-6030-4318-adeb-cf77bf95564b","name":"Cedar Grove Healthcare 144-1","industry":"Technology","headquarters":{"city":"Denver","state":"CO","country":"USA"},"size":24667,"founded":1987}
+{"id":"5860f7be-d397-4b29-ab05-c7c16910df3b","name":"Skyline Retail 145-1","industry":"Consulting","headquarters":{"city":"Chicago","state":"IL","country":"USA"},"size":38625,"founded":1988}
+{"id":"09ace378-375f-4dba-81bf-27b2bc15ed44","name":"Harbor Agriculture 146-1","industry":"Retail","headquarters":{"city":"Syracuse","state":"NY","country":"USA"},"size":10465,"founded":1981}
+{"id":"f76e7991-312b-43a3-9a0e-c4ce5f584d92","name":"Liberty Works 147-1","industry":"Energy","headquarters":{"city":"Boulder","state":"CO","country":"USA"},"size":16241,"founded":2010}
+{"id":"4a94e51e-03a2-4c1d-b1a3-fbd752ccfc68","name":"Riverstone Dynamics 148-1","industry":"Manufacturing","headquarters":{"city":"Augusta","state":"GA","country":"USA"},"size":269,"founded":2018}
+{"id":"fb7ed53d-c22c-4b4a-8f64-7600dbbecea4","name":"Green Valley Industries 149-1","industry":"Agriculture","headquarters":{"city":"Atlanta","state":"GA","country":"USA"},"size":5973,"founded":1982}
+{"id":"d57a8fbc-d02b-440e-b5ae-39d90d94b20d","name":"Riverstone Holdings 150-1","industry":"Energy","headquarters":{"city":"Tacoma","state":"WA","country":"USA"},"size":33655,"founded":2009}
+{"id":"f81d193d-e815-4d54-ac84-9cb34fbf2abc","name":"Silver Oak Consulting 151-1","industry":"Consulting","headquarters":{"city":"Austin","state":"TX","country":"USA"},"size":27083,"founded":1958}
+{"id":"4ac3f118-4681-4ae9-8083-28c4e5621b39","name":"Northstar Agriculture 152-1","industry":"Manufacturing","headquarters":{"city":"Denver","state":"CO","country":"USA"},"size":41988,"founded":2023}
+{"id":"66291d44-d164-4d09-9725-88c24fc1b86d","name":"Nova Group 153-1","industry":"Manufacturing","headquarters":{"city":"Houston","state":"TX","country":"USA"},"size":9524,"founded":1973}
+{"id":"c2b4bf2c-ca61-4ffc-96aa-f92fb1f8f940","name":"Northstar Technology 154-1","industry":"Technology","headquarters":{"city":"Seattle","state":"WA","country":"USA"},"size":46946,"founded":1967}
+{"id":"68d05c41-59a1-4ffa-a1e9-1e534d5a8cb1","name":"Liberty Energy 155-1","industry":"Energy","headquarters":{"city":"Dallas","state":"TX","country":"USA"},"size":35836,"founded":1990}
+{"id":"55aa2e90-3a1d-4db9-92cc-b13da848e3e7","name":"Evergreen Technology 156-1","industry":"Technology","headquarters":{"city":"Phoenix","state":"AZ","country":"USA"},"size":8434,"founded":2024}
+{"id":"a4ef88b1-91d9-434b-8c42-cd65af7cf91f","name":"Redwood Works 157-1","industry":"Manufacturing","headquarters":{"city":"Cedar Rapids","state":"IA","country":"USA"},"size":47473,"founded":1978}
+{"id":"ac7a4a4b-f561-4e05-9829-4761c9c63a2e","name":"Riverstone Healthcare 158-1","industry":"Agriculture","headquarters":{"city":"Phoenix","state":"AZ","country":"USA"},"size":38482,"founded":1986}
+{"id":"a4d1379f-00e7-4975-ad48-ce8a60b44548","name":"Liberty Solutions 159-1","industry":"Healthcare","headquarters":{"city":"Raleigh","state":"NC","country":"USA"},"size":48681,"founded":2003}
+{"id":"b44e3adf-530e-4393-a29c-60ea0add5a0f","name":"Northstar Transportation 160-1","industry":"Transportation","headquarters":{"city":"Chicago","state":"IL","country":"USA"},"size":13612,"founded":1967}
+{"id":"cf974253-aa4f-4a0f-9b5b-c866db207755","name":"Sterling Dynamics 161-1","industry":"Energy","headquarters":{"city":"Portland","state":"OR","country":"USA"},"size":16794,"founded":1966}
+{"id":"9a40a21e-93e3-4033-a5c2-acf93706720f","name":"Liberty Dynamics 162-1","industry":"Energy","headquarters":{"city":"Augusta","state":"GA","country":"USA"},"size":4532,"founded":1963}
+{"id":"efbf1082-e093-46f3-b0cb-0c6a2d4a1efe","name":"Green Valley Manufacturing 163-1","industry":"Healthcare","headquarters":{"city":"New York","state":"NY","country":"USA"},"size":24647,"founded":1998}
+{"id":"e8f4e092-fc00-488e-9240-78d25b969d93","name":"Ironwood Consulting 164-1","industry":"Consulting","headquarters":{"city":"Seattle","state":"WA","country":"USA"},"size":43168,"founded":2018}
+{"id":"92827f16-5d17-44f2-b172-819b4e89615e","name":"Golden Plains Retail 165-1","industry":"Retail","headquarters":{"city":"Syracuse","state":"NY","country":"USA"},"size":41592,"founded":1952}
+{"id":"8ccca7ca-c17f-43b1-9fec-5061e7ce4e9f","name":"Atlas Education 166-1","industry":"Manufacturing","headquarters":{"city":"Salem","state":"OR","country":"USA"},"size":21481,"founded":1975}
+{"id":"e82dfc9b-c6c2-45f0-811e-2c6f6c794c29","name":"Evergreen Manufacturing 167-1","industry":"Manufacturing","headquarters":{"city":"Boulder","state":"CO","country":"USA"},"size":36145,"founded":1954}
+{"id":"4b0631f9-ea11-4255-ab09-01869bc8e8b7","name":"Evergreen Energy 168-1","industry":"Education","headquarters":{"city":"Springfield","state":"IL","country":"USA"},"size":12642,"founded":2013}
+{"id":"8707d245-f4e4-4743-9c55-386058d46eaa","name":"Liberty Finance 169-1","industry":"Education","headquarters":{"city":"Houston","state":"TX","country":"USA"},"size":8994,"founded":1973}
+{"id":"be051fc2-b74a-4ecc-bff7-57f54614792f","name":"Sterling Education 170-1","industry":"Education","headquarters":{"city":"Cedar Rapids","state":"IA","country":"USA"},"size":16896,"founded":1973}
+{"id":"ea5e8e22-8ef9-41dc-b3f6-435affe7ee88","name":"Northstar Labs 171-1","industry":"Education","headquarters":{"city":"New York","state":"NY","country":"USA"},"size":5075,"founded":1995}
+{"id":"0c7bd964-ee09-48df-baaf-c0a2936ddcb8","name":"Green Valley Education 172-1","industry":"Transportation","headquarters":{"city":"Raleigh","state":"NC","country":"USA"},"size":48980,"founded":2018}
+{"id":"45d456a7-f86a-4fa1-ad73-3df0b8b7f264","name":"Cedar Grove Manufacturing 173-1","industry":"Retail","headquarters":{"city":"Augusta","state":"GA","country":"USA"},"size":4887,"founded":2023}
+{"id":"93be5b38-3bb0-4e95-b7c9-49e674e6031d","name":"Atlas Agriculture 174-1","industry":"Transportation","headquarters":{"city":"Charlotte","state":"NC","country":"USA"},"size":29142,"founded":2014}
+{"id":"987c6c77-f314-4eaf-bf6a-cef1230a7dff","name":"Blue Ridge Logistics 175-1","industry":"Finance","headquarters":{"city":"Denver","state":"CO","country":"USA"},"size":41054,"founded":1980}
+{"id":"52c327ad-65c1-457c-98a2-ba8ca4dcdad5","name":"Blue Ridge Industries 176-1","industry":"Manufacturing","headquarters":{"city":"Syracuse","state":"NY","country":"USA"},"size":28611,"founded":1964}
+{"id":"08616aea-41d1-41f3-8519-4bdf5db517e7","name":"Skyline Industries 177-1","industry":"Manufacturing","headquarters":{"city":"Springfield","state":"IL","country":"USA"},"size":35706,"founded":2005}
+{"id":"e70bbeb8-7f11-41cb-95c2-505816863645","name":"Golden Plains Manufacturing 178-1","industry":"Manufacturing","headquarters":{"city":"Denver","state":"CO","country":"USA"},"size":11580,"founded":2004}
+{"id":"0559ca6b-9ac8-4a19-a0e2-b054e23ab29f","name":"BrightPath Finance 179-1","industry":"Finance","headquarters":{"city":"Springfield","state":"IL","country":"USA"},"size":11203,"founded":2024}
+{"id":"9a22d702-c7e7-415f-b1af-b97eb03ea547","name":"Summit Finance 180-1","industry":"Healthcare","headquarters":{"city":"Augusta","state":"GA","country":"USA"},"size":6020,"founded":2015}
+{"id":"0fd5cac4-2c47-4c36-9026-487c743614ad","name":"Redwood Works 181-1","industry":"Finance","headquarters":{"city":"Boulder","state":"CO","country":"USA"},"size":6240,"founded":2007}
+{"id":"d5051a01-aa79-4c6d-ae8c-c95aec42f031","name":"Clearwater Services 182-1","industry":"Energy","headquarters":{"city":"Raleigh","state":"NC","country":"USA"},"size":2623,"founded":2000}
+{"id":"b6735145-8794-4381-8659-0ac73e59719e","name":"Pioneer Consulting 183-1","industry":"Education","headquarters":{"city":"Chicago","state":"IL","country":"USA"},"size":40959,"founded":1978}
+{"id":"e8d3e552-592e-4266-8489-eb5f8761186d","name":"Summit Healthcare 184-1","industry":"Agriculture","headquarters":{"city":"Denver","state":"CO","country":"USA"},"size":14814,"founded":2014}
+{"id":"fe4d9eb8-c56e-4489-91e2-5963dc97de98","name":"Evergreen Partners 185-1","industry":"Retail","headquarters":{"city":"Raleigh","state":"NC","country":"USA"},"size":27165,"founded":1961}
+{"id":"d107c70b-a3d9-4961-9d9b-310efd7e698f","name":"Redwood Group 186-1","industry":"Retail","headquarters":{"city":"Austin","state":"TX","country":"USA"},"size":28091,"founded":1959}
+{"id":"1e6c256c-4881-43e6-93e0-d2bfe7aa9fd7","name":"Riverstone Retail 187-1","industry":"Agriculture","headquarters":{"city":"Tacoma","state":"WA","country":"USA"},"size":34644,"founded":2021}
+{"id":"d9b3016f-fde1-447d-a507-ee7c68bc5bba","name":"Blue Ridge Finance 188-1","industry":"Finance","headquarters":{"city":"Atlanta","state":"GA","country":"USA"},"size":4086,"founded":2014}
+{"id":"878c9592-af6e-4171-be90-6d0c6c9a1796","name":"BrightPath Solutions 189-1","industry":"Technology","headquarters":{"city":"New York","state":"NY","country":"USA"},"size":11618,"founded":1999}
+{"id":"4e183485-ab0f-4060-8a95-83ba1f0e6ea4","name":"Redwood Education 190-1","industry":"Education","headquarters":{"city":"Charlotte","state":"NC","country":"USA"},"size":28434,"founded":1989}
+{"id":"836d4f20-2852-4c7b-a860-c11dc7b31a1f","name":"Silver Oak Consulting 191-1","industry":"Consulting","headquarters":{"city":"Denver","state":"CO","country":"USA"},"size":41596,"founded":1972}
+{"id":"0e204ad0-6dfb-420c-b14f-bd6b28a2569d","name":"BrightPath Education 192-1","industry":"Transportation","headquarters":{"city":"Raleigh","state":"NC","country":"USA"},"size":33146,"founded":2012}
+{"id":"f852277c-b6d0-45b7-af3c-5fdf1abde441","name":"Ironwood Agriculture 193-1","industry":"Agriculture","headquarters":{"city":"Des Moines","state":"IA","country":"USA"},"size":49113,"founded":1953}
+{"id":"93dd86c3-a629-4ca2-a069-987bed5cf74f","name":"Silver Oak Education 194-1","industry":"Consulting","headquarters":{"city":"Charlotte","state":"NC","country":"USA"},"size":26684,"founded":1987}
+{"id":"81f7e7c6-707c-42de-a350-885b45dbd4be","name":"Redwood Energy 195-1","industry":"Energy","headquarters":{"city":"Atlanta","state":"GA","country":"USA"},"size":23150,"founded":1982}
+{"id":"7d73bd75-13c3-4925-a6b2-92d4ba392303","name":"Evergreen Manufacturing 196-1","industry":"Manufacturing","headquarters":{"city":"Denver","state":"CO","country":"USA"},"size":7105,"founded":1984}
+{"id":"6245ea87-d46e-42e8-b9e6-88567cbc49dd","name":"BrightPath Transportation 197-1","industry":"Transportation","headquarters":{"city":"Austin","state":"TX","country":"USA"},"size":6726,"founded":2022}
+{"id":"029eb6a9-010d-4a4e-82b4-4d1c01c47786","name":"Liberty Technology 198-1","industry":"Technology","headquarters":{"city":"Portland","state":"OR","country":"USA"},"size":14012,"founded":1950}
+{"id":"a42b4054-217d-48ee-9fab-8c31f25343f3","name":"Atlas Energy 199-1","industry":"Finance","headquarters":{"city":"Raleigh","state":"NC","country":"USA"},"size":22243,"founded":1980}
+{"id":"a291b139-e409-408d-bc4a-88aff5296aba","name":"Green Valley Energy 200-1","industry":"Finance","headquarters":{"city":"Denver","state":"CO","country":"USA"},"size":23874,"founded":1992}
+{"id":"1a45bee5-04a0-438e-a7fc-921467ac8f2e","name":"BrightPath Systems 201-1","industry":"Retail","headquarters":{"city":"Charlotte","state":"NC","country":"USA"},"size":47622,"founded":1963}
+{"id":"46177b66-356a-41fb-817f-6ffdd7db9bce","name":"Atlas Retail 202-1","industry":"Retail","headquarters":{"city":"Des Moines","state":"IA","country":"USA"},"size":5299,"founded":2006}
+{"id":"cf0c2375-4f6f-46cb-968f-61ee38ef1d9a","name":"Pioneer Finance 203-1","industry":"Consulting","headquarters":{"city":"Springfield","state":"IL","country":"USA"},"size":49584,"founded":1988}
+{"id":"8ec09e66-4855-4f1a-9386-35b31a38f682","name":"Riverstone Works 204-1","industry":"Education","headquarters":{"city":"Raleigh","state":"NC","country":"USA"},"size":6788,"founded":1965}
+{"id":"a96ad9fe-6a01-498f-95f8-484eccf1a705","name":"Silver Oak Agriculture 205-1","industry":"Agriculture","headquarters":{"city":"Cedar Rapids","state":"IA","country":"USA"},"size":43211,"founded":1966}
+{"id":"7e7bb89f-4104-4830-bfbf-ccc47ccc14e3","name":"Skyline Transportation 206-1","industry":"Transportation","headquarters":{"city":"Des Moines","state":"IA","country":"USA"},"size":27471,"founded":2004}
+{"id":"bd2bbf9a-b2d9-4742-87fc-607c35eafd84","name":"Ironwood Systems 207-1","industry":"Finance","headquarters":{"city":"Syracuse","state":"NY","country":"USA"},"size":49703,"founded":2015}
+{"id":"10a6462f-e968-4d14-bda8-2a04be08e957","name":"Skyline Technologies 208-1","industry":"Agriculture","headquarters":{"city":"Raleigh","state":"NC","country":"USA"},"size":19602,"founded":2002}
+{"id":"68418969-63fc-4f8d-a3a9-d019d8deba19","name":"Riverstone Education 209-1","industry":"Education","headquarters":{"city":"Dallas","state":"TX","country":"USA"},"size":11085,"founded":2005}
+{"id":"a10c814a-726d-4c82-bb41-9893eee7d06a","name":"Harbor Works 210-1","industry":"Technology","headquarters":{"city":"Raleigh","state":"NC","country":"USA"},"size":6110,"founded":2000}
+{"id":"96277c99-946e-40eb-9104-c8e0216ae182","name":"Ironwood Retail 211-1","industry":"Retail","headquarters":{"city":"Denver","state":"CO","country":"USA"},"size":15260,"founded":1986}
+{"id":"6183ed67-9b7e-4fe7-8f8c-047ef6c69425","name":"Summit Dynamics 212-1","industry":"Finance","headquarters":{"city":"Des Moines","state":"IA","country":"USA"},"size":20487,"founded":1970}
+{"id":"5ee4a170-334b-4f97-8f74-60614cf6d21c","name":"Blue Ridge Works 213-1","industry":"Finance","headquarters":{"city":"Portland","state":"OR","country":"USA"},"size":7478,"founded":1957}
+{"id":"108882b6-870c-43e0-820c-5c2789448fb9","name":"Evergreen Labs 214-1","industry":"Energy","headquarters":{"city":"Portland","state":"OR","country":"USA"},"size":28390,"founded":1970}
+{"id":"1f1e366b-8d16-4942-8944-82187e0af4ec","name":"Cedar Grove Agriculture 215-1","industry":"Retail","headquarters":{"city":"Dallas","state":"TX","country":"USA"},"size":9365,"founded":2023}
+{"id":"9f0040e8-28eb-464e-9b65-fe663ebfc945","name":"Northstar Technology 216-1","industry":"Technology","headquarters":{"city":"Syracuse","state":"NY","country":"USA"},"size":7093,"founded":2016}
+{"id":"c4676804-88e6-4294-ab97-45f94137fde2","name":"Pioneer Education 217-1","industry":"Education","headquarters":{"city":"Boulder","state":"CO","country":"USA"},"size":12209,"founded":1974}
+{"id":"8bb57e13-3cc3-4ef7-8651-0bcbde8153e9","name":"Skyline Agriculture 218-1","industry":"Agriculture","headquarters":{"city":"Des Moines","state":"IA","country":"USA"},"size":34724,"founded":1962}
+{"id":"85854956-a647-4378-a75e-f6a31f69861d","name":"Silver Oak Solutions 219-1","industry":"Agriculture","headquarters":{"city":"Springfield","state":"IL","country":"USA"},"size":13672,"founded":1961}
+{"id":"83995ff1-5a9e-4ef0-ab48-916d522e7f77","name":"Nova Systems 220-1","industry":"Transportation","headquarters":{"city":"Atlanta","state":"GA","country":"USA"},"size":11523,"founded":1983}
+{"id":"2ff726ae-be58-451a-be1d-24f23a7ecc40","name":"Evergreen Consulting 221-1","industry":"Consulting","headquarters":{"city":"Houston","state":"TX","country":"USA"},"size":43632,"founded":1962}
+{"id":"ab4ac6b0-e59e-403f-b065-779a4cf5c520","name":"Summit Healthcare 222-1","industry":"Technology","headquarters":{"city":"Atlanta","state":"GA","country":"USA"},"size":8217,"founded":1997}
+{"id":"3bacb7d0-e3c3-4230-94ca-9bb6dc855841","name":"Sterling Retail 223-1","industry":"Retail","headquarters":{"city":"Phoenix","state":"AZ","country":"USA"},"size":4424,"founded":2019}
+{"id":"9b15741e-656c-4587-b291-b0a4230537e0","name":"Golden Plains Agriculture 224-1","industry":"Agriculture","headquarters":{"city":"Chicago","state":"IL","country":"USA"},"size":14094,"founded":2019}
+{"id":"985e5c0c-3fdd-46f7-8697-1db0377b9101","name":"Redwood Dynamics 225-1","industry":"Retail","headquarters":{"city":"Syracuse","state":"NY","country":"USA"},"size":37972,"founded":1959}
+{"id":"f30777f8-561e-47df-87d9-10a445938fc8","name":"Nova Energy 226-1","industry":"Energy","headquarters":{"city":"Dallas","state":"TX","country":"USA"},"size":33416,"founded":1950}
+{"id":"477f7cc0-2968-4974-954e-2506d5c41f7e","name":"Harbor Holdings 227-1","industry":"Healthcare","headquarters":{"city":"Portland","state":"OR","country":"USA"},"size":32784,"founded":1972}
+{"id":"9ae54a3e-0fa6-4ade-a635-cbcd84f83f1d","name":"Summit Dynamics 228-1","industry":"Agriculture","headquarters":{"city":"Charlotte","state":"NC","country":"USA"},"size":12215,"founded":2017}
+{"id":"746188a2-4d10-4ce6-8799-fd9663216876","name":"Golden Plains Logistics 229-1","industry":"Energy","headquarters":{"city":"Charlotte","state":"NC","country":"USA"},"size":39171,"founded":1998}
+{"id":"66f5fd5a-b5a8-4c15-a957-ca8a742401aa","name":"Skyline Logistics 230-1","industry":"Consulting","headquarters":{"city":"Charlotte","state":"NC","country":"USA"},"size":35923,"founded":1989}
+{"id":"6f360d5a-4539-41cf-86be-6642eba600bd","name":"Riverstone Retail 231-1","industry":"Technology","headquarters":{"city":"Raleigh","state":"NC","country":"USA"},"size":12118,"founded":2010}
+{"id":"8f4c052a-6588-4e9c-9b74-d687fd6aafb1","name":"Ironwood Group 232-1","industry":"Retail","headquarters":{"city":"Raleigh","state":"NC","country":"USA"},"size":31557,"founded":2017}
+{"id":"9644a11e-180e-4a7d-990c-74101f390d53","name":"Nova Agriculture 233-1","industry":"Agriculture","headquarters":{"city":"New York","state":"NY","country":"USA"},"size":35284,"founded":1985}
+{"id":"3ebe6181-b889-4094-a5e3-82ca504e3130","name":"Skyline Industries 234-1","industry":"Transportation","headquarters":{"city":"Chicago","state":"IL","country":"USA"},"size":25822,"founded":2016}
+{"id":"cd175f7c-6178-46a8-b1f4-2bcc550f963b","name":"Redwood Healthcare 235-1","industry":"Agriculture","headquarters":{"city":"Charlotte","state":"NC","country":"USA"},"size":24437,"founded":1975}
+{"id":"b5604d45-8bab-42a6-a61f-df40786333f0","name":"Redwood Finance 236-1","industry":"Finance","headquarters":{"city":"Dallas","state":"TX","country":"USA"},"size":5647,"founded":2021}
+{"id":"75061885-7a84-4cb0-ad67-27f35b568e37","name":"BrightPath Healthcare 237-1","industry":"Agriculture","headquarters":{"city":"Chicago","state":"IL","country":"USA"},"size":18046,"founded":1990}
+{"id":"31440a43-43de-4611-b4f4-765c2ba734eb","name":"Clearwater Energy 238-1","industry":"Manufacturing","headquarters":{"city":"Austin","state":"TX","country":"USA"},"size":44795,"founded":2006}
+{"id":"f84d6109-74c4-473d-a50e-db650c908261","name":"Liberty Group 239-1","industry":"Finance","headquarters":{"city":"Houston","state":"TX","country":"USA"},"size":23720,"founded":2004}
+{"id":"4d65d154-ca6a-4b07-b872-6c7f4b2023b7","name":"Northstar Agriculture 240-1","industry":"Education","headquarters":{"city":"Springfield","state":"IL","country":"USA"},"size":3224,"founded":1995}
+{"id":"a5b2d988-038e-4f18-b86a-149a99784e4d","name":"Nova Education 241-1","industry":"Education","headquarters":{"city":"Portland","state":"OR","country":"USA"},"size":7407,"founded":2002}
+{"id":"28c7fa89-678a-4924-a939-14cbcc19e017","name":"Green Valley Energy 242-1","industry":"Retail","headquarters":{"city":"Springfield","state":"IL","country":"USA"},"size":42423,"founded":2008}
+{"id":"4e745e8a-3c09-493f-bbea-5fb391517e8f","name":"Green Valley Partners 243-1","industry":"Consulting","headquarters":{"city":"Raleigh","state":"NC","country":"USA"},"size":19956,"founded":2011}
+{"id":"652e9e30-eb4f-48eb-9ebd-c52cafd6c2db","name":"BrightPath Group 244-1","industry":"Consulting","headquarters":{"city":"Syracuse","state":"NY","country":"USA"},"size":28623,"founded":1992}
+{"id":"16d5572a-ae0c-4158-bb31-319989c121b2","name":"Pioneer Agriculture 245-1","industry":"Agriculture","headquarters":{"city":"Portland","state":"OR","country":"USA"},"size":27466,"founded":2024}
+{"id":"2b46c91b-62b5-4030-8396-3e4f7681b117","name":"Pioneer Retail 246-1","industry":"Retail","headquarters":{"city":"Des Moines","state":"IA","country":"USA"},"size":8682,"founded":1965}
+{"id":"bb86672e-783f-4063-9f85-f6121463937e","name":"Evergreen Systems 247-1","industry":"Healthcare","headquarters":{"city":"Dallas","state":"TX","country":"USA"},"size":28819,"founded":2020}
+{"id":"436a488a-02a6-46a6-9c45-c5e3dd5590de","name":"Pioneer Agriculture 248-1","industry":"Agriculture","headquarters":{"city":"Raleigh","state":"NC","country":"USA"},"size":19192,"founded":1991}
+{"id":"8b39b6aa-2cf0-4318-a831-c656ce44fb06","name":"Ironwood Industries 249-1","industry":"Agriculture","headquarters":{"city":"Salem","state":"OR","country":"USA"},"size":15628,"founded":1961}
+{"id":"ed3d38d4-743d-40df-a910-530316874e68","name":"Redwood Transportation 250-1","industry":"Transportation","headquarters":{"city":"Portland","state":"OR","country":"USA"},"size":34603,"founded":1989}
+{"id":"bab99fa6-6306-456b-af39-84958011ed9e","name":"Northstar Retail 251-1","industry":"Finance","headquarters":{"city":"Springfield","state":"IL","country":"USA"},"size":22265,"founded":1999}
+{"id":"5dad7062-5172-4f35-98e7-a80c3ea75a43","name":"BrightPath Retail 252-1","industry":"Retail","headquarters":{"city":"Boulder","state":"CO","country":"USA"},"size":16524,"founded":1977}
+{"id":"efe3f924-528f-4087-8038-8fdb41f98c4c","name":"Silver Oak Consulting 253-1","industry":"Consulting","headquarters":{"city":"Raleigh","state":"NC","country":"USA"},"size":21801,"founded":1992}
+{"id":"322afaf9-c223-4cd9-ab23-190273eef9db","name":"Atlas Energy 254-1","industry":"Energy","headquarters":{"city":"Augusta","state":"GA","country":"USA"},"size":34126,"founded":1994}
+{"id":"ff1c1e9a-8ac7-4746-8e8a-c9e47c5ef039","name":"Riverstone Transportation 255-1","industry":"Transportation","headquarters":{"city":"Atlanta","state":"GA","country":"USA"},"size":47377,"founded":2014}
+{"id":"768df686-2b84-492c-9cf3-86727f40f1e7","name":"Evergreen Technologies 256-1","industry":"Retail","headquarters":{"city":"Houston","state":"TX","country":"USA"},"size":28217,"founded":1989}
+{"id":"86561b7b-e596-4988-b70f-16e402d59f7b","name":"Harbor Energy 257-1","industry":"Energy","headquarters":{"city":"Dallas","state":"TX","country":"USA"},"size":24836,"founded":1994}
+{"id":"887433cc-d049-4e0a-a462-ea1ebae09a1b","name":"Green Valley Holdings 258-1","industry":"Consulting","headquarters":{"city":"Augusta","state":"GA","country":"USA"},"size":11739,"founded":1952}
+{"id":"acd664fa-a3e2-41db-b041-7c09130d05db","name":"Sterling Agriculture 259-1","industry":"Agriculture","headquarters":{"city":"Denver","state":"CO","country":"USA"},"size":2473,"founded":2012}
+{"id":"224b2f9f-18ed-43c6-8130-98f3c1702df2","name":"Green Valley Services 260-1","industry":"Energy","headquarters":{"city":"Denver","state":"CO","country":"USA"},"size":12511,"founded":1977}
+{"id":"e63c4738-e355-48ab-b7d0-28bcbbe69d2e","name":"Harbor Education 261-1","industry":"Manufacturing","headquarters":{"city":"Denver","state":"CO","country":"USA"},"size":35961,"founded":1979}
+{"id":"3b9a868a-55df-499b-9b41-eeb95aa4bff9","name":"Evergreen Transportation 262-1","industry":"Transportation","headquarters":{"city":"New York","state":"NY","country":"USA"},"size":48497,"founded":1974}
+{"id":"038bff23-e25e-429b-b2cf-9a033713e366","name":"Pioneer Healthcare 263-1","industry":"Technology","headquarters":{"city":"Salem","state":"OR","country":"USA"},"size":45537,"founded":1950}
+{"id":"d4f73a6c-4ba3-4326-82cc-6f35f4e1c647","name":"Green Valley Agriculture 264-1","industry":"Agriculture","headquarters":{"city":"Dallas","state":"TX","country":"USA"},"size":21498,"founded":1990}
+{"id":"c757c5ed-666e-465a-8523-8e3481c55843","name":"Blue Ridge Healthcare 265-1","industry":"Healthcare","headquarters":{"city":"Charlotte","state":"NC","country":"USA"},"size":12794,"founded":2018}
+{"id":"e805bd05-eb15-4d06-8c30-6a9fd3671acf","name":"BrightPath Solutions 266-1","industry":"Energy","headquarters":{"city":"Salem","state":"OR","country":"USA"},"size":30249,"founded":2004}
+{"id":"f2157a67-486f-4958-be48-5680f897057e","name":"Pioneer Consulting 267-1","industry":"Energy","headquarters":{"city":"New York","state":"NY","country":"USA"},"size":30020,"founded":1996}
+{"id":"b2186dcd-bdbc-46a5-ae24-9055f002de39","name":"Green Valley Logistics 268-1","industry":"Manufacturing","headquarters":{"city":"Atlanta","state":"GA","country":"USA"},"size":5541,"founded":1961}
+{"id":"ff5c4c70-7767-4508-b236-d55feefd73c9","name":"Golden Plains Healthcare 269-1","industry":"Education","headquarters":{"city":"New York","state":"NY","country":"USA"},"size":14369,"founded":2007}
+{"id":"0b858084-a00d-42c0-98ea-71f21bae9834","name":"Pioneer Partners 270-1","industry":"Technology","headquarters":{"city":"Augusta","state":"GA","country":"USA"},"size":34009,"founded":1992}
+{"id":"79ed31e5-2802-49b8-a373-c4a1012769e1","name":"Northstar Dynamics 271-1","industry":"Technology","headquarters":{"city":"Denver","state":"CO","country":"USA"},"size":30288,"founded":2023}
+{"id":"5b4b884d-642b-447c-ad19-1eb9e831c2a3","name":"Ironwood Consulting 272-1","industry":"Manufacturing","headquarters":{"city":"Seattle","state":"WA","country":"USA"},"size":22717,"founded":2000}
+{"id":"e85c7c0c-4938-4e4f-aab9-eed0b25eb93e","name":"Clearwater Services 273-1","industry":"Transportation","headquarters":{"city":"Portland","state":"OR","country":"USA"},"size":41023,"founded":1961}
+{"id":"d67b6c7a-122d-4d03-84c5-e33740cb259c","name":"Silver Oak Solutions 274-1","industry":"Healthcare","headquarters":{"city":"Tacoma","state":"WA","country":"USA"},"size":40189,"founded":1991}
+{"id":"f799831f-2b01-48e6-8d29-eb0ec40489e0","name":"Pioneer Consulting 275-1","industry":"Consulting","headquarters":{"city":"Austin","state":"TX","country":"USA"},"size":45823,"founded":2023}
+{"id":"7fdb3d4b-b575-461b-b501-b282a9408bc3","name":"Nova Partners 276-1","industry":"Consulting","headquarters":{"city":"Cedar Rapids","state":"IA","country":"USA"},"size":8042,"founded":2003}
+{"id":"12bfd25f-6445-4656-894a-c104279c35f4","name":"Liberty Consulting 277-1","industry":"Consulting","headquarters":{"city":"Des Moines","state":"IA","country":"USA"},"size":12743,"founded":1995}
+{"id":"230e805d-30c0-4781-9780-3f4b7845dd0b","name":"Blue Ridge Energy 278-1","industry":"Energy","headquarters":{"city":"Houston","state":"TX","country":"USA"},"size":18384,"founded":1997}
+{"id":"dddbb8c5-45fc-4633-845e-f3644b980129","name":"BrightPath Group 279-1","industry":"Healthcare","headquarters":{"city":"Raleigh","state":"NC","country":"USA"},"size":34784,"founded":1982}
+{"id":"72ee3eaa-ae8f-470d-885b-0c7146271c5f","name":"Summit Retail 280-1","industry":"Technology","headquarters":{"city":"Cedar Rapids","state":"IA","country":"USA"},"size":39125,"founded":2016}
+{"id":"ac9f4e24-56d2-453f-b27c-ecbc4f091d74","name":"Golden Plains Manufacturing 281-1","industry":"Technology","headquarters":{"city":"Phoenix","state":"AZ","country":"USA"},"size":534,"founded":1989}
+{"id":"1ad45e0f-4505-433b-a87d-48833fd59a34","name":"Redwood Transportation 282-1","industry":"Transportation","headquarters":{"city":"Houston","state":"TX","country":"USA"},"size":36493,"founded":1971}
+{"id":"cda0bc97-59b9-48ba-8587-6cd7efa9bd11","name":"Northstar Retail 283-1","industry":"Manufacturing","headquarters":{"city":"Charlotte","state":"NC","country":"USA"},"size":8109,"founded":1998}
+{"id":"5ef36be5-bab1-4074-bff7-01dfe8c2900e","name":"Skyline Systems 284-1","industry":"Agriculture","headquarters":{"city":"Springfield","state":"IL","country":"USA"},"size":31016,"founded":1976}
+{"id":"13f07003-dd53-4d11-94c7-febc23e765df","name":"Blue Ridge Education 285-1","industry":"Education","headquarters":{"city":"Denver","state":"CO","country":"USA"},"size":11243,"founded":2022}
+{"id":"a0558940-74bb-4c42-a583-2f02a0b143ec","name":"Silver Oak Group 286-1","industry":"Technology","headquarters":{"city":"Denver","state":"CO","country":"USA"},"size":31389,"founded":1951}
+{"id":"92d43a7d-2738-44dd-b572-83f1eb95325e","name":"Skyline Healthcare 287-1","industry":"Energy","headquarters":{"city":"Charlotte","state":"NC","country":"USA"},"size":3883,"founded":1982}
+{"id":"5e27413f-9923-45d3-a91e-f6f5d38d47b7","name":"Nova Labs 288-1","industry":"Agriculture","headquarters":{"city":"Denver","state":"CO","country":"USA"},"size":10751,"founded":2021}
+{"id":"f3a94ac4-4cf3-4e1a-ae3e-de62717e45fd","name":"Sterling Consulting 289-1","industry":"Healthcare","headquarters":{"city":"Augusta","state":"GA","country":"USA"},"size":45422,"founded":2016}
+{"id":"4a62ecf4-dac3-4262-93ed-9ea56783b118","name":"Blue Ridge Industries 290-1","industry":"Healthcare","headquarters":{"city":"Austin","state":"TX","country":"USA"},"size":29001,"founded":1986}
+{"id":"ff0ba01d-0698-42c6-85ee-206cd004d867","name":"Atlas Logistics 291-1","industry":"Education","headquarters":{"city":"Syracuse","state":"NY","country":"USA"},"size":16187,"founded":1952}
+{"id":"bca79122-789d-4341-af82-09471a02f4aa","name":"Harbor Consulting 292-1","industry":"Agriculture","headquarters":{"city":"Cedar Rapids","state":"IA","country":"USA"},"size":15428,"founded":1981}
+{"id":"08776074-2f13-4409-bd71-8246aaca0b95","name":"Green Valley Consulting 293-1","industry":"Consulting","headquarters":{"city":"Phoenix","state":"AZ","country":"USA"},"size":38846,"founded":1950}
+{"id":"139ca057-b9f4-47ed-a011-3a221affbddf","name":"Pioneer Finance 294-1","industry":"Transportation","headquarters":{"city":"Des Moines","state":"IA","country":"USA"},"size":24491,"founded":2014}
+{"id":"39833cdb-1ff4-4173-92d2-c161d4f44eb6","name":"Silver Oak Technologies 295-1","industry":"Consulting","headquarters":{"city":"Chicago","state":"IL","country":"USA"},"size":18953,"founded":1954}
+{"id":"59681ed5-b78e-4be8-946f-8387ae0b5c3b","name":"Skyline Industries 296-1","industry":"Retail","headquarters":{"city":"Tacoma","state":"WA","country":"USA"},"size":44691,"founded":1977}
+{"id":"bef3f924-c85e-4e5f-bc9e-c90e8ab41e40","name":"Nova Works 297-1","industry":"Transportation","headquarters":{"city":"Springfield","state":"IL","country":"USA"},"size":22105,"founded":1959}
+{"id":"00adc271-d54e-4902-a58d-5f17192e42c8","name":"Clearwater Retail 298-1","industry":"Retail","headquarters":{"city":"New York","state":"NY","country":"USA"},"size":45379,"founded":2018}
+{"id":"a5f4862c-6022-41af-b565-60c0fc84db45","name":"Riverstone Technology 299-1","industry":"Technology","headquarters":{"city":"Atlanta","state":"GA","country":"USA"},"size":27968,"founded":1978}
+{"id":"e90d714e-c3c4-45a3-af8c-6ae3974326d7","name":"Golden Plains Education 300-1","industry":"Education","headquarters":{"city":"Austin","state":"TX","country":"USA"},"size":41533,"founded":1950}
+{"id":"54c3dd37-27ae-4d7d-bc78-476cc5dc93b6","name":"Liberty Logistics 301-1","industry":"Retail","headquarters":{"city":"Houston","state":"TX","country":"USA"},"size":9565,"founded":1995}
+{"id":"7674ca5e-80f1-452e-b226-1b27b4ff43d5","name":"Silver Oak Manufacturing 302-1","industry":"Education","headquarters":{"city":"Raleigh","state":"NC","country":"USA"},"size":21404,"founded":2012}
+{"id":"575c53c2-cff0-40c2-bcd8-2355f3334cee","name":"Liberty Partners 303-1","industry":"Education","headquarters":{"city":"Raleigh","state":"NC","country":"USA"},"size":43135,"founded":1976}
+{"id":"21b36520-a2d8-4516-af09-591be6c2f63a","name":"Golden Plains Finance 304-1","industry":"Healthcare","headquarters":{"city":"Chicago","state":"IL","country":"USA"},"size":27713,"founded":1984}
+{"id":"c3dbcc95-ab0c-49a2-8b59-cc550d197681","name":"Summit Works 305-1","industry":"Retail","headquarters":{"city":"Chicago","state":"IL","country":"USA"},"size":34901,"founded":1990}
+{"id":"27f7a867-35cb-48c5-8e5d-1347c83ed7c2","name":"Summit Finance 306-1","industry":"Finance","headquarters":{"city":"Austin","state":"TX","country":"USA"},"size":44954,"founded":1967}
+{"id":"f26b1667-3d3e-409e-bbb5-ca6f3d97cc81","name":"Harbor Education 307-1","industry":"Education","headquarters":{"city":"Houston","state":"TX","country":"USA"},"size":40781,"founded":2001}
+{"id":"600dcd16-6c4f-4e78-be24-c6fb1ed5d80e","name":"Northstar Consulting 308-1","industry":"Finance","headquarters":{"city":"Boulder","state":"CO","country":"USA"},"size":47189,"founded":1965}
+{"id":"10e8726a-3a7c-47ea-ae75-71ad5e94e77b","name":"Skyline Agriculture 309-1","industry":"Agriculture","headquarters":{"city":"Tacoma","state":"WA","country":"USA"},"size":30619,"founded":1959}
+{"id":"157c0ce8-d0cd-4016-acb7-4b807b8bd552","name":"Harbor Agriculture 310-1","industry":"Agriculture","headquarters":{"city":"New York","state":"NY","country":"USA"},"size":21814,"founded":1995}
+{"id":"16268b9f-a602-4806-adff-3bc3375ac19b","name":"Evergreen Education 311-1","industry":"Energy","headquarters":{"city":"Syracuse","state":"NY","country":"USA"},"size":5194,"founded":2020}
+{"id":"42c7b5c1-0f05-4d3f-90fe-521bfb593ed2","name":"BrightPath Transportation 312-1","industry":"Transportation","headquarters":{"city":"New York","state":"NY","country":"USA"},"size":27072,"founded":1971}
+{"id":"d1a05ac6-2012-4060-89ce-63613e1120ed","name":"Redwood Manufacturing 313-1","industry":"Manufacturing","headquarters":{"city":"Portland","state":"OR","country":"USA"},"size":5409,"founded":1973}
+{"id":"ebdf529a-e7de-417f-abda-a32726a5c870","name":"Riverstone Systems 314-1","industry":"Retail","headquarters":{"city":"Charlotte","state":"NC","country":"USA"},"size":28971,"founded":2011}
+{"id":"14105cd5-9cbd-4491-bcb4-bc71b1527b5b","name":"Sterling Energy 315-1","industry":"Consulting","headquarters":{"city":"Des Moines","state":"IA","country":"USA"},"size":34713,"founded":1973}
+{"id":"543bd1b4-6c87-4243-89c7-88fcc2ed707a","name":"BrightPath Logistics 316-1","industry":"Education","headquarters":{"city":"Phoenix","state":"AZ","country":"USA"},"size":7724,"founded":1964}
+{"id":"5f19b05c-b657-4fb0-89e3-79a8fde4b4db","name":"BrightPath Technologies 317-1","industry":"Manufacturing","headquarters":{"city":"Dallas","state":"TX","country":"USA"},"size":17700,"founded":2019}
+{"id":"64ac660c-39a7-46d9-9f00-02cdd5563db4","name":"Nova Transportation 318-1","industry":"Transportation","headquarters":{"city":"New York","state":"NY","country":"USA"},"size":28836,"founded":1995}
+{"id":"eca8ec50-6f78-4362-a2c9-81c37bd950eb","name":"Redwood Services 319-1","industry":"Transportation","headquarters":{"city":"Des Moines","state":"IA","country":"USA"},"size":47746,"founded":2022}
+{"id":"334bf628-1c30-497b-b4d8-ae27e3ae4d19","name":"Skyline Healthcare 320-1","industry":"Healthcare","headquarters":{"city":"New York","state":"NY","country":"USA"},"size":22963,"founded":2019}
+{"id":"548690a1-8028-4695-9a91-a409d1adf691","name":"Cedar Grove Finance 321-1","industry":"Education","headquarters":{"city":"Chicago","state":"IL","country":"USA"},"size":49683,"founded":2011}
+{"id":"4410c203-f0a9-498e-a3e9-421888a08793","name":"Ironwood Technology 322-1","industry":"Technology","headquarters":{"city":"Cedar Rapids","state":"IA","country":"USA"},"size":33666,"founded":1995}
+{"id":"78d00e53-7618-4f98-b410-b50f7d0c9883","name":"Liberty Technologies 323-1","industry":"Technology","headquarters":{"city":"Portland","state":"OR","country":"USA"},"size":44879,"founded":1953}
+{"id":"c3fea440-64c0-43ff-88a0-f75df27f4c42","name":"Nova Retail 324-1","industry":"Education","headquarters":{"city":"Augusta","state":"GA","country":"USA"},"size":47948,"founded":2009}
+{"id":"d94286de-b5af-4b77-856a-89135e3ceda9","name":"Pioneer Technologies 325-1","industry":"Healthcare","headquarters":{"city":"Chicago","state":"IL","country":"USA"},"size":17978,"founded":2017}
+{"id":"f3f6a5e8-9873-47ca-a943-771d4c6ffb55","name":"Harbor Healthcare 326-1","industry":"Healthcare","headquarters":{"city":"Des Moines","state":"IA","country":"USA"},"size":48669,"founded":1979}
+{"id":"67edc163-1da4-42dc-b642-ed9490cad1f2","name":"Liberty Consulting 327-1","industry":"Finance","headquarters":{"city":"New York","state":"NY","country":"USA"},"size":45990,"founded":2016}
+{"id":"adc8fe63-4868-4299-8c2b-6270d25df1fa","name":"BrightPath Retail 328-1","industry":"Finance","headquarters":{"city":"Springfield","state":"IL","country":"USA"},"size":44710,"founded":1965}
+{"id":"727cb461-ccde-4851-9636-d53262807fcd","name":"Blue Ridge Technology 329-1","industry":"Technology","headquarters":{"city":"Salem","state":"OR","country":"USA"},"size":26512,"founded":2008}
+{"id":"c9cbd4c1-37b6-4afc-9beb-f47d150ea401","name":"Atlas Retail 330-1","industry":"Manufacturing","headquarters":{"city":"New York","state":"NY","country":"USA"},"size":6894,"founded":1966}
+{"id":"567bd9d8-8268-460d-85ea-84854bba7b6d","name":"Northstar Technology 331-1","industry":"Technology","headquarters":{"city":"Tacoma","state":"WA","country":"USA"},"size":8202,"founded":2004}
+{"id":"83dcb9a2-1c13-4aaf-adbc-724bca9e64f9","name":"Clearwater Dynamics 332-1","industry":"Healthcare","headquarters":{"city":"Salem","state":"OR","country":"USA"},"size":41781,"founded":2008}
+{"id":"bd47a95e-8363-45ea-8e75-0745b46ad552","name":"Silver Oak Retail 333-1","industry":"Retail","headquarters":{"city":"Phoenix","state":"AZ","country":"USA"},"size":6988,"founded":1962}
+{"id":"683817b8-f02d-45ed-afaa-c2997e3b295b","name":"Atlas Technology 334-1","industry":"Technology","headquarters":{"city":"Augusta","state":"GA","country":"USA"},"size":28885,"founded":2008}
+{"id":"b5c3cd32-25d5-4340-981a-2166f697c555","name":"Sterling Energy 335-1","industry":"Consulting","headquarters":{"city":"Dallas","state":"TX","country":"USA"},"size":13399,"founded":1955}
+{"id":"578c2725-b958-48b9-a93f-0badde2dcc76","name":"Sterling Manufacturing 336-1","industry":"Consulting","headquarters":{"city":"Houston","state":"TX","country":"USA"},"size":19940,"founded":2024}
+{"id":"3363fcb5-55bc-474b-bc05-85d608240da9","name":"Blue Ridge Dynamics 337-1","industry":"Education","headquarters":{"city":"Austin","state":"TX","country":"USA"},"size":5252,"founded":1991}
+{"id":"4b1046b1-0648-4019-8460-455b85ed1664","name":"Ironwood Agriculture 338-1","industry":"Agriculture","headquarters":{"city":"Charlotte","state":"NC","country":"USA"},"size":24720,"founded":1987}
+{"id":"f28e5d89-95d7-4638-b40d-2edd4b032a31","name":"Riverstone Manufacturing 339-1","industry":"Agriculture","headquarters":{"city":"Charlotte","state":"NC","country":"USA"},"size":6171,"founded":1995}
+{"id":"fa1b98c3-ef3b-4b7e-bc1e-744f2229f85f","name":"Liberty Healthcare 340-1","industry":"Healthcare","headquarters":{"city":"Salem","state":"OR","country":"USA"},"size":42270,"founded":2004}
+{"id":"22e4eb39-6f7c-4d2a-bb25-5658466725a4","name":"Blue Ridge Technology 341-1","industry":"Technology","headquarters":{"city":"Phoenix","state":"AZ","country":"USA"},"size":393,"founded":1952}
+{"id":"c84a0335-5256-4b66-97e2-ab8d0dcff424","name":"Redwood Finance 342-1","industry":"Finance","headquarters":{"city":"Springfield","state":"IL","country":"USA"},"size":359,"founded":2011}
+{"id":"afa8a2bd-420f-499e-8c9d-a4439620659a","name":"Northstar Education 343-1","industry":"Energy","headquarters":{"city":"Boulder","state":"CO","country":"USA"},"size":42630,"founded":2005}
+{"id":"ef672a3d-c018-4ff7-b042-0aba2fba2b11","name":"Golden Plains Technology 344-1","industry":"Technology","headquarters":{"city":"Charlotte","state":"NC","country":"USA"},"size":32143,"founded":2003}
+{"id":"81ea7c09-3bb8-4228-a2b4-01905a26b0ee","name":"Nova Agriculture 345-1","industry":"Agriculture","headquarters":{"city":"Boulder","state":"CO","country":"USA"},"size":604,"founded":2013}
+{"id":"22a3db35-718f-4fb7-b4f6-c92a93ddd98a","name":"Harbor Technologies 346-1","industry":"Transportation","headquarters":{"city":"Raleigh","state":"NC","country":"USA"},"size":28593,"founded":2007}
+{"id":"8b565582-0430-4794-a18f-2220d8a0ce93","name":"Blue Ridge Education 347-1","industry":"Education","headquarters":{"city":"Des Moines","state":"IA","country":"USA"},"size":28287,"founded":2005}
+{"id":"0fdfb0c7-570a-489b-a424-068594f31490","name":"Nova Finance 348-1","industry":"Consulting","headquarters":{"city":"Dallas","state":"TX","country":"USA"},"size":38440,"founded":1991}
+{"id":"e915314b-d280-45c0-8631-fb34fef79497","name":"Atlas Technology 349-1","industry":"Technology","headquarters":{"city":"Boulder","state":"CO","country":"USA"},"size":14779,"founded":1966}
+{"id":"54ffcdaf-d6b6-4df6-9523-5ef64000cdfa","name":"Silver Oak Systems 350-1","industry":"Healthcare","headquarters":{"city":"Springfield","state":"IL","country":"USA"},"size":45917,"founded":2006}
+{"id":"db45d02e-8f37-4645-b2a7-835f8ef22a7b","name":"Clearwater Logistics 351-1","industry":"Transportation","headquarters":{"city":"Salem","state":"OR","country":"USA"},"size":25812,"founded":1955}
+{"id":"cc8d362c-48e3-43c2-9456-dd50e70ce029","name":"BrightPath Systems 352-1","industry":"Energy","headquarters":{"city":"Atlanta","state":"GA","country":"USA"},"size":6977,"founded":1977}
+{"id":"33fd5d68-6aa3-4f47-b0ba-cb5797c18862","name":"Ironwood Dynamics 353-1","industry":"Retail","headquarters":{"city":"Boulder","state":"CO","country":"USA"},"size":7197,"founded":1998}
+{"id":"15907268-564b-4005-af6d-5f23a208bdaf","name":"Blue Ridge Consulting 354-1","industry":"Consulting","headquarters":{"city":"Atlanta","state":"GA","country":"USA"},"size":42213,"founded":1968}
+{"id":"4d1fa788-42c1-4ded-bb04-f80bbff5ea0e","name":"Cedar Grove Energy 355-1","industry":"Retail","headquarters":{"city":"Austin","state":"TX","country":"USA"},"size":18174,"founded":1979}
+{"id":"5ea393d0-96e4-4970-ade7-d3b8c318adf5","name":"Riverstone Technology 356-1","industry":"Technology","headquarters":{"city":"Houston","state":"TX","country":"USA"},"size":33505,"founded":2018}
+{"id":"902b307d-25e0-4c0f-9dd0-80915e5b1bf0","name":"Pioneer Manufacturing 357-1","industry":"Manufacturing","headquarters":{"city":"Atlanta","state":"GA","country":"USA"},"size":47690,"founded":2007}
+{"id":"d4a2312b-5612-4ff8-9016-3004c2f3035b","name":"Blue Ridge Systems 358-1","industry":"Retail","headquarters":{"city":"New York","state":"NY","country":"USA"},"size":12772,"founded":1987}
+{"id":"2f0fcf79-9749-429a-b727-993d928aeec2","name":"Clearwater Logistics 359-1","industry":"Energy","headquarters":{"city":"Dallas","state":"TX","country":"USA"},"size":13154,"founded":1976}
+{"id":"2f1a726e-e2bc-4e08-a200-d426a4bbf8ff","name":"Nova Manufacturing 360-1","industry":"Manufacturing","headquarters":{"city":"Dallas","state":"TX","country":"USA"},"size":27898,"founded":1986}
+{"id":"27d85036-e03f-44aa-9f11-9d9d4ef070dc","name":"Blue Ridge Consulting 361-1","industry":"Education","headquarters":{"city":"Cedar Rapids","state":"IA","country":"USA"},"size":34589,"founded":2023}
+{"id":"f8766b8d-3154-46eb-9a44-37c46d4e1602","name":"Ironwood Consulting 362-1","industry":"Retail","headquarters":{"city":"New York","state":"NY","country":"USA"},"size":44176,"founded":1991}
+{"id":"d305bb89-b19e-4607-801b-bba72d02d82e","name":"Northstar Finance 363-1","industry":"Technology","headquarters":{"city":"Tacoma","state":"WA","country":"USA"},"size":12687,"founded":2013}
+{"id":"2c72c725-5ee7-4b56-9d4f-c6acf35b4501","name":"Nova Group 364-1","industry":"Consulting","headquarters":{"city":"Tacoma","state":"WA","country":"USA"},"size":14057,"founded":1972}
+{"id":"c0df653c-a972-4e17-b723-09297e01b288","name":"Summit Holdings 365-1","industry":"Healthcare","headquarters":{"city":"Seattle","state":"WA","country":"USA"},"size":2726,"founded":1974}
+{"id":"6aadd23d-1429-4c89-b15d-6355ec70a9c3","name":"Silver Oak Services 366-1","industry":"Technology","headquarters":{"city":"Boulder","state":"CO","country":"USA"},"size":9467,"founded":1980}
+{"id":"8d6436a4-ffbf-4c0d-9365-d02b8fea8e56","name":"Ironwood Manufacturing 367-1","industry":"Retail","headquarters":{"city":"Tacoma","state":"WA","country":"USA"},"size":39650,"founded":2017}
+{"id":"8e379e7c-685f-413b-b77e-219d55797433","name":"Skyline Technology 368-1","industry":"Technology","headquarters":{"city":"Boulder","state":"CO","country":"USA"},"size":6949,"founded":1977}
+{"id":"db4b9208-ce60-4c14-9b1b-270e766c0a68","name":"Evergreen Agriculture 369-1","industry":"Agriculture","headquarters":{"city":"Austin","state":"TX","country":"USA"},"size":36289,"founded":1979}
+{"id":"7112cbc2-d543-4683-8b72-a5351fd92938","name":"Summit Healthcare 370-1","industry":"Healthcare","headquarters":{"city":"Salem","state":"OR","country":"USA"},"size":23217,"founded":2010}
+{"id":"1608d728-c53a-4aa3-b5a8-5dd808ccb720","name":"Redwood Systems 371-1","industry":"Retail","headquarters":{"city":"Cedar Rapids","state":"IA","country":"USA"},"size":9943,"founded":1963}
+{"id":"5e5176b6-f595-4468-b5a3-d619bc79e80d","name":"Clearwater Consulting 372-1","industry":"Consulting","headquarters":{"city":"Boulder","state":"CO","country":"USA"},"size":36051,"founded":1953}
+{"id":"69491033-ca5a-4427-8db1-ada9d73d99b3","name":"Harbor Finance 373-1","industry":"Agriculture","headquarters":{"city":"Seattle","state":"WA","country":"USA"},"size":35220,"founded":2018}
+{"id":"60cb2119-c772-48af-b977-5eca5ea715bc","name":"Riverstone Education 374-1","industry":"Transportation","headquarters":{"city":"Tacoma","state":"WA","country":"USA"},"size":35934,"founded":1997}
+{"id":"a123eeef-8268-48bd-8ef3-4071b7ba004c","name":"Cedar Grove Services 375-1","industry":"Manufacturing","headquarters":{"city":"Salem","state":"OR","country":"USA"},"size":20084,"founded":1977}
+{"id":"82a7253f-d346-47f1-a9a2-7597f600f085","name":"Atlas Solutions 376-1","industry":"Healthcare","headquarters":{"city":"Atlanta","state":"GA","country":"USA"},"size":38284,"founded":1961}
+{"id":"d0c456d0-e5fd-4366-8647-6bb5f74ebfa1","name":"Atlas Education 377-1","industry":"Technology","headquarters":{"city":"Houston","state":"TX","country":"USA"},"size":22400,"founded":1958}
+{"id":"49e90b82-3899-4126-850e-efec941dfbee","name":"Evergreen Systems 378-1","industry":"Agriculture","headquarters":{"city":"Tacoma","state":"WA","country":"USA"},"size":46264,"founded":2019}
+{"id":"bf2af432-64c3-4740-a6bc-64ffd4d519a4","name":"Redwood Agriculture 379-1","industry":"Education","headquarters":{"city":"Springfield","state":"IL","country":"USA"},"size":225,"founded":1990}
+{"id":"37af4574-4fee-46ae-b1e9-afdb93d965d6","name":"Pioneer Finance 380-1","industry":"Technology","headquarters":{"city":"Boulder","state":"CO","country":"USA"},"size":6765,"founded":1992}
+{"id":"5eb2848d-a3f1-4ed1-a235-af021dea6882","name":"Skyline Education 381-1","industry":"Manufacturing","headquarters":{"city":"New York","state":"NY","country":"USA"},"size":23008,"founded":1969}
+{"id":"72818c98-eb0e-42e9-87b5-6faa438062c4","name":"Green Valley Consulting 382-1","industry":"Education","headquarters":{"city":"Seattle","state":"WA","country":"USA"},"size":37883,"founded":2004}
+{"id":"1e341843-58d1-4726-a4ed-3cbb03c75d09","name":"Harbor Industries 383-1","industry":"Education","headquarters":{"city":"Portland","state":"OR","country":"USA"},"size":22232,"founded":1973}
+{"id":"a98f278d-51c6-4ad1-9a0d-719cdda302c8","name":"Pioneer Energy 384-1","industry":"Healthcare","headquarters":{"city":"Denver","state":"CO","country":"USA"},"size":26886,"founded":1959}
+{"id":"ac8cc438-3dfb-4035-8bdd-2c9ea1d552d6","name":"Summit Energy 385-1","industry":"Energy","headquarters":{"city":"Portland","state":"OR","country":"USA"},"size":35203,"founded":2022}
+{"id":"2c657b01-4574-4554-9e25-921c7559c787","name":"Summit Agriculture 386-1","industry":"Finance","headquarters":{"city":"Tacoma","state":"WA","country":"USA"},"size":24920,"founded":1984}
+{"id":"228a1977-67a9-4ee9-b90b-9df874c48d22","name":"Golden Plains Healthcare 387-1","industry":"Transportation","headquarters":{"city":"Phoenix","state":"AZ","country":"USA"},"size":30339,"founded":1996}
+{"id":"76a2b3c1-37ef-436a-9c29-16dd7bb9944d","name":"Blue Ridge Transportation 388-1","industry":"Transportation","headquarters":{"city":"Raleigh","state":"NC","country":"USA"},"size":49051,"founded":1975}
+{"id":"43a584a0-89d5-4740-8f13-dae3285930af","name":"Atlas Technologies 389-1","industry":"Technology","headquarters":{"city":"Denver","state":"CO","country":"USA"},"size":45814,"founded":2005}
+{"id":"951ce8ef-391e-44a0-ba58-73d571a25cb2","name":"Blue Ridge Services 390-1","industry":"Finance","headquarters":{"city":"Phoenix","state":"AZ","country":"USA"},"size":21923,"founded":1986}
+{"id":"bc65c617-6a7e-4eef-9b45-06bb9c3a4ea4","name":"Pioneer Technology 391-1","industry":"Technology","headquarters":{"city":"Houston","state":"TX","country":"USA"},"size":13578,"founded":2009}
+{"id":"35a29402-ad14-44cb-8637-7a1215c26c39","name":"Blue Ridge Manufacturing 392-1","industry":"Finance","headquarters":{"city":"Chicago","state":"IL","country":"USA"},"size":4005,"founded":1986}
+{"id":"dc7dcfd4-4ae6-43f4-9acb-e27ce5cb1d88","name":"Pioneer Consulting 393-1","industry":"Consulting","headquarters":{"city":"Des Moines","state":"IA","country":"USA"},"size":46555,"founded":2010}
+{"id":"4f9358f0-f5a4-4575-b5bc-45195fe43fee","name":"Skyline Education 394-1","industry":"Finance","headquarters":{"city":"Houston","state":"TX","country":"USA"},"size":44055,"founded":2014}
+{"id":"eb4099f9-97e1-4f05-93d2-cb4a6e77e1c5","name":"Redwood Energy 395-1","industry":"Energy","headquarters":{"city":"Salem","state":"OR","country":"USA"},"size":1674,"founded":2007}
+{"id":"561eefcf-bc02-4db7-a99e-9d91e1b29852","name":"Silver Oak Holdings 396-1","industry":"Finance","headquarters":{"city":"Tacoma","state":"WA","country":"USA"},"size":43888,"founded":2012}
+{"id":"5ce0ce1a-5133-4e6a-8b1e-490e28510b49","name":"Blue Ridge Solutions 397-1","industry":"Consulting","headquarters":{"city":"Syracuse","state":"NY","country":"USA"},"size":7304,"founded":2009}
+{"id":"4cf9d924-1da6-4c28-a8b1-bd6306d7a212","name":"Redwood Technology 398-1","industry":"Technology","headquarters":{"city":"Phoenix","state":"AZ","country":"USA"},"size":42461,"founded":1995}
+{"id":"3cfb39e5-4cf8-4291-ba17-c7fbd8559e40","name":"Evergreen Healthcare 399-1","industry":"Healthcare","headquarters":{"city":"Portland","state":"OR","country":"USA"},"size":35498,"founded":1966}
+{"id":"ef71cc8d-a4b7-4ca0-9c5b-f76206137589","name":"Blue Ridge Works 400-1","industry":"Education","headquarters":{"city":"Houston","state":"TX","country":"USA"},"size":21360,"founded":1998}
+{"id":"88481503-257f-4bae-86d0-6ba66b8d9cc1","name":"Cedar Grove Energy 401-1","industry":"Energy","headquarters":{"city":"Charlotte","state":"NC","country":"USA"},"size":40909,"founded":2013}
+{"id":"a41f4621-6df4-4eb6-9b1b-7a6bfe01773a","name":"Riverstone Education 402-1","industry":"Finance","headquarters":{"city":"Springfield","state":"IL","country":"USA"},"size":9259,"founded":2022}
+{"id":"9b999ece-52bc-4d7a-b814-32ad35b2a524","name":"Silver Oak Services 403-1","industry":"Technology","headquarters":{"city":"Portland","state":"OR","country":"USA"},"size":29679,"founded":1988}
+{"id":"281f23ff-72b2-4323-982e-bc4b611d2efa","name":"Evergreen Retail 404-1","industry":"Retail","headquarters":{"city":"Syracuse","state":"NY","country":"USA"},"size":8833,"founded":1981}
+{"id":"8a1e2f86-5c3b-4650-8555-7f83511a5d11","name":"Northstar Logistics 405-1","industry":"Agriculture","headquarters":{"city":"Cedar Rapids","state":"IA","country":"USA"},"size":39763,"founded":1990}
+{"id":"5aceeee2-638f-467b-ac5c-0ae5ba91dae4","name":"Clearwater Healthcare 406-1","industry":"Healthcare","headquarters":{"city":"Seattle","state":"WA","country":"USA"},"size":43068,"founded":2003}
+{"id":"ebb3ae55-6fa3-4e76-ab33-b34ecaa6de9a","name":"Cedar Grove Dynamics 407-1","industry":"Consulting","headquarters":{"city":"Chicago","state":"IL","country":"USA"},"size":13377,"founded":1954}
+{"id":"ac2ad34c-0cc1-49ae-9c2a-a918a6140608","name":"Harbor Retail 408-1","industry":"Retail","headquarters":{"city":"Phoenix","state":"AZ","country":"USA"},"size":35164,"founded":2018}
+{"id":"fa6f8748-1163-4d0d-b399-1e0f1ea1f6e2","name":"Evergreen Partners 409-1","industry":"Agriculture","headquarters":{"city":"Boulder","state":"CO","country":"USA"},"size":39261,"founded":1958}
+{"id":"ade2af1b-f4e4-4f67-9075-190d2fa237ab","name":"Clearwater Technology 410-1","industry":"Technology","headquarters":{"city":"Portland","state":"OR","country":"USA"},"size":35647,"founded":1986}
+{"id":"2e11ba4c-cf0d-4afe-9a10-8068adc25066","name":"Silver Oak Solutions 411-1","industry":"Manufacturing","headquarters":{"city":"Atlanta","state":"GA","country":"USA"},"size":8521,"founded":2010}
+{"id":"4a61ddcb-a6b6-4f0b-b9d9-84ab7c9a9a96","name":"Golden Plains Education 412-1","industry":"Technology","headquarters":{"city":"Boulder","state":"CO","country":"USA"},"size":35593,"founded":2011}
+{"id":"7def7d99-538d-4751-bc4b-342400d1be16","name":"BrightPath Energy 413-1","industry":"Energy","headquarters":{"city":"Salem","state":"OR","country":"USA"},"size":26845,"founded":1966}
+{"id":"abccfebe-a699-4e7a-b2cf-2d227f5f47cc","name":"Ironwood Services 414-1","industry":"Energy","headquarters":{"city":"Atlanta","state":"GA","country":"USA"},"size":31719,"founded":2006}
+{"id":"df8f8458-79af-44a0-a812-23786d77bfcd","name":"Blue Ridge Retail 415-1","industry":"Agriculture","headquarters":{"city":"Springfield","state":"IL","country":"USA"},"size":29963,"founded":2012}
+{"id":"afd4f8af-1dd0-4069-be5d-86cdb16305c0","name":"Green Valley Agriculture 416-1","industry":"Consulting","headquarters":{"city":"Houston","state":"TX","country":"USA"},"size":32093,"founded":1968}
+{"id":"ae616764-6601-46aa-91d8-08dcc9725d31","name":"Silver Oak Retail 417-1","industry":"Retail","headquarters":{"city":"Augusta","state":"GA","country":"USA"},"size":11182,"founded":1989}
+{"id":"1fe01429-3e3d-4a52-8c1a-02e11e9b5c6e","name":"Summit Systems 418-1","industry":"Education","headquarters":{"city":"Chicago","state":"IL","country":"USA"},"size":36860,"founded":2003}
+{"id":"da8c9ad8-4cda-4622-bf9c-d89680c263d6","name":"Skyline Consulting 419-1","industry":"Consulting","headquarters":{"city":"Phoenix","state":"AZ","country":"USA"},"size":22721,"founded":2013}
+{"id":"61b88c22-2fb6-4838-9d6e-37a9bee61c8c","name":"BrightPath Agriculture 420-1","industry":"Healthcare","headquarters":{"city":"Austin","state":"TX","country":"USA"},"size":13218,"founded":1994}
+{"id":"ccfc2425-5e26-44f1-b9fa-a9e7c20cebe6","name":"Cedar Grove Logistics 421-1","industry":"Transportation","headquarters":{"city":"Des Moines","state":"IA","country":"USA"},"size":20326,"founded":2005}
+{"id":"fbfb72eb-86c2-4ec3-8c98-03426e4561a6","name":"Harbor Logistics 422-1","industry":"Finance","headquarters":{"city":"Chicago","state":"IL","country":"USA"},"size":26166,"founded":2015}
+{"id":"c238502d-d1e5-470f-b366-d1371151777e","name":"Harbor Healthcare 423-1","industry":"Healthcare","headquarters":{"city":"Atlanta","state":"GA","country":"USA"},"size":39385,"founded":1984}
+{"id":"93100d42-4f1f-4a5b-bfc1-f2f8c37742d7","name":"Atlas Services 424-1","industry":"Consulting","headquarters":{"city":"Seattle","state":"WA","country":"USA"},"size":31025,"founded":2000}
+{"id":"8ac9b183-9ee5-4fcf-bd30-c98fbc19984d","name":"Clearwater Group 425-1","industry":"Energy","headquarters":{"city":"Boulder","state":"CO","country":"USA"},"size":2831,"founded":2007}
+{"id":"44b2e526-d327-4981-a109-199052d13786","name":"Riverstone Energy 426-1","industry":"Energy","headquarters":{"city":"Augusta","state":"GA","country":"USA"},"size":42474,"founded":1996}
+{"id":"977280c5-f43c-4e4e-8e0a-81cda4d15be6","name":"Summit Education 427-1","industry":"Education","headquarters":{"city":"Des Moines","state":"IA","country":"USA"},"size":489,"founded":2001}
+{"id":"0472d9d4-bb06-454b-adab-1c5953f90dc6","name":"Skyline Partners 428-1","industry":"Technology","headquarters":{"city":"Raleigh","state":"NC","country":"USA"},"size":48090,"founded":1979}
+{"id":"13cc55c2-b760-4d71-b8ba-db77747db7cd","name":"Riverstone Finance 429-1","industry":"Transportation","headquarters":{"city":"Denver","state":"CO","country":"USA"},"size":5610,"founded":1974}
+{"id":"959bcee0-0cf8-4c77-9393-cb467d5190df","name":"Northstar Retail 430-1","industry":"Manufacturing","headquarters":{"city":"Cedar Rapids","state":"IA","country":"USA"},"size":19822,"founded":2002}
+{"id":"0533f614-a070-459c-ae0e-51c4ec1e3ca3","name":"Riverstone Manufacturing 431-1","industry":"Manufacturing","headquarters":{"city":"Raleigh","state":"NC","country":"USA"},"size":4391,"founded":1989}
+{"id":"6d7d1e29-c61c-4b82-a012-8966b51d1989","name":"Riverstone Dynamics 432-1","industry":"Education","headquarters":{"city":"Augusta","state":"GA","country":"USA"},"size":36978,"founded":2016}
+{"id":"7d77576d-6019-43cd-9e9a-5c93affa5581","name":"Cedar Grove Manufacturing 433-1","industry":"Retail","headquarters":{"city":"Houston","state":"TX","country":"USA"},"size":21655,"founded":2007}
+{"id":"f94ca33e-ae50-4be0-956a-94fc7048e368","name":"Summit Holdings 434-1","industry":"Energy","headquarters":{"city":"Springfield","state":"IL","country":"USA"},"size":44616,"founded":1969}
+{"id":"ab4f10a5-0e24-45d9-8b78-5f79a9154d64","name":"Nova Manufacturing 435-1","industry":"Manufacturing","headquarters":{"city":"Tacoma","state":"WA","country":"USA"},"size":49706,"founded":2024}
+{"id":"cf6c7e0f-9aa2-4b45-8b04-d89fe51d3401","name":"Evergreen Transportation 436-1","industry":"Transportation","headquarters":{"city":"Boulder","state":"CO","country":"USA"},"size":12084,"founded":1974}
+{"id":"a822dda8-a687-497f-b7cb-654696ca3322","name":"Cedar Grove Manufacturing 437-1","industry":"Technology","headquarters":{"city":"Tacoma","state":"WA","country":"USA"},"size":31248,"founded":1951}
+{"id":"fed7f18b-3305-4cbe-9ec0-0532928729a6","name":"Nova Transportation 438-1","industry":"Transportation","headquarters":{"city":"Charlotte","state":"NC","country":"USA"},"size":46809,"founded":1975}
+{"id":"5a1c4355-874f-4240-9ce1-2a891623c9ad","name":"Atlas Energy 439-1","industry":"Energy","headquarters":{"city":"Cedar Rapids","state":"IA","country":"USA"},"size":49160,"founded":1997}
+{"id":"88806e41-8763-451a-aecb-c879c3a1d7e1","name":"Blue Ridge Education 440-1","industry":"Education","headquarters":{"city":"Seattle","state":"WA","country":"USA"},"size":43551,"founded":2011}
+{"id":"66390588-60b0-4de8-b525-43afc47da1bf","name":"Liberty Technologies 441-1","industry":"Energy","headquarters":{"city":"Augusta","state":"GA","country":"USA"},"size":22450,"founded":1952}
+{"id":"749a88c3-a4fb-413b-899a-a84066967804","name":"BrightPath Technologies 442-1","industry":"Education","headquarters":{"city":"Phoenix","state":"AZ","country":"USA"},"size":19333,"founded":1956}
+{"id":"1d0860e1-928c-4fdf-8372-dd983c4c961d","name":"Northstar Systems 443-1","industry":"Education","headquarters":{"city":"Atlanta","state":"GA","country":"USA"},"size":36948,"founded":2024}
+{"id":"bc2fce6e-d9a5-42f6-9912-f83291db3f67","name":"Harbor Education 444-1","industry":"Education","headquarters":{"city":"New York","state":"NY","country":"USA"},"size":37417,"founded":2020}
+{"id":"01a1bb52-75a6-4058-9fe6-20e79af98bdf","name":"Liberty Consulting 445-1","industry":"Consulting","headquarters":{"city":"Cedar Rapids","state":"IA","country":"USA"},"size":14933,"founded":1982}
+{"id":"890aa1a7-ec44-4aa5-b8f9-7d58f279ec06","name":"Skyline Retail 446-1","industry":"Retail","headquarters":{"city":"Augusta","state":"GA","country":"USA"},"size":48767,"founded":1958}
+{"id":"c7f7af76-6e19-4c2e-a258-2931ada3f695","name":"Clearwater Technology 447-1","industry":"Technology","headquarters":{"city":"Salem","state":"OR","country":"USA"},"size":45494,"founded":1978}
+{"id":"9d916355-54da-4637-b0e6-cf4e5f2c3265","name":"Harbor Consulting 448-1","industry":"Retail","headquarters":{"city":"Augusta","state":"GA","country":"USA"},"size":2866,"founded":2000}
+{"id":"5f3b8426-8957-44a7-91a3-0ee1dd3b7aaf","name":"Cedar Grove Works 449-1","industry":"Healthcare","headquarters":{"city":"Dallas","state":"TX","country":"USA"},"size":33275,"founded":2007}
+{"id":"57a62c1b-96d8-407f-9ac8-7abcde3d528b","name":"Summit Partners 450-1","industry":"Technology","headquarters":{"city":"Des Moines","state":"IA","country":"USA"},"size":15881,"founded":2017}
+{"id":"55c3fcf2-16a2-4510-9a04-c751aceeab1b","name":"Northstar Retail 451-1","industry":"Consulting","headquarters":{"city":"Seattle","state":"WA","country":"USA"},"size":11372,"founded":2010}
+{"id":"5e2cca34-d954-4182-bf98-5676edaf474b","name":"Northstar Energy 452-1","industry":"Education","headquarters":{"city":"Phoenix","state":"AZ","country":"USA"},"size":33884,"founded":1978}
+{"id":"f61ca90a-940e-4b39-a9a7-4964334d1828","name":"Green Valley Technology 453-1","industry":"Technology","headquarters":{"city":"Salem","state":"OR","country":"USA"},"size":5193,"founded":1956}
+{"id":"ecac6bbf-4619-46e8-b5df-eea79ac955f6","name":"Nova Manufacturing 454-1","industry":"Finance","headquarters":{"city":"Houston","state":"TX","country":"USA"},"size":243,"founded":2015}
+{"id":"d8a4fb14-212f-463b-b38a-4d1e926d1a7c","name":"Harbor Systems 455-1","industry":"Agriculture","headquarters":{"city":"Springfield","state":"IL","country":"USA"},"size":25194,"founded":1971}
+{"id":"792cb3bd-1943-4f45-8a16-3abd163813c4","name":"Silver Oak Education 456-1","industry":"Finance","headquarters":{"city":"Seattle","state":"WA","country":"USA"},"size":27747,"founded":1970}
+{"id":"a9ab1eed-976b-4b0f-b5dc-e6bc765b96be","name":"Northstar Holdings 457-1","industry":"Retail","headquarters":{"city":"Springfield","state":"IL","country":"USA"},"size":43998,"founded":1953}
+{"id":"d2f488e3-2233-4b22-9156-7750b193000f","name":"Pioneer Technologies 458-1","industry":"Manufacturing","headquarters":{"city":"Seattle","state":"WA","country":"USA"},"size":47287,"founded":1966}
+{"id":"2e4704ec-0441-4bff-9f65-3d728ea8cdcc","name":"Riverstone Consulting 459-1","industry":"Consulting","headquarters":{"city":"Houston","state":"TX","country":"USA"},"size":20359,"founded":2022}
+{"id":"7f36f82a-f315-4b52-a43b-9cf3f293710c","name":"Blue Ridge Consulting 460-1","industry":"Consulting","headquarters":{"city":"Salem","state":"OR","country":"USA"},"size":47580,"founded":1983}
+{"id":"d7baee68-852c-4379-a239-8e734a00d9ad","name":"Pioneer Agriculture 461-1","industry":"Consulting","headquarters":{"city":"Austin","state":"TX","country":"USA"},"size":46711,"founded":1986}
+{"id":"d5532814-5eee-4ea0-bc81-dae10720f557","name":"Riverstone Industries 462-1","industry":"Education","headquarters":{"city":"Portland","state":"OR","country":"USA"},"size":8758,"founded":1952}
+{"id":"16390a44-dce1-42a1-ace8-d3bd43e01656","name":"Nova Logistics 463-1","industry":"Healthcare","headquarters":{"city":"Springfield","state":"IL","country":"USA"},"size":37922,"founded":1950}
+{"id":"a0eec065-0ce0-409a-b693-f2ac7629c5d9","name":"Redwood Technologies 464-1","industry":"Healthcare","headquarters":{"city":"Raleigh","state":"NC","country":"USA"},"size":43121,"founded":1953}
+{"id":"13a7165a-3f9e-4333-96b3-d65137a3569a","name":"Evergreen Technology 465-1","industry":"Technology","headquarters":{"city":"Des Moines","state":"IA","country":"USA"},"size":47727,"founded":1953}
+{"id":"2cf884f8-f27c-4a51-b969-fa6ff626cd83","name":"Clearwater Healthcare 466-1","industry":"Healthcare","headquarters":{"city":"Springfield","state":"IL","country":"USA"},"size":8923,"founded":1959}
+{"id":"cae66bb0-519e-48c4-8952-82523f336d69","name":"Ironwood Systems 467-1","industry":"Retail","headquarters":{"city":"Cedar Rapids","state":"IA","country":"USA"},"size":24637,"founded":1951}
+{"id":"e37006b9-ece5-479f-a9d5-5bb63b71ebcb","name":"Skyline Consulting 468-1","industry":"Consulting","headquarters":{"city":"Phoenix","state":"AZ","country":"USA"},"size":38643,"founded":1991}
+{"id":"ca8a63f4-abdf-46df-82b6-58626ef30a1c","name":"Atlas Education 469-1","industry":"Education","headquarters":{"city":"New York","state":"NY","country":"USA"},"size":10854,"founded":2021}
+{"id":"ebb15571-ace0-43c1-aa6a-0d5074a1ea7d","name":"Silver Oak Consulting 470-1","industry":"Finance","headquarters":{"city":"Dallas","state":"TX","country":"USA"},"size":23852,"founded":1975}
+{"id":"56921e50-3315-4144-bf39-17a7743d9018","name":"Sterling Retail 471-1","industry":"Retail","headquarters":{"city":"Dallas","state":"TX","country":"USA"},"size":42248,"founded":1953}
+{"id":"f6e9ee05-43c6-44d5-8bc4-27c22b73deaa","name":"Atlas Industries 472-1","industry":"Education","headquarters":{"city":"Springfield","state":"IL","country":"USA"},"size":26790,"founded":1959}
+{"id":"f634d9b1-bccc-4cf3-a266-13df37ec6efc","name":"Evergreen Retail 473-1","industry":"Retail","headquarters":{"city":"Syracuse","state":"NY","country":"USA"},"size":12833,"founded":1980}
+{"id":"5e7cb61e-b92a-4a45-b91a-1aae7a332d15","name":"Clearwater Healthcare 474-1","industry":"Healthcare","headquarters":{"city":"Tacoma","state":"WA","country":"USA"},"size":13891,"founded":1966}
+{"id":"507f04c5-a6f1-41ab-8580-3a25a35e2b16","name":"Atlas Labs 475-1","industry":"Healthcare","headquarters":{"city":"Syracuse","state":"NY","country":"USA"},"size":99,"founded":1997}
+{"id":"ee0b5302-bbec-4f7e-b434-6ac23126f7aa","name":"Silver Oak Agriculture 476-1","industry":"Agriculture","headquarters":{"city":"Des Moines","state":"IA","country":"USA"},"size":18458,"founded":2008}
+{"id":"a97f899a-45b6-4216-b663-82c9a8115691","name":"Summit Partners 477-1","industry":"Finance","headquarters":{"city":"Chicago","state":"IL","country":"USA"},"size":7893,"founded":1957}
+{"id":"ea988645-4213-4cd6-916c-5e4175cc8d5f","name":"Atlas Services 478-1","industry":"Consulting","headquarters":{"city":"Charlotte","state":"NC","country":"USA"},"size":41285,"founded":2003}
+{"id":"39c9fcce-5d51-47ae-ae85-ecadd049b8ab","name":"Golden Plains Education 479-1","industry":"Education","headquarters":{"city":"Denver","state":"CO","country":"USA"},"size":14963,"founded":1991}
+{"id":"f6decb68-e262-48ca-a392-761e64f1052d","name":"Summit Labs 480-1","industry":"Technology","headquarters":{"city":"Boulder","state":"CO","country":"USA"},"size":134,"founded":2014}
+{"id":"aa46b541-ca55-4678-b801-2c8452875822","name":"Liberty Retail 481-1","industry":"Retail","headquarters":{"city":"Atlanta","state":"GA","country":"USA"},"size":31329,"founded":2014}
+{"id":"ac70d721-eea1-457c-887d-8b7ed7ab8cc7","name":"Silver Oak Healthcare 482-1","industry":"Healthcare","headquarters":{"city":"Syracuse","state":"NY","country":"USA"},"size":15265,"founded":2012}
+{"id":"33ed1f96-a609-4e1b-a6b6-499c299664e6","name":"Northstar Retail 483-1","industry":"Agriculture","headquarters":{"city":"Portland","state":"OR","country":"USA"},"size":30780,"founded":1971}
+{"id":"8f150c1e-1e12-4721-84b7-cbe1bee04318","name":"Cedar Grove Dynamics 484-1","industry":"Consulting","headquarters":{"city":"Raleigh","state":"NC","country":"USA"},"size":47935,"founded":2019}
+{"id":"2ae3ff9e-28f9-4dd7-8cd6-e7f3024b21c0","name":"Liberty Services 485-1","industry":"Finance","headquarters":{"city":"Springfield","state":"IL","country":"USA"},"size":24438,"founded":1967}
+{"id":"232e1884-e334-4952-84d6-dba89000d221","name":"Sterling Technologies 486-1","industry":"Education","headquarters":{"city":"Tacoma","state":"WA","country":"USA"},"size":17656,"founded":1952}
+{"id":"eef15e32-fc9b-451a-8d84-3ffc29dcdbb7","name":"Clearwater Industries 487-1","industry":"Energy","headquarters":{"city":"Charlotte","state":"NC","country":"USA"},"size":43391,"founded":1984}
+{"id":"ae902537-a6a4-47e9-a60a-d0f537f6c2d1","name":"Atlas Industries 488-1","industry":"Transportation","headquarters":{"city":"Seattle","state":"WA","country":"USA"},"size":47906,"founded":1984}
+{"id":"2800f394-a46d-47cd-b45c-5b53cb40cd36","name":"BrightPath Healthcare 489-1","industry":"Healthcare","headquarters":{"city":"Salem","state":"OR","country":"USA"},"size":18140,"founded":1995}
+{"id":"385689db-a1d0-4ffd-ad2c-cf30130173b8","name":"BrightPath Technology 490-1","industry":"Technology","headquarters":{"city":"Charlotte","state":"NC","country":"USA"},"size":31568,"founded":2011}
+{"id":"6ba78168-d144-4506-9e7a-5e3e6258440f","name":"Summit Logistics 491-1","industry":"Consulting","headquarters":{"city":"Augusta","state":"GA","country":"USA"},"size":14686,"founded":1953}
+{"id":"2e5fd998-1c68-4c93-945e-204a54e53d57","name":"Pioneer Agriculture 492-1","industry":"Transportation","headquarters":{"city":"Springfield","state":"IL","country":"USA"},"size":32995,"founded":2014}
+{"id":"e57ba72b-04da-4bfb-a4b9-20b75979ae89","name":"Evergreen Energy 493-1","industry":"Transportation","headquarters":{"city":"Seattle","state":"WA","country":"USA"},"size":27239,"founded":1953}
+{"id":"231d563d-dfc6-423b-a4fc-6c6ff268c903","name":"Silver Oak Agriculture 494-1","industry":"Agriculture","headquarters":{"city":"Phoenix","state":"AZ","country":"USA"},"size":31384,"founded":2014}
+{"id":"e80ba423-eba4-4d44-bcc8-ac0436c53e9d","name":"BrightPath Group 495-1","industry":"Agriculture","headquarters":{"city":"Dallas","state":"TX","country":"USA"},"size":25993,"founded":1965}
+{"id":"bcc1fef6-8266-44f0-82e1-0c178bcb4f14","name":"BrightPath Dynamics 496-1","industry":"Technology","headquarters":{"city":"Des Moines","state":"IA","country":"USA"},"size":38308,"founded":1990}
+{"id":"ab716cb5-cc9d-48d5-8d95-c9d2ccb07888","name":"Summit Healthcare 497-1","industry":"Healthcare","headquarters":{"city":"Dallas","state":"TX","country":"USA"},"size":47637,"founded":1959}
+{"id":"6379a0bc-f2f0-4244-a40f-7d3ca5cc0e17","name":"Clearwater Retail 498-1","industry":"Retail","headquarters":{"city":"Dallas","state":"TX","country":"USA"},"size":17946,"founded":1967}
+{"id":"a7547346-ca74-4f5b-a49b-a2f30ec7d5c7","name":"Green Valley Healthcare 499-1","industry":"Healthcare","headquarters":{"city":"Syracuse","state":"NY","country":"USA"},"size":48994,"founded":2014}
+{"id":"e84d9553-32fb-43ca-bc70-2b93b32c0065","name":"Harbor Education 500-1","industry":"Agriculture","headquarters":{"city":"Atlanta","state":"GA","country":"USA"},"size":11256,"founded":2022}
+{"id":"6917f510-7e32-4134-958d-82f50bef07b4","name":"Cedar Grove Finance 501-1","industry":"Finance","headquarters":{"city":"Salem","state":"OR","country":"USA"},"size":48587,"founded":1961}
+{"id":"b05459e1-0242-4001-9d01-d14fd733521a","name":"Golden Plains Agriculture 502-1","industry":"Agriculture","headquarters":{"city":"Atlanta","state":"GA","country":"USA"},"size":31754,"founded":1966}
+{"id":"6f7fb9a0-5051-48ed-8dce-c1b5bdac097a","name":"Blue Ridge Partners 503-1","industry":"Energy","headquarters":{"city":"New York","state":"NY","country":"USA"},"size":3346,"founded":2005}
+{"id":"467664c3-904a-44dd-aa6a-79c372d7e05c","name":"Riverstone Dynamics 504-1","industry":"Retail","headquarters":{"city":"Syracuse","state":"NY","country":"USA"},"size":47443,"founded":2009}
+{"id":"c41d4b74-9466-426f-acb8-83e3956baf33","name":"Northstar Finance 505-1","industry":"Consulting","headquarters":{"city":"Des Moines","state":"IA","country":"USA"},"size":39955,"founded":1951}
+{"id":"4ecdf251-1733-485b-8e3a-01a7aa714801","name":"Pioneer Energy 506-1","industry":"Energy","headquarters":{"city":"Salem","state":"OR","country":"USA"},"size":10017,"founded":2023}
+{"id":"2ddbb47d-24dd-4f46-840b-c3c2a7186270","name":"Blue Ridge Group 507-1","industry":"Retail","headquarters":{"city":"New York","state":"NY","country":"USA"},"size":4427,"founded":1955}
+{"id":"8be1a321-e1df-4e04-8a3e-2f77b1fdccbb","name":"Blue Ridge Retail 508-1","industry":"Healthcare","headquarters":{"city":"Austin","state":"TX","country":"USA"},"size":20673,"founded":2012}
+{"id":"097830a8-189b-42e6-bb0d-db2d8d13ac35","name":"Golden Plains Solutions 509-1","industry":"Manufacturing","headquarters":{"city":"Des Moines","state":"IA","country":"USA"},"size":9840,"founded":1964}
+{"id":"de371185-eee5-4833-9ed7-4ecaa89a54e4","name":"Evergreen Retail 510-1","industry":"Agriculture","headquarters":{"city":"Tacoma","state":"WA","country":"USA"},"size":13575,"founded":2005}
+{"id":"4c7ae35d-1b81-42a4-8630-97edad15ae0b","name":"Cedar Grove Agriculture 511-1","industry":"Agriculture","headquarters":{"city":"Phoenix","state":"AZ","country":"USA"},"size":48605,"founded":1965}
+{"id":"9d3ed983-46f3-4537-a365-16b12a066c63","name":"Ironwood Services 512-1","industry":"Agriculture","headquarters":{"city":"Springfield","state":"IL","country":"USA"},"size":25554,"founded":1961}
+{"id":"ea1e58ab-4bcf-4e56-ba6a-925894ac60b1","name":"Evergreen Industries 513-1","industry":"Agriculture","headquarters":{"city":"Raleigh","state":"NC","country":"USA"},"size":9426,"founded":1954}
+{"id":"dff42ca3-024e-4526-82ee-3315dbd4f266","name":"Northstar Retail 514-1","industry":"Finance","headquarters":{"city":"New York","state":"NY","country":"USA"},"size":6940,"founded":2004}
+{"id":"0f9f77ac-45fe-4a44-9480-f36f607f901e","name":"Summit Services 515-1","industry":"Finance","headquarters":{"city":"Chicago","state":"IL","country":"USA"},"size":32442,"founded":1961}
+{"id":"9f3fee99-cf6b-4080-90b9-040e021a4de3","name":"Golden Plains Services 516-1","industry":"Agriculture","headquarters":{"city":"Chicago","state":"IL","country":"USA"},"size":31460,"founded":1961}
+{"id":"93e96ce0-9ac4-407a-94ab-99e49558888b","name":"BrightPath Consulting 517-1","industry":"Consulting","headquarters":{"city":"Tacoma","state":"WA","country":"USA"},"size":14605,"founded":2008}
+{"id":"f2c15b57-a5b3-4102-b7e1-36404339b043","name":"Liberty Finance 518-1","industry":"Finance","headquarters":{"city":"Tacoma","state":"WA","country":"USA"},"size":41287,"founded":1961}
+{"id":"2d1cf0bc-45b2-4ce6-ae50-c981814ff03a","name":"Harbor Consulting 519-1","industry":"Consulting","headquarters":{"city":"Dallas","state":"TX","country":"USA"},"size":49516,"founded":1970}
+{"id":"26f40419-9524-4a21-a6db-2922ba5c4893","name":"Green Valley Energy 520-1","industry":"Energy","headquarters":{"city":"Cedar Rapids","state":"IA","country":"USA"},"size":40742,"founded":2007}
+{"id":"efb4af2b-4557-4287-8456-9560249d22b6","name":"Riverstone Works 521-1","industry":"Consulting","headquarters":{"city":"Dallas","state":"TX","country":"USA"},"size":35362,"founded":1974}
+{"id":"a0bd113c-cf03-4211-acc9-25dc43b92ab3","name":"Skyline Manufacturing 522-1","industry":"Manufacturing","headquarters":{"city":"Salem","state":"OR","country":"USA"},"size":43724,"founded":2007}
+{"id":"81ad1fa1-6bcd-4cc8-a5ca-73677e1859a2","name":"Blue Ridge Agriculture 523-1","industry":"Finance","headquarters":{"city":"Tacoma","state":"WA","country":"USA"},"size":46005,"founded":1966}
+{"id":"0745a072-8534-4e11-8053-85d4d93ee6e1","name":"Clearwater Finance 524-1","industry":"Energy","headquarters":{"city":"Seattle","state":"WA","country":"USA"},"size":38716,"founded":1953}
+{"id":"ddc87e13-36c1-4944-9228-d2f5a55d25b2","name":"Atlas Healthcare 525-1","industry":"Healthcare","headquarters":{"city":"Houston","state":"TX","country":"USA"},"size":41399,"founded":1957}
+{"id":"ed588769-e21c-4bd6-adc5-b7044b0136c5","name":"BrightPath Education 526-1","industry":"Education","headquarters":{"city":"Salem","state":"OR","country":"USA"},"size":1291,"founded":1970}
+{"id":"e18c9bf6-5188-4af2-b741-aeb0a8a9e622","name":"Harbor Energy 527-1","industry":"Retail","headquarters":{"city":"Raleigh","state":"NC","country":"USA"},"size":27364,"founded":2022}
+{"id":"2cde13eb-6a29-4e21-8106-3b23e168fc16","name":"BrightPath Systems 528-1","industry":"Finance","headquarters":{"city":"Des Moines","state":"IA","country":"USA"},"size":25269,"founded":1988}
+{"id":"24de448d-70a8-47cf-98d0-41d5f3e72348","name":"Silver Oak Education 529-1","industry":"Education","headquarters":{"city":"Tacoma","state":"WA","country":"USA"},"size":29970,"founded":1993}
+{"id":"276321da-63de-44a2-8f31-78f116089951","name":"Clearwater Labs 530-1","industry":"Technology","headquarters":{"city":"Syracuse","state":"NY","country":"USA"},"size":4499,"founded":1960}
+{"id":"9029ec93-825b-4a91-8624-1089574a29f9","name":"Northstar Consulting 531-1","industry":"Consulting","headquarters":{"city":"Des Moines","state":"IA","country":"USA"},"size":38084,"founded":2003}
+{"id":"6f5541bb-c9a5-4986-bd46-8784b6883a54","name":"Silver Oak Energy 532-1","industry":"Technology","headquarters":{"city":"Cedar Rapids","state":"IA","country":"USA"},"size":43896,"founded":1995}
+{"id":"fc45a19c-40a8-42e7-bcdc-54f6c3cb2557","name":"Pioneer Technologies 533-1","industry":"Education","headquarters":{"city":"Dallas","state":"TX","country":"USA"},"size":12973,"founded":2009}
+{"id":"0cdfceeb-8c91-4cf2-970a-6b8ab344512f","name":"Nova Holdings 534-1","industry":"Manufacturing","headquarters":{"city":"Cedar Rapids","state":"IA","country":"USA"},"size":32213,"founded":2011}
+{"id":"e386b76d-cb7c-4285-84b2-e0c770ddac7d","name":"Northstar Services 535-1","industry":"Transportation","headquarters":{"city":"Atlanta","state":"GA","country":"USA"},"size":1906,"founded":2006}
+{"id":"429dbd06-0578-479e-9a0a-9689ad1e322e","name":"Northstar Technologies 536-1","industry":"Consulting","headquarters":{"city":"Seattle","state":"WA","country":"USA"},"size":7708,"founded":1982}
+{"id":"d98a1e76-07c1-4932-acac-7b19d7c0cd55","name":"Pioneer Logistics 537-1","industry":"Agriculture","headquarters":{"city":"Austin","state":"TX","country":"USA"},"size":43897,"founded":1959}
+{"id":"09eea7fd-b9c2-471d-b9d2-2ce7dc3a8c26","name":"Ironwood Works 538-1","industry":"Finance","headquarters":{"city":"Phoenix","state":"AZ","country":"USA"},"size":6026,"founded":1966}
+{"id":"a5696fd6-4e19-4f6b-8626-45c8ee3dde63","name":"Skyline Consulting 539-1","industry":"Consulting","headquarters":{"city":"New York","state":"NY","country":"USA"},"size":27538,"founded":2001}
+{"id":"f0815ae1-6c15-4cc8-9496-28060bc5d359","name":"Liberty Finance 540-1","industry":"Technology","headquarters":{"city":"Portland","state":"OR","country":"USA"},"size":28499,"founded":1999}
+{"id":"f786d36b-4591-48c3-8b57-61e8dfdf0357","name":"Summit Partners 541-1","industry":"Education","headquarters":{"city":"Syracuse","state":"NY","country":"USA"},"size":9843,"founded":2004}
+{"id":"9d261f10-1df3-4467-86f2-81f59a0659ab","name":"Redwood Agriculture 542-1","industry":"Agriculture","headquarters":{"city":"Portland","state":"OR","country":"USA"},"size":34598,"founded":1961}
+{"id":"5481f32b-3439-426e-a022-a19fc46654df","name":"Skyline Healthcare 543-1","industry":"Energy","headquarters":{"city":"Boulder","state":"CO","country":"USA"},"size":26352,"founded":1954}
+{"id":"a11bb6f8-9cfc-438d-8bb7-9f0e8416dc22","name":"Skyline Energy 544-1","industry":"Education","headquarters":{"city":"New York","state":"NY","country":"USA"},"size":21081,"founded":1956}
+{"id":"d213d6fb-050b-4612-b6e5-8ce6a97be741","name":"Pioneer Technology 545-1","industry":"Technology","headquarters":{"city":"Syracuse","state":"NY","country":"USA"},"size":45468,"founded":1973}
+{"id":"27d949be-4617-4d10-a347-1fc07b67b1a2","name":"Nova Solutions 546-1","industry":"Manufacturing","headquarters":{"city":"Cedar Rapids","state":"IA","country":"USA"},"size":30142,"founded":1950}
+{"id":"9f0dad7c-1b05-4415-886e-b5cb36773a40","name":"Silver Oak Healthcare 547-1","industry":"Energy","headquarters":{"city":"Seattle","state":"WA","country":"USA"},"size":45105,"founded":1996}
+{"id":"e01bd7a5-1eac-4e9f-9639-a43d4cf0695e","name":"Liberty Retail 548-1","industry":"Retail","headquarters":{"city":"Raleigh","state":"NC","country":"USA"},"size":9238,"founded":1967}
+{"id":"e053ca0a-e25b-4944-9df1-8f15b9fdabcc","name":"Blue Ridge Retail 549-1","industry":"Retail","headquarters":{"city":"Cedar Rapids","state":"IA","country":"USA"},"size":37909,"founded":2007}
+{"id":"d0faf2b6-1acb-471c-a4f6-d1377e1457c8","name":"Nova Finance 550-1","industry":"Education","headquarters":{"city":"Chicago","state":"IL","country":"USA"},"size":9826,"founded":1980}
+{"id":"3f4128cf-9597-4354-8c9d-ff81e0f22b7e","name":"Pioneer Manufacturing 551-1","industry":"Education","headquarters":{"city":"Seattle","state":"WA","country":"USA"},"size":7523,"founded":1987}
+{"id":"50cb6541-0b49-4f23-84f6-9c26b38345e8","name":"BrightPath Healthcare 552-1","industry":"Finance","headquarters":{"city":"Des Moines","state":"IA","country":"USA"},"size":36631,"founded":1951}
+{"id":"f58219a9-abfb-4bee-960c-60627b95ba0a","name":"Sterling Systems 553-1","industry":"Manufacturing","headquarters":{"city":"Portland","state":"OR","country":"USA"},"size":14220,"founded":2013}
+{"id":"0f523b03-366d-4064-a0f7-96c3dbb8a704","name":"Cedar Grove Healthcare 554-1","industry":"Energy","headquarters":{"city":"Charlotte","state":"NC","country":"USA"},"size":49924,"founded":1997}
+{"id":"2fe56c86-591a-4ada-ab2d-d62e9c8f8a14","name":"Sterling Solutions 555-1","industry":"Consulting","headquarters":{"city":"Atlanta","state":"GA","country":"USA"},"size":27753,"founded":2007}
+{"id":"0fae42f9-32f7-4b6f-a2ac-4e37995c54de","name":"Green Valley Labs 556-1","industry":"Finance","headquarters":{"city":"Cedar Rapids","state":"IA","country":"USA"},"size":12888,"founded":1979}
+{"id":"425b902c-7a73-4d59-8784-66fb087fb0e6","name":"Atlas Healthcare 557-1","industry":"Manufacturing","headquarters":{"city":"New York","state":"NY","country":"USA"},"size":429,"founded":1995}
+{"id":"bda8abd9-fb4a-450f-9e64-e86cc584b959","name":"Atlas Holdings 558-1","industry":"Finance","headquarters":{"city":"Portland","state":"OR","country":"USA"},"size":49605,"founded":1997}
+{"id":"bdb705fe-1719-4a87-bffb-c05f62792a12","name":"Skyline Healthcare 559-1","industry":"Technology","headquarters":{"city":"Denver","state":"CO","country":"USA"},"size":4567,"founded":2004}
+{"id":"3bcaa1cb-b5f0-40a8-935f-f596b2a8b408","name":"Atlas Healthcare 560-1","industry":"Healthcare","headquarters":{"city":"Springfield","state":"IL","country":"USA"},"size":14699,"founded":1966}
+{"id":"8821d369-5855-4bd4-b095-15a5c0c8c76b","name":"Ironwood Agriculture 561-1","industry":"Agriculture","headquarters":{"city":"New York","state":"NY","country":"USA"},"size":4539,"founded":1987}
+{"id":"51c99ad1-45f1-4272-a127-99c6266c2b46","name":"Harbor Partners 562-1","industry":"Technology","headquarters":{"city":"Boulder","state":"CO","country":"USA"},"size":26336,"founded":2001}
+{"id":"aec07b53-1c3a-4bd5-afbe-d40acc196c80","name":"Atlas Agriculture 563-1","industry":"Transportation","headquarters":{"city":"Cedar Rapids","state":"IA","country":"USA"},"size":36439,"founded":2009}
+{"id":"a99e53fc-5e87-46d4-b41a-2ac367930439","name":"Nova Consulting 564-1","industry":"Healthcare","headquarters":{"city":"Tacoma","state":"WA","country":"USA"},"size":12849,"founded":1994}
+{"id":"99776068-9a87-48d3-927c-4da68b5eea8f","name":"Blue Ridge Industries 565-1","industry":"Transportation","headquarters":{"city":"Charlotte","state":"NC","country":"USA"},"size":49854,"founded":2012}
+{"id":"2c1002d5-02d4-4ced-9c11-daee1a6bbdc6","name":"Pioneer Healthcare 566-1","industry":"Healthcare","headquarters":{"city":"Houston","state":"TX","country":"USA"},"size":32261,"founded":1953}
+{"id":"19ff08e6-ff4b-4240-93c7-a0d9b097f091","name":"Liberty Labs 567-1","industry":"Education","headquarters":{"city":"Charlotte","state":"NC","country":"USA"},"size":8024,"founded":1952}
+{"id":"844e4f13-858d-49be-bc7f-c2d329a7de91","name":"Cedar Grove Transportation 568-1","industry":"Transportation","headquarters":{"city":"Salem","state":"OR","country":"USA"},"size":36491,"founded":2017}
+{"id":"b2f479d6-b1ee-4dda-aca4-d6f7c41ce84b","name":"Nova Manufacturing 569-1","industry":"Manufacturing","headquarters":{"city":"Springfield","state":"IL","country":"USA"},"size":46496,"founded":1960}
+{"id":"74ae7687-14da-4934-8a18-111b5544ec82","name":"Ironwood Logistics 570-1","industry":"Finance","headquarters":{"city":"Des Moines","state":"IA","country":"USA"},"size":4956,"founded":2021}
+{"id":"c98c8ed8-4a08-4752-908b-955cc47c1696","name":"Evergreen Industries 571-1","industry":"Finance","headquarters":{"city":"Denver","state":"CO","country":"USA"},"size":27918,"founded":1998}
+{"id":"ce0d58d0-cf27-40eb-aae9-3a5b5a0c69df","name":"Liberty Dynamics 572-1","industry":"Technology","headquarters":{"city":"Atlanta","state":"GA","country":"USA"},"size":532,"founded":2014}
+{"id":"7b75ac08-fab6-441d-9725-f055fcbfa63e","name":"Riverstone Group 573-1","industry":"Transportation","headquarters":{"city":"Seattle","state":"WA","country":"USA"},"size":42532,"founded":1955}
+{"id":"759e9d0b-0352-40c8-ade9-96b71bc5a592","name":"Harbor Logistics 574-1","industry":"Transportation","headquarters":{"city":"Houston","state":"TX","country":"USA"},"size":18294,"founded":2016}
+{"id":"da1a6d3a-28ef-4a20-aff8-2bddb0e0cacd","name":"Evergreen Energy 575-1","industry":"Energy","headquarters":{"city":"Portland","state":"OR","country":"USA"},"size":7642,"founded":1966}
+{"id":"1802c23c-1e5e-4182-8c4c-4630fa1a0768","name":"Nova Agriculture 576-1","industry":"Finance","headquarters":{"city":"Cedar Rapids","state":"IA","country":"USA"},"size":34148,"founded":1979}
+{"id":"ef207c61-afe8-4698-baaa-f2818b461da8","name":"Cedar Grove Education 577-1","industry":"Education","headquarters":{"city":"Denver","state":"CO","country":"USA"},"size":25938,"founded":1968}
+{"id":"187b4032-cfb4-4829-bef8-6ff3b4d7805b","name":"Blue Ridge Technology 578-1","industry":"Technology","headquarters":{"city":"Salem","state":"OR","country":"USA"},"size":13121,"founded":1995}
+{"id":"3c6c4b2e-b10a-4c94-8639-51cb29650355","name":"Atlas Services 579-1","industry":"Retail","headquarters":{"city":"Denver","state":"CO","country":"USA"},"size":1404,"founded":2012}
+{"id":"c9283761-c2f3-4d1a-91a0-353e0d99874f","name":"Sterling Healthcare 580-1","industry":"Energy","headquarters":{"city":"Salem","state":"OR","country":"USA"},"size":11225,"founded":2007}
+{"id":"bf6449a0-ed04-4b2f-b084-c241530ecbf5","name":"Blue Ridge Technologies 581-1","industry":"Manufacturing","headquarters":{"city":"Charlotte","state":"NC","country":"USA"},"size":44763,"founded":1964}
+{"id":"78ca2269-503f-422b-a41b-fbf8daba772e","name":"Summit Finance 582-1","industry":"Finance","headquarters":{"city":"Denver","state":"CO","country":"USA"},"size":47804,"founded":1999}
+{"id":"00ddbd2a-a257-486f-bb6f-3a9dc8bdc045","name":"Silver Oak Energy 583-1","industry":"Energy","headquarters":{"city":"Portland","state":"OR","country":"USA"},"size":46729,"founded":1966}
+{"id":"9c14ab09-7e92-4520-b667-11c585f4c326","name":"Pioneer Healthcare 584-1","industry":"Retail","headquarters":{"city":"Cedar Rapids","state":"IA","country":"USA"},"size":33242,"founded":1967}
+{"id":"aabbd733-b0b9-4a28-87ef-4ee971fe21e1","name":"Evergreen Transportation 585-1","industry":"Transportation","headquarters":{"city":"Salem","state":"OR","country":"USA"},"size":43399,"founded":1951}
+{"id":"fb89b4f3-6308-47d6-acdb-b0654c6b9819","name":"Skyline Logistics 586-1","industry":"Agriculture","headquarters":{"city":"Houston","state":"TX","country":"USA"},"size":6150,"founded":1987}
+{"id":"b3ccd7b1-90ee-451b-a584-5e1cda935851","name":"Skyline Manufacturing 587-1","industry":"Manufacturing","headquarters":{"city":"Dallas","state":"TX","country":"USA"},"size":42037,"founded":1993}
+{"id":"b168ce01-eeed-4771-8205-960d2c3c5ee0","name":"Liberty Healthcare 588-1","industry":"Healthcare","headquarters":{"city":"Chicago","state":"IL","country":"USA"},"size":5499,"founded":1958}
+{"id":"41f27d29-d37c-463a-8253-decedb8f4449","name":"Liberty Technologies 589-1","industry":"Energy","headquarters":{"city":"Portland","state":"OR","country":"USA"},"size":10405,"founded":2008}
+{"id":"1faf611a-b9fb-4f54-b723-25ca22dc0847","name":"Golden Plains Manufacturing 590-1","industry":"Retail","headquarters":{"city":"Austin","state":"TX","country":"USA"},"size":18828,"founded":1994}
+{"id":"92fcf319-f8b8-48dd-bf06-9e6407af8294","name":"Evergreen Finance 591-1","industry":"Finance","headquarters":{"city":"Salem","state":"OR","country":"USA"},"size":10372,"founded":1956}
+{"id":"d582fa38-45f6-4a1e-9c73-eacaf2d881f4","name":"Cedar Grove Education 592-1","industry":"Education","headquarters":{"city":"Cedar Rapids","state":"IA","country":"USA"},"size":3713,"founded":1975}
+{"id":"515af4cb-7a0c-4cb8-a174-bc5ddaead7eb","name":"Northstar Education 593-1","industry":"Education","headquarters":{"city":"Austin","state":"TX","country":"USA"},"size":22933,"founded":1959}
+{"id":"8831323b-7264-4449-a492-f2dd7584c51d","name":"Cedar Grove Transportation 594-1","industry":"Transportation","headquarters":{"city":"Augusta","state":"GA","country":"USA"},"size":33077,"founded":1980}
+{"id":"0a245a4e-5dc5-4c4f-97e7-afb24ae56508","name":"Riverstone Consulting 595-1","industry":"Technology","headquarters":{"city":"New York","state":"NY","country":"USA"},"size":20056,"founded":1961}
+{"id":"2b02c551-437c-4c84-8f6f-fcc5f5bbbc31","name":"Nova Education 596-1","industry":"Education","headquarters":{"city":"Springfield","state":"IL","country":"USA"},"size":5337,"founded":1971}
+{"id":"6d37e082-cc5e-4f1c-b445-3e0b7690c397","name":"BrightPath Partners 597-1","industry":"Technology","headquarters":{"city":"Boulder","state":"CO","country":"USA"},"size":42247,"founded":1961}
+{"id":"41fdbb4a-be01-4d3d-8061-d7615cb0f94c","name":"BrightPath Manufacturing 598-1","industry":"Education","headquarters":{"city":"Salem","state":"OR","country":"USA"},"size":44245,"founded":2007}
+{"id":"654862b9-8386-46d9-aba7-ea34b2e08c07","name":"Redwood Works 599-1","industry":"Technology","headquarters":{"city":"Springfield","state":"IL","country":"USA"},"size":45419,"founded":1994}
+{"id":"6d7a27b3-ca16-4650-9eb5-2de3c96e4f76","name":"Silver Oak Finance 600-1","industry":"Technology","headquarters":{"city":"Boulder","state":"CO","country":"USA"},"size":21408,"founded":1966}
+{"id":"f6f07001-df1e-4fc7-864c-b6812812ae8d","name":"Pioneer Industries 601-1","industry":"Transportation","headquarters":{"city":"Tacoma","state":"WA","country":"USA"},"size":39304,"founded":1976}
+{"id":"d5266272-c71e-4cd6-9125-2d9462b0320a","name":"BrightPath Retail 602-1","industry":"Retail","headquarters":{"city":"Springfield","state":"IL","country":"USA"},"size":3644,"founded":1981}
+{"id":"dbe99639-8503-48ee-8189-db3cfc6e32e9","name":"Harbor Energy 603-1","industry":"Healthcare","headquarters":{"city":"Augusta","state":"GA","country":"USA"},"size":24220,"founded":2020}
+{"id":"65072c5e-72ae-4160-9b7d-2c8230f7d083","name":"Pioneer Group 604-1","industry":"Healthcare","headquarters":{"city":"Austin","state":"TX","country":"USA"},"size":36905,"founded":1954}
+{"id":"043d0e34-f1c2-446c-80fa-4b4847182bf0","name":"Sterling Labs 605-1","industry":"Manufacturing","headquarters":{"city":"Cedar Rapids","state":"IA","country":"USA"},"size":9755,"founded":1999}
+{"id":"98144d04-f476-458d-b8b7-6ac68fce1d29","name":"Skyline Retail 606-1","industry":"Transportation","headquarters":{"city":"Springfield","state":"IL","country":"USA"},"size":31234,"founded":1992}
+{"id":"1b2c5398-e791-4395-bc68-4306871a20ad","name":"Northstar Agriculture 607-1","industry":"Agriculture","headquarters":{"city":"Cedar Rapids","state":"IA","country":"USA"},"size":35046,"founded":1963}
+{"id":"94ec266a-74a3-4ae0-ba54-7789d8e4c742","name":"Silver Oak Technologies 608-1","industry":"Retail","headquarters":{"city":"Houston","state":"TX","country":"USA"},"size":18345,"founded":2012}
+{"id":"42970157-ea35-422c-883c-524fa382c1a6","name":"Green Valley Education 609-1","industry":"Retail","headquarters":{"city":"Phoenix","state":"AZ","country":"USA"},"size":4435,"founded":2009}
+{"id":"a5f94a42-15f2-42b9-a6a4-ce183658318e","name":"Cedar Grove Group 610-1","industry":"Transportation","headquarters":{"city":"Austin","state":"TX","country":"USA"},"size":35965,"founded":2017}
+{"id":"2aed3170-f760-4712-b334-f721cb0c4eeb","name":"Silver Oak Energy 611-1","industry":"Agriculture","headquarters":{"city":"Raleigh","state":"NC","country":"USA"},"size":11872,"founded":2012}
+{"id":"6486a238-04c3-4edf-9ab8-d974d9035f16","name":"BrightPath Education 612-1","industry":"Agriculture","headquarters":{"city":"Dallas","state":"TX","country":"USA"},"size":24913,"founded":1978}
+{"id":"b1d04a90-4626-47ad-8bc1-47966b2a0a03","name":"Cedar Grove Services 613-1","industry":"Healthcare","headquarters":{"city":"Raleigh","state":"NC","country":"USA"},"size":41500,"founded":2000}
+{"id":"d274fa3d-a5a1-4b4e-9401-dc5f79386c11","name":"Cedar Grove Retail 614-1","industry":"Agriculture","headquarters":{"city":"Springfield","state":"IL","country":"USA"},"size":29803,"founded":1976}
+{"id":"d68adcb8-d444-4b22-907c-b8b51a6aafba","name":"Silver Oak Technology 615-1","industry":"Technology","headquarters":{"city":"Portland","state":"OR","country":"USA"},"size":1922,"founded":1986}
+{"id":"0766f1e8-d10a-4803-936b-8ea69c1aa562","name":"Sterling Agriculture 616-1","industry":"Agriculture","headquarters":{"city":"Houston","state":"TX","country":"USA"},"size":4025,"founded":1950}
+{"id":"946c9ba9-e48e-48b4-9eff-1f485ae68858","name":"Silver Oak Consulting 617-1","industry":"Energy","headquarters":{"city":"New York","state":"NY","country":"USA"},"size":33448,"founded":1987}
+{"id":"378aeb94-d717-4b99-b871-2f11786b7363","name":"Golden Plains Services 618-1","industry":"Education","headquarters":{"city":"Seattle","state":"WA","country":"USA"},"size":16531,"founded":1973}
+{"id":"3effaa4c-4a3b-4785-9275-baa69cc17d9f","name":"Northstar Consulting 619-1","industry":"Consulting","headquarters":{"city":"Cedar Rapids","state":"IA","country":"USA"},"size":34246,"founded":1960}
+{"id":"9e3fc744-67c4-44f8-b5d3-6c7991f687bc","name":"Riverstone Systems 620-1","industry":"Transportation","headquarters":{"city":"New York","state":"NY","country":"USA"},"size":46925,"founded":2020}
+{"id":"1b4b759e-bf52-4331-9271-79527aa00ee2","name":"Pioneer Technologies 621-1","industry":"Finance","headquarters":{"city":"Houston","state":"TX","country":"USA"},"size":5452,"founded":2008}
+{"id":"aec47ff3-f0e7-4168-a5b3-5b92a484835c","name":"Atlas Finance 622-1","industry":"Finance","headquarters":{"city":"Raleigh","state":"NC","country":"USA"},"size":20093,"founded":2020}
+{"id":"8a65bd37-61df-423f-9bb1-18d3498cce8d","name":"Ironwood Manufacturing 623-1","industry":"Transportation","headquarters":{"city":"Austin","state":"TX","country":"USA"},"size":49328,"founded":1963}
+{"id":"dfc1f938-1a99-41e0-a981-cf41c53aa49e","name":"Clearwater Systems 624-1","industry":"Technology","headquarters":{"city":"Raleigh","state":"NC","country":"USA"},"size":1562,"founded":2003}
+{"id":"19bd86c2-8c7e-4010-bd0d-55e452787098","name":"Golden Plains Agriculture 625-1","industry":"Manufacturing","headquarters":{"city":"Portland","state":"OR","country":"USA"},"size":36813,"founded":2022}
+{"id":"f953498b-3e99-47bb-b3b7-9a99449616cc","name":"Silver Oak Education 626-1","industry":"Transportation","headquarters":{"city":"Phoenix","state":"AZ","country":"USA"},"size":46967,"founded":1974}
+{"id":"17ffd2b8-89b3-49b6-ba06-faf44818d60a","name":"Harbor Agriculture 627-1","industry":"Retail","headquarters":{"city":"Austin","state":"TX","country":"USA"},"size":33729,"founded":2011}
+{"id":"d891962e-f888-4629-aeb6-f88ef59a273b","name":"Silver Oak Technology 628-1","industry":"Technology","headquarters":{"city":"Syracuse","state":"NY","country":"USA"},"size":29150,"founded":1994}
+{"id":"e34df596-2626-4b50-a016-b35595700214","name":"Harbor Works 629-1","industry":"Transportation","headquarters":{"city":"Seattle","state":"WA","country":"USA"},"size":29025,"founded":1965}
+{"id":"c67cdf05-51f3-4975-9670-60c84446b939","name":"Silver Oak Consulting 630-1","industry":"Energy","headquarters":{"city":"New York","state":"NY","country":"USA"},"size":4371,"founded":1991}
+{"id":"0e66155b-611b-419f-a376-e1f829d20c09","name":"Evergreen Partners 631-1","industry":"Retail","headquarters":{"city":"Springfield","state":"IL","country":"USA"},"size":19439,"founded":1987}
+{"id":"63107675-78c9-4913-9e8e-dbf4c39f3e23","name":"Redwood Dynamics 632-1","industry":"Manufacturing","headquarters":{"city":"Syracuse","state":"NY","country":"USA"},"size":11499,"founded":1967}
+{"id":"0925141b-0593-412b-b01e-85dd478f148b","name":"Green Valley Dynamics 633-1","industry":"Manufacturing","headquarters":{"city":"New York","state":"NY","country":"USA"},"size":33552,"founded":1973}
+{"id":"602b65f5-b6af-46dc-abf8-1d624caa2fa6","name":"Northstar Technology 634-1","industry":"Technology","headquarters":{"city":"Chicago","state":"IL","country":"USA"},"size":16341,"founded":1967}
+{"id":"eac2e30c-d52a-470f-95c9-a5e2858f411c","name":"Atlas Retail 635-1","industry":"Manufacturing","headquarters":{"city":"Syracuse","state":"NY","country":"USA"},"size":11894,"founded":1999}
+{"id":"2ec7ba8e-ba4a-4c3c-8c6f-c7a247841573","name":"Golden Plains Education 636-1","industry":"Education","headquarters":{"city":"Boulder","state":"CO","country":"USA"},"size":2926,"founded":1956}
+{"id":"17a4df02-9637-47ec-baba-a7f5160c4434","name":"Silver Oak Services 637-1","industry":"Energy","headquarters":{"city":"Chicago","state":"IL","country":"USA"},"size":28096,"founded":1960}
+{"id":"8de72e96-8cd0-46ee-9c07-f7e9d1553a7d","name":"Clearwater Consulting 638-1","industry":"Transportation","headquarters":{"city":"Seattle","state":"WA","country":"USA"},"size":21276,"founded":1950}
+{"id":"e1b127b5-2e0b-416c-9b40-b033465ce158","name":"Silver Oak Consulting 639-1","industry":"Consulting","headquarters":{"city":"Salem","state":"OR","country":"USA"},"size":30282,"founded":1953}
+{"id":"d03681da-f2a3-4cba-82ec-f5ac4598f9b1","name":"Ironwood Dynamics 640-1","industry":"Agriculture","headquarters":{"city":"Springfield","state":"IL","country":"USA"},"size":4238,"founded":1962}
+{"id":"26402c2e-9285-4c61-91ea-0a6d52c42ce1","name":"Nova Energy 641-1","industry":"Healthcare","headquarters":{"city":"Cedar Rapids","state":"IA","country":"USA"},"size":21042,"founded":2010}
+{"id":"4c097fae-679a-4b52-9186-4acf9b49625b","name":"Summit Finance 642-1","industry":"Finance","headquarters":{"city":"Des Moines","state":"IA","country":"USA"},"size":14029,"founded":2024}
+{"id":"bf557d6d-1056-4124-aa32-0547615b0321","name":"Redwood Technologies 643-1","industry":"Technology","headquarters":{"city":"Tacoma","state":"WA","country":"USA"},"size":26538,"founded":2023}
+{"id":"583c2fa5-45b0-4dc4-aff0-fe0485e218d1","name":"Liberty Education 644-1","industry":"Education","headquarters":{"city":"New York","state":"NY","country":"USA"},"size":7764,"founded":2014}
+{"id":"ec90ee2d-2b07-4f03-80c0-0429f27df877","name":"Pioneer Agriculture 645-1","industry":"Agriculture","headquarters":{"city":"Charlotte","state":"NC","country":"USA"},"size":20164,"founded":1987}
+{"id":"4a4e8eaf-3d4d-4fb2-85b0-53dc7b03e18a","name":"Redwood Systems 646-1","industry":"Retail","headquarters":{"city":"Syracuse","state":"NY","country":"USA"},"size":2876,"founded":2010}
+{"id":"bf203d33-c3fb-4ed6-b2cf-85c5ef8f1dbd","name":"Golden Plains Agriculture 647-1","industry":"Technology","headquarters":{"city":"Des Moines","state":"IA","country":"USA"},"size":35641,"founded":1965}
+{"id":"5d75e6b9-f570-40bd-809f-a17177b18b3a","name":"Northstar Group 648-1","industry":"Healthcare","headquarters":{"city":"Salem","state":"OR","country":"USA"},"size":38423,"founded":1985}
+{"id":"fd1e748e-01a2-4133-8704-afb32e9f55c5","name":"Sterling Finance 649-1","industry":"Finance","headquarters":{"city":"Boulder","state":"CO","country":"USA"},"size":11888,"founded":1954}
+{"id":"bb0d58cd-eff4-4e03-b6c0-27a277efc924","name":"Clearwater Labs 650-1","industry":"Transportation","headquarters":{"city":"Cedar Rapids","state":"IA","country":"USA"},"size":30619,"founded":1952}
+{"id":"7ac79be7-14d1-49bd-b85f-5b7b79cdfbc9","name":"Skyline Energy 651-1","industry":"Finance","headquarters":{"city":"New York","state":"NY","country":"USA"},"size":853,"founded":2024}
+{"id":"da5e6e4d-670b-46dd-b5bf-0bc4c01e54fb","name":"Blue Ridge Education 652-1","industry":"Education","headquarters":{"city":"Raleigh","state":"NC","country":"USA"},"size":21688,"founded":2020}
+{"id":"cb0f5b86-6d29-4d4b-bb65-f5c90e699729","name":"Pioneer Services 653-1","industry":"Healthcare","headquarters":{"city":"Augusta","state":"GA","country":"USA"},"size":39061,"founded":1988}
+{"id":"5d1ad13a-9916-48c9-bb00-ded483b0bb62","name":"Northstar Dynamics 654-1","industry":"Finance","headquarters":{"city":"Charlotte","state":"NC","country":"USA"},"size":18119,"founded":1977}
+{"id":"8102022a-8cf3-4289-8bc3-549134bea43a","name":"Redwood Dynamics 655-1","industry":"Finance","headquarters":{"city":"Raleigh","state":"NC","country":"USA"},"size":35717,"founded":2018}
+{"id":"6788e7ee-ccdc-459d-80bc-e6e3542b2eb0","name":"Blue Ridge Manufacturing 656-1","industry":"Manufacturing","headquarters":{"city":"Salem","state":"OR","country":"USA"},"size":21239,"founded":2019}
+{"id":"dfc2c741-90ef-4cc9-9b18-ab13082da2b6","name":"Atlas Manufacturing 657-1","industry":"Technology","headquarters":{"city":"Salem","state":"OR","country":"USA"},"size":30020,"founded":1993}
+{"id":"6f674b6e-918f-4e49-9d10-4a34e16c9138","name":"Green Valley Systems 658-1","industry":"Energy","headquarters":{"city":"Portland","state":"OR","country":"USA"},"size":11617,"founded":1970}
+{"id":"7a88949f-9312-4d73-af72-b6e83f74f8c1","name":"BrightPath Labs 659-1","industry":"Finance","headquarters":{"city":"Austin","state":"TX","country":"USA"},"size":310,"founded":1950}
+{"id":"40c82ff5-c0c3-46cd-98fa-d61db9ee8558","name":"Skyline Consulting 660-1","industry":"Healthcare","headquarters":{"city":"Chicago","state":"IL","country":"USA"},"size":1086,"founded":1963}
+{"id":"4ecb30e6-f356-4c15-be68-ce9b1a53b92e","name":"Harbor Consulting 661-1","industry":"Healthcare","headquarters":{"city":"Des Moines","state":"IA","country":"USA"},"size":8998,"founded":1979}
+{"id":"edb8490d-92b2-4767-b621-5b8a8aab7b64","name":"Atlas Group 662-1","industry":"Manufacturing","headquarters":{"city":"Houston","state":"TX","country":"USA"},"size":5616,"founded":1965}
+{"id":"dcefc921-96fe-43df-a9fd-5ed78f9d90dc","name":"Sterling Healthcare 663-1","industry":"Healthcare","headquarters":{"city":"Houston","state":"TX","country":"USA"},"size":21861,"founded":1958}
+{"id":"20d85403-aaa1-49a6-983d-74f744ae921e","name":"Cedar Grove Technologies 664-1","industry":"Technology","headquarters":{"city":"Des Moines","state":"IA","country":"USA"},"size":37774,"founded":1988}
+{"id":"090082fc-deba-4117-bfd3-9b93aeb2c2d9","name":"Liberty Retail 665-1","industry":"Retail","headquarters":{"city":"Houston","state":"TX","country":"USA"},"size":47187,"founded":1994}
+{"id":"06d0daa5-6771-43a3-a173-2b6ad45b980a","name":"Skyline Healthcare 666-1","industry":"Healthcare","headquarters":{"city":"Phoenix","state":"AZ","country":"USA"},"size":28231,"founded":2000}
+{"id":"21fc95d4-f8f1-4219-89fc-e49cca5b837c","name":"Sterling Manufacturing 667-1","industry":"Manufacturing","headquarters":{"city":"Cedar Rapids","state":"IA","country":"USA"},"size":23600,"founded":1980}
+{"id":"edf5e0e4-d027-4dcd-847c-8d86fb6a6547","name":"Nova Consulting 668-1","industry":"Consulting","headquarters":{"city":"Phoenix","state":"AZ","country":"USA"},"size":18964,"founded":1989}
+{"id":"3c3bd334-7020-417b-82da-288805fdfacb","name":"Pioneer Technologies 669-1","industry":"Energy","headquarters":{"city":"Portland","state":"OR","country":"USA"},"size":4786,"founded":2008}
+{"id":"46ee0fb7-b7f2-4621-bed0-b2bd5492ea75","name":"Blue Ridge Education 670-1","industry":"Education","headquarters":{"city":"Chicago","state":"IL","country":"USA"},"size":17152,"founded":1970}
+{"id":"bc0e8ab2-1c58-4846-9bb5-975f8ba36ccf","name":"Northstar Healthcare 671-1","industry":"Healthcare","headquarters":{"city":"Cedar Rapids","state":"IA","country":"USA"},"size":16728,"founded":1983}
+{"id":"91a4e5a1-6ece-46b5-b2c4-acbe2a8fb658","name":"Summit Dynamics 672-1","industry":"Transportation","headquarters":{"city":"Syracuse","state":"NY","country":"USA"},"size":40984,"founded":1960}
+{"id":"a3883fde-ed0f-4981-b12b-c60a80465eca","name":"Sterling Energy 673-1","industry":"Energy","headquarters":{"city":"New York","state":"NY","country":"USA"},"size":12959,"founded":2004}
+{"id":"8aa8245d-d1e0-4c21-8a9f-fd29c2451647","name":"Redwood Industries 674-1","industry":"Consulting","headquarters":{"city":"Denver","state":"CO","country":"USA"},"size":46816,"founded":1953}
+{"id":"b33ca6f7-e380-4e8d-8a7f-e4db5d66ac02","name":"Cedar Grove Energy 675-1","industry":"Technology","headquarters":{"city":"Portland","state":"OR","country":"USA"},"size":35366,"founded":1970}
+{"id":"7bb2f593-1faa-41b9-8e5b-4736eed8ebf3","name":"Atlas Systems 676-1","industry":"Healthcare","headquarters":{"city":"Phoenix","state":"AZ","country":"USA"},"size":2308,"founded":1998}
+{"id":"e925a218-c4aa-402a-b07b-f2b14675efe2","name":"Nova Logistics 677-1","industry":"Education","headquarters":{"city":"New York","state":"NY","country":"USA"},"size":39416,"founded":1998}
+{"id":"25f8f8ce-6606-469c-88d0-0a7a26fbbbcc","name":"Evergreen Manufacturing 678-1","industry":"Manufacturing","headquarters":{"city":"Syracuse","state":"NY","country":"USA"},"size":1184,"founded":1978}
+{"id":"e73b4005-262e-4642-bfee-14bbd1ba7116","name":"Harbor Dynamics 679-1","industry":"Transportation","headquarters":{"city":"Salem","state":"OR","country":"USA"},"size":30883,"founded":1985}
+{"id":"5b018abe-5201-4be7-a1f0-5c764434284b","name":"Cedar Grove Systems 680-1","industry":"Consulting","headquarters":{"city":"Des Moines","state":"IA","country":"USA"},"size":23898,"founded":1976}
+{"id":"329e4177-fb22-45a7-944f-28476325b13c","name":"Clearwater Healthcare 681-1","industry":"Manufacturing","headquarters":{"city":"Salem","state":"OR","country":"USA"},"size":6319,"founded":2022}
+{"id":"79f904f9-41f7-4774-9710-3d0827a91b68","name":"Sterling Systems 682-1","industry":"Retail","headquarters":{"city":"Cedar Rapids","state":"IA","country":"USA"},"size":36181,"founded":1992}
+{"id":"0eea90fe-dec2-4ec9-b768-2248ed50c1f2","name":"Blue Ridge Services 683-1","industry":"Technology","headquarters":{"city":"Charlotte","state":"NC","country":"USA"},"size":4371,"founded":2024}
+{"id":"12c5bca9-fb8a-4596-a332-f0d25af1d50c","name":"Ironwood Transportation 684-1","industry":"Transportation","headquarters":{"city":"Atlanta","state":"GA","country":"USA"},"size":20229,"founded":1985}
+{"id":"63d7d252-6fc9-42f2-92f4-36b42affc1ca","name":"Cedar Grove Consulting 685-1","industry":"Technology","headquarters":{"city":"Houston","state":"TX","country":"USA"},"size":41241,"founded":1965}
+{"id":"15fe8000-a110-4f47-a338-23068b43691f","name":"Liberty Retail 686-1","industry":"Transportation","headquarters":{"city":"Springfield","state":"IL","country":"USA"},"size":29230,"founded":1965}
+{"id":"20a9a6f9-0665-40da-b548-cf54c4bc6f77","name":"Redwood Energy 687-1","industry":"Energy","headquarters":{"city":"Raleigh","state":"NC","country":"USA"},"size":34397,"founded":1958}
+{"id":"56d54374-b8d0-4f2a-9eb2-43330f7be9a3","name":"Silver Oak Manufacturing 688-1","industry":"Transportation","headquarters":{"city":"Portland","state":"OR","country":"USA"},"size":12557,"founded":1984}
+{"id":"f6cbcc40-6221-4d62-9c39-ef1c5aac1995","name":"Ironwood Education 689-1","industry":"Energy","headquarters":{"city":"Salem","state":"OR","country":"USA"},"size":28529,"founded":1969}
+{"id":"abe591ba-0959-46f9-b655-7449f0744d9f","name":"Summit Retail 690-1","industry":"Retail","headquarters":{"city":"Seattle","state":"WA","country":"USA"},"size":40145,"founded":1993}
+{"id":"0332270f-80ac-4a80-bfee-ee723b551f5f","name":"Clearwater Energy 691-1","industry":"Healthcare","headquarters":{"city":"Chicago","state":"IL","country":"USA"},"size":10433,"founded":1970}
+{"id":"8d364c27-9f4b-447a-a01d-3f224a80e277","name":"Harbor Dynamics 692-1","industry":"Technology","headquarters":{"city":"Salem","state":"OR","country":"USA"},"size":47730,"founded":1951}
+{"id":"aaf844d4-f123-490e-bb94-3d20869162ac","name":"Golden Plains Manufacturing 693-1","industry":"Manufacturing","headquarters":{"city":"Dallas","state":"TX","country":"USA"},"size":1216,"founded":1992}
+{"id":"68598899-1438-4f2a-a676-aa9f99fdc17c","name":"Ironwood Services 694-1","industry":"Energy","headquarters":{"city":"Boulder","state":"CO","country":"USA"},"size":12299,"founded":1962}
+{"id":"94aae71d-b5c9-4c6f-be17-df38bb188d25","name":"Harbor Education 695-1","industry":"Education","headquarters":{"city":"Atlanta","state":"GA","country":"USA"},"size":6072,"founded":2010}
+{"id":"b5ec2cae-d58c-4808-85b0-ce3e123a9da0","name":"Atlas Technologies 696-1","industry":"Manufacturing","headquarters":{"city":"Atlanta","state":"GA","country":"USA"},"size":224,"founded":2015}
+{"id":"be680a7c-ef0e-430d-9d0e-20caaf3051fb","name":"Cedar Grove Education 697-1","industry":"Transportation","headquarters":{"city":"Seattle","state":"WA","country":"USA"},"size":9286,"founded":1980}
+{"id":"8a8e84f5-0181-4a5e-bcc6-6387dea177e2","name":"Skyline Industries 698-1","industry":"Technology","headquarters":{"city":"Austin","state":"TX","country":"USA"},"size":28885,"founded":2006}
+{"id":"c858d7ca-5a8e-43b3-a3c1-8479ec52bee7","name":"Skyline Logistics 699-1","industry":"Transportation","headquarters":{"city":"Dallas","state":"TX","country":"USA"},"size":2403,"founded":1998}
+{"id":"f211dfd3-baa0-4df2-b0af-341738169561","name":"Golden Plains Logistics 700-1","industry":"Consulting","headquarters":{"city":"Syracuse","state":"NY","country":"USA"},"size":7421,"founded":1979}
+{"id":"ffb69ba4-36c3-48f4-8930-24d21f39807b","name":"Pioneer Holdings 701-1","industry":"Agriculture","headquarters":{"city":"Boulder","state":"CO","country":"USA"},"size":27645,"founded":1956}
+{"id":"faeb2a11-839e-4105-8ffd-dc09aabb1f97","name":"Liberty Retail 702-1","industry":"Retail","headquarters":{"city":"Chicago","state":"IL","country":"USA"},"size":21216,"founded":1971}
+{"id":"add22f5d-6a30-47fb-b3d0-62a111e9b3ee","name":"Redwood Agriculture 703-1","industry":"Finance","headquarters":{"city":"Augusta","state":"GA","country":"USA"},"size":47672,"founded":1995}
+{"id":"28673887-c469-4cea-aa90-f5a6487a82e5","name":"Summit Partners 704-1","industry":"Finance","headquarters":{"city":"Chicago","state":"IL","country":"USA"},"size":17209,"founded":1972}
+{"id":"c70e65c5-dace-4227-8968-7c40560dd096","name":"Summit Industries 705-1","industry":"Transportation","headquarters":{"city":"Tacoma","state":"WA","country":"USA"},"size":28517,"founded":1977}
+{"id":"42440923-9f8e-470f-aa54-85e2c4119c94","name":"Northstar Consulting 706-1","industry":"Consulting","headquarters":{"city":"Des Moines","state":"IA","country":"USA"},"size":40793,"founded":2024}
+{"id":"d8c69a27-7367-4298-b42b-cb568a02480b","name":"Pioneer Works 707-1","industry":"Transportation","headquarters":{"city":"Salem","state":"OR","country":"USA"},"size":15531,"founded":1966}
+{"id":"6ec8b6b1-67a5-4e91-85aa-0e36d3c55d9a","name":"Pioneer Labs 708-1","industry":"Retail","headquarters":{"city":"Denver","state":"CO","country":"USA"},"size":33519,"founded":1967}
+{"id":"20d80072-ea47-417a-a095-55f82dabee02","name":"Golden Plains Retail 709-1","industry":"Retail","headquarters":{"city":"Cedar Rapids","state":"IA","country":"USA"},"size":10024,"founded":2016}
+{"id":"5f4d3914-975a-4078-9fc0-fc979d9d3477","name":"Atlas Manufacturing 710-1","industry":"Education","headquarters":{"city":"Springfield","state":"IL","country":"USA"},"size":41193,"founded":1963}
+{"id":"18ea52f7-0e78-403a-a91c-3551d2c9dd74","name":"Golden Plains Retail 711-1","industry":"Technology","headquarters":{"city":"Houston","state":"TX","country":"USA"},"size":41843,"founded":1982}
+{"id":"871e413a-023b-4c72-a2fa-c61052dcbcd1","name":"Harbor Education 712-1","industry":"Education","headquarters":{"city":"Springfield","state":"IL","country":"USA"},"size":29712,"founded":1975}
+{"id":"b249dda9-0d42-4110-8197-35ea1867441d","name":"Redwood Manufacturing 713-1","industry":"Consulting","headquarters":{"city":"Syracuse","state":"NY","country":"USA"},"size":49859,"founded":1968}
+{"id":"6d815488-527e-4773-82fd-2ae8e71ec151","name":"Pioneer Manufacturing 714-1","industry":"Manufacturing","headquarters":{"city":"Springfield","state":"IL","country":"USA"},"size":44484,"founded":1996}
+{"id":"d72faa2a-47a4-4abf-a0b4-c04057dd69a2","name":"Ironwood Technology 715-1","industry":"Technology","headquarters":{"city":"Augusta","state":"GA","country":"USA"},"size":22564,"founded":1972}
+{"id":"f4a254c8-6fdb-44d5-b66c-8a07bb2eecae","name":"Liberty Energy 716-1","industry":"Energy","headquarters":{"city":"Denver","state":"CO","country":"USA"},"size":11964,"founded":2023}
+{"id":"7d194112-4c13-4e40-a207-9ec86aebe982","name":"Pioneer Manufacturing 717-1","industry":"Finance","headquarters":{"city":"Syracuse","state":"NY","country":"USA"},"size":14324,"founded":1997}
+{"id":"6f81b4cf-a3dd-45e3-968e-880d6ec23f64","name":"Ironwood Education 718-1","industry":"Energy","headquarters":{"city":"Cedar Rapids","state":"IA","country":"USA"},"size":26548,"founded":1978}
+{"id":"c90f8133-0e71-45f0-ade7-51978b01deba","name":"Summit Agriculture 719-1","industry":"Finance","headquarters":{"city":"Syracuse","state":"NY","country":"USA"},"size":10593,"founded":1962}
+{"id":"5c309c87-dc50-47fc-a58a-a8e844315b10","name":"Pioneer Education 720-1","industry":"Education","headquarters":{"city":"Dallas","state":"TX","country":"USA"},"size":19491,"founded":1967}
+{"id":"cdc8e5fc-9748-4816-8207-d75572fdf950","name":"Northstar Labs 721-1","industry":"Consulting","headquarters":{"city":"Dallas","state":"TX","country":"USA"},"size":30078,"founded":2005}
+{"id":"1902ac27-4b16-4e09-9716-617f85528603","name":"Ironwood Industries 722-1","industry":"Finance","headquarters":{"city":"New York","state":"NY","country":"USA"},"size":38447,"founded":1990}
+{"id":"b4e4d2fa-dbbc-4032-96c5-5743e9c58213","name":"Summit Solutions 723-1","industry":"Technology","headquarters":{"city":"Springfield","state":"IL","country":"USA"},"size":25663,"founded":2003}
+{"id":"a841565f-cf84-48bb-a8d8-f961439c64a6","name":"Evergreen Holdings 724-1","industry":"Finance","headquarters":{"city":"Denver","state":"CO","country":"USA"},"size":40551,"founded":1955}
+{"id":"bc33c5e6-6712-44f3-a09b-4f7ce4476a3a","name":"Liberty Energy 725-1","industry":"Energy","headquarters":{"city":"Seattle","state":"WA","country":"USA"},"size":49559,"founded":1950}
+{"id":"00489991-8f0a-4f66-96e6-ba52088e7364","name":"Evergreen Group 726-1","industry":"Manufacturing","headquarters":{"city":"Denver","state":"CO","country":"USA"},"size":48541,"founded":2015}
+{"id":"cc27c6c5-7e8f-44c7-b2a1-afdf0e640182","name":"Nova Retail 727-1","industry":"Retail","headquarters":{"city":"Des Moines","state":"IA","country":"USA"},"size":2538,"founded":1958}
+{"id":"4d60d360-b193-4b17-b190-e350f791eb5d","name":"Cedar Grove Finance 728-1","industry":"Energy","headquarters":{"city":"Denver","state":"CO","country":"USA"},"size":16125,"founded":2006}
+{"id":"659d2d46-35f8-4aa1-8684-e92a67ffe59d","name":"Harbor Transportation 729-1","industry":"Transportation","headquarters":{"city":"Tacoma","state":"WA","country":"USA"},"size":42321,"founded":1990}
+{"id":"1e46dd0e-4f82-4a9a-a8d5-15abf105582c","name":"Nova Holdings 730-1","industry":"Consulting","headquarters":{"city":"Raleigh","state":"NC","country":"USA"},"size":21760,"founded":1971}
+{"id":"487a580c-4f3f-42fb-a63e-e255972b4eef","name":"BrightPath Consulting 731-1","industry":"Consulting","headquarters":{"city":"Houston","state":"TX","country":"USA"},"size":37556,"founded":1974}
+{"id":"5f58ed5b-dedc-4582-97de-cfdec71350f7","name":"Silver Oak Manufacturing 732-1","industry":"Manufacturing","headquarters":{"city":"Tacoma","state":"WA","country":"USA"},"size":9353,"founded":1960}
+{"id":"2f6247b7-985e-4377-a5ca-ae3c0e958778","name":"Cedar Grove Agriculture 733-1","industry":"Consulting","headquarters":{"city":"Syracuse","state":"NY","country":"USA"},"size":23578,"founded":1968}
+{"id":"f43a30e5-bd33-485d-97cc-1ed4860b44ac","name":"Sterling Consulting 734-1","industry":"Consulting","headquarters":{"city":"Houston","state":"TX","country":"USA"},"size":26071,"founded":2012}
+{"id":"6bbdf5fe-6f5b-4795-bc04-66e2f74232c8","name":"Northstar Consulting 735-1","industry":"Healthcare","headquarters":{"city":"Portland","state":"OR","country":"USA"},"size":42414,"founded":1985}
+{"id":"e2f7c024-0986-48bc-9d95-b9239d14f043","name":"Harbor Partners 736-1","industry":"Education","headquarters":{"city":"Portland","state":"OR","country":"USA"},"size":32616,"founded":1964}
+{"id":"1e923097-3fa9-4a9b-9567-d7fe06712da7","name":"Liberty Transportation 737-1","industry":"Transportation","headquarters":{"city":"Des Moines","state":"IA","country":"USA"},"size":48075,"founded":2024}
+{"id":"cd5245b2-3edb-4cb8-b965-7cd9548c0beb","name":"Summit Group 738-1","industry":"Retail","headquarters":{"city":"Salem","state":"OR","country":"USA"},"size":27411,"founded":1963}
+{"id":"5c546277-f647-429e-aa18-f5dea3a66fe1","name":"Silver Oak Services 739-1","industry":"Education","headquarters":{"city":"Atlanta","state":"GA","country":"USA"},"size":20773,"founded":2021}
+{"id":"b1a41148-dbf6-4681-bbc7-e971b29fc3e0","name":"Skyline Consulting 740-1","industry":"Healthcare","headquarters":{"city":"Syracuse","state":"NY","country":"USA"},"size":39999,"founded":1981}
+{"id":"4e447b26-b93f-4c3d-9ee1-a9061f9e28f1","name":"Summit Manufacturing 741-1","industry":"Transportation","headquarters":{"city":"Chicago","state":"IL","country":"USA"},"size":29685,"founded":2006}
+{"id":"a01b3af2-4209-4d73-b2d9-c30055f47828","name":"Liberty Healthcare 742-1","industry":"Healthcare","headquarters":{"city":"Raleigh","state":"NC","country":"USA"},"size":37690,"founded":1972}
+{"id":"dabdee56-08ae-479c-acc8-182ce7fc248c","name":"Summit Finance 743-1","industry":"Manufacturing","headquarters":{"city":"Austin","state":"TX","country":"USA"},"size":4404,"founded":1951}
+{"id":"83caf8d5-07a2-4134-a973-833341f3086b","name":"Atlas Manufacturing 744-1","industry":"Manufacturing","headquarters":{"city":"Austin","state":"TX","country":"USA"},"size":45146,"founded":1965}
+{"id":"c63f99e1-ead7-4641-b16a-25bd81cd23cd","name":"Sterling Retail 745-1","industry":"Retail","headquarters":{"city":"Charlotte","state":"NC","country":"USA"},"size":33741,"founded":2020}
+{"id":"45fe2eb3-cd52-479a-aa8e-ee588e5a682c","name":"Golden Plains Finance 746-1","industry":"Finance","headquarters":{"city":"Portland","state":"OR","country":"USA"},"size":33999,"founded":2006}
+{"id":"ba766e79-267e-45a8-9534-67f64677aba0","name":"Redwood Healthcare 747-1","industry":"Technology","headquarters":{"city":"Seattle","state":"WA","country":"USA"},"size":2457,"founded":1960}
+{"id":"d9b387c0-b6a8-484f-a48e-01747fc77c82","name":"Riverstone Energy 748-1","industry":"Energy","headquarters":{"city":"Syracuse","state":"NY","country":"USA"},"size":11282,"founded":1988}
+{"id":"718ccec9-91f4-4a1f-af01-4e614bc7b1ca","name":"Nova Manufacturing 749-1","industry":"Manufacturing","headquarters":{"city":"Phoenix","state":"AZ","country":"USA"},"size":16992,"founded":1980}
+{"id":"dc5790e3-a508-4fd5-b888-710e7cbd062a","name":"Silver Oak Agriculture 750-1","industry":"Agriculture","headquarters":{"city":"Augusta","state":"GA","country":"USA"},"size":2000,"founded":2006}
+{"id":"acdf1df6-3c59-4388-91fb-7c99acf95c73","name":"Silver Oak Retail 751-1","industry":"Technology","headquarters":{"city":"Dallas","state":"TX","country":"USA"},"size":17381,"founded":2017}
+{"id":"34a61b44-643d-4c8d-bd3f-2c4d6d78ada2","name":"Riverstone Education 752-1","industry":"Technology","headquarters":{"city":"Boulder","state":"CO","country":"USA"},"size":3547,"founded":1970}
+{"id":"f1815685-2570-4b24-8ad0-309fcadb25ae","name":"Pioneer Dynamics 753-1","industry":"Energy","headquarters":{"city":"Houston","state":"TX","country":"USA"},"size":41686,"founded":2023}
+{"id":"94b6f4cc-df9a-4597-8eff-eea17f5b3b4c","name":"Riverstone Consulting 754-1","industry":"Consulting","headquarters":{"city":"Portland","state":"OR","country":"USA"},"size":40111,"founded":2008}
+{"id":"90b34d37-1a6f-4e00-89a0-eaef5c2b9b3e","name":"Harbor Technology 755-1","industry":"Technology","headquarters":{"city":"Syracuse","state":"NY","country":"USA"},"size":39529,"founded":1954}
+{"id":"919c3fe9-f676-4be1-a3e6-499701bd7488","name":"Green Valley Education 756-1","industry":"Finance","headquarters":{"city":"Cedar Rapids","state":"IA","country":"USA"},"size":6435,"founded":1951}
+{"id":"06fd0fd8-6a35-41ad-a2b3-22b0b4458139","name":"Clearwater Consulting 757-1","industry":"Consulting","headquarters":{"city":"Syracuse","state":"NY","country":"USA"},"size":4431,"founded":1969}
+{"id":"37e8b409-a7dc-48e1-a1d4-bcc67ecb885a","name":"Clearwater Consulting 758-1","industry":"Retail","headquarters":{"city":"Augusta","state":"GA","country":"USA"},"size":45604,"founded":1954}
+{"id":"eec27589-fe50-4bb3-96db-5e6b1f0725cb","name":"Nova Industries 759-1","industry":"Transportation","headquarters":{"city":"New York","state":"NY","country":"USA"},"size":16496,"founded":1968}
+{"id":"fbe418a9-2e76-4f7c-a6b3-9060615ae7de","name":"Redwood Technology 760-1","industry":"Technology","headquarters":{"city":"Tacoma","state":"WA","country":"USA"},"size":12278,"founded":1964}
+{"id":"be7ae4a3-ecc0-4609-838d-5cd72a1f436b","name":"Clearwater Technology 761-1","industry":"Technology","headquarters":{"city":"Augusta","state":"GA","country":"USA"},"size":46417,"founded":1955}
+{"id":"beabe3e7-615b-448f-ad82-e44225a6f60c","name":"BrightPath Holdings 762-1","industry":"Transportation","headquarters":{"city":"Tacoma","state":"WA","country":"USA"},"size":45692,"founded":2004}
+{"id":"d8e69e6f-4ce6-4b25-9d07-620f30afd0a4","name":"BrightPath Technology 763-1","industry":"Technology","headquarters":{"city":"Syracuse","state":"NY","country":"USA"},"size":36457,"founded":2003}
+{"id":"049a478a-513d-4a4c-8f23-5b3dfef8271e","name":"Cedar Grove Education 764-1","industry":"Education","headquarters":{"city":"Syracuse","state":"NY","country":"USA"},"size":8429,"founded":1980}
+{"id":"7cc44600-b17b-4419-b4db-b6e7143a588d","name":"Atlas Dynamics 765-1","industry":"Consulting","headquarters":{"city":"Dallas","state":"TX","country":"USA"},"size":4025,"founded":1999}
+{"id":"3d3b08be-b0f8-4d08-b26f-d6a087ccae78","name":"Silver Oak Transportation 766-1","industry":"Transportation","headquarters":{"city":"Austin","state":"TX","country":"USA"},"size":32041,"founded":1962}
+{"id":"cf6983e3-79d2-460a-8032-70861d53fc9a","name":"Cedar Grove Manufacturing 767-1","industry":"Agriculture","headquarters":{"city":"Tacoma","state":"WA","country":"USA"},"size":12436,"founded":1954}
+{"id":"40ef2ad2-5af2-42d2-9c1d-7a97171f43a4","name":"Silver Oak Partners 768-1","industry":"Retail","headquarters":{"city":"Denver","state":"CO","country":"USA"},"size":38400,"founded":1975}
+{"id":"02bcaae1-b958-40b2-b069-835677fb8b11","name":"Skyline Healthcare 769-1","industry":"Transportation","headquarters":{"city":"Des Moines","state":"IA","country":"USA"},"size":12155,"founded":1963}
+{"id":"77dd58c9-8b77-4ba2-8da5-0118046e082c","name":"Clearwater Partners 770-1","industry":"Consulting","headquarters":{"city":"New York","state":"NY","country":"USA"},"size":33827,"founded":2011}
+{"id":"cde74a93-191a-4bed-9bd7-56fddf0b4fa0","name":"Riverstone Energy 771-1","industry":"Energy","headquarters":{"city":"Des Moines","state":"IA","country":"USA"},"size":30640,"founded":2006}
+{"id":"d398d797-0b5f-4534-b95d-9a618fd17f48","name":"Pioneer Healthcare 772-1","industry":"Transportation","headquarters":{"city":"Atlanta","state":"GA","country":"USA"},"size":49027,"founded":2008}
+{"id":"c1e26384-b8ff-4c96-87dc-e677c263c43d","name":"Silver Oak Logistics 773-1","industry":"Manufacturing","headquarters":{"city":"Chicago","state":"IL","country":"USA"},"size":3286,"founded":1994}
+{"id":"e36863e8-4de2-4612-8359-d4301a90350c","name":"Cedar Grove Solutions 774-1","industry":"Education","headquarters":{"city":"Raleigh","state":"NC","country":"USA"},"size":13853,"founded":2008}
+{"id":"48c0cc0a-921e-49ff-9310-d0555baa6f24","name":"Evergreen Transportation 775-1","industry":"Transportation","headquarters":{"city":"Augusta","state":"GA","country":"USA"},"size":31815,"founded":2023}
+{"id":"2b8c8500-42e8-4653-a351-0c6397a9e261","name":"Atlas Finance 776-1","industry":"Energy","headquarters":{"city":"New York","state":"NY","country":"USA"},"size":32433,"founded":1985}
+{"id":"9b53bce9-bf4d-4260-93a3-c58744206d00","name":"Clearwater Group 777-1","industry":"Finance","headquarters":{"city":"Denver","state":"CO","country":"USA"},"size":43137,"founded":1963}
+{"id":"b01cbd75-9617-42cc-beb7-2bc93d65a120","name":"Northstar Technology 778-1","industry":"Technology","headquarters":{"city":"Austin","state":"TX","country":"USA"},"size":16303,"founded":1976}
+{"id":"b75982d1-c82a-4e87-8666-f86599864016","name":"Green Valley Transportation 779-1","industry":"Transportation","headquarters":{"city":"Syracuse","state":"NY","country":"USA"},"size":5866,"founded":1966}
+{"id":"ac66591a-c9d0-4def-8e64-5d9303ce9291","name":"Ironwood Technology 780-1","industry":"Technology","headquarters":{"city":"Cedar Rapids","state":"IA","country":"USA"},"size":39328,"founded":1980}
+{"id":"9152e865-dd1a-4c8b-89a7-f6f41550169e","name":"Nova Logistics 781-1","industry":"Consulting","headquarters":{"city":"Austin","state":"TX","country":"USA"},"size":28309,"founded":2004}
+{"id":"45704e34-9e7c-4e12-a1df-fdeeb835ca5b","name":"Silver Oak Services 782-1","industry":"Agriculture","headquarters":{"city":"Dallas","state":"TX","country":"USA"},"size":48680,"founded":2002}
+{"id":"502b3870-79c2-4114-bd1a-d86cde2f8348","name":"Riverstone Dynamics 783-1","industry":"Energy","headquarters":{"city":"New York","state":"NY","country":"USA"},"size":28566,"founded":1970}
+{"id":"bdfdc109-2924-41b1-ba8e-ef736756c7db","name":"Redwood Education 784-1","industry":"Education","headquarters":{"city":"Atlanta","state":"GA","country":"USA"},"size":9769,"founded":1986}
+{"id":"fc1cac97-8e41-4026-a120-1696762bfdf0","name":"Blue Ridge Agriculture 785-1","industry":"Agriculture","headquarters":{"city":"Springfield","state":"IL","country":"USA"},"size":7353,"founded":1992}
+{"id":"b80d4100-0cec-4423-9b6a-9c98dc70f725","name":"Skyline Energy 786-1","industry":"Transportation","headquarters":{"city":"Denver","state":"CO","country":"USA"},"size":46875,"founded":2009}
+{"id":"43376947-acab-446d-a83a-9ff759f7fb10","name":"Harbor Services 787-1","industry":"Education","headquarters":{"city":"Seattle","state":"WA","country":"USA"},"size":42902,"founded":1998}
+{"id":"8d3fff60-9e14-45ad-bf81-c52cbceeb48e","name":"Harbor Group 788-1","industry":"Energy","headquarters":{"city":"Seattle","state":"WA","country":"USA"},"size":1495,"founded":1959}
+{"id":"468ee627-0ce1-40bd-8135-c2445aac33a8","name":"Riverstone Retail 789-1","industry":"Retail","headquarters":{"city":"Portland","state":"OR","country":"USA"},"size":33621,"founded":2021}
+{"id":"a5be6c48-d35b-423b-a4a1-29672f4524ad","name":"Riverstone Consulting 790-1","industry":"Consulting","headquarters":{"city":"Austin","state":"TX","country":"USA"},"size":23190,"founded":1990}
+{"id":"d0f1d489-cec2-4a60-9f82-13f9de3295a6","name":"Liberty Transportation 791-1","industry":"Transportation","headquarters":{"city":"Des Moines","state":"IA","country":"USA"},"size":24280,"founded":1977}
+{"id":"8dc92c81-9e21-49d8-a93c-4f17aab34f19","name":"Redwood Works 792-1","industry":"Technology","headquarters":{"city":"Chicago","state":"IL","country":"USA"},"size":13247,"founded":2007}
+{"id":"d2ec068c-bee0-4117-a59d-7fdd58e67004","name":"Liberty Education 793-1","industry":"Education","headquarters":{"city":"Atlanta","state":"GA","country":"USA"},"size":36485,"founded":1979}
+{"id":"dcaa2bc4-47ed-4404-b538-b9ca0bbdf0b5","name":"Harbor Manufacturing 794-1","industry":"Manufacturing","headquarters":{"city":"Syracuse","state":"NY","country":"USA"},"size":37974,"founded":1991}
+{"id":"984660f4-e457-4aa1-989e-00158bcafc8e","name":"Atlas Retail 795-1","industry":"Retail","headquarters":{"city":"Phoenix","state":"AZ","country":"USA"},"size":6646,"founded":1953}
+{"id":"1edb19a8-da77-4ecc-b48b-7a79e133c372","name":"Green Valley Consulting 796-1","industry":"Consulting","headquarters":{"city":"Raleigh","state":"NC","country":"USA"},"size":11451,"founded":2002}
+{"id":"bfe8605a-a0d3-4e59-9e5a-c7aef6b7a3f3","name":"Green Valley Consulting 797-1","industry":"Energy","headquarters":{"city":"Chicago","state":"IL","country":"USA"},"size":18237,"founded":1988}
+{"id":"0e18cc20-4724-4859-84a7-e4c7534c7d62","name":"Pioneer Works 798-1","industry":"Agriculture","headquarters":{"city":"Chicago","state":"IL","country":"USA"},"size":31088,"founded":1983}
+{"id":"3c1122dd-e80e-424f-9b0a-50ebcf649c4e","name":"Atlas Logistics 799-1","industry":"Transportation","headquarters":{"city":"Portland","state":"OR","country":"USA"},"size":19743,"founded":2020}
+{"id":"03e918f4-f598-416c-8639-f1ddc439279a","name":"Golden Plains Education 800-1","industry":"Technology","headquarters":{"city":"Portland","state":"OR","country":"USA"},"size":39743,"founded":1957}
+{"id":"25c126c1-9602-41e2-954d-abc054698a5e","name":"Blue Ridge Works 801-1","industry":"Manufacturing","headquarters":{"city":"Austin","state":"TX","country":"USA"},"size":37738,"founded":2003}
+{"id":"364f17ab-6ec8-43ff-9e25-4b4409335b32","name":"Ironwood Manufacturing 802-1","industry":"Healthcare","headquarters":{"city":"Phoenix","state":"AZ","country":"USA"},"size":11958,"founded":1977}
+{"id":"c48f4e12-0f2c-4e32-924a-f9d5b9ae3d58","name":"Skyline Retail 803-1","industry":"Finance","headquarters":{"city":"Springfield","state":"IL","country":"USA"},"size":22881,"founded":1952}
+{"id":"b23d1a09-ce1d-4e9b-8d36-7eb23e7b274e","name":"Pioneer Dynamics 804-1","industry":"Manufacturing","headquarters":{"city":"Raleigh","state":"NC","country":"USA"},"size":36758,"founded":1955}
+{"id":"cd00d713-9e54-473a-b0c7-4d87101f3280","name":"Golden Plains Manufacturing 805-1","industry":"Retail","headquarters":{"city":"Phoenix","state":"AZ","country":"USA"},"size":1274,"founded":1954}
+{"id":"2b40fa51-db57-4a61-bf29-d7e43be1589a","name":"BrightPath Finance 806-1","industry":"Finance","headquarters":{"city":"Des Moines","state":"IA","country":"USA"},"size":30065,"founded":2010}
+{"id":"17e5b98b-f4e6-4bcd-82b7-8847b85a705c","name":"Northstar Technology 807-1","industry":"Technology","headquarters":{"city":"Phoenix","state":"AZ","country":"USA"},"size":39257,"founded":1961}
+{"id":"d7bc7a01-499c-4653-8a6f-15ad655f8c0d","name":"Nova Energy 808-1","industry":"Agriculture","headquarters":{"city":"Chicago","state":"IL","country":"USA"},"size":42485,"founded":1986}
+{"id":"b6fec90a-6fb4-43f9-945f-010bf0c5ab7f","name":"Evergreen Manufacturing 809-1","industry":"Consulting","headquarters":{"city":"Boulder","state":"CO","country":"USA"},"size":629,"founded":1989}
+{"id":"8f6716e4-9216-49fc-8f1f-6ffea78c5d8f","name":"Green Valley Retail 810-1","industry":"Education","headquarters":{"city":"Springfield","state":"IL","country":"USA"},"size":20722,"founded":1971}
+{"id":"437a8f65-59a3-4b6a-a92d-83d0866ec9e7","name":"Sterling Holdings 811-1","industry":"Agriculture","headquarters":{"city":"Raleigh","state":"NC","country":"USA"},"size":22028,"founded":1965}
+{"id":"dc2ec48b-01c6-45dc-8947-bce69b62aea5","name":"Atlas Dynamics 812-1","industry":"Energy","headquarters":{"city":"Tacoma","state":"WA","country":"USA"},"size":33312,"founded":1992}
+{"id":"ce546e67-483d-4781-a21e-e096f18e2d31","name":"Clearwater Services 813-1","industry":"Finance","headquarters":{"city":"Augusta","state":"GA","country":"USA"},"size":43753,"founded":1981}
+{"id":"b634ce01-fa0f-4de6-84fc-a2458f4d4126","name":"Cedar Grove Manufacturing 814-1","industry":"Manufacturing","headquarters":{"city":"Des Moines","state":"IA","country":"USA"},"size":29853,"founded":1950}
+{"id":"b4a52c3e-6638-4797-b6e5-c95397033db9","name":"Harbor Energy 815-1","industry":"Consulting","headquarters":{"city":"Seattle","state":"WA","country":"USA"},"size":6523,"founded":1989}
+{"id":"c3f2d4a5-ca8a-45cc-8be4-0fa3468f7c76","name":"Cedar Grove Services 816-1","industry":"Manufacturing","headquarters":{"city":"Syracuse","state":"NY","country":"USA"},"size":4918,"founded":1986}
+{"id":"8b5af815-416e-4b5d-9a17-403ccaeeab1f","name":"Nova Finance 817-1","industry":"Finance","headquarters":{"city":"Boulder","state":"CO","country":"USA"},"size":34097,"founded":1984}
+{"id":"38e4b289-ecce-4505-b685-22b9f9321a8c","name":"Green Valley Energy 818-1","industry":"Energy","headquarters":{"city":"Seattle","state":"WA","country":"USA"},"size":33455,"founded":1968}
+{"id":"0cceaf8d-3e7c-4f42-808a-6c731b357167","name":"Golden Plains Agriculture 819-1","industry":"Healthcare","headquarters":{"city":"Portland","state":"OR","country":"USA"},"size":27320,"founded":1961}
+{"id":"98feb87b-0780-47de-acc0-119ea92b0873","name":"BrightPath Agriculture 820-1","industry":"Agriculture","headquarters":{"city":"Salem","state":"OR","country":"USA"},"size":49821,"founded":1999}
+{"id":"89993397-6e89-469a-b9bf-463c5962c7d5","name":"Skyline Healthcare 821-1","industry":"Healthcare","headquarters":{"city":"Raleigh","state":"NC","country":"USA"},"size":12876,"founded":1996}
+{"id":"ff1aa44e-b2c7-4fef-aa7f-5786d687136a","name":"Nova Retail 822-1","industry":"Healthcare","headquarters":{"city":"Syracuse","state":"NY","country":"USA"},"size":985,"founded":1966}
+{"id":"afef3b5e-298a-4e8e-a5d0-f6618f9f0c33","name":"Riverstone Consulting 823-1","industry":"Consulting","headquarters":{"city":"Seattle","state":"WA","country":"USA"},"size":24663,"founded":1972}
+{"id":"4d209ae0-1d23-45b8-9f95-d60d62d1480c","name":"Northstar Partners 824-1","industry":"Education","headquarters":{"city":"Augusta","state":"GA","country":"USA"},"size":7625,"founded":1978}
+{"id":"a7b90e04-13dc-4a3a-a715-87fa233fc309","name":"Skyline Labs 825-1","industry":"Technology","headquarters":{"city":"Raleigh","state":"NC","country":"USA"},"size":4075,"founded":2018}
+{"id":"5ba42910-e45b-4445-8c77-fa6484833219","name":"Golden Plains Education 826-1","industry":"Transportation","headquarters":{"city":"Springfield","state":"IL","country":"USA"},"size":31778,"founded":1995}
+{"id":"43b9f939-a402-470c-919e-ca844b907d39","name":"BrightPath Energy 827-1","industry":"Energy","headquarters":{"city":"Seattle","state":"WA","country":"USA"},"size":20314,"founded":1954}
+{"id":"d50d83f0-1f12-47bc-a426-4dbe18a01b25","name":"Ironwood Consulting 828-1","industry":"Manufacturing","headquarters":{"city":"Denver","state":"CO","country":"USA"},"size":35789,"founded":2014}
+{"id":"9a2764df-0981-42a4-801a-b11319c95421","name":"Cedar Grove Transportation 829-1","industry":"Transportation","headquarters":{"city":"Augusta","state":"GA","country":"USA"},"size":16454,"founded":1966}
+{"id":"4d196944-3f0c-41d0-b6c0-0fdf9babf570","name":"Golden Plains Retail 830-1","industry":"Retail","headquarters":{"city":"Austin","state":"TX","country":"USA"},"size":44690,"founded":1981}
+{"id":"529e769a-93e1-4418-8052-854dd56e5f3e","name":"Cedar Grove Technology 831-1","industry":"Technology","headquarters":{"city":"Syracuse","state":"NY","country":"USA"},"size":44819,"founded":1995}
+{"id":"bc82cd63-fd08-4074-8af5-caaa73f38782","name":"Pioneer Partners 832-1","industry":"Finance","headquarters":{"city":"Augusta","state":"GA","country":"USA"},"size":23967,"founded":2012}
+{"id":"8ca6a087-0f47-4fac-b072-d28f8fa24ff6","name":"Northstar Manufacturing 833-1","industry":"Manufacturing","headquarters":{"city":"Charlotte","state":"NC","country":"USA"},"size":26915,"founded":1952}
+{"id":"2270bcf3-3c69-47d5-935b-61b2213ca4c1","name":"Pioneer Retail 834-1","industry":"Retail","headquarters":{"city":"Salem","state":"OR","country":"USA"},"size":9828,"founded":1967}
+{"id":"d2fd8a46-8d53-4ce4-8d9a-16af215eb887","name":"Evergreen Agriculture 835-1","industry":"Agriculture","headquarters":{"city":"Phoenix","state":"AZ","country":"USA"},"size":33187,"founded":1981}
+{"id":"553ed9e1-2856-4edf-bfcb-ec39edb40947","name":"Liberty Energy 836-1","industry":"Energy","headquarters":{"city":"Atlanta","state":"GA","country":"USA"},"size":14294,"founded":1979}
+{"id":"f8e43166-b4b9-468e-baef-00dc86b4b341","name":"Silver Oak Consulting 837-1","industry":"Manufacturing","headquarters":{"city":"New York","state":"NY","country":"USA"},"size":24562,"founded":2013}
+{"id":"a2802d12-ae94-4855-bbff-4c265c573d4b","name":"Redwood Healthcare 838-1","industry":"Healthcare","headquarters":{"city":"Denver","state":"CO","country":"USA"},"size":14369,"founded":1966}
+{"id":"beec1d59-b44b-4284-bda6-52128049df34","name":"Cedar Grove Services 839-1","industry":"Finance","headquarters":{"city":"Des Moines","state":"IA","country":"USA"},"size":15155,"founded":2015}
+{"id":"72da07ed-9cf5-446d-ad9a-13b01f574faf","name":"Summit Labs 840-1","industry":"Energy","headquarters":{"city":"Austin","state":"TX","country":"USA"},"size":8013,"founded":2008}
+{"id":"bd72cd61-7e80-4b18-a59a-63ef2d5e8116","name":"Sterling Works 841-1","industry":"Consulting","headquarters":{"city":"New York","state":"NY","country":"USA"},"size":17830,"founded":2018}
+{"id":"5feb6352-77cc-4908-9569-0fe04eb98633","name":"Silver Oak Manufacturing 842-1","industry":"Agriculture","headquarters":{"city":"Charlotte","state":"NC","country":"USA"},"size":37492,"founded":1987}
+{"id":"f73c51b2-6be4-4de6-9964-03060668a65d","name":"Liberty Group 843-1","industry":"Manufacturing","headquarters":{"city":"Phoenix","state":"AZ","country":"USA"},"size":17979,"founded":1993}
+{"id":"5217c8fb-f9c6-47e9-97f7-9a6470fa0355","name":"Summit Labs 844-1","industry":"Agriculture","headquarters":{"city":"Tacoma","state":"WA","country":"USA"},"size":32240,"founded":1951}
+{"id":"efa523ea-352e-45e8-b597-650e9672bb2c","name":"BrightPath Manufacturing 845-1","industry":"Manufacturing","headquarters":{"city":"Salem","state":"OR","country":"USA"},"size":14553,"founded":1956}
+{"id":"d695cb41-5878-4494-b89c-37b4ccac2955","name":"Summit Systems 846-1","industry":"Retail","headquarters":{"city":"Syracuse","state":"NY","country":"USA"},"size":49376,"founded":1998}
+{"id":"da419c5d-f500-4697-8310-01184f0e4348","name":"Cedar Grove Transportation 847-1","industry":"Transportation","headquarters":{"city":"Charlotte","state":"NC","country":"USA"},"size":42124,"founded":1987}
+{"id":"9c0933a0-c4af-432f-a7df-51143988fa2f","name":"Blue Ridge Solutions 848-1","industry":"Healthcare","headquarters":{"city":"Tacoma","state":"WA","country":"USA"},"size":29645,"founded":1983}
+{"id":"2f0ad65b-4ec0-4d3d-8b89-0148e2c0c9f8","name":"Riverstone Finance 849-1","industry":"Retail","headquarters":{"city":"Augusta","state":"GA","country":"USA"},"size":15401,"founded":1954}
+{"id":"8149d868-841d-4040-b666-09c2653c0e81","name":"Pioneer Healthcare 850-1","industry":"Healthcare","headquarters":{"city":"Salem","state":"OR","country":"USA"},"size":44675,"founded":1983}
+{"id":"7c278507-a9b1-4026-97e5-6de32150ca66","name":"Silver Oak Solutions 851-1","industry":"Finance","headquarters":{"city":"Phoenix","state":"AZ","country":"USA"},"size":14140,"founded":1956}
+{"id":"5b1c9022-ee1d-4137-adc1-86b4f60c4290","name":"Harbor Labs 852-1","industry":"Energy","headquarters":{"city":"Chicago","state":"IL","country":"USA"},"size":15990,"founded":1959}
+{"id":"af231847-4e48-4075-9acf-45201345e990","name":"Ironwood Energy 853-1","industry":"Energy","headquarters":{"city":"Springfield","state":"IL","country":"USA"},"size":45686,"founded":2002}
+{"id":"da335d41-7b50-4c7b-a137-9f608a57cf70","name":"Riverstone Healthcare 854-1","industry":"Finance","headquarters":{"city":"Cedar Rapids","state":"IA","country":"USA"},"size":23252,"founded":2015}
+{"id":"92f583af-8041-4700-9b2a-43a212dcec45","name":"Atlas Retail 855-1","industry":"Retail","headquarters":{"city":"Phoenix","state":"AZ","country":"USA"},"size":39484,"founded":1965}
+{"id":"ff559fe9-5f65-4cb3-a85f-d6493a3c14df","name":"Cedar Grove Services 856-1","industry":"Transportation","headquarters":{"city":"Phoenix","state":"AZ","country":"USA"},"size":44680,"founded":1997}
+{"id":"3ee66698-d3e4-4d8d-a3b7-d0e0cededd14","name":"Blue Ridge Services 857-1","industry":"Education","headquarters":{"city":"Tacoma","state":"WA","country":"USA"},"size":2656,"founded":1952}
+{"id":"240a07bc-7ecf-47e5-9fe2-b92f43f7a205","name":"Summit Holdings 858-1","industry":"Retail","headquarters":{"city":"Tacoma","state":"WA","country":"USA"},"size":2750,"founded":1982}
+{"id":"7dd63904-43db-4a32-8e7a-297a914c3fd4","name":"Liberty Agriculture 859-1","industry":"Agriculture","headquarters":{"city":"Des Moines","state":"IA","country":"USA"},"size":21410,"founded":1957}
+{"id":"754caaf3-9a7f-4872-87a8-d08477fa85fa","name":"Liberty Solutions 860-1","industry":"Technology","headquarters":{"city":"Syracuse","state":"NY","country":"USA"},"size":4826,"founded":1968}
+{"id":"d2cf2713-8df8-4eb1-97f9-01c6059b0824","name":"BrightPath Manufacturing 861-1","industry":"Manufacturing","headquarters":{"city":"Houston","state":"TX","country":"USA"},"size":40487,"founded":1959}
+{"id":"f7e07b5e-dc82-4f50-ac48-71ef4408ac6f","name":"Skyline Solutions 862-1","industry":"Consulting","headquarters":{"city":"Denver","state":"CO","country":"USA"},"size":13202,"founded":1957}
+{"id":"d53c68ed-b32f-4d69-8837-58479a952f35","name":"Golden Plains Services 863-1","industry":"Finance","headquarters":{"city":"Raleigh","state":"NC","country":"USA"},"size":526,"founded":1973}
+{"id":"f7621218-aabd-4709-9231-ed5d9e0ccbe4","name":"Northstar Consulting 864-1","industry":"Finance","headquarters":{"city":"Salem","state":"OR","country":"USA"},"size":40850,"founded":2009}
+{"id":"d94d88c3-64c4-4ca8-98f0-40b3647d6452","name":"Cedar Grove Labs 865-1","industry":"Education","headquarters":{"city":"Atlanta","state":"GA","country":"USA"},"size":46519,"founded":1994}
+{"id":"64f07140-b7df-4cf6-9a32-373d1abb0037","name":"Summit Services 866-1","industry":"Transportation","headquarters":{"city":"Syracuse","state":"NY","country":"USA"},"size":5142,"founded":1951}
+{"id":"3cb76f54-f879-4c2a-a13a-d9592daba508","name":"Summit Transportation 867-1","industry":"Transportation","headquarters":{"city":"New York","state":"NY","country":"USA"},"size":22422,"founded":1959}
+{"id":"1ab14ca6-e84a-4b3a-bc7e-e567cd16d15b","name":"Blue Ridge Retail 868-1","industry":"Healthcare","headquarters":{"city":"Dallas","state":"TX","country":"USA"},"size":38689,"founded":1955}
+{"id":"98881c0e-f9e1-4d63-9099-fa4d11d902c1","name":"Sterling Consulting 869-1","industry":"Consulting","headquarters":{"city":"Atlanta","state":"GA","country":"USA"},"size":3987,"founded":1958}
+{"id":"3e2b4af3-fc30-47cc-9f8d-cf5f7b802c88","name":"Golden Plains Retail 870-1","industry":"Retail","headquarters":{"city":"Cedar Rapids","state":"IA","country":"USA"},"size":425,"founded":1993}
+{"id":"4e83c7fc-3f35-445f-a35d-856e8e52184c","name":"Blue Ridge Agriculture 871-1","industry":"Technology","headquarters":{"city":"Boulder","state":"CO","country":"USA"},"size":34604,"founded":2007}
+{"id":"ab42b05d-e430-4d31-a28b-45ea1c7e6a26","name":"Blue Ridge Consulting 872-1","industry":"Consulting","headquarters":{"city":"Phoenix","state":"AZ","country":"USA"},"size":16770,"founded":2010}
+{"id":"e86d2a5a-3e08-4e4a-a666-a3d9fda91418","name":"Atlas Industries 873-1","industry":"Transportation","headquarters":{"city":"Augusta","state":"GA","country":"USA"},"size":31264,"founded":1968}
+{"id":"8458308b-b85b-4def-9e61-ceb678272426","name":"Harbor Partners 874-1","industry":"Technology","headquarters":{"city":"Houston","state":"TX","country":"USA"},"size":1744,"founded":1997}
+{"id":"ecd732ad-4ddc-465a-8234-ced9355c3c32","name":"Riverstone Retail 875-1","industry":"Education","headquarters":{"city":"Austin","state":"TX","country":"USA"},"size":35018,"founded":1995}
+{"id":"79a010f1-ef39-40e8-acaf-483e0a79ebaf","name":"BrightPath Logistics 876-1","industry":"Energy","headquarters":{"city":"Boulder","state":"CO","country":"USA"},"size":37724,"founded":2018}
+{"id":"2f87f18b-7fec-4b2d-898d-3e68c90fe694","name":"Liberty Labs 877-1","industry":"Education","headquarters":{"city":"Des Moines","state":"IA","country":"USA"},"size":13175,"founded":1988}
+{"id":"1a373d9c-15fd-4c1a-99c8-cce2e0840bc4","name":"Pioneer Industries 878-1","industry":"Consulting","headquarters":{"city":"Boulder","state":"CO","country":"USA"},"size":40688,"founded":1972}
+{"id":"6c5fc322-2b1d-4079-baae-2dd4f45d1695","name":"Golden Plains Works 879-1","industry":"Healthcare","headquarters":{"city":"Chicago","state":"IL","country":"USA"},"size":15410,"founded":1999}
+{"id":"cb1aa7ee-9c17-4010-9105-1292e4277d34","name":"Evergreen Consulting 880-1","industry":"Consulting","headquarters":{"city":"Tacoma","state":"WA","country":"USA"},"size":2743,"founded":2014}
+{"id":"2c12392f-95d4-4c13-866f-259d264a3f5a","name":"Riverstone Energy 881-1","industry":"Education","headquarters":{"city":"Salem","state":"OR","country":"USA"},"size":5520,"founded":1956}
+{"id":"917985a7-78dd-4817-9177-e78e1aceb0ad","name":"Redwood Transportation 882-1","industry":"Transportation","headquarters":{"city":"Charlotte","state":"NC","country":"USA"},"size":37128,"founded":1976}
+{"id":"62eba9de-7b6a-46ef-8f28-9796ed3e29cc","name":"Pioneer Agriculture 883-1","industry":"Energy","headquarters":{"city":"Tacoma","state":"WA","country":"USA"},"size":24999,"founded":1997}
+{"id":"c85f67ee-238d-4ca8-9765-a537dffd48fb","name":"Ironwood Retail 884-1","industry":"Education","headquarters":{"city":"New York","state":"NY","country":"USA"},"size":47314,"founded":2008}
+{"id":"21bbfb75-074e-4828-8c6c-84ad0b7ac782","name":"Riverstone Agriculture 885-1","industry":"Education","headquarters":{"city":"Seattle","state":"WA","country":"USA"},"size":10179,"founded":1952}
+{"id":"a5d57931-9c40-420e-b7b7-e076c1c59b16","name":"Pioneer Services 886-1","industry":"Finance","headquarters":{"city":"New York","state":"NY","country":"USA"},"size":31844,"founded":1960}
+{"id":"ebc48199-277e-413d-bada-476b9df54f66","name":"Ironwood Manufacturing 887-1","industry":"Manufacturing","headquarters":{"city":"Syracuse","state":"NY","country":"USA"},"size":27035,"founded":1967}
+{"id":"30a8cda9-326c-4aa4-a6f9-b9fcb7d9f67c","name":"Riverstone Group 888-1","industry":"Manufacturing","headquarters":{"city":"Phoenix","state":"AZ","country":"USA"},"size":23972,"founded":2001}
+{"id":"c04f69f2-1d91-4dfc-ab70-a50ac7cf2d9e","name":"Skyline Consulting 889-1","industry":"Technology","headquarters":{"city":"Chicago","state":"IL","country":"USA"},"size":259,"founded":1957}
+{"id":"efd08475-cca9-4c92-9410-494b80293114","name":"Cedar Grove Technology 890-1","industry":"Technology","headquarters":{"city":"Cedar Rapids","state":"IA","country":"USA"},"size":20388,"founded":2021}
+{"id":"1d69f420-ac0e-41cc-9043-59dfc383740c","name":"Cedar Grove Agriculture 891-1","industry":"Agriculture","headquarters":{"city":"New York","state":"NY","country":"USA"},"size":18934,"founded":2009}
+{"id":"84ba7a84-a227-4cca-862c-37d39758d24f","name":"Cedar Grove Manufacturing 892-1","industry":"Manufacturing","headquarters":{"city":"Tacoma","state":"WA","country":"USA"},"size":4442,"founded":2017}
+{"id":"aa40051f-4805-4024-9f89-fde1fdd0eb69","name":"Summit Healthcare 893-1","industry":"Education","headquarters":{"city":"Chicago","state":"IL","country":"USA"},"size":18246,"founded":1961}
+{"id":"cefb0251-0902-4d8f-9f96-5df16ae36ae4","name":"Green Valley Logistics 894-1","industry":"Technology","headquarters":{"city":"Phoenix","state":"AZ","country":"USA"},"size":24884,"founded":1958}
+{"id":"052ada07-0ca3-492d-9bab-e39737249a25","name":"Cedar Grove Energy 895-1","industry":"Energy","headquarters":{"city":"Portland","state":"OR","country":"USA"},"size":19900,"founded":1977}
+{"id":"8e05e888-a9a5-4a0f-ae9f-aef5dadda3dd","name":"Evergreen Agriculture 896-1","industry":"Transportation","headquarters":{"city":"Cedar Rapids","state":"IA","country":"USA"},"size":17060,"founded":1982}
+{"id":"39784c33-d4c5-4ff6-8a07-d35f5a733a5a","name":"Summit Solutions 897-1","industry":"Agriculture","headquarters":{"city":"Cedar Rapids","state":"IA","country":"USA"},"size":6943,"founded":2019}
+{"id":"a0bd7242-a4a0-4276-96b4-fb80e5b82a9d","name":"Northstar Retail 898-1","industry":"Technology","headquarters":{"city":"Seattle","state":"WA","country":"USA"},"size":660,"founded":1984}
+{"id":"c53b79c3-9c02-4d16-a2e2-4c141ca8e2c5","name":"Silver Oak Labs 899-1","industry":"Energy","headquarters":{"city":"Tacoma","state":"WA","country":"USA"},"size":28362,"founded":1999}
+{"id":"2af2f62b-51d7-4517-b33d-4874bac61724","name":"Golden Plains Agriculture 900-1","industry":"Agriculture","headquarters":{"city":"Dallas","state":"TX","country":"USA"},"size":40450,"founded":1972}
+{"id":"e13066e8-dfa4-40a1-be32-890a46b24dd4","name":"Northstar Transportation 901-1","industry":"Transportation","headquarters":{"city":"Houston","state":"TX","country":"USA"},"size":42064,"founded":2008}
+{"id":"682b60de-dfa0-4492-8af2-19225819e5b1","name":"Evergreen Partners 902-1","industry":"Manufacturing","headquarters":{"city":"Austin","state":"TX","country":"USA"},"size":40122,"founded":1974}
+{"id":"6e7de567-a479-411d-a3a2-01a3f0be6e62","name":"Nova Retail 903-1","industry":"Manufacturing","headquarters":{"city":"Salem","state":"OR","country":"USA"},"size":44919,"founded":1998}
+{"id":"0da1a93d-b04e-41a5-bc9a-d174e3f18d3f","name":"Riverstone Consulting 904-1","industry":"Consulting","headquarters":{"city":"Phoenix","state":"AZ","country":"USA"},"size":48879,"founded":1960}
+{"id":"b2e24fcb-0b2b-4aa7-aea5-8b5f83b9d5c5","name":"Sterling Retail 905-1","industry":"Retail","headquarters":{"city":"Boulder","state":"CO","country":"USA"},"size":33700,"founded":1959}
+{"id":"04a4365f-f3ef-4fd7-bfe8-e2a13f04ce2b","name":"Cedar Grove Transportation 906-1","industry":"Transportation","headquarters":{"city":"Charlotte","state":"NC","country":"USA"},"size":25842,"founded":1966}
+{"id":"17265e7c-c756-444a-82c3-dbea7c8f792b","name":"Redwood Solutions 907-1","industry":"Finance","headquarters":{"city":"New York","state":"NY","country":"USA"},"size":23858,"founded":1990}
+{"id":"844efbe7-4ee2-42e9-9ecf-168c692cf0ef","name":"Evergreen Systems 908-1","industry":"Agriculture","headquarters":{"city":"Salem","state":"OR","country":"USA"},"size":1660,"founded":2012}
+{"id":"caf6f71f-81e4-4e3e-ae26-a5bd613e169f","name":"Green Valley Agriculture 909-1","industry":"Consulting","headquarters":{"city":"Syracuse","state":"NY","country":"USA"},"size":38526,"founded":1987}
+{"id":"7f444efa-f548-48bb-829e-aea38904fccb","name":"Sterling Systems 910-1","industry":"Transportation","headquarters":{"city":"Austin","state":"TX","country":"USA"},"size":24836,"founded":1997}
+{"id":"0471582f-22f3-4009-81a5-98d20666c02b","name":"Harbor Healthcare 911-1","industry":"Consulting","headquarters":{"city":"Denver","state":"CO","country":"USA"},"size":44007,"founded":1976}
+{"id":"b4801687-86f0-4b62-8419-39b3799e83d3","name":"Skyline Dynamics 912-1","industry":"Agriculture","headquarters":{"city":"Tacoma","state":"WA","country":"USA"},"size":20971,"founded":1996}
+{"id":"a5d83dc5-4276-4d63-bd77-d42a9059f1f7","name":"Green Valley Energy 913-1","industry":"Education","headquarters":{"city":"Tacoma","state":"WA","country":"USA"},"size":31566,"founded":1961}
+{"id":"e92b623e-7472-41aa-95be-ff3ff1b431de","name":"Northstar Manufacturing 914-1","industry":"Healthcare","headquarters":{"city":"Salem","state":"OR","country":"USA"},"size":10444,"founded":1954}
+{"id":"e3363fe0-075f-40b9-a896-8e6de3b70eb9","name":"Silver Oak Energy 915-1","industry":"Energy","headquarters":{"city":"Salem","state":"OR","country":"USA"},"size":10924,"founded":1979}
+{"id":"4e24c613-321c-4e68-a67c-eed25869dd20","name":"Harbor Labs 916-1","industry":"Finance","headquarters":{"city":"Portland","state":"OR","country":"USA"},"size":38540,"founded":2012}
+{"id":"7db829ef-8436-47f9-979c-4b4363432b38","name":"BrightPath Manufacturing 917-1","industry":"Consulting","headquarters":{"city":"New York","state":"NY","country":"USA"},"size":26017,"founded":1989}
+{"id":"4219782e-87b1-48c1-bb94-144dd9037544","name":"Cedar Grove Works 918-1","industry":"Retail","headquarters":{"city":"Denver","state":"CO","country":"USA"},"size":36664,"founded":1954}
+{"id":"005e69e3-b5bf-4743-b7c0-00069073548e","name":"Evergreen Retail 919-1","industry":"Retail","headquarters":{"city":"Chicago","state":"IL","country":"USA"},"size":7889,"founded":2003}
+{"id":"563567c6-a601-4ec4-b1b2-00cb1bdda3af","name":"Northstar Transportation 920-1","industry":"Transportation","headquarters":{"city":"New York","state":"NY","country":"USA"},"size":17538,"founded":1958}
+{"id":"529b7c6a-752c-4ad2-b6e4-b71f13bdeefe","name":"Blue Ridge Healthcare 921-1","industry":"Healthcare","headquarters":{"city":"Raleigh","state":"NC","country":"USA"},"size":49046,"founded":1951}
+{"id":"d059a437-fcef-495e-8191-c057a0798fea","name":"Summit Labs 922-1","industry":"Energy","headquarters":{"city":"Springfield","state":"IL","country":"USA"},"size":24904,"founded":1962}
+{"id":"90756f09-c721-4ff4-98f8-3f38ac493d3a","name":"Cedar Grove Education 923-1","industry":"Education","headquarters":{"city":"Portland","state":"OR","country":"USA"},"size":35358,"founded":1997}
+{"id":"ec4e648c-fd8d-475d-b37d-8e4e623f0827","name":"Northstar Holdings 924-1","industry":"Manufacturing","headquarters":{"city":"Salem","state":"OR","country":"USA"},"size":21431,"founded":2013}
+{"id":"af201b9c-ee4a-417c-ba3c-9028d4e97a0d","name":"Cedar Grove Finance 925-1","industry":"Transportation","headquarters":{"city":"Atlanta","state":"GA","country":"USA"},"size":18229,"founded":1952}
+{"id":"df019a47-8f03-4477-ab4d-31958c746b7f","name":"Riverstone Manufacturing 926-1","industry":"Technology","headquarters":{"city":"Charlotte","state":"NC","country":"USA"},"size":9127,"founded":1985}
+{"id":"d6f3fe35-dec5-4507-ac99-f2ccff51e61f","name":"Silver Oak Retail 927-1","industry":"Technology","headquarters":{"city":"New York","state":"NY","country":"USA"},"size":6490,"founded":2015}
+{"id":"78fa0937-777f-4f28-b047-225873ac2d68","name":"Ironwood Logistics 928-1","industry":"Transportation","headquarters":{"city":"Syracuse","state":"NY","country":"USA"},"size":35057,"founded":2002}
+{"id":"af62450d-1223-4d0a-9573-fede62c12b86","name":"Redwood Logistics 929-1","industry":"Finance","headquarters":{"city":"Syracuse","state":"NY","country":"USA"},"size":22357,"founded":1980}
+{"id":"8957337b-4eeb-4223-bac7-36380b0e57ab","name":"Evergreen Logistics 930-1","industry":"Agriculture","headquarters":{"city":"Dallas","state":"TX","country":"USA"},"size":3520,"founded":1963}
+{"id":"6a8c546e-5f78-4674-9b70-f2afcca46761","name":"Cedar Grove Holdings 931-1","industry":"Retail","headquarters":{"city":"Portland","state":"OR","country":"USA"},"size":3881,"founded":1962}
+{"id":"3d506cc0-30ff-40cf-a4a6-d644e0956af4","name":"Skyline Technologies 932-1","industry":"Energy","headquarters":{"city":"Charlotte","state":"NC","country":"USA"},"size":17677,"founded":2001}
+{"id":"e0fab16a-8dde-48b8-b32f-8936db7271f9","name":"Atlas Logistics 933-1","industry":"Consulting","headquarters":{"city":"Dallas","state":"TX","country":"USA"},"size":32201,"founded":1967}
+{"id":"37b54760-52ef-4db5-bf0d-862902d14df3","name":"Harbor Partners 934-1","industry":"Agriculture","headquarters":{"city":"Houston","state":"TX","country":"USA"},"size":38409,"founded":1958}
+{"id":"ad3c537e-abe6-40bf-b128-0ef0b442d280","name":"Northstar Logistics 935-1","industry":"Consulting","headquarters":{"city":"Atlanta","state":"GA","country":"USA"},"size":35045,"founded":1995}
+{"id":"a2254824-d472-47fb-aad9-6912a938cc14","name":"Sterling Partners 936-1","industry":"Finance","headquarters":{"city":"Seattle","state":"WA","country":"USA"},"size":32028,"founded":1984}
+{"id":"671d31eb-4b72-4bb2-a5a1-f7c2c2cad782","name":"Green Valley Education 937-1","industry":"Education","headquarters":{"city":"Phoenix","state":"AZ","country":"USA"},"size":930,"founded":1955}
+{"id":"97e00f10-b80c-4630-a1f8-fe33726640ac","name":"Sterling Retail 938-1","industry":"Education","headquarters":{"city":"Tacoma","state":"WA","country":"USA"},"size":32508,"founded":1981}
+{"id":"d04e83a7-1dc7-4c85-8db1-d73487872ef0","name":"Clearwater Healthcare 939-1","industry":"Manufacturing","headquarters":{"city":"Austin","state":"TX","country":"USA"},"size":19031,"founded":2012}
+{"id":"8b549338-d990-448c-b878-83c2c558de9b","name":"Harbor Healthcare 940-1","industry":"Energy","headquarters":{"city":"Springfield","state":"IL","country":"USA"},"size":47285,"founded":1950}
+{"id":"8f4ca33b-cf51-4785-afe1-1820dc633640","name":"Atlas Retail 941-1","industry":"Transportation","headquarters":{"city":"Salem","state":"OR","country":"USA"},"size":44144,"founded":2012}
+{"id":"a37bdac4-d32f-4fe4-908d-38bd80288063","name":"Pioneer Energy 942-1","industry":"Education","headquarters":{"city":"Syracuse","state":"NY","country":"USA"},"size":8951,"founded":2001}
+{"id":"6fdebd3c-e81d-4dce-844a-0846ca491bfd","name":"BrightPath Finance 943-1","industry":"Finance","headquarters":{"city":"Houston","state":"TX","country":"USA"},"size":29642,"founded":1982}
+{"id":"307f8a1e-9d5b-4cc9-8f55-1985039c5ee6","name":"Redwood Services 944-1","industry":"Manufacturing","headquarters":{"city":"Salem","state":"OR","country":"USA"},"size":28589,"founded":1979}
+{"id":"7df525bd-f4c9-459b-95df-8dc7d568f26c","name":"Pioneer Consulting 945-1","industry":"Consulting","headquarters":{"city":"Charlotte","state":"NC","country":"USA"},"size":39866,"founded":1966}
+{"id":"03e4f011-a364-4167-a924-d9a78b649df0","name":"Nova Solutions 946-1","industry":"Retail","headquarters":{"city":"Raleigh","state":"NC","country":"USA"},"size":6326,"founded":1998}
+{"id":"b621b3ed-8e65-4186-a50a-931fffd7c093","name":"Blue Ridge Manufacturing 947-1","industry":"Manufacturing","headquarters":{"city":"Seattle","state":"WA","country":"USA"},"size":35547,"founded":1987}
+{"id":"6f6f3722-7b52-424d-98db-c13467636c52","name":"Blue Ridge Agriculture 948-1","industry":"Agriculture","headquarters":{"city":"Austin","state":"TX","country":"USA"},"size":35107,"founded":1956}
+{"id":"ba729bfb-98dd-4e76-b154-6cb87a52c235","name":"Evergreen Education 949-1","industry":"Transportation","headquarters":{"city":"Phoenix","state":"AZ","country":"USA"},"size":26092,"founded":1981}
+{"id":"2eb4ecd1-150d-43bd-9ebc-f88f6b4ebb00","name":"Northstar Manufacturing 950-1","industry":"Manufacturing","headquarters":{"city":"Portland","state":"OR","country":"USA"},"size":21992,"founded":1958}
+{"id":"87beb355-8942-4345-9ed7-a92000710cb9","name":"Harbor Holdings 951-1","industry":"Agriculture","headquarters":{"city":"Houston","state":"TX","country":"USA"},"size":36431,"founded":1979}
+{"id":"bcb71ce7-22c3-4b7b-838a-d825f1859324","name":"Clearwater Healthcare 952-1","industry":"Healthcare","headquarters":{"city":"New York","state":"NY","country":"USA"},"size":28170,"founded":1968}
+{"id":"bbf41269-66cb-4f8f-8a4e-92d3a56a1ded","name":"Northstar Education 953-1","industry":"Education","headquarters":{"city":"Portland","state":"OR","country":"USA"},"size":32968,"founded":1973}
+{"id":"ebe4a479-5d80-4d1e-980f-da823d671b02","name":"Riverstone Agriculture 954-1","industry":"Transportation","headquarters":{"city":"Austin","state":"TX","country":"USA"},"size":39015,"founded":2000}
+{"id":"2cc0e5e6-7ec8-4fca-b5ad-ae035ae32152","name":"Riverstone Education 955-1","industry":"Education","headquarters":{"city":"Des Moines","state":"IA","country":"USA"},"size":27041,"founded":1987}
+{"id":"335b4ee4-4376-458f-a24d-c59d20da46ff","name":"Liberty Partners 956-1","industry":"Education","headquarters":{"city":"Charlotte","state":"NC","country":"USA"},"size":6694,"founded":2004}
+{"id":"b32b858c-b265-4c35-9e31-b30422a075fc","name":"Riverstone Labs 957-1","industry":"Energy","headquarters":{"city":"Syracuse","state":"NY","country":"USA"},"size":8435,"founded":2023}
+{"id":"0903f23c-2f2d-4d30-a3dd-12a7487e43fe","name":"Sterling Retail 958-1","industry":"Education","headquarters":{"city":"Chicago","state":"IL","country":"USA"},"size":16148,"founded":2021}
+{"id":"6ff9b2fe-52a9-482d-9548-cb16c4cbd28d","name":"Atlas Finance 959-1","industry":"Manufacturing","headquarters":{"city":"Salem","state":"OR","country":"USA"},"size":29042,"founded":1995}
+{"id":"6cb6e2be-7e9a-4c67-a881-3de2d8436fb7","name":"Skyline Transportation 960-1","industry":"Transportation","headquarters":{"city":"Cedar Rapids","state":"IA","country":"USA"},"size":23882,"founded":1959}
+{"id":"d3ebd64d-f47c-4fb9-8f40-86dd50025f6e","name":"Nova Works 961-1","industry":"Energy","headquarters":{"city":"Cedar Rapids","state":"IA","country":"USA"},"size":41265,"founded":1972}
+{"id":"a25fb44e-e256-4e40-b2c7-1f441ecaf715","name":"Riverstone Transportation 962-1","industry":"Transportation","headquarters":{"city":"Cedar Rapids","state":"IA","country":"USA"},"size":49113,"founded":1967}
+{"id":"0ff97a02-7d8a-4135-a9d0-e7955853245d","name":"Harbor Holdings 963-1","industry":"Energy","headquarters":{"city":"Atlanta","state":"GA","country":"USA"},"size":42362,"founded":2009}
+{"id":"b37bc4fa-0457-4ec6-8b26-9e061bb903f3","name":"Sterling Agriculture 964-1","industry":"Agriculture","headquarters":{"city":"Charlotte","state":"NC","country":"USA"},"size":13390,"founded":2004}
+{"id":"aacd97fb-0176-4b4c-86d7-60a536832516","name":"Blue Ridge Logistics 965-1","industry":"Finance","headquarters":{"city":"Portland","state":"OR","country":"USA"},"size":15400,"founded":2000}
+{"id":"3384efec-4749-4e83-9a90-a32f0ae04a4f","name":"Silver Oak Logistics 966-1","industry":"Healthcare","headquarters":{"city":"Cedar Rapids","state":"IA","country":"USA"},"size":5992,"founded":2000}
+{"id":"8f4178cc-1241-48f1-b6d0-4a7f6c2ab40c","name":"Atlas Transportation 967-1","industry":"Transportation","headquarters":{"city":"Augusta","state":"GA","country":"USA"},"size":9919,"founded":2018}
+{"id":"f0dfc1bc-8377-4dba-b24a-1bb146ec2a27","name":"Evergreen Education 968-1","industry":"Healthcare","headquarters":{"city":"Chicago","state":"IL","country":"USA"},"size":4155,"founded":1957}
+{"id":"cebdfd7f-3976-4cde-abc0-c7fb5e3608b6","name":"Cedar Grove Education 969-1","industry":"Education","headquarters":{"city":"Phoenix","state":"AZ","country":"USA"},"size":33885,"founded":1982}
+{"id":"6c9e578d-4ee3-4fa6-9793-b842afbec543","name":"Cedar Grove Labs 970-1","industry":"Agriculture","headquarters":{"city":"New York","state":"NY","country":"USA"},"size":36382,"founded":2014}
+{"id":"db3cc206-cb01-4bb3-a5f0-eabc04e20fa4","name":"Cedar Grove Works 971-1","industry":"Healthcare","headquarters":{"city":"New York","state":"NY","country":"USA"},"size":33565,"founded":1970}
+{"id":"1bde3fa5-bc78-4fb0-9baa-a2ec4dbf50c8","name":"Sterling Labs 972-1","industry":"Finance","headquarters":{"city":"Denver","state":"CO","country":"USA"},"size":17892,"founded":1961}
+{"id":"8db42ce8-5f9d-44e9-b9f2-e806d7c73de8","name":"Golden Plains Manufacturing 973-1","industry":"Retail","headquarters":{"city":"Springfield","state":"IL","country":"USA"},"size":37271,"founded":1952}
+{"id":"d3a194ba-caea-46f6-9b63-a238be0961f5","name":"Clearwater Manufacturing 974-1","industry":"Manufacturing","headquarters":{"city":"Des Moines","state":"IA","country":"USA"},"size":45362,"founded":2002}
+{"id":"30765e28-f543-4470-8638-6cbb22b62bc9","name":"Riverstone Technologies 975-1","industry":"Transportation","headquarters":{"city":"Augusta","state":"GA","country":"USA"},"size":30947,"founded":1998}
+{"id":"ca4f4d49-67ea-4cb9-b664-4eb5cd61d2af","name":"Harbor Education 976-1","industry":"Education","headquarters":{"city":"Dallas","state":"TX","country":"USA"},"size":29987,"founded":2008}
+{"id":"81f1f2c7-6520-4d69-b049-e72e10aa6fe6","name":"Redwood Education 977-1","industry":"Agriculture","headquarters":{"city":"Raleigh","state":"NC","country":"USA"},"size":22279,"founded":1982}
+{"id":"124ea36a-897b-401e-a981-f492067402b1","name":"Redwood Agriculture 978-1","industry":"Agriculture","headquarters":{"city":"Des Moines","state":"IA","country":"USA"},"size":24501,"founded":2010}
+{"id":"2b68562b-e845-4e27-bed3-de20b94e3b39","name":"Clearwater Healthcare 979-1","industry":"Education","headquarters":{"city":"Dallas","state":"TX","country":"USA"},"size":3993,"founded":2017}
+{"id":"4709248f-562f-4441-9f81-d09edd7623a6","name":"Northstar Partners 980-1","industry":"Transportation","headquarters":{"city":"Raleigh","state":"NC","country":"USA"},"size":43521,"founded":2020}
+{"id":"5bd9ad17-2ee5-4d23-b5c2-e54da318fe07","name":"Harbor Manufacturing 981-1","industry":"Agriculture","headquarters":{"city":"Seattle","state":"WA","country":"USA"},"size":11566,"founded":1978}
+{"id":"bfa5f720-45b0-47a0-955d-5f314242dd5f","name":"Cedar Grove Transportation 982-1","industry":"Transportation","headquarters":{"city":"Dallas","state":"TX","country":"USA"},"size":41582,"founded":1984}
+{"id":"a33cc897-8154-4799-a9de-451d4d67b957","name":"Silver Oak Retail 983-1","industry":"Transportation","headquarters":{"city":"New York","state":"NY","country":"USA"},"size":28592,"founded":1960}
+{"id":"e6c2300c-7f33-461f-9aa0-071367cd6f9b","name":"Blue Ridge Education 984-1","industry":"Education","headquarters":{"city":"Charlotte","state":"NC","country":"USA"},"size":37152,"founded":2022}
+{"id":"65784fef-29e7-41b4-8265-285279c2c343","name":"Silver Oak Healthcare 985-1","industry":"Healthcare","headquarters":{"city":"Boulder","state":"CO","country":"USA"},"size":12235,"founded":1974}
+{"id":"3a1ab44d-1778-471c-90c8-5fac66ea4871","name":"Silver Oak Transportation 986-1","industry":"Transportation","headquarters":{"city":"Tacoma","state":"WA","country":"USA"},"size":8260,"founded":1989}
+{"id":"3439a18d-bcbf-480f-9481-eb70f50652ce","name":"Cedar Grove Transportation 987-1","industry":"Transportation","headquarters":{"city":"Austin","state":"TX","country":"USA"},"size":49400,"founded":1995}
+{"id":"9219aab5-e317-4a27-888d-34934db7dccf","name":"Silver Oak Energy 988-1","industry":"Energy","headquarters":{"city":"Cedar Rapids","state":"IA","country":"USA"},"size":16547,"founded":2007}
+{"id":"ff0f6a9a-be6a-45b6-899a-9404212a2637","name":"Redwood Energy 989-1","industry":"Transportation","headquarters":{"city":"Syracuse","state":"NY","country":"USA"},"size":2154,"founded":1950}
+{"id":"90219d94-7ac1-4edb-b8d1-c1a235d739a5","name":"Redwood Holdings 990-1","industry":"Education","headquarters":{"city":"Atlanta","state":"GA","country":"USA"},"size":12278,"founded":1991}
+{"id":"196f4c10-1180-4bb1-b973-c5b4f9c5f249","name":"Green Valley Finance 991-1","industry":"Technology","headquarters":{"city":"Seattle","state":"WA","country":"USA"},"size":36429,"founded":1955}
+{"id":"46839799-5c6a-4e97-8348-e447f77b0520","name":"BrightPath Finance 992-1","industry":"Finance","headquarters":{"city":"Denver","state":"CO","country":"USA"},"size":20474,"founded":1991}
+{"id":"c41691b6-3de2-4c23-a8d2-abb154d6d3c5","name":"Evergreen Solutions 993-1","industry":"Energy","headquarters":{"city":"Des Moines","state":"IA","country":"USA"},"size":46641,"founded":1962}
+{"id":"a453db28-f879-4de6-a275-996c1fb0eb73","name":"Ironwood Education 994-1","industry":"Transportation","headquarters":{"city":"Boulder","state":"CO","country":"USA"},"size":19598,"founded":1995}
+{"id":"ede0af0e-7045-4fe1-9a36-906db68c8586","name":"Green Valley Agriculture 995-1","industry":"Agriculture","headquarters":{"city":"Denver","state":"CO","country":"USA"},"size":46056,"founded":1988}
+{"id":"5585e809-71ec-482b-afb3-e955f88ba896","name":"Ironwood Labs 996-1","industry":"Retail","headquarters":{"city":"Des Moines","state":"IA","country":"USA"},"size":36046,"founded":1970}
+{"id":"06b63d68-5314-49c2-9a49-e15cfc8c0411","name":"Sterling Retail 997-1","industry":"Retail","headquarters":{"city":"Phoenix","state":"AZ","country":"USA"},"size":39839,"founded":2008}
+{"id":"7fd1fb7c-d394-4de6-b58e-6203050dd5b2","name":"Clearwater Energy 998-1","industry":"Energy","headquarters":{"city":"Salem","state":"OR","country":"USA"},"size":2624,"founded":1985}
+{"id":"605a20f4-c3de-4df5-b82b-588baad46738","name":"Golden Plains Industries 999-1","industry":"Education","headquarters":{"city":"New York","state":"NY","country":"USA"},"size":13292,"founded":2013}
+{"id":"ac84c7cc-1f07-4e1c-a5ac-6e9ec3aeaaf7","name":"Riverstone Agriculture 1000-1","industry":"Energy","headquarters":{"city":"Dallas","state":"TX","country":"USA"},"size":13936,"founded":2004}

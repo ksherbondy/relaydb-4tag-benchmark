@@ -1,0 +1,107 @@
+{
+  "createdAt": "2026-05-21T15:40:38.862Z",
+  "sourceName": "generated_people_companies",
+  "status": "complete",
+  "convertMs": 104.832,
+  "inputs": {
+    "companies": {
+      "path": "/Users/sherbondy/Desktop/projects/relaydb-4tag-benchmark/datasets/generated/companies.1000.jsonl",
+      "bytes": 195236,
+      "records": 1000
+    },
+    "people": {
+      "path": "/Users/sherbondy/Desktop/projects/relaydb-4tag-benchmark/datasets/generated/people.10000.jsonl",
+      "bytes": 5063812,
+      "records": 10000
+    }
+  },
+  "outputs": {
+    "taggedCompanies": {
+      "path": "/Users/sherbondy/Desktop/projects/relaydb-4tag-benchmark/datasets/generated/tagged/companies.1000.4tag.jsonl",
+      "bytes": 681059,
+      "nodes": 2030
+    },
+    "taggedPeople": {
+      "path": "/Users/sherbondy/Desktop/projects/relaydb-4tag-benchmark/datasets/generated/tagged/people.10000.4tag.jsonl",
+      "bytes": 8583118,
+      "nodes": 13213
+    },
+    "rawMerged": {
+      "path": "/Users/sherbondy/Desktop/projects/relaydb-4tag-benchmark/datasets/generated/merged/people-companies.1000x10000.raw.merged.jsonl",
+      "bytes": 5944048,
+      "records": 11000
+    },
+    "taggedMerged": {
+      "path": "/Users/sherbondy/Desktop/projects/relaydb-4tag-benchmark/datasets/generated/merged/people-companies.1000x10000.4tag.merged.jsonl",
+      "bytes": 9261455,
+      "nodes": 15223
+    }
+  },
+  "validation": {
+    "rawInputAudit": {
+      "companyIds": {
+        "field": "company.id",
+        "uniqueCount": 1000,
+        "duplicateCount": 0,
+        "missingCount": 0,
+        "duplicates": [],
+        "missing": []
+      },
+      "companyNames": {
+        "field": "company.name",
+        "uniqueCount": 1000,
+        "duplicateCount": 0,
+        "missingCount": 0,
+        "duplicates": [],
+        "missing": []
+      },
+      "personIds": {
+        "field": "person.id",
+        "uniqueCount": 10000,
+        "duplicateCount": 0,
+        "missingCount": 0,
+        "duplicates": [],
+        "missing": []
+      },
+      "personEmails": {
+        "field": "person.person.email",
+        "uniqueCount": 10000,
+        "duplicateCount": 0,
+        "missingCount": 0,
+        "duplicates": [],
+        "missing": []
+      },
+      "fatalProblems": []
+    },
+    "personCompanyLinks": {
+      "linkedCount": 10000,
+      "missingCount": 0,
+      "missing": []
+    },
+    "anchorAudit": {
+      "uniqueAnchors": 15223,
+      "duplicateAnchorCount": 0,
+      "missingAnchorCount": 0,
+      "duplicates": [],
+      "missing": []
+    }
+  },
+  "topicCounts": {
+    "company": 1000,
+    "person": 10000,
+    "company_name_alias": 1000,
+    "industry": 10,
+    "location": 20,
+    "household": 3178,
+    "interest": 15
+  },
+  "relationshipCounts": {
+    "@industry": 1000,
+    "@headquarters": 1000,
+    "@household": 10000,
+    "@company": 11000,
+    "@company_name": 10000,
+    "@location": 10000,
+    "@interests": 34930
+  }
+}

@@ -1,0 +1,42 @@
+
+RelayDB Search Prototype Benchmark
+==================================
+Dataset: /Users/sherbondy/Desktop/projects/relaydb-4tag-benchmark/datasets/generated/merged/people-companies.1000x10000.4tag.merged.jsonl
+Question: active agriculture people under 40
+Warmup iterations: 10000
+Measured iterations: 100000
+
+Correctness check:
+{
+  answer: 'James Miller',
+  data: {
+    person: {
+      name: 'James Miller',
+      age: 37,
+      status: 'active',
+      salary: 138977,
+      location: { city: 'Syracuse', state: 'NY', country: 'USA' }
+    },
+    company: {
+      name: 'Summit Dynamics 228-1',
+      industry: 'Agriculture',
+      founded: 2017,
+      headquarters: { city: 'Charlotte', state: 'NC', country: 'USA' }
+    }
+  }
+}
+
+Warmup
+======
+db.search(question) | blackhole: 120000
+db.search(question, { explain: true }) | blackhole: 1411140000
+db.search(question, { limit: 10, explain: true }) | blackhole: 13134430000
+db.debugSearch(question) | blackhole: 1558460000
+
+Benchmark Results
+=================
+db.search(question)                               | total: 4,874.777833 ms | avg: 0.048748 ms | ops/sec: 20,513.755380 | blackhole: 1200000
+db.search(question, { explain: true })            | total: 4,678.869917 ms | avg: 0.046789 ms | ops/sec: 21,372.682245 | blackhole: 14111400000
+db.search(question, { limit: 10, explain: true }) | total: 4,751.299333 ms | avg: 0.047513 ms | ops/sec: 21,046.874337 | blackhole: 131344300000
+db.debugSearch(question)                          | total: 4,845.786792 ms | avg: 0.048458 ms | ops/sec: 20,636.483670 | blackhole: 15584600000
+
