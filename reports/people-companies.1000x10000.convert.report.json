@@ -1,40 +1,40 @@
 {
-  "createdAt": "2026-05-21T15:40:38.862Z",
+  "createdAt": "2026-05-22T20:49:07.896Z",
   "sourceName": "generated_people_companies",
   "status": "complete",
-  "convertMs": 104.832,
+  "convertMs": 109.277,
   "inputs": {
     "companies": {
       "path": "/Users/sherbondy/Desktop/projects/relaydb-4tag-benchmark/datasets/generated/companies.1000.jsonl",
-      "bytes": 195236,
+      "bytes": 195096,
       "records": 1000
     },
     "people": {
       "path": "/Users/sherbondy/Desktop/projects/relaydb-4tag-benchmark/datasets/generated/people.10000.jsonl",
-      "bytes": 5063812,
+      "bytes": 5062006,
       "records": 10000
     }
   },
   "outputs": {
     "taggedCompanies": {
       "path": "/Users/sherbondy/Desktop/projects/relaydb-4tag-benchmark/datasets/generated/tagged/companies.1000.4tag.jsonl",
-      "bytes": 681059,
+      "bytes": 680419,
       "nodes": 2030
     },
     "taggedPeople": {
       "path": "/Users/sherbondy/Desktop/projects/relaydb-4tag-benchmark/datasets/generated/tagged/people.10000.4tag.jsonl",
-      "bytes": 8583118,
-      "nodes": 13213
+      "bytes": 8577181,
+      "nodes": 13184
     },
     "rawMerged": {
       "path": "/Users/sherbondy/Desktop/projects/relaydb-4tag-benchmark/datasets/generated/merged/people-companies.1000x10000.raw.merged.jsonl",
-      "bytes": 5944048,
+      "bytes": 5942102,
       "records": 11000
     },
     "taggedMerged": {
       "path": "/Users/sherbondy/Desktop/projects/relaydb-4tag-benchmark/datasets/generated/merged/people-companies.1000x10000.4tag.merged.jsonl",
-      "bytes": 9261455,
-      "nodes": 15223
+      "bytes": 9254878,
+      "nodes": 15194
     }
   },
   "validation": {
@@ -79,7 +79,7 @@
       "missing": []
     },
     "anchorAudit": {
-      "uniqueAnchors": 15223,
+      "uniqueAnchors": 15194,
       "duplicateAnchorCount": 0,
       "missingAnchorCount": 0,
       "duplicates": [],
@@ -92,7 +92,7 @@
     "company_name_alias": 1000,
     "industry": 10,
     "location": 20,
-    "household": 3178,
+    "household": 3149,
     "interest": 15
   },
   "relationshipCounts": {
@@ -102,6 +102,6 @@
     "@company": 11000,
     "@company_name": 10000,
     "@location": 10000,
-    "@interests": 34930
+    "@interests": 35002
   }
 }
