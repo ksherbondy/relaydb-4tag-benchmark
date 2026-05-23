@@ -410,14 +410,13 @@ function buildGenericColumnarRuntime({ datasetPath, manifest, registry, required
     const count = topicCounts[topicName];
 
     topicRuntime[topicName] = {
-      payloadStarts: new Uint32Array(count),
-      payloadEnds: new Uint32Array(count),
-      anchors: new Array(count),
-      lanes: new Map(),
-      enumDictionaries: new Map(),
-      bitsets: new Map(),
-      nextIndex: 0,
-    };
+  payloadStarts: new Uint32Array(count),
+  payloadEnds: new Uint32Array(count),
+  lanes: new Map(),
+  enumDictionaries: new Map(),
+  bitsets: new Map(),
+  nextIndex: 0,
+};
 
     const fields = manifest.topics[topicName].fields || {};
 
@@ -457,15 +456,14 @@ function buildGenericColumnarRuntime({ datasetPath, manifest, registry, required
     runtime.nextIndex += 1;
 
     runtime.payloadStarts[index] = start;
-    runtime.payloadEnds[index] = end;
-    runtime.anchors[index] = node["#"];
+runtime.payloadEnds[index] = end;
 
-    if (node["#"]) {
-      anchorIndexes.set(node["#"], {
-        topic,
-        index,
-      });
-    }
+if (node["#"]) {
+  anchorIndexes.set(node["#"], {
+    topic,
+    index,
+  });
+}
 
     const fields = manifest.topics[topic].fields || {};
 
@@ -489,16 +487,23 @@ function buildGenericColumnarRuntime({ datasetPath, manifest, registry, required
   });
 
   resolveRelationshipLanes({
-    topicRuntime,
-    manifest,
-    anchorIndexes,
-    requiredPlan,
-  });
+  topicRuntime,
+  manifest,
+  anchorIndexes,
+  requiredPlan,
+});
 
-  buildRequiredBitsets({
-    topicRuntime,
-    requiredPlan,
-  });
+/*
+ * Memory reduction:
+ * anchorIndexes is only needed while resolving relationship anchors into
+ * integer indexes. After that, query execution uses relationship index lanes.
+ */
+anchorIndexes.clear();
+
+buildRequiredBitsets({
+  topicRuntime,
+  requiredPlan,
+});
 
   return {
     buffer,
