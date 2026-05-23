@@ -1,0 +1,4066 @@
+{
+  "format": "relaydb-columnar-manifest",
+  "version": "0.2.0",
+  "generatedAt": "2026-05-23T03:48:57.690Z",
+  "source": {
+    "path": "datasets/generated/merged/people-companies.10000x100000.4tag.merged.jsonl",
+    "bytes": 92778700,
+    "lineCount": 151676
+  },
+  "topics": {
+    "company": {
+      "count": 10000,
+      "recordIndex": {
+        "kind": "shared-topic-index",
+        "description": "All company lanes align on this topic-local record index."
+      },
+      "fields": {
+        "anchor:anchor": {
+          "fieldId": "anchor:anchor",
+          "fieldName": "anchor",
+          "sourceKey": "#",
+          "sourceKind": "anchor",
+          "kind": "anchor",
+          "count": 10000,
+          "coverage": 1,
+          "nullishCount": 0,
+          "searchable": true,
+          "suggestedLane": "uint32-offset",
+          "observedTypes": [
+            "string"
+          ],
+          "string": {
+            "count": 10000,
+            "minLength": 44,
+            "maxLength": 44,
+            "sampledCardinality": 256,
+            "cardinalityOverflow": true,
+            "topValues": [
+              {
+                "value": "company:f9312972-d36a-4b53-8dcf-f050306fffe4",
+                "count": 1
+              },
+              {
+                "value": "company:c313ab94-bb15-45ff-9208-a6d63cb39445",
+                "count": 1
+              },
+              {
+                "value": "company:ac75f969-191e-4eda-ac4b-39a01877a0be",
+                "count": 1
+              },
+              {
+                "value": "company:fd7005a3-57ac-49d4-8034-349545560288",
+                "count": 1
+              },
+              {
+                "value": "company:187aac09-72a7-4608-bce7-cfd1a08a0bb1",
+                "count": 1
+              },
+              {
+                "value": "company:1c08fa91-f5d9-44fb-93bb-5db104025e19",
+                "count": 1
+              },
+              {
+                "value": "company:68cef2f0-e8cc-4819-9c7a-70c398a7c943",
+                "count": 1
+              },
+              {
+                "value": "company:b5497431-cb97-4b65-88a8-e8293d18019a",
+                "count": 1
+              },
+              {
+                "value": "company:f72d797c-c695-4978-999d-7f3ff40458bb",
+                "count": 1
+              },
+              {
+                "value": "company:480b4710-df9a-4c63-9446-bbfe836f4471",
+                "count": 1
+              },
+              {
+                "value": "company:c2b62573-5363-4d43-913d-bfb1c7c94a04",
+                "count": 1
+              },
+              {
+                "value": "company:73f4976c-c467-49d7-a72a-c67590441000",
+                "count": 1
+              },
+              {
+                "value": "company:922fa093-d860-4dcf-afec-04077ef9f458",
+                "count": 1
+              },
+              {
+                "value": "company:5aff88b0-3dab-4ca8-ab19-7c1a2c7e7b4c",
+                "count": 1
+              },
+              {
+                "value": "company:59475840-2b39-4711-97d5-b464847a2b73",
+                "count": 1
+              },
+              {
+                "value": "company:37b551e0-c1c0-4184-943a-e683e8334553",
+                "count": 1
+              },
+              {
+                "value": "company:2cb6385f-7f39-465e-a729-03c1c313750a",
+                "count": 1
+              },
+              {
+                "value": "company:750188e5-6048-4f0c-baeb-551cafab8cf3",
+                "count": 1
+              },
+              {
+                "value": "company:a95c43b1-97ad-474a-8e5b-92e5ec7491a2",
+                "count": 1
+              },
+              {
+                "value": "company:7ab5427b-20d7-4e02-9063-369b8da960c1",
+                "count": 1
+              }
+            ]
+          },
+          "role": "anchor"
+        },
+        "relationship:industry": {
+          "fieldId": "relationship:industry",
+          "fieldName": "industry",
+          "sourceKey": "@industry",
+          "sourceKind": "relationship",
+          "kind": "relationship",
+          "count": 10000,
+          "coverage": 1,
+          "nullishCount": 0,
+          "searchable": true,
+          "suggestedLane": "uint32",
+          "observedTypes": [
+            "string"
+          ],
+          "string": {
+            "count": 10000,
+            "minLength": 15,
+            "maxLength": 23,
+            "sampledCardinality": 10,
+            "cardinalityOverflow": false,
+            "topValues": [
+              {
+                "value": "industry:education",
+                "count": 1056
+              },
+              {
+                "value": "industry:technology",
+                "count": 1043
+              },
+              {
+                "value": "industry:agriculture",
+                "count": 1011
+              },
+              {
+                "value": "industry:finance",
+                "count": 1007
+              },
+              {
+                "value": "industry:retail",
+                "count": 1007
+              },
+              {
+                "value": "industry:consulting",
+                "count": 999
+              },
+              {
+                "value": "industry:healthcare",
+                "count": 985
+              },
+              {
+                "value": "industry:transportation",
+                "count": 974
+              },
+              {
+                "value": "industry:energy",
+                "count": 971
+              },
+              {
+                "value": "industry:manufacturing",
+                "count": 947
+              }
+            ]
+          },
+          "relationship": {
+            "target": "industry",
+            "targetInferred": true
+          }
+        },
+        "relationship:headquarters": {
+          "fieldId": "relationship:headquarters",
+          "fieldName": "headquarters",
+          "sourceKey": "@headquarters",
+          "sourceKind": "relationship",
+          "kind": "relationship",
+          "count": 10000,
+          "coverage": 1,
+          "nullishCount": 0,
+          "searchable": true,
+          "suggestedLane": "uint32",
+          "observedTypes": [
+            "string"
+          ],
+          "string": {
+            "count": 10000,
+            "minLength": 21,
+            "maxLength": 28,
+            "sampledCardinality": 20,
+            "cardinalityOverflow": false,
+            "topValues": [
+              {
+                "value": "location:usa:co:boulder",
+                "count": 572
+              },
+              {
+                "value": "location:usa:tx:dallas",
+                "count": 534
+              },
+              {
+                "value": "location:usa:tx:houston",
+                "count": 530
+              },
+              {
+                "value": "location:usa:wa:seattle",
+                "count": 525
+              },
+              {
+                "value": "location:usa:ia:des_moines",
+                "count": 516
+              },
+              {
+                "value": "location:usa:il:springfield",
+                "count": 512
+              },
+              {
+                "value": "location:usa:ga:augusta",
+                "count": 508
+              },
+              {
+                "value": "location:usa:ia:cedar_rapids",
+                "count": 504
+              },
+              {
+                "value": "location:usa:or:portland",
+                "count": 504
+              },
+              {
+                "value": "location:usa:az:phoenix",
+                "count": 495
+              },
+              {
+                "value": "location:usa:il:chicago",
+                "count": 494
+              },
+              {
+                "value": "location:usa:co:denver",
+                "count": 494
+              },
+              {
+                "value": "location:usa:ny:syracuse",
+                "count": 491
+              },
+              {
+                "value": "location:usa:ga:atlanta",
+                "count": 489
+              },
+              {
+                "value": "location:usa:ny:new_york",
+                "count": 486
+              },
+              {
+                "value": "location:usa:or:salem",
+                "count": 483
+              },
+              {
+                "value": "location:usa:nc:charlotte",
+                "count": 482
+              },
+              {
+                "value": "location:usa:nc:raleigh",
+                "count": 474
+              },
+              {
+                "value": "location:usa:tx:austin",
+                "count": 470
+              },
+              {
+                "value": "location:usa:wa:tacoma",
+                "count": 437
+              }
+            ]
+          },
+          "relationship": {
+            "target": "headquarters",
+            "targetInferred": false,
+            "warning": "Target was inferred from the relationship name but was not found as a topic."
+          }
+        },
+        "attribute:source": {
+          "fieldId": "attribute:source",
+          "fieldName": "source",
+          "sourceKey": "~source",
+          "sourceKind": "attribute",
+          "kind": "enum",
+          "count": 10000,
+          "coverage": 1,
+          "nullishCount": 0,
+          "searchable": true,
+          "suggestedLane": "uint8",
+          "observedTypes": [
+            "string"
+          ],
+          "string": {
+            "count": 10000,
+            "minLength": 26,
+            "maxLength": 26,
+            "sampledCardinality": 1,
+            "cardinalityOverflow": false,
+            "topValues": [
+              {
+                "value": "generated_people_companies",
+                "count": 10000
+              }
+            ]
+          },
+          "enum": {
+            "sampledCardinality": 1,
+            "cardinalityOverflow": false,
+            "suggestedDictionary": "enum-dictionary"
+          },
+          "predicateBitsetCandidates": [
+            {
+              "name": "attribute:source.generated_people_companies",
+              "value": "generated_people_companies",
+              "count": 10000,
+              "kind": "predicate-bitset"
+            }
+          ]
+        },
+        "attribute:raw_id": {
+          "fieldId": "attribute:raw_id",
+          "fieldName": "raw_id",
+          "sourceKey": "~raw_id",
+          "sourceKind": "attribute",
+          "kind": "string",
+          "count": 10000,
+          "coverage": 1,
+          "nullishCount": 0,
+          "searchable": false,
+          "suggestedLane": "uint32-offset",
+          "observedTypes": [
+            "string"
+          ],
+          "string": {
+            "count": 10000,
+            "minLength": 36,
+            "maxLength": 36,
+            "sampledCardinality": 256,
+            "cardinalityOverflow": true,
+            "topValues": [
+              {
+                "value": "f9312972-d36a-4b53-8dcf-f050306fffe4",
+                "count": 1
+              },
+              {
+                "value": "c313ab94-bb15-45ff-9208-a6d63cb39445",
+                "count": 1
+              },
+              {
+                "value": "ac75f969-191e-4eda-ac4b-39a01877a0be",
+                "count": 1
+              },
+              {
+                "value": "fd7005a3-57ac-49d4-8034-349545560288",
+                "count": 1
+              },
+              {
+                "value": "187aac09-72a7-4608-bce7-cfd1a08a0bb1",
+                "count": 1
+              },
+              {
+                "value": "1c08fa91-f5d9-44fb-93bb-5db104025e19",
+                "count": 1
+              },
+              {
+                "value": "68cef2f0-e8cc-4819-9c7a-70c398a7c943",
+                "count": 1
+              },
+              {
+                "value": "b5497431-cb97-4b65-88a8-e8293d18019a",
+                "count": 1
+              },
+              {
+                "value": "f72d797c-c695-4978-999d-7f3ff40458bb",
+                "count": 1
+              },
+              {
+                "value": "480b4710-df9a-4c63-9446-bbfe836f4471",
+                "count": 1
+              },
+              {
+                "value": "c2b62573-5363-4d43-913d-bfb1c7c94a04",
+                "count": 1
+              },
+              {
+                "value": "73f4976c-c467-49d7-a72a-c67590441000",
+                "count": 1
+              },
+              {
+                "value": "922fa093-d860-4dcf-afec-04077ef9f458",
+                "count": 1
+              },
+              {
+                "value": "5aff88b0-3dab-4ca8-ab19-7c1a2c7e7b4c",
+                "count": 1
+              },
+              {
+                "value": "59475840-2b39-4711-97d5-b464847a2b73",
+                "count": 1
+              },
+              {
+                "value": "37b551e0-c1c0-4184-943a-e683e8334553",
+                "count": 1
+              },
+              {
+                "value": "2cb6385f-7f39-465e-a729-03c1c313750a",
+                "count": 1
+              },
+              {
+                "value": "750188e5-6048-4f0c-baeb-551cafab8cf3",
+                "count": 1
+              },
+              {
+                "value": "a95c43b1-97ad-474a-8e5b-92e5ec7491a2",
+                "count": 1
+              },
+              {
+                "value": "7ab5427b-20d7-4e02-9063-369b8da960c1",
+                "count": 1
+              }
+            ]
+          }
+        },
+        "attribute:name": {
+          "fieldId": "attribute:name",
+          "fieldName": "name",
+          "sourceKey": "~name",
+          "sourceKind": "attribute",
+          "kind": "string",
+          "count": 10000,
+          "coverage": 1,
+          "nullishCount": 0,
+          "searchable": false,
+          "suggestedLane": "uint32-offset",
+          "observedTypes": [
+            "string"
+          ],
+          "string": {
+            "count": 10000,
+            "minLength": 15,
+            "maxLength": 35,
+            "sampledCardinality": 256,
+            "cardinalityOverflow": true,
+            "topValues": [
+              {
+                "value": "Riverstone Systems 1-1",
+                "count": 1
+              },
+              {
+                "value": "Ironwood Manufacturing 2-1",
+                "count": 1
+              },
+              {
+                "value": "Riverstone Manufacturing 3-1",
+                "count": 1
+              },
+              {
+                "value": "Ironwood Group 4-1",
+                "count": 1
+              },
+              {
+                "value": "Summit Logistics 5-1",
+                "count": 1
+              },
+              {
+                "value": "Clearwater Healthcare 6-1",
+                "count": 1
+              },
+              {
+                "value": "Liberty Retail 7-1",
+                "count": 1
+              },
+              {
+                "value": "Cedar Grove Systems 8-1",
+                "count": 1
+              },
+              {
+                "value": "BrightPath Energy 9-1",
+                "count": 1
+              },
+              {
+                "value": "Golden Plains Logistics 10-1",
+                "count": 1
+              },
+              {
+                "value": "Golden Plains Energy 11-1",
+                "count": 1
+              },
+              {
+                "value": "Liberty Energy 12-1",
+                "count": 1
+              },
+              {
+                "value": "Golden Plains Services 13-1",
+                "count": 1
+              },
+              {
+                "value": "Harbor Agriculture 14-1",
+                "count": 1
+              },
+              {
+                "value": "Evergreen Finance 15-1",
+                "count": 1
+              },
+              {
+                "value": "Nova Healthcare 16-1",
+                "count": 1
+              },
+              {
+                "value": "Liberty Energy 17-1",
+                "count": 1
+              },
+              {
+                "value": "Ironwood Energy 18-1",
+                "count": 1
+              },
+              {
+                "value": "Golden Plains Consulting 19-1",
+                "count": 1
+              },
+              {
+                "value": "Ironwood Manufacturing 20-1",
+                "count": 1
+              }
+            ]
+          }
+        },
+        "attribute:name_anchor": {
+          "fieldId": "attribute:name_anchor",
+          "fieldName": "name_anchor",
+          "sourceKey": "~name_anchor",
+          "sourceKind": "attribute",
+          "kind": "string",
+          "count": 10000,
+          "coverage": 1,
+          "nullishCount": 0,
+          "searchable": false,
+          "suggestedLane": "uint32-offset",
+          "observedTypes": [
+            "string"
+          ],
+          "string": {
+            "count": 10000,
+            "minLength": 28,
+            "maxLength": 48,
+            "sampledCardinality": 256,
+            "cardinalityOverflow": true,
+            "topValues": [
+              {
+                "value": "company_name:riverstone_systems_1-1",
+                "count": 1
+              },
+              {
+                "value": "company_name:ironwood_manufacturing_2-1",
+                "count": 1
+              },
+              {
+                "value": "company_name:riverstone_manufacturing_3-1",
+                "count": 1
+              },
+              {
+                "value": "company_name:ironwood_group_4-1",
+                "count": 1
+              },
+              {
+                "value": "company_name:summit_logistics_5-1",
+                "count": 1
+              },
+              {
+                "value": "company_name:clearwater_healthcare_6-1",
+                "count": 1
+              },
+              {
+                "value": "company_name:liberty_retail_7-1",
+                "count": 1
+              },
+              {
+                "value": "company_name:cedar_grove_systems_8-1",
+                "count": 1
+              },
+              {
+                "value": "company_name:brightpath_energy_9-1",
+                "count": 1
+              },
+              {
+                "value": "company_name:golden_plains_logistics_10-1",
+                "count": 1
+              },
+              {
+                "value": "company_name:golden_plains_energy_11-1",
+                "count": 1
+              },
+              {
+                "value": "company_name:liberty_energy_12-1",
+                "count": 1
+              },
+              {
+                "value": "company_name:golden_plains_services_13-1",
+                "count": 1
+              },
+              {
+                "value": "company_name:harbor_agriculture_14-1",
+                "count": 1
+              },
+              {
+                "value": "company_name:evergreen_finance_15-1",
+                "count": 1
+              },
+              {
+                "value": "company_name:nova_healthcare_16-1",
+                "count": 1
+              },
+              {
+                "value": "company_name:liberty_energy_17-1",
+                "count": 1
+              },
+              {
+                "value": "company_name:ironwood_energy_18-1",
+                "count": 1
+              },
+              {
+                "value": "company_name:golden_plains_consulting_19-1",
+                "count": 1
+              },
+              {
+                "value": "company_name:ironwood_manufacturing_20-1",
+                "count": 1
+              }
+            ]
+          }
+        },
+        "attribute:industry": {
+          "fieldId": "attribute:industry",
+          "fieldName": "industry",
+          "sourceKey": "~industry",
+          "sourceKind": "attribute",
+          "kind": "enum",
+          "count": 10000,
+          "coverage": 1,
+          "nullishCount": 0,
+          "searchable": true,
+          "suggestedLane": "uint8",
+          "observedTypes": [
+            "string"
+          ],
+          "string": {
+            "count": 10000,
+            "minLength": 6,
+            "maxLength": 14,
+            "sampledCardinality": 10,
+            "cardinalityOverflow": false,
+            "topValues": [
+              {
+                "value": "Education",
+                "count": 1056
+              },
+              {
+                "value": "Technology",
+                "count": 1043
+              },
+              {
+                "value": "Agriculture",
+                "count": 1011
+              },
+              {
+                "value": "Finance",
+                "count": 1007
+              },
+              {
+                "value": "Retail",
+                "count": 1007
+              },
+              {
+                "value": "Consulting",
+                "count": 999
+              },
+              {
+                "value": "Healthcare",
+                "count": 985
+              },
+              {
+                "value": "Transportation",
+                "count": 974
+              },
+              {
+                "value": "Energy",
+                "count": 971
+              },
+              {
+                "value": "Manufacturing",
+                "count": 947
+              }
+            ]
+          },
+          "enum": {
+            "sampledCardinality": 10,
+            "cardinalityOverflow": false,
+            "suggestedDictionary": "enum-dictionary"
+          },
+          "predicateBitsetCandidates": [
+            {
+              "name": "attribute:industry.education",
+              "value": "Education",
+              "count": 1056,
+              "kind": "predicate-bitset"
+            },
+            {
+              "name": "attribute:industry.technology",
+              "value": "Technology",
+              "count": 1043,
+              "kind": "predicate-bitset"
+            },
+            {
+              "name": "attribute:industry.agriculture",
+              "value": "Agriculture",
+              "count": 1011,
+              "kind": "predicate-bitset"
+            },
+            {
+              "name": "attribute:industry.finance",
+              "value": "Finance",
+              "count": 1007,
+              "kind": "predicate-bitset"
+            },
+            {
+              "name": "attribute:industry.retail",
+              "value": "Retail",
+              "count": 1007,
+              "kind": "predicate-bitset"
+            },
+            {
+              "name": "attribute:industry.consulting",
+              "value": "Consulting",
+              "count": 999,
+              "kind": "predicate-bitset"
+            },
+            {
+              "name": "attribute:industry.healthcare",
+              "value": "Healthcare",
+              "count": 985,
+              "kind": "predicate-bitset"
+            },
+            {
+              "name": "attribute:industry.transportation",
+              "value": "Transportation",
+              "count": 974,
+              "kind": "predicate-bitset"
+            },
+            {
+              "name": "attribute:industry.energy",
+              "value": "Energy",
+              "count": 971,
+              "kind": "predicate-bitset"
+            },
+            {
+              "name": "attribute:industry.manufacturing",
+              "value": "Manufacturing",
+              "count": 947,
+              "kind": "predicate-bitset"
+            }
+          ]
+        },
+        "attribute:size": {
+          "fieldId": "attribute:size",
+          "fieldName": "size",
+          "sourceKey": "~size",
+          "sourceKind": "attribute",
+          "kind": "number",
+          "count": 10000,
+          "coverage": 1,
+          "nullishCount": 0,
+          "searchable": true,
+          "suggestedLane": "uint16",
+          "observedTypes": [
+            "number"
+          ],
+          "number": {
+            "count": 10000,
+            "min": 33,
+            "max": 50000,
+            "integer": true
+          },
+          "numericPredicateCandidates": []
+        },
+        "attribute:founded": {
+          "fieldId": "attribute:founded",
+          "fieldName": "founded",
+          "sourceKey": "~founded",
+          "sourceKind": "attribute",
+          "kind": "number",
+          "count": 10000,
+          "coverage": 1,
+          "nullishCount": 0,
+          "searchable": true,
+          "suggestedLane": "uint16",
+          "observedTypes": [
+            "number"
+          ],
+          "number": {
+            "count": 10000,
+            "min": 1950,
+            "max": 2024,
+            "integer": true
+          },
+          "numericPredicateCandidates": [
+            {
+              "name": "attribute:founded.recent",
+              "operator": ">=",
+              "value": 2000,
+              "kind": "predicate-bitset"
+            }
+          ]
+        },
+        "unknown:name": {
+          "fieldId": "unknown:name",
+          "fieldName": "name",
+          "sourceKey": "name",
+          "sourceKind": "unknown",
+          "kind": "string",
+          "count": 10000,
+          "coverage": 1,
+          "nullishCount": 0,
+          "searchable": false,
+          "suggestedLane": "uint32-offset",
+          "observedTypes": [
+            "string"
+          ],
+          "string": {
+            "count": 10000,
+            "minLength": 15,
+            "maxLength": 35,
+            "sampledCardinality": 256,
+            "cardinalityOverflow": true,
+            "topValues": [
+              {
+                "value": "Riverstone Systems 1-1",
+                "count": 1
+              },
+              {
+                "value": "Ironwood Manufacturing 2-1",
+                "count": 1
+              },
+              {
+                "value": "Riverstone Manufacturing 3-1",
+                "count": 1
+              },
+              {
+                "value": "Ironwood Group 4-1",
+                "count": 1
+              },
+              {
+                "value": "Summit Logistics 5-1",
+                "count": 1
+              },
+              {
+                "value": "Clearwater Healthcare 6-1",
+                "count": 1
+              },
+              {
+                "value": "Liberty Retail 7-1",
+                "count": 1
+              },
+              {
+                "value": "Cedar Grove Systems 8-1",
+                "count": 1
+              },
+              {
+                "value": "BrightPath Energy 9-1",
+                "count": 1
+              },
+              {
+                "value": "Golden Plains Logistics 10-1",
+                "count": 1
+              },
+              {
+                "value": "Golden Plains Energy 11-1",
+                "count": 1
+              },
+              {
+                "value": "Liberty Energy 12-1",
+                "count": 1
+              },
+              {
+                "value": "Golden Plains Services 13-1",
+                "count": 1
+              },
+              {
+                "value": "Harbor Agriculture 14-1",
+                "count": 1
+              },
+              {
+                "value": "Evergreen Finance 15-1",
+                "count": 1
+              },
+              {
+                "value": "Nova Healthcare 16-1",
+                "count": 1
+              },
+              {
+                "value": "Liberty Energy 17-1",
+                "count": 1
+              },
+              {
+                "value": "Ironwood Energy 18-1",
+                "count": 1
+              },
+              {
+                "value": "Golden Plains Consulting 19-1",
+                "count": 1
+              },
+              {
+                "value": "Ironwood Manufacturing 20-1",
+                "count": 1
+              }
+            ]
+          }
+        },
+        "unknown:headquarters": {
+          "fieldId": "unknown:headquarters",
+          "fieldName": "headquarters",
+          "sourceKey": "headquarters",
+          "sourceKind": "unknown",
+          "kind": "object",
+          "count": 10000,
+          "coverage": 1,
+          "nullishCount": 0,
+          "searchable": false,
+          "suggestedLane": "payload-offset",
+          "observedTypes": [
+            "object"
+          ],
+          "object": {
+            "count": 10000,
+            "sampledKeys": [
+              {
+                "key": "city",
+                "count": 10000
+              },
+              {
+                "key": "state",
+                "count": 10000
+              },
+              {
+                "key": "country",
+                "count": 10000
+              }
+            ]
+          }
+        }
+      }
+    },
+    "person": {
+      "count": 100000,
+      "recordIndex": {
+        "kind": "shared-topic-index",
+        "description": "All person lanes align on this topic-local record index."
+      },
+      "fields": {
+        "anchor:anchor": {
+          "fieldId": "anchor:anchor",
+          "fieldName": "anchor",
+          "sourceKey": "#",
+          "sourceKind": "anchor",
+          "kind": "anchor",
+          "count": 100000,
+          "coverage": 1,
+          "nullishCount": 0,
+          "searchable": true,
+          "suggestedLane": "uint32-offset",
+          "observedTypes": [
+            "string"
+          ],
+          "string": {
+            "count": 100000,
+            "minLength": 43,
+            "maxLength": 43,
+            "sampledCardinality": 256,
+            "cardinalityOverflow": true,
+            "topValues": [
+              {
+                "value": "person:4223b25b-4904-40b5-ba76-14041b1511d8",
+                "count": 1
+              },
+              {
+                "value": "person:b7f38c9c-b8b4-436d-a045-32d199737c0c",
+                "count": 1
+              },
+              {
+                "value": "person:9014a7ae-b49f-4759-b754-d804efb1eb30",
+                "count": 1
+              },
+              {
+                "value": "person:fa64db8a-2008-4da3-8935-ed39fdd8abf1",
+                "count": 1
+              },
+              {
+                "value": "person:5189be6f-ca7c-4e60-b4c8-a72e63ddbfbe",
+                "count": 1
+              },
+              {
+                "value": "person:d26fe67f-0e81-4e5a-85f0-44120d69205c",
+                "count": 1
+              },
+              {
+                "value": "person:42ee0081-af89-49f8-bc47-81a9c84715a1",
+                "count": 1
+              },
+              {
+                "value": "person:317edbaf-e1d9-44a9-8b8c-65582bb743b0",
+                "count": 1
+              },
+              {
+                "value": "person:2adcb8ae-1cd8-49fa-8b94-e59861999322",
+                "count": 1
+              },
+              {
+                "value": "person:202ba4a6-02bf-4362-a2a0-fc1cd262f44d",
+                "count": 1
+              },
+              {
+                "value": "person:746084a0-20d3-49ef-8e4c-de4e75700740",
+                "count": 1
+              },
+              {
+                "value": "person:929287ef-fe56-417f-8568-cb7cf58bfc46",
+                "count": 1
+              },
+              {
+                "value": "person:3166c373-0ee5-4d3f-858d-9812a4a80fae",
+                "count": 1
+              },
+              {
+                "value": "person:d977228b-f84e-4840-8795-e0925dab18fa",
+                "count": 1
+              },
+              {
+                "value": "person:3fe1ba03-a3d4-4c51-bebb-eaafe704056b",
+                "count": 1
+              },
+              {
+                "value": "person:695f4aca-257a-418e-b366-db30aafc6fd5",
+                "count": 1
+              },
+              {
+                "value": "person:efca41b5-3ddc-47af-8a0a-6c68fa39cbe3",
+                "count": 1
+              },
+              {
+                "value": "person:54b096d1-67fa-4f68-8e4e-1e04741166e3",
+                "count": 1
+              },
+              {
+                "value": "person:18833286-442c-4bff-b6ec-84c09e582172",
+                "count": 1
+              },
+              {
+                "value": "person:cc73944b-5076-413a-9433-caf14a4d12c1",
+                "count": 1
+              }
+            ]
+          },
+          "role": "anchor"
+        },
+        "relationship:household": {
+          "fieldId": "relationship:household",
+          "fieldName": "household",
+          "sourceKey": "@household",
+          "sourceKind": "relationship",
+          "kind": "relationship",
+          "count": 100000,
+          "coverage": 1,
+          "nullishCount": 0,
+          "searchable": true,
+          "suggestedLane": "uint32",
+          "observedTypes": [
+            "string"
+          ],
+          "string": {
+            "count": 100000,
+            "minLength": 46,
+            "maxLength": 46,
+            "sampledCardinality": 256,
+            "cardinalityOverflow": true,
+            "topValues": [
+              {
+                "value": "household:b8d40ad4-b433-48d9-8308-6a62d4e123ed",
+                "count": 10
+              },
+              {
+                "value": "household:5d1ee961-4cd7-4196-9885-49e81d2dbfec",
+                "count": 9
+              },
+              {
+                "value": "household:a30121e9-cecd-407b-ba6d-83e2223e8ee2",
+                "count": 9
+              },
+              {
+                "value": "household:47879a07-aaef-4f88-8eb1-0e75de3f297e",
+                "count": 9
+              },
+              {
+                "value": "household:5ff222c1-f65c-41ba-be2f-b4b777c57d56",
+                "count": 9
+              },
+              {
+                "value": "household:66852dd2-381c-4b9e-8c51-ac4af325f55c",
+                "count": 8
+              },
+              {
+                "value": "household:1a4d9c87-9e4e-40be-acfe-c268ca5957da",
+                "count": 8
+              },
+              {
+                "value": "household:2c6487f3-bfb0-480c-a7f1-0a64eb4d4959",
+                "count": 8
+              },
+              {
+                "value": "household:8baa056f-9455-45cd-94da-a7a518d14e13",
+                "count": 8
+              },
+              {
+                "value": "household:7eeb0e34-75a1-4918-88a6-b4f4f726a363",
+                "count": 8
+              },
+              {
+                "value": "household:f359a164-c89a-496d-a934-e2003ba323b4",
+                "count": 7
+              },
+              {
+                "value": "household:18522434-235b-4e4d-9985-95eb5fd622fd",
+                "count": 7
+              },
+              {
+                "value": "household:bc25c3c1-6ee8-47f2-afb8-1fc9e82dda6e",
+                "count": 7
+              },
+              {
+                "value": "household:b8b6d758-e7bd-4c8e-a785-acc3e22e9762",
+                "count": 7
+              },
+              {
+                "value": "household:944c4aef-faf7-4366-af30-52fc127cfaad",
+                "count": 7
+              },
+              {
+                "value": "household:f65c36bd-8bd4-4344-854c-47550bf8a3d9",
+                "count": 7
+              },
+              {
+                "value": "household:fd4ffc18-c9bf-46a7-96b8-cd95d6fbc1f4",
+                "count": 7
+              },
+              {
+                "value": "household:d6ffcc91-78d4-4150-982f-9fcac796c8c5",
+                "count": 7
+              },
+              {
+                "value": "household:0cdb83f4-1296-413e-8f66-2f9bd301792f",
+                "count": 7
+              },
+              {
+                "value": "household:87043678-96ee-40a9-960d-f9cdd52e24c0",
+                "count": 7
+              }
+            ]
+          },
+          "relationship": {
+            "target": "household",
+            "targetInferred": true
+          }
+        },
+        "relationship:company": {
+          "fieldId": "relationship:company",
+          "fieldName": "company",
+          "sourceKey": "@company",
+          "sourceKind": "relationship",
+          "kind": "relationship",
+          "count": 100000,
+          "coverage": 1,
+          "nullishCount": 0,
+          "searchable": true,
+          "suggestedLane": "uint32",
+          "observedTypes": [
+            "string"
+          ],
+          "string": {
+            "count": 100000,
+            "minLength": 44,
+            "maxLength": 44,
+            "sampledCardinality": 256,
+            "cardinalityOverflow": true,
+            "topValues": [
+              {
+                "value": "company:6f3020e4-e8fe-42cf-9819-40c27c6d0e9b",
+                "count": 19
+              },
+              {
+                "value": "company:372a8052-4272-49b1-bfe3-0ed3d338ae75",
+                "count": 19
+              },
+              {
+                "value": "company:284bac1e-a779-43e4-9279-62d645d15f91",
+                "count": 18
+              },
+              {
+                "value": "company:0752a654-a37c-4466-9554-3947f6915174",
+                "count": 18
+              },
+              {
+                "value": "company:ba1db0ce-33c8-40f1-8299-1c495c09c7e1",
+                "count": 18
+              },
+              {
+                "value": "company:e1ff1f8c-1ef0-4060-ae4e-2b0c81116f2d",
+                "count": 18
+              },
+              {
+                "value": "company:7a43eea6-d99f-46a3-bb06-101a1e8b2dc9",
+                "count": 18
+              },
+              {
+                "value": "company:9ec7df8d-656c-4279-8d4b-0cc9dee3fc5e",
+                "count": 17
+              },
+              {
+                "value": "company:d65207eb-c398-43da-9763-cd3b670832fe",
+                "count": 17
+              },
+              {
+                "value": "company:892606a1-71df-4c5d-86a8-2721be91e312",
+                "count": 17
+              },
+              {
+                "value": "company:f68a4e96-d9a1-43b7-8b95-f1640cad38ca",
+                "count": 17
+              },
+              {
+                "value": "company:d807a86b-ddb1-4c20-ba19-410e73da0eb3",
+                "count": 17
+              },
+              {
+                "value": "company:054c1be6-4d38-4ef6-98dc-b46b988a3ba1",
+                "count": 17
+              },
+              {
+                "value": "company:40582a86-5dd0-4975-8953-1181132d1c9e",
+                "count": 17
+              },
+              {
+                "value": "company:28cfc181-cc18-4b48-933c-c3eb48ffb4fc",
+                "count": 17
+              },
+              {
+                "value": "company:05d4b57f-8123-4cb8-84e8-9255a5dc7274",
+                "count": 17
+              },
+              {
+                "value": "company:580f6213-1604-4156-94f3-07fc628966a7",
+                "count": 17
+              },
+              {
+                "value": "company:fe5a21cd-59cd-4216-85e6-819b26d5c250",
+                "count": 16
+              },
+              {
+                "value": "company:4a5145a8-78e0-4079-8001-e3d0fa854b1a",
+                "count": 16
+              },
+              {
+                "value": "company:b1ee3acf-c4fa-43f2-bd44-8413ecb26abf",
+                "count": 16
+              }
+            ]
+          },
+          "relationship": {
+            "target": "company",
+            "targetInferred": true
+          }
+        },
+        "relationship:company_name": {
+          "fieldId": "relationship:company_name",
+          "fieldName": "company_name",
+          "sourceKey": "@company_name",
+          "sourceKind": "relationship",
+          "kind": "relationship",
+          "count": 100000,
+          "coverage": 1,
+          "nullishCount": 0,
+          "searchable": true,
+          "suggestedLane": "uint32",
+          "observedTypes": [
+            "string"
+          ],
+          "string": {
+            "count": 100000,
+            "minLength": 28,
+            "maxLength": 48,
+            "sampledCardinality": 256,
+            "cardinalityOverflow": true,
+            "topValues": [
+              {
+                "value": "company_name:cedar_grove_systems_5857-1",
+                "count": 19
+              },
+              {
+                "value": "company_name:skyline_technologies_1789-1",
+                "count": 19
+              },
+              {
+                "value": "company_name:atlas_technology_5563-1",
+                "count": 18
+              },
+              {
+                "value": "company_name:northstar_healthcare_5395-1",
+                "count": 18
+              },
+              {
+                "value": "company_name:liberty_consulting_770-1",
+                "count": 18
+              },
+              {
+                "value": "company_name:cedar_grove_systems_9526-1",
+                "count": 18
+              },
+              {
+                "value": "company_name:golden_plains_services_6149-1",
+                "count": 18
+              },
+              {
+                "value": "company_name:pioneer_labs_424-1",
+                "count": 17
+              },
+              {
+                "value": "company_name:sterling_works_3870-1",
+                "count": 17
+              },
+              {
+                "value": "company_name:clearwater_healthcare_1413-1",
+                "count": 17
+              },
+              {
+                "value": "company_name:nova_healthcare_4626-1",
+                "count": 17
+              },
+              {
+                "value": "company_name:nova_energy_7056-1",
+                "count": 17
+              },
+              {
+                "value": "company_name:redwood_transportation_4384-1",
+                "count": 17
+              },
+              {
+                "value": "company_name:liberty_consulting_1396-1",
+                "count": 17
+              },
+              {
+                "value": "company_name:green_valley_logistics_7206-1",
+                "count": 17
+              },
+              {
+                "value": "company_name:skyline_logistics_6614-1",
+                "count": 17
+              },
+              {
+                "value": "company_name:sterling_agriculture_8565-1",
+                "count": 17
+              },
+              {
+                "value": "company_name:summit_healthcare_957-1",
+                "count": 16
+              },
+              {
+                "value": "company_name:northstar_dynamics_5261-1",
+                "count": 16
+              },
+              {
+                "value": "company_name:ironwood_solutions_8252-1",
+                "count": 16
+              }
+            ]
+          },
+          "relationship": {
+            "target": "company_name",
+            "targetInferred": false,
+            "warning": "Target was inferred from the relationship name but was not found as a topic."
+          }
+        },
+        "relationship:location": {
+          "fieldId": "relationship:location",
+          "fieldName": "location",
+          "sourceKey": "@location",
+          "sourceKind": "relationship",
+          "kind": "relationship",
+          "count": 100000,
+          "coverage": 1,
+          "nullishCount": 0,
+          "searchable": true,
+          "suggestedLane": "uint32",
+          "observedTypes": [
+            "string"
+          ],
+          "string": {
+            "count": 100000,
+            "minLength": 21,
+            "maxLength": 28,
+            "sampledCardinality": 20,
+            "cardinalityOverflow": false,
+            "topValues": [
+              {
+                "value": "location:usa:ia:des_moines",
+                "count": 5151
+              },
+              {
+                "value": "location:usa:tx:houston",
+                "count": 5113
+              },
+              {
+                "value": "location:usa:tx:dallas",
+                "count": 5052
+              },
+              {
+                "value": "location:usa:ny:syracuse",
+                "count": 5051
+              },
+              {
+                "value": "location:usa:ny:new_york",
+                "count": 5047
+              },
+              {
+                "value": "location:usa:co:denver",
+                "count": 5047
+              },
+              {
+                "value": "location:usa:il:chicago",
+                "count": 5044
+              },
+              {
+                "value": "location:usa:nc:charlotte",
+                "count": 5041
+              },
+              {
+                "value": "location:usa:nc:raleigh",
+                "count": 5032
+              },
+              {
+                "value": "location:usa:ia:cedar_rapids",
+                "count": 5025
+              },
+              {
+                "value": "location:usa:or:portland",
+                "count": 5021
+              },
+              {
+                "value": "location:usa:tx:austin",
+                "count": 4968
+              },
+              {
+                "value": "location:usa:wa:seattle",
+                "count": 4968
+              },
+              {
+                "value": "location:usa:or:salem",
+                "count": 4962
+              },
+              {
+                "value": "location:usa:wa:tacoma",
+                "count": 4960
+              },
+              {
+                "value": "location:usa:il:springfield",
+                "count": 4950
+              },
+              {
+                "value": "location:usa:co:boulder",
+                "count": 4938
+              },
+              {
+                "value": "location:usa:ga:augusta",
+                "count": 4925
+              },
+              {
+                "value": "location:usa:az:phoenix",
+                "count": 4854
+              },
+              {
+                "value": "location:usa:ga:atlanta",
+                "count": 4851
+              }
+            ]
+          },
+          "relationship": {
+            "target": "location",
+            "targetInferred": true
+          }
+        },
+        "relationship:interests": {
+          "fieldId": "relationship:interests",
+          "fieldName": "interests",
+          "sourceKey": "@interests",
+          "sourceKind": "relationship",
+          "kind": "relationship",
+          "count": 100000,
+          "coverage": 1,
+          "nullishCount": 0,
+          "searchable": true,
+          "suggestedLane": "uint32",
+          "observedTypes": [
+            "array"
+          ],
+          "array": {
+            "count": 100000,
+            "minLength": 2,
+            "maxLength": 5,
+            "sampledItemTypes": [
+              {
+                "type": "string",
+                "count": 349847
+              }
+            ]
+          },
+          "relationship": {
+            "target": "interests",
+            "targetInferred": false,
+            "warning": "Target was inferred from the relationship name but was not found as a topic."
+          }
+        },
+        "attribute:source": {
+          "fieldId": "attribute:source",
+          "fieldName": "source",
+          "sourceKey": "~source",
+          "sourceKind": "attribute",
+          "kind": "enum",
+          "count": 100000,
+          "coverage": 1,
+          "nullishCount": 0,
+          "searchable": true,
+          "suggestedLane": "uint8",
+          "observedTypes": [
+            "string"
+          ],
+          "string": {
+            "count": 100000,
+            "minLength": 26,
+            "maxLength": 26,
+            "sampledCardinality": 1,
+            "cardinalityOverflow": false,
+            "topValues": [
+              {
+                "value": "generated_people_companies",
+                "count": 100000
+              }
+            ]
+          },
+          "enum": {
+            "sampledCardinality": 1,
+            "cardinalityOverflow": false,
+            "suggestedDictionary": "enum-dictionary"
+          },
+          "predicateBitsetCandidates": [
+            {
+              "name": "attribute:source.generated_people_companies",
+              "value": "generated_people_companies",
+              "count": 100000,
+              "kind": "predicate-bitset"
+            }
+          ]
+        },
+        "attribute:raw_id": {
+          "fieldId": "attribute:raw_id",
+          "fieldName": "raw_id",
+          "sourceKey": "~raw_id",
+          "sourceKind": "attribute",
+          "kind": "string",
+          "count": 100000,
+          "coverage": 1,
+          "nullishCount": 0,
+          "searchable": false,
+          "suggestedLane": "uint32-offset",
+          "observedTypes": [
+            "string"
+          ],
+          "string": {
+            "count": 100000,
+            "minLength": 36,
+            "maxLength": 36,
+            "sampledCardinality": 256,
+            "cardinalityOverflow": true,
+            "topValues": [
+              {
+                "value": "4223b25b-4904-40b5-ba76-14041b1511d8",
+                "count": 1
+              },
+              {
+                "value": "b7f38c9c-b8b4-436d-a045-32d199737c0c",
+                "count": 1
+              },
+              {
+                "value": "9014a7ae-b49f-4759-b754-d804efb1eb30",
+                "count": 1
+              },
+              {
+                "value": "fa64db8a-2008-4da3-8935-ed39fdd8abf1",
+                "count": 1
+              },
+              {
+                "value": "5189be6f-ca7c-4e60-b4c8-a72e63ddbfbe",
+                "count": 1
+              },
+              {
+                "value": "d26fe67f-0e81-4e5a-85f0-44120d69205c",
+                "count": 1
+              },
+              {
+                "value": "42ee0081-af89-49f8-bc47-81a9c84715a1",
+                "count": 1
+              },
+              {
+                "value": "317edbaf-e1d9-44a9-8b8c-65582bb743b0",
+                "count": 1
+              },
+              {
+                "value": "2adcb8ae-1cd8-49fa-8b94-e59861999322",
+                "count": 1
+              },
+              {
+                "value": "202ba4a6-02bf-4362-a2a0-fc1cd262f44d",
+                "count": 1
+              },
+              {
+                "value": "746084a0-20d3-49ef-8e4c-de4e75700740",
+                "count": 1
+              },
+              {
+                "value": "929287ef-fe56-417f-8568-cb7cf58bfc46",
+                "count": 1
+              },
+              {
+                "value": "3166c373-0ee5-4d3f-858d-9812a4a80fae",
+                "count": 1
+              },
+              {
+                "value": "d977228b-f84e-4840-8795-e0925dab18fa",
+                "count": 1
+              },
+              {
+                "value": "3fe1ba03-a3d4-4c51-bebb-eaafe704056b",
+                "count": 1
+              },
+              {
+                "value": "695f4aca-257a-418e-b366-db30aafc6fd5",
+                "count": 1
+              },
+              {
+                "value": "efca41b5-3ddc-47af-8a0a-6c68fa39cbe3",
+                "count": 1
+              },
+              {
+                "value": "54b096d1-67fa-4f68-8e4e-1e04741166e3",
+                "count": 1
+              },
+              {
+                "value": "18833286-442c-4bff-b6ec-84c09e582172",
+                "count": 1
+              },
+              {
+                "value": "cc73944b-5076-413a-9433-caf14a4d12c1",
+                "count": 1
+              }
+            ]
+          }
+        },
+        "attribute:created_at": {
+          "fieldId": "attribute:created_at",
+          "fieldName": "created_at",
+          "sourceKey": "~created_at",
+          "sourceKind": "attribute",
+          "kind": "string",
+          "count": 100000,
+          "coverage": 1,
+          "nullishCount": 0,
+          "searchable": false,
+          "suggestedLane": "uint32-offset",
+          "observedTypes": [
+            "string"
+          ],
+          "string": {
+            "count": 100000,
+            "minLength": 24,
+            "maxLength": 24,
+            "sampledCardinality": 256,
+            "cardinalityOverflow": true,
+            "topValues": [
+              {
+                "value": "2023-07-08T10:42:19.271Z",
+                "count": 1
+              },
+              {
+                "value": "2023-05-25T10:50:54.173Z",
+                "count": 1
+              },
+              {
+                "value": "2024-05-30T03:06:10.491Z",
+                "count": 1
+              },
+              {
+                "value": "2020-03-24T12:02:20.911Z",
+                "count": 1
+              },
+              {
+                "value": "2024-10-31T21:53:15.952Z",
+                "count": 1
+              },
+              {
+                "value": "2022-12-26T17:23:07.965Z",
+                "count": 1
+              },
+              {
+                "value": "2021-12-31T01:58:58.064Z",
+                "count": 1
+              },
+              {
+                "value": "2024-01-26T02:54:55.548Z",
+                "count": 1
+              },
+              {
+                "value": "2021-09-11T04:37:01.375Z",
+                "count": 1
+              },
+              {
+                "value": "2021-09-16T15:35:21.589Z",
+                "count": 1
+              },
+              {
+                "value": "2022-10-14T10:11:23.343Z",
+                "count": 1
+              },
+              {
+                "value": "2024-08-02T11:24:57.671Z",
+                "count": 1
+              },
+              {
+                "value": "2025-02-18T17:41:56.572Z",
+                "count": 1
+              },
+              {
+                "value": "2022-07-01T14:47:55.922Z",
+                "count": 1
+              },
+              {
+                "value": "2020-08-18T01:24:34.653Z",
+                "count": 1
+              },
+              {
+                "value": "2025-12-01T18:15:12.166Z",
+                "count": 1
+              },
+              {
+                "value": "2022-12-31T11:47:55.877Z",
+                "count": 1
+              },
+              {
+                "value": "2024-01-01T05:57:56.107Z",
+                "count": 1
+              },
+              {
+                "value": "2022-07-09T21:05:18.295Z",
+                "count": 1
+              },
+              {
+                "value": "2021-12-12T01:57:35.278Z",
+                "count": 1
+              }
+            ]
+          }
+        },
+        "attribute:created_year": {
+          "fieldId": "attribute:created_year",
+          "fieldName": "created_year",
+          "sourceKey": "~created_year",
+          "sourceKind": "attribute",
+          "kind": "number",
+          "count": 100000,
+          "coverage": 1,
+          "nullishCount": 0,
+          "searchable": true,
+          "suggestedLane": "uint16",
+          "observedTypes": [
+            "number"
+          ],
+          "number": {
+            "count": 100000,
+            "min": 2020,
+            "max": 2025,
+            "integer": true
+          },
+          "numericPredicateCandidates": [
+            {
+              "name": "attribute:created_year.recent",
+              "operator": ">=",
+              "value": 2000,
+              "kind": "predicate-bitset"
+            }
+          ]
+        },
+        "attribute:status": {
+          "fieldId": "attribute:status",
+          "fieldName": "status",
+          "sourceKey": "~status",
+          "sourceKind": "attribute",
+          "kind": "enum",
+          "count": 100000,
+          "coverage": 1,
+          "nullishCount": 0,
+          "searchable": true,
+          "suggestedLane": "uint8",
+          "observedTypes": [
+            "string"
+          ],
+          "string": {
+            "count": 100000,
+            "minLength": 6,
+            "maxLength": 8,
+            "sampledCardinality": 3,
+            "cardinalityOverflow": false,
+            "topValues": [
+              {
+                "value": "active",
+                "count": 33466
+              },
+              {
+                "value": "pending",
+                "count": 33344
+              },
+              {
+                "value": "inactive",
+                "count": 33190
+              }
+            ]
+          },
+          "enum": {
+            "sampledCardinality": 3,
+            "cardinalityOverflow": false,
+            "suggestedDictionary": "enum-dictionary"
+          },
+          "predicateBitsetCandidates": [
+            {
+              "name": "attribute:status.active",
+              "value": "active",
+              "count": 33466,
+              "kind": "predicate-bitset"
+            },
+            {
+              "name": "attribute:status.pending",
+              "value": "pending",
+              "count": 33344,
+              "kind": "predicate-bitset"
+            },
+            {
+              "name": "attribute:status.inactive",
+              "value": "inactive",
+              "count": 33190,
+              "kind": "predicate-bitset"
+            }
+          ]
+        },
+        "attribute:household_id": {
+          "fieldId": "attribute:household_id",
+          "fieldName": "household_id",
+          "sourceKey": "~household_id",
+          "sourceKind": "attribute",
+          "kind": "string",
+          "count": 100000,
+          "coverage": 1,
+          "nullishCount": 0,
+          "searchable": false,
+          "suggestedLane": "uint32-offset",
+          "observedTypes": [
+            "string"
+          ],
+          "string": {
+            "count": 100000,
+            "minLength": 36,
+            "maxLength": 36,
+            "sampledCardinality": 256,
+            "cardinalityOverflow": true,
+            "topValues": [
+              {
+                "value": "b8d40ad4-b433-48d9-8308-6a62d4e123ed",
+                "count": 10
+              },
+              {
+                "value": "5d1ee961-4cd7-4196-9885-49e81d2dbfec",
+                "count": 9
+              },
+              {
+                "value": "a30121e9-cecd-407b-ba6d-83e2223e8ee2",
+                "count": 9
+              },
+              {
+                "value": "47879a07-aaef-4f88-8eb1-0e75de3f297e",
+                "count": 9
+              },
+              {
+                "value": "5ff222c1-f65c-41ba-be2f-b4b777c57d56",
+                "count": 9
+              },
+              {
+                "value": "66852dd2-381c-4b9e-8c51-ac4af325f55c",
+                "count": 8
+              },
+              {
+                "value": "1a4d9c87-9e4e-40be-acfe-c268ca5957da",
+                "count": 8
+              },
+              {
+                "value": "2c6487f3-bfb0-480c-a7f1-0a64eb4d4959",
+                "count": 8
+              },
+              {
+                "value": "8baa056f-9455-45cd-94da-a7a518d14e13",
+                "count": 8
+              },
+              {
+                "value": "7eeb0e34-75a1-4918-88a6-b4f4f726a363",
+                "count": 8
+              },
+              {
+                "value": "f359a164-c89a-496d-a934-e2003ba323b4",
+                "count": 7
+              },
+              {
+                "value": "18522434-235b-4e4d-9985-95eb5fd622fd",
+                "count": 7
+              },
+              {
+                "value": "bc25c3c1-6ee8-47f2-afb8-1fc9e82dda6e",
+                "count": 7
+              },
+              {
+                "value": "b8b6d758-e7bd-4c8e-a785-acc3e22e9762",
+                "count": 7
+              },
+              {
+                "value": "944c4aef-faf7-4366-af30-52fc127cfaad",
+                "count": 7
+              },
+              {
+                "value": "f65c36bd-8bd4-4344-854c-47550bf8a3d9",
+                "count": 7
+              },
+              {
+                "value": "fd4ffc18-c9bf-46a7-96b8-cd95d6fbc1f4",
+                "count": 7
+              },
+              {
+                "value": "d6ffcc91-78d4-4150-982f-9fcac796c8c5",
+                "count": 7
+              },
+              {
+                "value": "0cdb83f4-1296-413e-8f66-2f9bd301792f",
+                "count": 7
+              },
+              {
+                "value": "87043678-96ee-40a9-960d-f9cdd52e24c0",
+                "count": 7
+              }
+            ]
+          }
+        },
+        "attribute:age": {
+          "fieldId": "attribute:age",
+          "fieldName": "age",
+          "sourceKey": "~age",
+          "sourceKind": "attribute",
+          "kind": "number",
+          "count": 100000,
+          "coverage": 1,
+          "nullishCount": 0,
+          "searchable": true,
+          "suggestedLane": "uint8",
+          "observedTypes": [
+            "number"
+          ],
+          "number": {
+            "count": 100000,
+            "min": 18,
+            "max": 82,
+            "integer": true
+          },
+          "numericPredicateCandidates": [
+            {
+              "name": "attribute:age.under40",
+              "operator": "<",
+              "value": 40,
+              "kind": "predicate-bitset"
+            }
+          ]
+        },
+        "attribute:gender": {
+          "fieldId": "attribute:gender",
+          "fieldName": "gender",
+          "sourceKey": "~gender",
+          "sourceKind": "attribute",
+          "kind": "enum",
+          "count": 100000,
+          "coverage": 1,
+          "nullishCount": 0,
+          "searchable": true,
+          "suggestedLane": "uint8",
+          "observedTypes": [
+            "string"
+          ],
+          "string": {
+            "count": 100000,
+            "minLength": 4,
+            "maxLength": 6,
+            "sampledCardinality": 2,
+            "cardinalityOverflow": false,
+            "topValues": [
+              {
+                "value": "female",
+                "count": 50396
+              },
+              {
+                "value": "male",
+                "count": 49604
+              }
+            ]
+          },
+          "enum": {
+            "sampledCardinality": 2,
+            "cardinalityOverflow": false,
+            "suggestedDictionary": "enum-dictionary"
+          },
+          "predicateBitsetCandidates": [
+            {
+              "name": "attribute:gender.female",
+              "value": "female",
+              "count": 50396,
+              "kind": "predicate-bitset"
+            },
+            {
+              "name": "attribute:gender.male",
+              "value": "male",
+              "count": 49604,
+              "kind": "predicate-bitset"
+            }
+          ]
+        },
+        "attribute:job_title": {
+          "fieldId": "attribute:job_title",
+          "fieldName": "job_title",
+          "sourceKey": "~job_title",
+          "sourceKind": "attribute",
+          "kind": "enum",
+          "count": 100000,
+          "coverage": 1,
+          "nullishCount": 0,
+          "searchable": true,
+          "suggestedLane": "uint8",
+          "observedTypes": [
+            "string"
+          ],
+          "string": {
+            "count": 100000,
+            "minLength": 13,
+            "maxLength": 20,
+            "sampledCardinality": 15,
+            "cardinalityOverflow": false,
+            "topValues": [
+              {
+                "value": "Data Scientist",
+                "count": 6802
+              },
+              {
+                "value": "Logistics Planner",
+                "count": 6768
+              },
+              {
+                "value": "HR Coordinator",
+                "count": 6738
+              },
+              {
+                "value": "Security Analyst",
+                "count": 6732
+              },
+              {
+                "value": "Operations Manager",
+                "count": 6714
+              },
+              {
+                "value": "Software Developer",
+                "count": 6681
+              },
+              {
+                "value": "Marketing Specialist",
+                "count": 6678
+              },
+              {
+                "value": "Financial Analyst",
+                "count": 6654
+              },
+              {
+                "value": "Technical Writer",
+                "count": 6653
+              },
+              {
+                "value": "Systems Engineer",
+                "count": 6634
+              },
+              {
+                "value": "Research Analyst",
+                "count": 6605
+              },
+              {
+                "value": "Account Manager",
+                "count": 6596
+              },
+              {
+                "value": "Administrator",
+                "count": 6591
+              },
+              {
+                "value": "Product Designer",
+                "count": 6590
+              },
+              {
+                "value": "Project Manager",
+                "count": 6564
+              }
+            ]
+          },
+          "enum": {
+            "sampledCardinality": 15,
+            "cardinalityOverflow": false,
+            "suggestedDictionary": "enum-dictionary"
+          },
+          "predicateBitsetCandidates": [
+            {
+              "name": "attribute:job_title.data_scientist",
+              "value": "Data Scientist",
+              "count": 6802,
+              "kind": "predicate-bitset"
+            },
+            {
+              "name": "attribute:job_title.logistics_planner",
+              "value": "Logistics Planner",
+              "count": 6768,
+              "kind": "predicate-bitset"
+            },
+            {
+              "name": "attribute:job_title.hr_coordinator",
+              "value": "HR Coordinator",
+              "count": 6738,
+              "kind": "predicate-bitset"
+            },
+            {
+              "name": "attribute:job_title.security_analyst",
+              "value": "Security Analyst",
+              "count": 6732,
+              "kind": "predicate-bitset"
+            },
+            {
+              "name": "attribute:job_title.operations_manager",
+              "value": "Operations Manager",
+              "count": 6714,
+              "kind": "predicate-bitset"
+            },
+            {
+              "name": "attribute:job_title.software_developer",
+              "value": "Software Developer",
+              "count": 6681,
+              "kind": "predicate-bitset"
+            },
+            {
+              "name": "attribute:job_title.marketing_specialist",
+              "value": "Marketing Specialist",
+              "count": 6678,
+              "kind": "predicate-bitset"
+            },
+            {
+              "name": "attribute:job_title.financial_analyst",
+              "value": "Financial Analyst",
+              "count": 6654,
+              "kind": "predicate-bitset"
+            },
+            {
+              "name": "attribute:job_title.technical_writer",
+              "value": "Technical Writer",
+              "count": 6653,
+              "kind": "predicate-bitset"
+            },
+            {
+              "name": "attribute:job_title.systems_engineer",
+              "value": "Systems Engineer",
+              "count": 6634,
+              "kind": "predicate-bitset"
+            },
+            {
+              "name": "attribute:job_title.research_analyst",
+              "value": "Research Analyst",
+              "count": 6605,
+              "kind": "predicate-bitset"
+            },
+            {
+              "name": "attribute:job_title.account_manager",
+              "value": "Account Manager",
+              "count": 6596,
+              "kind": "predicate-bitset"
+            },
+            {
+              "name": "attribute:job_title.administrator",
+              "value": "Administrator",
+              "count": 6591,
+              "kind": "predicate-bitset"
+            },
+            {
+              "name": "attribute:job_title.product_designer",
+              "value": "Product Designer",
+              "count": 6590,
+              "kind": "predicate-bitset"
+            },
+            {
+              "name": "attribute:job_title.project_manager",
+              "value": "Project Manager",
+              "count": 6564,
+              "kind": "predicate-bitset"
+            }
+          ]
+        },
+        "attribute:salary": {
+          "fieldId": "attribute:salary",
+          "fieldName": "salary",
+          "sourceKey": "~salary",
+          "sourceKind": "attribute",
+          "kind": "number",
+          "count": 100000,
+          "coverage": 1,
+          "nullishCount": 0,
+          "searchable": true,
+          "suggestedLane": "uint32",
+          "observedTypes": [
+            "number"
+          ],
+          "number": {
+            "count": 100000,
+            "min": 42001,
+            "max": 190000,
+            "integer": true
+          },
+          "numericPredicateCandidates": []
+        },
+        "unknown:name": {
+          "fieldId": "unknown:name",
+          "fieldName": "name",
+          "sourceKey": "name",
+          "sourceKind": "unknown",
+          "kind": "object",
+          "count": 100000,
+          "coverage": 1,
+          "nullishCount": 0,
+          "searchable": false,
+          "suggestedLane": "payload-offset",
+          "observedTypes": [
+            "object"
+          ],
+          "object": {
+            "count": 100000,
+            "sampledKeys": [
+              {
+                "key": "first",
+                "count": 100000
+              },
+              {
+                "key": "last",
+                "count": 100000
+              },
+              {
+                "key": "full",
+                "count": 100000
+              }
+            ]
+          }
+        },
+        "unknown:contact": {
+          "fieldId": "unknown:contact",
+          "fieldName": "contact",
+          "sourceKey": "contact",
+          "sourceKind": "unknown",
+          "kind": "object",
+          "count": 100000,
+          "coverage": 1,
+          "nullishCount": 0,
+          "searchable": false,
+          "suggestedLane": "payload-offset",
+          "observedTypes": [
+            "object"
+          ],
+          "object": {
+            "count": 100000,
+            "sampledKeys": [
+              {
+                "key": "email",
+                "count": 100000
+              },
+              {
+                "key": "phone",
+                "count": 100000
+              }
+            ]
+          }
+        }
+      }
+    },
+    "company_name_alias": {
+      "count": 10000,
+      "recordIndex": {
+        "kind": "shared-topic-index",
+        "description": "All company_name_alias lanes align on this topic-local record index."
+      },
+      "fields": {
+        "anchor:anchor": {
+          "fieldId": "anchor:anchor",
+          "fieldName": "anchor",
+          "sourceKey": "#",
+          "sourceKind": "anchor",
+          "kind": "anchor",
+          "count": 10000,
+          "coverage": 1,
+          "nullishCount": 0,
+          "searchable": true,
+          "suggestedLane": "uint32-offset",
+          "observedTypes": [
+            "string"
+          ],
+          "string": {
+            "count": 10000,
+            "minLength": 28,
+            "maxLength": 48,
+            "sampledCardinality": 256,
+            "cardinalityOverflow": true,
+            "topValues": [
+              {
+                "value": "company_name:riverstone_systems_1-1",
+                "count": 1
+              },
+              {
+                "value": "company_name:ironwood_manufacturing_2-1",
+                "count": 1
+              },
+              {
+                "value": "company_name:riverstone_manufacturing_3-1",
+                "count": 1
+              },
+              {
+                "value": "company_name:ironwood_group_4-1",
+                "count": 1
+              },
+              {
+                "value": "company_name:summit_logistics_5-1",
+                "count": 1
+              },
+              {
+                "value": "company_name:clearwater_healthcare_6-1",
+                "count": 1
+              },
+              {
+                "value": "company_name:liberty_retail_7-1",
+                "count": 1
+              },
+              {
+                "value": "company_name:cedar_grove_systems_8-1",
+                "count": 1
+              },
+              {
+                "value": "company_name:brightpath_energy_9-1",
+                "count": 1
+              },
+              {
+                "value": "company_name:golden_plains_logistics_10-1",
+                "count": 1
+              },
+              {
+                "value": "company_name:golden_plains_energy_11-1",
+                "count": 1
+              },
+              {
+                "value": "company_name:liberty_energy_12-1",
+                "count": 1
+              },
+              {
+                "value": "company_name:golden_plains_services_13-1",
+                "count": 1
+              },
+              {
+                "value": "company_name:harbor_agriculture_14-1",
+                "count": 1
+              },
+              {
+                "value": "company_name:evergreen_finance_15-1",
+                "count": 1
+              },
+              {
+                "value": "company_name:nova_healthcare_16-1",
+                "count": 1
+              },
+              {
+                "value": "company_name:liberty_energy_17-1",
+                "count": 1
+              },
+              {
+                "value": "company_name:ironwood_energy_18-1",
+                "count": 1
+              },
+              {
+                "value": "company_name:golden_plains_consulting_19-1",
+                "count": 1
+              },
+              {
+                "value": "company_name:ironwood_manufacturing_20-1",
+                "count": 1
+              }
+            ]
+          },
+          "role": "anchor"
+        },
+        "relationship:company": {
+          "fieldId": "relationship:company",
+          "fieldName": "company",
+          "sourceKey": "@company",
+          "sourceKind": "relationship",
+          "kind": "relationship",
+          "count": 10000,
+          "coverage": 1,
+          "nullishCount": 0,
+          "searchable": true,
+          "suggestedLane": "uint32",
+          "observedTypes": [
+            "string"
+          ],
+          "string": {
+            "count": 10000,
+            "minLength": 44,
+            "maxLength": 44,
+            "sampledCardinality": 256,
+            "cardinalityOverflow": true,
+            "topValues": [
+              {
+                "value": "company:f9312972-d36a-4b53-8dcf-f050306fffe4",
+                "count": 1
+              },
+              {
+                "value": "company:c313ab94-bb15-45ff-9208-a6d63cb39445",
+                "count": 1
+              },
+              {
+                "value": "company:ac75f969-191e-4eda-ac4b-39a01877a0be",
+                "count": 1
+              },
+              {
+                "value": "company:fd7005a3-57ac-49d4-8034-349545560288",
+                "count": 1
+              },
+              {
+                "value": "company:187aac09-72a7-4608-bce7-cfd1a08a0bb1",
+                "count": 1
+              },
+              {
+                "value": "company:1c08fa91-f5d9-44fb-93bb-5db104025e19",
+                "count": 1
+              },
+              {
+                "value": "company:68cef2f0-e8cc-4819-9c7a-70c398a7c943",
+                "count": 1
+              },
+              {
+                "value": "company:b5497431-cb97-4b65-88a8-e8293d18019a",
+                "count": 1
+              },
+              {
+                "value": "company:f72d797c-c695-4978-999d-7f3ff40458bb",
+                "count": 1
+              },
+              {
+                "value": "company:480b4710-df9a-4c63-9446-bbfe836f4471",
+                "count": 1
+              },
+              {
+                "value": "company:c2b62573-5363-4d43-913d-bfb1c7c94a04",
+                "count": 1
+              },
+              {
+                "value": "company:73f4976c-c467-49d7-a72a-c67590441000",
+                "count": 1
+              },
+              {
+                "value": "company:922fa093-d860-4dcf-afec-04077ef9f458",
+                "count": 1
+              },
+              {
+                "value": "company:5aff88b0-3dab-4ca8-ab19-7c1a2c7e7b4c",
+                "count": 1
+              },
+              {
+                "value": "company:59475840-2b39-4711-97d5-b464847a2b73",
+                "count": 1
+              },
+              {
+                "value": "company:37b551e0-c1c0-4184-943a-e683e8334553",
+                "count": 1
+              },
+              {
+                "value": "company:2cb6385f-7f39-465e-a729-03c1c313750a",
+                "count": 1
+              },
+              {
+                "value": "company:750188e5-6048-4f0c-baeb-551cafab8cf3",
+                "count": 1
+              },
+              {
+                "value": "company:a95c43b1-97ad-474a-8e5b-92e5ec7491a2",
+                "count": 1
+              },
+              {
+                "value": "company:7ab5427b-20d7-4e02-9063-369b8da960c1",
+                "count": 1
+              }
+            ]
+          },
+          "relationship": {
+            "target": "company",
+            "targetInferred": true
+          }
+        },
+        "attribute:source": {
+          "fieldId": "attribute:source",
+          "fieldName": "source",
+          "sourceKey": "~source",
+          "sourceKind": "attribute",
+          "kind": "enum",
+          "count": 10000,
+          "coverage": 1,
+          "nullishCount": 0,
+          "searchable": true,
+          "suggestedLane": "uint8",
+          "observedTypes": [
+            "string"
+          ],
+          "string": {
+            "count": 10000,
+            "minLength": 26,
+            "maxLength": 26,
+            "sampledCardinality": 1,
+            "cardinalityOverflow": false,
+            "topValues": [
+              {
+                "value": "generated_people_companies",
+                "count": 10000
+              }
+            ]
+          },
+          "enum": {
+            "sampledCardinality": 1,
+            "cardinalityOverflow": false,
+            "suggestedDictionary": "enum-dictionary"
+          },
+          "predicateBitsetCandidates": [
+            {
+              "name": "attribute:source.generated_people_companies",
+              "value": "generated_people_companies",
+              "count": 10000,
+              "kind": "predicate-bitset"
+            }
+          ]
+        },
+        "attribute:name": {
+          "fieldId": "attribute:name",
+          "fieldName": "name",
+          "sourceKey": "~name",
+          "sourceKind": "attribute",
+          "kind": "string",
+          "count": 10000,
+          "coverage": 1,
+          "nullishCount": 0,
+          "searchable": false,
+          "suggestedLane": "uint32-offset",
+          "observedTypes": [
+            "string"
+          ],
+          "string": {
+            "count": 10000,
+            "minLength": 15,
+            "maxLength": 35,
+            "sampledCardinality": 256,
+            "cardinalityOverflow": true,
+            "topValues": [
+              {
+                "value": "Riverstone Systems 1-1",
+                "count": 1
+              },
+              {
+                "value": "Ironwood Manufacturing 2-1",
+                "count": 1
+              },
+              {
+                "value": "Riverstone Manufacturing 3-1",
+                "count": 1
+              },
+              {
+                "value": "Ironwood Group 4-1",
+                "count": 1
+              },
+              {
+                "value": "Summit Logistics 5-1",
+                "count": 1
+              },
+              {
+                "value": "Clearwater Healthcare 6-1",
+                "count": 1
+              },
+              {
+                "value": "Liberty Retail 7-1",
+                "count": 1
+              },
+              {
+                "value": "Cedar Grove Systems 8-1",
+                "count": 1
+              },
+              {
+                "value": "BrightPath Energy 9-1",
+                "count": 1
+              },
+              {
+                "value": "Golden Plains Logistics 10-1",
+                "count": 1
+              },
+              {
+                "value": "Golden Plains Energy 11-1",
+                "count": 1
+              },
+              {
+                "value": "Liberty Energy 12-1",
+                "count": 1
+              },
+              {
+                "value": "Golden Plains Services 13-1",
+                "count": 1
+              },
+              {
+                "value": "Harbor Agriculture 14-1",
+                "count": 1
+              },
+              {
+                "value": "Evergreen Finance 15-1",
+                "count": 1
+              },
+              {
+                "value": "Nova Healthcare 16-1",
+                "count": 1
+              },
+              {
+                "value": "Liberty Energy 17-1",
+                "count": 1
+              },
+              {
+                "value": "Ironwood Energy 18-1",
+                "count": 1
+              },
+              {
+                "value": "Golden Plains Consulting 19-1",
+                "count": 1
+              },
+              {
+                "value": "Ironwood Manufacturing 20-1",
+                "count": 1
+              }
+            ]
+          }
+        }
+      }
+    },
+    "industry": {
+      "count": 10,
+      "recordIndex": {
+        "kind": "shared-topic-index",
+        "description": "All industry lanes align on this topic-local record index."
+      },
+      "fields": {
+        "anchor:anchor": {
+          "fieldId": "anchor:anchor",
+          "fieldName": "anchor",
+          "sourceKey": "#",
+          "sourceKind": "anchor",
+          "kind": "anchor",
+          "count": 10,
+          "coverage": 1,
+          "nullishCount": 0,
+          "searchable": true,
+          "suggestedLane": "uint32-offset",
+          "observedTypes": [
+            "string"
+          ],
+          "string": {
+            "count": 10,
+            "minLength": 15,
+            "maxLength": 23,
+            "sampledCardinality": 10,
+            "cardinalityOverflow": false,
+            "topValues": [
+              {
+                "value": "industry:healthcare",
+                "count": 1
+              },
+              {
+                "value": "industry:manufacturing",
+                "count": 1
+              },
+              {
+                "value": "industry:finance",
+                "count": 1
+              },
+              {
+                "value": "industry:agriculture",
+                "count": 1
+              },
+              {
+                "value": "industry:retail",
+                "count": 1
+              },
+              {
+                "value": "industry:transportation",
+                "count": 1
+              },
+              {
+                "value": "industry:consulting",
+                "count": 1
+              },
+              {
+                "value": "industry:energy",
+                "count": 1
+              },
+              {
+                "value": "industry:technology",
+                "count": 1
+              },
+              {
+                "value": "industry:education",
+                "count": 1
+              }
+            ]
+          },
+          "role": "anchor"
+        },
+        "attribute:source": {
+          "fieldId": "attribute:source",
+          "fieldName": "source",
+          "sourceKey": "~source",
+          "sourceKind": "attribute",
+          "kind": "enum",
+          "count": 10,
+          "coverage": 1,
+          "nullishCount": 0,
+          "searchable": true,
+          "suggestedLane": "uint8",
+          "observedTypes": [
+            "string"
+          ],
+          "string": {
+            "count": 10,
+            "minLength": 26,
+            "maxLength": 26,
+            "sampledCardinality": 1,
+            "cardinalityOverflow": false,
+            "topValues": [
+              {
+                "value": "generated_people_companies",
+                "count": 10
+              }
+            ]
+          },
+          "enum": {
+            "sampledCardinality": 1,
+            "cardinalityOverflow": false,
+            "suggestedDictionary": "enum-dictionary"
+          },
+          "predicateBitsetCandidates": [
+            {
+              "name": "attribute:source.generated_people_companies",
+              "value": "generated_people_companies",
+              "count": 10,
+              "kind": "predicate-bitset"
+            }
+          ]
+        },
+        "attribute:name": {
+          "fieldId": "attribute:name",
+          "fieldName": "name",
+          "sourceKey": "~name",
+          "sourceKind": "attribute",
+          "kind": "enum",
+          "count": 10,
+          "coverage": 1,
+          "nullishCount": 0,
+          "searchable": true,
+          "suggestedLane": "uint8",
+          "observedTypes": [
+            "string"
+          ],
+          "string": {
+            "count": 10,
+            "minLength": 6,
+            "maxLength": 14,
+            "sampledCardinality": 10,
+            "cardinalityOverflow": false,
+            "topValues": [
+              {
+                "value": "Healthcare",
+                "count": 1
+              },
+              {
+                "value": "Manufacturing",
+                "count": 1
+              },
+              {
+                "value": "Finance",
+                "count": 1
+              },
+              {
+                "value": "Agriculture",
+                "count": 1
+              },
+              {
+                "value": "Retail",
+                "count": 1
+              },
+              {
+                "value": "Transportation",
+                "count": 1
+              },
+              {
+                "value": "Consulting",
+                "count": 1
+              },
+              {
+                "value": "Energy",
+                "count": 1
+              },
+              {
+                "value": "Technology",
+                "count": 1
+              },
+              {
+                "value": "Education",
+                "count": 1
+              }
+            ]
+          },
+          "enum": {
+            "sampledCardinality": 10,
+            "cardinalityOverflow": false,
+            "suggestedDictionary": "enum-dictionary"
+          },
+          "predicateBitsetCandidates": [
+            {
+              "name": "attribute:name.healthcare",
+              "value": "Healthcare",
+              "count": 1,
+              "kind": "predicate-bitset"
+            },
+            {
+              "name": "attribute:name.manufacturing",
+              "value": "Manufacturing",
+              "count": 1,
+              "kind": "predicate-bitset"
+            },
+            {
+              "name": "attribute:name.finance",
+              "value": "Finance",
+              "count": 1,
+              "kind": "predicate-bitset"
+            },
+            {
+              "name": "attribute:name.agriculture",
+              "value": "Agriculture",
+              "count": 1,
+              "kind": "predicate-bitset"
+            },
+            {
+              "name": "attribute:name.retail",
+              "value": "Retail",
+              "count": 1,
+              "kind": "predicate-bitset"
+            },
+            {
+              "name": "attribute:name.transportation",
+              "value": "Transportation",
+              "count": 1,
+              "kind": "predicate-bitset"
+            },
+            {
+              "name": "attribute:name.consulting",
+              "value": "Consulting",
+              "count": 1,
+              "kind": "predicate-bitset"
+            },
+            {
+              "name": "attribute:name.energy",
+              "value": "Energy",
+              "count": 1,
+              "kind": "predicate-bitset"
+            },
+            {
+              "name": "attribute:name.technology",
+              "value": "Technology",
+              "count": 1,
+              "kind": "predicate-bitset"
+            },
+            {
+              "name": "attribute:name.education",
+              "value": "Education",
+              "count": 1,
+              "kind": "predicate-bitset"
+            }
+          ]
+        }
+      }
+    },
+    "location": {
+      "count": 20,
+      "recordIndex": {
+        "kind": "shared-topic-index",
+        "description": "All location lanes align on this topic-local record index."
+      },
+      "fields": {
+        "anchor:anchor": {
+          "fieldId": "anchor:anchor",
+          "fieldName": "anchor",
+          "sourceKey": "#",
+          "sourceKind": "anchor",
+          "kind": "anchor",
+          "count": 20,
+          "coverage": 1,
+          "nullishCount": 0,
+          "searchable": true,
+          "suggestedLane": "uint32-offset",
+          "observedTypes": [
+            "string"
+          ],
+          "string": {
+            "count": 20,
+            "minLength": 21,
+            "maxLength": 28,
+            "sampledCardinality": 20,
+            "cardinalityOverflow": false,
+            "topValues": [
+              {
+                "value": "location:usa:ga:atlanta",
+                "count": 1
+              },
+              {
+                "value": "location:usa:ga:augusta",
+                "count": 1
+              },
+              {
+                "value": "location:usa:wa:tacoma",
+                "count": 1
+              },
+              {
+                "value": "location:usa:ia:des_moines",
+                "count": 1
+              },
+              {
+                "value": "location:usa:il:chicago",
+                "count": 1
+              },
+              {
+                "value": "location:usa:nc:charlotte",
+                "count": 1
+              },
+              {
+                "value": "location:usa:il:springfield",
+                "count": 1
+              },
+              {
+                "value": "location:usa:ny:new_york",
+                "count": 1
+              },
+              {
+                "value": "location:usa:tx:houston",
+                "count": 1
+              },
+              {
+                "value": "location:usa:tx:dallas",
+                "count": 1
+              },
+              {
+                "value": "location:usa:nc:raleigh",
+                "count": 1
+              },
+              {
+                "value": "location:usa:ia:cedar_rapids",
+                "count": 1
+              },
+              {
+                "value": "location:usa:or:portland",
+                "count": 1
+              },
+              {
+                "value": "location:usa:az:phoenix",
+                "count": 1
+              },
+              {
+                "value": "location:usa:tx:austin",
+                "count": 1
+              },
+              {
+                "value": "location:usa:co:boulder",
+                "count": 1
+              },
+              {
+                "value": "location:usa:wa:seattle",
+                "count": 1
+              },
+              {
+                "value": "location:usa:or:salem",
+                "count": 1
+              },
+              {
+                "value": "location:usa:ny:syracuse",
+                "count": 1
+              },
+              {
+                "value": "location:usa:co:denver",
+                "count": 1
+              }
+            ]
+          },
+          "role": "anchor"
+        },
+        "attribute:source": {
+          "fieldId": "attribute:source",
+          "fieldName": "source",
+          "sourceKey": "~source",
+          "sourceKind": "attribute",
+          "kind": "enum",
+          "count": 20,
+          "coverage": 1,
+          "nullishCount": 0,
+          "searchable": true,
+          "suggestedLane": "uint8",
+          "observedTypes": [
+            "string"
+          ],
+          "string": {
+            "count": 20,
+            "minLength": 26,
+            "maxLength": 26,
+            "sampledCardinality": 1,
+            "cardinalityOverflow": false,
+            "topValues": [
+              {
+                "value": "generated_people_companies",
+                "count": 20
+              }
+            ]
+          },
+          "enum": {
+            "sampledCardinality": 1,
+            "cardinalityOverflow": false,
+            "suggestedDictionary": "enum-dictionary"
+          },
+          "predicateBitsetCandidates": [
+            {
+              "name": "attribute:source.generated_people_companies",
+              "value": "generated_people_companies",
+              "count": 20,
+              "kind": "predicate-bitset"
+            }
+          ]
+        },
+        "attribute:city": {
+          "fieldId": "attribute:city",
+          "fieldName": "city",
+          "sourceKey": "~city",
+          "sourceKind": "attribute",
+          "kind": "enum",
+          "count": 20,
+          "coverage": 1,
+          "nullishCount": 0,
+          "searchable": true,
+          "suggestedLane": "uint8",
+          "observedTypes": [
+            "string"
+          ],
+          "string": {
+            "count": 20,
+            "minLength": 5,
+            "maxLength": 12,
+            "sampledCardinality": 20,
+            "cardinalityOverflow": false,
+            "topValues": [
+              {
+                "value": "Atlanta",
+                "count": 1
+              },
+              {
+                "value": "Augusta",
+                "count": 1
+              },
+              {
+                "value": "Tacoma",
+                "count": 1
+              },
+              {
+                "value": "Des Moines",
+                "count": 1
+              },
+              {
+                "value": "Chicago",
+                "count": 1
+              },
+              {
+                "value": "Charlotte",
+                "count": 1
+              },
+              {
+                "value": "Springfield",
+                "count": 1
+              },
+              {
+                "value": "New York",
+                "count": 1
+              },
+              {
+                "value": "Houston",
+                "count": 1
+              },
+              {
+                "value": "Dallas",
+                "count": 1
+              },
+              {
+                "value": "Raleigh",
+                "count": 1
+              },
+              {
+                "value": "Cedar Rapids",
+                "count": 1
+              },
+              {
+                "value": "Portland",
+                "count": 1
+              },
+              {
+                "value": "Phoenix",
+                "count": 1
+              },
+              {
+                "value": "Austin",
+                "count": 1
+              },
+              {
+                "value": "Boulder",
+                "count": 1
+              },
+              {
+                "value": "Seattle",
+                "count": 1
+              },
+              {
+                "value": "Salem",
+                "count": 1
+              },
+              {
+                "value": "Syracuse",
+                "count": 1
+              },
+              {
+                "value": "Denver",
+                "count": 1
+              }
+            ]
+          },
+          "enum": {
+            "sampledCardinality": 20,
+            "cardinalityOverflow": false,
+            "suggestedDictionary": "enum-dictionary"
+          },
+          "predicateBitsetCandidates": [
+            {
+              "name": "attribute:city.atlanta",
+              "value": "Atlanta",
+              "count": 1,
+              "kind": "predicate-bitset"
+            },
+            {
+              "name": "attribute:city.augusta",
+              "value": "Augusta",
+              "count": 1,
+              "kind": "predicate-bitset"
+            },
+            {
+              "name": "attribute:city.tacoma",
+              "value": "Tacoma",
+              "count": 1,
+              "kind": "predicate-bitset"
+            },
+            {
+              "name": "attribute:city.des_moines",
+              "value": "Des Moines",
+              "count": 1,
+              "kind": "predicate-bitset"
+            },
+            {
+              "name": "attribute:city.chicago",
+              "value": "Chicago",
+              "count": 1,
+              "kind": "predicate-bitset"
+            },
+            {
+              "name": "attribute:city.charlotte",
+              "value": "Charlotte",
+              "count": 1,
+              "kind": "predicate-bitset"
+            },
+            {
+              "name": "attribute:city.springfield",
+              "value": "Springfield",
+              "count": 1,
+              "kind": "predicate-bitset"
+            },
+            {
+              "name": "attribute:city.new_york",
+              "value": "New York",
+              "count": 1,
+              "kind": "predicate-bitset"
+            },
+            {
+              "name": "attribute:city.houston",
+              "value": "Houston",
+              "count": 1,
+              "kind": "predicate-bitset"
+            },
+            {
+              "name": "attribute:city.dallas",
+              "value": "Dallas",
+              "count": 1,
+              "kind": "predicate-bitset"
+            },
+            {
+              "name": "attribute:city.raleigh",
+              "value": "Raleigh",
+              "count": 1,
+              "kind": "predicate-bitset"
+            },
+            {
+              "name": "attribute:city.cedar_rapids",
+              "value": "Cedar Rapids",
+              "count": 1,
+              "kind": "predicate-bitset"
+            },
+            {
+              "name": "attribute:city.portland",
+              "value": "Portland",
+              "count": 1,
+              "kind": "predicate-bitset"
+            },
+            {
+              "name": "attribute:city.phoenix",
+              "value": "Phoenix",
+              "count": 1,
+              "kind": "predicate-bitset"
+            },
+            {
+              "name": "attribute:city.austin",
+              "value": "Austin",
+              "count": 1,
+              "kind": "predicate-bitset"
+            },
+            {
+              "name": "attribute:city.boulder",
+              "value": "Boulder",
+              "count": 1,
+              "kind": "predicate-bitset"
+            }
+          ]
+        },
+        "attribute:state": {
+          "fieldId": "attribute:state",
+          "fieldName": "state",
+          "sourceKey": "~state",
+          "sourceKind": "attribute",
+          "kind": "enum",
+          "count": 20,
+          "coverage": 1,
+          "nullishCount": 0,
+          "searchable": true,
+          "suggestedLane": "uint8",
+          "observedTypes": [
+            "string"
+          ],
+          "string": {
+            "count": 20,
+            "minLength": 2,
+            "maxLength": 2,
+            "sampledCardinality": 10,
+            "cardinalityOverflow": false,
+            "topValues": [
+              {
+                "value": "TX",
+                "count": 3
+              },
+              {
+                "value": "GA",
+                "count": 2
+              },
+              {
+                "value": "WA",
+                "count": 2
+              },
+              {
+                "value": "IA",
+                "count": 2
+              },
+              {
+                "value": "IL",
+                "count": 2
+              },
+              {
+                "value": "NC",
+                "count": 2
+              },
+              {
+                "value": "NY",
+                "count": 2
+              },
+              {
+                "value": "OR",
+                "count": 2
+              },
+              {
+                "value": "CO",
+                "count": 2
+              },
+              {
+                "value": "AZ",
+                "count": 1
+              }
+            ]
+          },
+          "enum": {
+            "sampledCardinality": 10,
+            "cardinalityOverflow": false,
+            "suggestedDictionary": "enum-dictionary"
+          },
+          "predicateBitsetCandidates": [
+            {
+              "name": "attribute:state.tx",
+              "value": "TX",
+              "count": 3,
+              "kind": "predicate-bitset"
+            },
+            {
+              "name": "attribute:state.ga",
+              "value": "GA",
+              "count": 2,
+              "kind": "predicate-bitset"
+            },
+            {
+              "name": "attribute:state.wa",
+              "value": "WA",
+              "count": 2,
+              "kind": "predicate-bitset"
+            },
+            {
+              "name": "attribute:state.ia",
+              "value": "IA",
+              "count": 2,
+              "kind": "predicate-bitset"
+            },
+            {
+              "name": "attribute:state.il",
+              "value": "IL",
+              "count": 2,
+              "kind": "predicate-bitset"
+            },
+            {
+              "name": "attribute:state.nc",
+              "value": "NC",
+              "count": 2,
+              "kind": "predicate-bitset"
+            },
+            {
+              "name": "attribute:state.ny",
+              "value": "NY",
+              "count": 2,
+              "kind": "predicate-bitset"
+            },
+            {
+              "name": "attribute:state.or",
+              "value": "OR",
+              "count": 2,
+              "kind": "predicate-bitset"
+            },
+            {
+              "name": "attribute:state.co",
+              "value": "CO",
+              "count": 2,
+              "kind": "predicate-bitset"
+            },
+            {
+              "name": "attribute:state.az",
+              "value": "AZ",
+              "count": 1,
+              "kind": "predicate-bitset"
+            }
+          ]
+        },
+        "attribute:country": {
+          "fieldId": "attribute:country",
+          "fieldName": "country",
+          "sourceKey": "~country",
+          "sourceKind": "attribute",
+          "kind": "enum",
+          "count": 20,
+          "coverage": 1,
+          "nullishCount": 0,
+          "searchable": true,
+          "suggestedLane": "uint8",
+          "observedTypes": [
+            "string"
+          ],
+          "string": {
+            "count": 20,
+            "minLength": 3,
+            "maxLength": 3,
+            "sampledCardinality": 1,
+            "cardinalityOverflow": false,
+            "topValues": [
+              {
+                "value": "USA",
+                "count": 20
+              }
+            ]
+          },
+          "enum": {
+            "sampledCardinality": 1,
+            "cardinalityOverflow": false,
+            "suggestedDictionary": "enum-dictionary"
+          },
+          "predicateBitsetCandidates": [
+            {
+              "name": "attribute:country.usa",
+              "value": "USA",
+              "count": 20,
+              "kind": "predicate-bitset"
+            }
+          ]
+        }
+      }
+    },
+    "household": {
+      "count": 31631,
+      "recordIndex": {
+        "kind": "shared-topic-index",
+        "description": "All household lanes align on this topic-local record index."
+      },
+      "fields": {
+        "anchor:anchor": {
+          "fieldId": "anchor:anchor",
+          "fieldName": "anchor",
+          "sourceKey": "#",
+          "sourceKind": "anchor",
+          "kind": "anchor",
+          "count": 31631,
+          "coverage": 1,
+          "nullishCount": 0,
+          "searchable": true,
+          "suggestedLane": "uint32-offset",
+          "observedTypes": [
+            "string"
+          ],
+          "string": {
+            "count": 31631,
+            "minLength": 46,
+            "maxLength": 46,
+            "sampledCardinality": 256,
+            "cardinalityOverflow": true,
+            "topValues": [
+              {
+                "value": "household:2491df88-a378-4575-8324-e578ba6fcb8c",
+                "count": 1
+              },
+              {
+                "value": "household:470fde89-2efd-4df3-bf8f-00a7637447f9",
+                "count": 1
+              },
+              {
+                "value": "household:7f525616-7271-4516-ba79-97a07ab8d663",
+                "count": 1
+              },
+              {
+                "value": "household:284d456e-a48b-40ed-a60f-bc5dc7368a3a",
+                "count": 1
+              },
+              {
+                "value": "household:b8d40ad4-b433-48d9-8308-6a62d4e123ed",
+                "count": 1
+              },
+              {
+                "value": "household:88f6973c-bbf8-43ab-9859-7c12f0333f4b",
+                "count": 1
+              },
+              {
+                "value": "household:1c401dc4-b7e5-4060-a0b3-383acd1e0fc8",
+                "count": 1
+              },
+              {
+                "value": "household:c679cea2-fc3f-4ffa-afe9-402e83521cd2",
+                "count": 1
+              },
+              {
+                "value": "household:356b423e-f811-4c53-9f74-efe9af491c01",
+                "count": 1
+              },
+              {
+                "value": "household:e28cb2ed-83d2-4929-9de2-a3b3b1a08b05",
+                "count": 1
+              },
+              {
+                "value": "household:de63304c-ee93-44ae-a84e-c2a52dc74cfa",
+                "count": 1
+              },
+              {
+                "value": "household:1073f1be-3174-4034-a553-caf6537b8052",
+                "count": 1
+              },
+              {
+                "value": "household:f783d547-6ef3-49cb-b0d9-4fb245b9b504",
+                "count": 1
+              },
+              {
+                "value": "household:9f0875f6-07cc-49bd-8270-d27f11315104",
+                "count": 1
+              },
+              {
+                "value": "household:7fa927ee-091d-43d5-8a7a-7891eeac82ff",
+                "count": 1
+              },
+              {
+                "value": "household:a5002a01-dba9-4cfb-b32f-f07072fb8f65",
+                "count": 1
+              },
+              {
+                "value": "household:da45da49-618a-4f8f-adc4-a51ee95a118d",
+                "count": 1
+              },
+              {
+                "value": "household:5ca1701f-bac5-4255-bd71-30ccadbf1a2e",
+                "count": 1
+              },
+              {
+                "value": "household:a9804e15-6776-4d47-a445-5c9b1354b5b5",
+                "count": 1
+              },
+              {
+                "value": "household:c36d87e8-008a-48fe-be2a-8c967854cd33",
+                "count": 1
+              }
+            ]
+          },
+          "role": "anchor"
+        },
+        "attribute:source": {
+          "fieldId": "attribute:source",
+          "fieldName": "source",
+          "sourceKey": "~source",
+          "sourceKind": "attribute",
+          "kind": "enum",
+          "count": 31631,
+          "coverage": 1,
+          "nullishCount": 0,
+          "searchable": true,
+          "suggestedLane": "uint8",
+          "observedTypes": [
+            "string"
+          ],
+          "string": {
+            "count": 31631,
+            "minLength": 26,
+            "maxLength": 26,
+            "sampledCardinality": 1,
+            "cardinalityOverflow": false,
+            "topValues": [
+              {
+                "value": "generated_people_companies",
+                "count": 31631
+              }
+            ]
+          },
+          "enum": {
+            "sampledCardinality": 1,
+            "cardinalityOverflow": false,
+            "suggestedDictionary": "enum-dictionary"
+          },
+          "predicateBitsetCandidates": [
+            {
+              "name": "attribute:source.generated_people_companies",
+              "value": "generated_people_companies",
+              "count": 31631,
+              "kind": "predicate-bitset"
+            }
+          ]
+        },
+        "attribute:raw_id": {
+          "fieldId": "attribute:raw_id",
+          "fieldName": "raw_id",
+          "sourceKey": "~raw_id",
+          "sourceKind": "attribute",
+          "kind": "string",
+          "count": 31631,
+          "coverage": 1,
+          "nullishCount": 0,
+          "searchable": false,
+          "suggestedLane": "uint32-offset",
+          "observedTypes": [
+            "string"
+          ],
+          "string": {
+            "count": 31631,
+            "minLength": 36,
+            "maxLength": 36,
+            "sampledCardinality": 256,
+            "cardinalityOverflow": true,
+            "topValues": [
+              {
+                "value": "2491df88-a378-4575-8324-e578ba6fcb8c",
+                "count": 1
+              },
+              {
+                "value": "470fde89-2efd-4df3-bf8f-00a7637447f9",
+                "count": 1
+              },
+              {
+                "value": "7f525616-7271-4516-ba79-97a07ab8d663",
+                "count": 1
+              },
+              {
+                "value": "284d456e-a48b-40ed-a60f-bc5dc7368a3a",
+                "count": 1
+              },
+              {
+                "value": "b8d40ad4-b433-48d9-8308-6a62d4e123ed",
+                "count": 1
+              },
+              {
+                "value": "88f6973c-bbf8-43ab-9859-7c12f0333f4b",
+                "count": 1
+              },
+              {
+                "value": "1c401dc4-b7e5-4060-a0b3-383acd1e0fc8",
+                "count": 1
+              },
+              {
+                "value": "c679cea2-fc3f-4ffa-afe9-402e83521cd2",
+                "count": 1
+              },
+              {
+                "value": "356b423e-f811-4c53-9f74-efe9af491c01",
+                "count": 1
+              },
+              {
+                "value": "e28cb2ed-83d2-4929-9de2-a3b3b1a08b05",
+                "count": 1
+              },
+              {
+                "value": "de63304c-ee93-44ae-a84e-c2a52dc74cfa",
+                "count": 1
+              },
+              {
+                "value": "1073f1be-3174-4034-a553-caf6537b8052",
+                "count": 1
+              },
+              {
+                "value": "f783d547-6ef3-49cb-b0d9-4fb245b9b504",
+                "count": 1
+              },
+              {
+                "value": "9f0875f6-07cc-49bd-8270-d27f11315104",
+                "count": 1
+              },
+              {
+                "value": "7fa927ee-091d-43d5-8a7a-7891eeac82ff",
+                "count": 1
+              },
+              {
+                "value": "a5002a01-dba9-4cfb-b32f-f07072fb8f65",
+                "count": 1
+              },
+              {
+                "value": "da45da49-618a-4f8f-adc4-a51ee95a118d",
+                "count": 1
+              },
+              {
+                "value": "5ca1701f-bac5-4255-bd71-30ccadbf1a2e",
+                "count": 1
+              },
+              {
+                "value": "a9804e15-6776-4d47-a445-5c9b1354b5b5",
+                "count": 1
+              },
+              {
+                "value": "c36d87e8-008a-48fe-be2a-8c967854cd33",
+                "count": 1
+              }
+            ]
+          }
+        }
+      }
+    },
+    "interest": {
+      "count": 15,
+      "recordIndex": {
+        "kind": "shared-topic-index",
+        "description": "All interest lanes align on this topic-local record index."
+      },
+      "fields": {
+        "anchor:anchor": {
+          "fieldId": "anchor:anchor",
+          "fieldName": "anchor",
+          "sourceKey": "#",
+          "sourceKind": "anchor",
+          "kind": "anchor",
+          "count": 15,
+          "coverage": 1,
+          "nullishCount": 0,
+          "searchable": true,
+          "suggestedLane": "uint32-offset",
+          "observedTypes": [
+            "string"
+          ],
+          "string": {
+            "count": 15,
+            "minLength": 13,
+            "maxLength": 20,
+            "sampledCardinality": 15,
+            "cardinalityOverflow": false,
+            "topValues": [
+              {
+                "value": "interest:painting",
+                "count": 1
+              },
+              {
+                "value": "interest:coding",
+                "count": 1
+              },
+              {
+                "value": "interest:reading",
+                "count": 1
+              },
+              {
+                "value": "interest:music",
+                "count": 1
+              },
+              {
+                "value": "interest:gaming",
+                "count": 1
+              },
+              {
+                "value": "interest:photography",
+                "count": 1
+              },
+              {
+                "value": "interest:writing",
+                "count": 1
+              },
+              {
+                "value": "interest:hiking",
+                "count": 1
+              },
+              {
+                "value": "interest:fitness",
+                "count": 1
+              },
+              {
+                "value": "interest:cooking",
+                "count": 1
+              },
+              {
+                "value": "interest:woodworking",
+                "count": 1
+              },
+              {
+                "value": "interest:gardening",
+                "count": 1
+              },
+              {
+                "value": "interest:yoga",
+                "count": 1
+              },
+              {
+                "value": "interest:traveling",
+                "count": 1
+              },
+              {
+                "value": "interest:sports",
+                "count": 1
+              }
+            ]
+          },
+          "role": "anchor"
+        },
+        "attribute:source": {
+          "fieldId": "attribute:source",
+          "fieldName": "source",
+          "sourceKey": "~source",
+          "sourceKind": "attribute",
+          "kind": "enum",
+          "count": 15,
+          "coverage": 1,
+          "nullishCount": 0,
+          "searchable": true,
+          "suggestedLane": "uint8",
+          "observedTypes": [
+            "string"
+          ],
+          "string": {
+            "count": 15,
+            "minLength": 26,
+            "maxLength": 26,
+            "sampledCardinality": 1,
+            "cardinalityOverflow": false,
+            "topValues": [
+              {
+                "value": "generated_people_companies",
+                "count": 15
+              }
+            ]
+          },
+          "enum": {
+            "sampledCardinality": 1,
+            "cardinalityOverflow": false,
+            "suggestedDictionary": "enum-dictionary"
+          },
+          "predicateBitsetCandidates": [
+            {
+              "name": "attribute:source.generated_people_companies",
+              "value": "generated_people_companies",
+              "count": 15,
+              "kind": "predicate-bitset"
+            }
+          ]
+        },
+        "attribute:name": {
+          "fieldId": "attribute:name",
+          "fieldName": "name",
+          "sourceKey": "~name",
+          "sourceKind": "attribute",
+          "kind": "enum",
+          "count": 15,
+          "coverage": 1,
+          "nullishCount": 0,
+          "searchable": true,
+          "suggestedLane": "uint8",
+          "observedTypes": [
+            "string"
+          ],
+          "string": {
+            "count": 15,
+            "minLength": 4,
+            "maxLength": 11,
+            "sampledCardinality": 15,
+            "cardinalityOverflow": false,
+            "topValues": [
+              {
+                "value": "painting",
+                "count": 1
+              },
+              {
+                "value": "coding",
+                "count": 1
+              },
+              {
+                "value": "reading",
+                "count": 1
+              },
+              {
+                "value": "music",
+                "count": 1
+              },
+              {
+                "value": "gaming",
+                "count": 1
+              },
+              {
+                "value": "photography",
+                "count": 1
+              },
+              {
+                "value": "writing",
+                "count": 1
+              },
+              {
+                "value": "hiking",
+                "count": 1
+              },
+              {
+                "value": "fitness",
+                "count": 1
+              },
+              {
+                "value": "cooking",
+                "count": 1
+              },
+              {
+                "value": "woodworking",
+                "count": 1
+              },
+              {
+                "value": "gardening",
+                "count": 1
+              },
+              {
+                "value": "yoga",
+                "count": 1
+              },
+              {
+                "value": "traveling",
+                "count": 1
+              },
+              {
+                "value": "sports",
+                "count": 1
+              }
+            ]
+          },
+          "enum": {
+            "sampledCardinality": 15,
+            "cardinalityOverflow": false,
+            "suggestedDictionary": "enum-dictionary"
+          },
+          "predicateBitsetCandidates": [
+            {
+              "name": "attribute:name.painting",
+              "value": "painting",
+              "count": 1,
+              "kind": "predicate-bitset"
+            },
+            {
+              "name": "attribute:name.coding",
+              "value": "coding",
+              "count": 1,
+              "kind": "predicate-bitset"
+            },
+            {
+              "name": "attribute:name.reading",
+              "value": "reading",
+              "count": 1,
+              "kind": "predicate-bitset"
+            },
+            {
+              "name": "attribute:name.music",
+              "value": "music",
+              "count": 1,
+              "kind": "predicate-bitset"
+            },
+            {
+              "name": "attribute:name.gaming",
+              "value": "gaming",
+              "count": 1,
+              "kind": "predicate-bitset"
+            },
+            {
+              "name": "attribute:name.photography",
+              "value": "photography",
+              "count": 1,
+              "kind": "predicate-bitset"
+            },
+            {
+              "name": "attribute:name.writing",
+              "value": "writing",
+              "count": 1,
+              "kind": "predicate-bitset"
+            },
+            {
+              "name": "attribute:name.hiking",
+              "value": "hiking",
+              "count": 1,
+              "kind": "predicate-bitset"
+            },
+            {
+              "name": "attribute:name.fitness",
+              "value": "fitness",
+              "count": 1,
+              "kind": "predicate-bitset"
+            },
+            {
+              "name": "attribute:name.cooking",
+              "value": "cooking",
+              "count": 1,
+              "kind": "predicate-bitset"
+            },
+            {
+              "name": "attribute:name.woodworking",
+              "value": "woodworking",
+              "count": 1,
+              "kind": "predicate-bitset"
+            },
+            {
+              "name": "attribute:name.gardening",
+              "value": "gardening",
+              "count": 1,
+              "kind": "predicate-bitset"
+            },
+            {
+              "name": "attribute:name.yoga",
+              "value": "yoga",
+              "count": 1,
+              "kind": "predicate-bitset"
+            },
+            {
+              "name": "attribute:name.traveling",
+              "value": "traveling",
+              "count": 1,
+              "kind": "predicate-bitset"
+            },
+            {
+              "name": "attribute:name.sports",
+              "value": "sports",
+              "count": 1,
+              "kind": "predicate-bitset"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "notes": [
+    "This manifest is inferred from 4-tag JSONL source data.",
+    "v2 separates attributes, relationships, anchors, and unknown keys to prevent field collisions.",
+    "Nested objects are classified as object fields instead of being converted to strings.",
+    "This is a profiling artifact, not yet a compiled .relay file header."
+  ]
+}
