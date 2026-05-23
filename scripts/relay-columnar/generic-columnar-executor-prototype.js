@@ -104,14 +104,16 @@ function main() {
   });
 
   const db = buildGenericColumnarRuntime({
-    datasetPath,
-    manifest,
-    registry,
-    requiredPlan: plan,
-  });
+  datasetPath,
+  manifest,
+  registry,
+  requiredPlan: plan,
+});
 
-  const openEnd = performance.now();
-  const afterOpenMemory = process.memoryUsage();
+forceGcIfAvailable();
+
+const openEnd = performance.now();
+const afterOpenMemory = process.memoryUsage();
 
   console.log("Open / Build Generic Runtime");
   console.log("----------------------------");
@@ -604,6 +606,13 @@ function resolveRelationshipLanes({ topicRuntime, manifest, anchorIndexes, requi
       lane.indexes[i] =
         resolved && resolved.topic === step.targetTopic ? resolved.index : INVALID_INDEX;
     }
+
+    /*
+     * Memory reduction:
+     * Once relationship anchors are resolved to integer indexes, the raw
+     * anchor strings/references are no longer needed for query execution.
+     */
+    lane.rawAnchors = null;
   }
 }
 
